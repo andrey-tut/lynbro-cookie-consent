@@ -1,0 +1,1197 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: mt_MT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s sekondi (mill-bnadar murija lill-viżitatur sal-għażla tiegħu)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Buttuna żgħira b’ikona biss li tħalli lill-viżitaturi jerġgħu jiftħu "
+"s-settings tal-cookies wara li jkunu għamlu għażla. Din tinħeba "
+"awtomatikament waqt li l-bnadar jew id-djalogu tal-preferenzi jkunu "
+"miftuħin."
+
+msgid "About"
+msgstr "Dwar"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Dwar Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Aċċetta kollox"
+
+msgid "Accept button"
+msgstr "Buttuna ta’ aċċettazzjoni"
+
+msgid "Accept rate"
+msgstr "Rata ta’ aċċettazzjoni"
+
+msgid "Accessible label"
+msgstr "Tikketta aċċessibbli"
+
+msgid "Add a custom language"
+msgstr "Żid lingwa apposta"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Żid menu żgħir tal-lingwa mal-bnadar sabiex il-viżitaturi jkunu jistgħu "
+"jibdlu l-lingwa manwalment (l-għażla tagħhom tiġi mfakkra)."
+
+msgid "Add your privacy policy link"
+msgstr "Żid il-link tal-politika ta’ privatezza tiegħek"
+
+msgid "Additional CSS"
+msgstr "CSS addizzjonali"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Ħalli l-websajt tiftakar l-għażliet li tagħmel (bħal lingwa jew reġjun) biex"
+" tipprovdi funzjonijiet imtejba u personalizzati."
+
+msgid "Already downloaded on demand:"
+msgstr "Diġà mniżżel fuq talba:"
+
+msgid "Always allow %s"
+msgstr "Dejjem ħalli %s"
+
+msgid "Always on"
+msgstr "Dejjem mixgħul"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Statistika anonima"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Awtomatiku (segwi s-sistema tal-viżitatur)"
+
+msgid "Auto by region"
+msgstr "Awtomatiku skont ir-reġjun"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"Awtomatiku skont ir-reġjun (opt-in tal-UE, opt-out tal-Istati Uniti, il-"
+"bqija skont l-għażla)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"L-awtomatiku juża l-kuluri ċari b’mod awtomatiku u l-kuluri skuri meta "
+"l-apparat tal-viżitatur jippreferi skema ta’ kuluri skuri."
+
+msgid "Auto-block trackers"
+msgstr "Imblokka traċċaturi awtomatikament"
+
+msgid "Auto-detect visitor language"
+msgstr "Skopri awtomatikament il-lingwa tal-viżitatur"
+
+msgid "Automatic tracker blocking"
+msgstr "Imblukkar awtomatiku tat-traċċaturi"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Imblokka awtomatikament traċċaturi ta’ partijiet terzi magħrufa (Google "
+"Analytics, GTM, Meta Pixel, Hotjar, Clarity, u aktar) sakemm tingħata "
+"l-kategorija korrispondenti."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Uri awtomatikament il-bnadar fil-lingwa tal-browser tal-viżitatur meta din "
+"tkun waħda mil-lingwi offruti."
+
+msgid "Average time to decision"
+msgstr "Ħin medju sal-għażla"
+
+msgid "Background color"
+msgstr "Kulur tal-isfond"
+
+msgid "Banner background"
+msgstr "Sfond tal-bnadar"
+
+msgid "Banner description"
+msgstr "Deskrizzjoni tal-bnadar"
+
+msgid "Banner max width (px)"
+msgstr "Wisa’ massima tal-bnadar (px)"
+
+msgid "Banner shown"
+msgstr "Il-bnadar murija"
+
+msgid "Banner text on background"
+msgstr "Test tal-bnadar fuq l-isfond"
+
+msgid "Banner title"
+msgstr "Titlu tal-bnadar"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Z-index bażiku għall-bnadar, overlay, modal u l-buttuna li tgħum. Żidha jekk"
+" element ieħor jgħatti l-bnadar; naqqasha jekk il-bnadar jgħatti xi ħaġa li "
+"m’għandux."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"HTML bażiku permess: links, bold, italic, line breaks. Ħalli vojt għad-"
+"default tradott."
+
+msgid "Benchmark sharing"
+msgstr "Qsim ta’ benchmark"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Il-qsim ta’ benchmark hu mixgħul. L-ewwel tqabbil tiegħek se jidher hawn "
+"wara li jkun sar ir-rapport ta’ kull ġimgħa."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Imblokka kontenut imdaħħal (YouTube, Vimeo, Google Maps, embeds soċjali, "
+"reCAPTCHA, u aktar) sakemm tingħata l-kunsens, billi turi placeholder nadif "
+"b’buttuna “ħalli”."
+
+msgid "Blocking & Embeds"
+msgstr "Imblukkar u Inkorporazzjonijiet"
+
+msgid "Bottom bar"
+msgstr "Barra t’isfel"
+
+msgid "Bottom left"
+msgstr "Isfel tax-xellug"
+
+msgid "Bottom right"
+msgstr "Isfel tal-lemin"
+
+msgid "Box corner"
+msgstr "Kantuniera tal-kaxxa"
+
+msgid "Browser languages"
+msgstr "Lingwi tal-browser"
+
+msgid "Button icon"
+msgstr "Ikona tal-buttuna"
+
+msgid "Button text"
+msgstr "Test tal-buttuna"
+
+msgid "Button text on Accept button"
+msgstr "Test tal-buttuna fuq il-buttuna Aċċetta"
+
+msgid "Button text on Reject button"
+msgstr "Test tal-buttuna fuq il-buttuna Irrifjuta"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "Link ta’ opt-out CCPA / CPRA"
+
+msgid "Categories"
+msgstr "Kategoriji"
+
+msgid "Category"
+msgstr "Kategorija"
+
+msgid "Category “%s” — description"
+msgstr "Kategorija “%s” — deskrizzjoni"
+
+msgid "Category “%s” — name"
+msgstr "Kategorija “%s” — isem"
+
+msgid "Center modal (with overlay)"
+msgstr "Modal ċentrali (b’overlay)"
+
+msgid "Choose language"
+msgstr "Agħżel il-lingwa"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Iġbor statistika anonima (kemm viżitaturi jaċċettaw, jirrifjutaw jew jiftħu "
+"l-preferenzi). Totalment aggregata u mingħajr cookies — l-ebda indirizz IP "
+"jew data personali ma tinħażen. Tidher fit-tab Statistika."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"IDs tal-paġni/postijiet separati b’virgoli fejn il-banner m’għandux jintwera"
+" (eż. landing pages)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Ikkonfigura l-banner tal-cookies tal-GDPR/ePrivacy u Google Consent Mode v2 "
+"tiegħek. Dan il-plugin jgħin fil-konformità iżda ma jikkostitwixxix parir "
+"legali."
+
+msgid "Consent Log"
+msgstr "Reġistru tal-Kunsens"
+
+msgid "Consent Mode"
+msgstr "Modalità ta’ Kunsens"
+
+msgid "Consent Mode v2"
+msgstr "Consent Mode v2"
+
+msgid "Consent logging is disabled."
+msgstr "Ir-reġistrazzjoni tal-kunsens hija diżattivata."
+
+msgid "Consent mode"
+msgstr "Modalità ta’ kunsens"
+
+msgid "Content from %s is blocked"
+msgstr "Kontenut minn %s huwa mblukkat"
+
+msgid "Cookie Consent"
+msgstr "Kunsens għall-Cookies"
+
+msgid "Cookie settings"
+msgstr "Settings tal-cookies"
+
+msgid "Corner radius (px)"
+msgstr "Raġġ tal-kantuniera (px)"
+
+msgid "Custom CSS"
+msgstr "CSS apposta"
+
+msgid "Dark"
+msgstr "Skur"
+
+msgid "Dark colors"
+msgstr "Kuluri skuri"
+
+msgid "Date (UTC)"
+msgstr "Data (UTC)"
+
+msgid "Design"
+msgstr "Disinn"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Devices"
+msgstr "Apparati"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Tbigħx jew taqsamx l-Informazzjoni Personali Tiegħi"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Niżżel is-settings kollha bħala fajl JSON biex terġa’ tużahom fuq sit ieħor."
+
+msgid "Edge offset (px)"
+msgstr "Offset tat-tarf (px)"
+
+msgid "Edit texts per language"
+msgstr "Editja t-testi skont il-lingwa"
+
+msgid "Embed consent category"
+msgstr "Kategorija tal-kunsens għall-embed"
+
+msgid "Embed placeholders"
+msgstr "Postijiet għall-embed"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"L-embeds jiġu mblukkati sakemm il-viżitatur jagħti l-kunsens għal din il-"
+"kategorija (jew jikklikkja \"allow\" fuq il-placeholder)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Ippermetti s-sinjali ta' Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "Ippermetti din il-kategorija"
+
+msgid "Engagement (last 30 days)"
+msgstr "Impenn (l-aħħar 30 jum)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Tħobb Lynbro Cookie Consent? Reviżjoni qasira u onesta tgħin lil sidien oħra"
+" tas-siti jsibuh. Ebda pressjoni — biss jekk għandek minuta."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Daħħal kodiċi tal-locale tal-WordPress (pereżempju pt_PT jew ca) biex toffri"
+" lingwa li mhix inkluża. Wara ssejvjar, imla t-testi tagħha hawn taħt."
+
+msgid "Exclude pages/posts"
+msgstr "Eskludi paġni/postijiet"
+
+msgid "Export CSV"
+msgstr "Esporta CSV"
+
+msgid "Export settings"
+msgstr "Esporta s-settings"
+
+msgid "Export settings (JSON)"
+msgstr "Esporta s-settings (JSON)"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "Feedback on this plugin"
+msgstr "Feedback dwar dan il-plugin"
+
+msgid "Floating box (corner)"
+msgstr "Kaxxa flottanti (rokna)"
+
+msgid "Floating settings button"
+msgstr "Buttuna flottanti tas-settings"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Id-distakk mit-truf tal-iskrin għat-tqassim tal-kaxxa flottanti."
+
+msgid "General"
+msgstr "Ġenerali"
+
+msgid "Get support"
+msgstr "Ikseb appoġġ"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Kontroll tal-Privatezza Globali (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Kuntrast tajjeb (%s:1) — jissodisfa WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Għandek idea, problema jew talba? Ibgħatha direttament lill-iżviluppaturi. "
+"Dan huwa kompletament fakultattiv u jintbagħat biss meta tikklikkja Ibgħat."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Għinna nifhmu kif il-viżitaturi jinteraġixxu mas-sit web billi niġbru u "
+"nirrapportaw informazzjoni b'mod anonimu."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Irrispetta s-sinjal Global Privacy Control tal-browser. Fil-modalità ta' "
+"opt-out (US/CCPA), il-viżitaturi b'GPC jiġu awtomatikament opt-out u "
+"jintwerew konferma viżibbli (meħtieġa minn California mill-2026)."
+
+msgid "Horizontal"
+msgstr "Orizzontali"
+
+msgid "How you compare"
+msgstr "Kif tqabbel"
+
+msgid "Icon"
+msgstr "Ikona"
+
+msgid "Icon color"
+msgstr "Kulur tal-ikona"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Idea għal funzjonalità jew plugin ġdid"
+
+msgid "Import settings"
+msgstr "Importa s-settings"
+
+msgid "Importing overwrites your current settings."
+msgstr "L-importazzjoni tikteb fuq is-settings attwali tiegħek."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Żid dan in-numru kull meta l-politika tal-cookies tiegħek tinbidel. Il-"
+"viżitaturi jintalbu jagħtu l-kunsens mill-ġdid."
+
+msgid "Installed version"
+msgstr "Verżjoni installata"
+
+msgid "Invalid security token."
+msgstr "Token tas-sigurtà invalidu."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Jaħdem mill-ewwel b'defaults lesti għall-GDPR — buttuna Reject ugwali u "
+"cookies mhux essenzjali mblukkati sakemm jingħata l-kunsens."
+
+msgid "Language"
+msgstr "Lingwa"
+
+msgid "Language downloaded and activated."
+msgstr "Il-lingwa tniżżlet u ġiet attivata."
+
+msgid "Language settings saved."
+msgstr "Is-settings tal-lingwa ġew salvati."
+
+msgid "Language switches"
+msgstr "Qlib tal-lingwa"
+
+msgid "Languages"
+msgstr "Lingwi"
+
+msgid "Last 30 days"
+msgstr "L-aħħar 30 jum"
+
+msgid "Last 365 days"
+msgstr "L-aħħar 365 jum"
+
+msgid "Last 7 days"
+msgstr "L-aħħar 7 ijiem"
+
+msgid "Leave a review"
+msgstr "Ħalli reviżjoni"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Ħalli vojt biex tuża l-kulur tal-buttuna Aċċetta."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Ħalli vojt biex tuża l-kulur tat-test tal-buttuna."
+
+msgid "Leave empty to use the translated default."
+msgstr "Ħalli vojt biex tuża l-valur predefinit tradott."
+
+msgid "Legal mode"
+msgstr "Modalità legali"
+
+msgid "Light"
+msgstr "Dawl"
+
+msgid "Light colors"
+msgstr "Kuluri ċari"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Preview live (taġġorna hekk kif tibdel is-settings tad-Disinn u Ġenerali):"
+
+msgid "Load content from %s"
+msgstr "Iċċarġja l-kontenut minn %s"
+
+msgid "Local consent log"
+msgstr "Reġistru lokali tal-kunsens"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Kontrast baxx (%s:1). Immira għal mill-inqas 4.5:1 biex tissodisfa l-WCAG "
+"AA."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent huwa banner tal-cookies b’xejn u b’fokus fuq il-"
+"privatezza, mibni minn Lynbro. L-għan tagħna huwa banner sabiħ, verament "
+"multilingwi, lest għall-GDPR/ePrivacy, b’buttuna Irrifjuta ugwali — u "
+"mingħajr limiti fuq il-pageviews, mingħajr paywall fuq l-essenzjali, u "
+"mingħajr tracking fuq il-front-end."
+
+msgid "Manage opened"
+msgstr "Immaniġġja miftuħ"
+
+msgid "Manage preferences"
+msgstr "Immaniġġja l-preferenzi"
+
+msgid "Manage-preferences button"
+msgstr "Buttuna Immaniġġja l-preferenzi"
+
+msgid "Marketing"
+msgstr "Marketing"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Wisa’ massima tal-kaxxa f’wiċċ l-ilma u tal-modal ċentrali. Issettja 0 biex "
+"tuża l-valur predefinit."
+
+msgid "Message"
+msgstr "Messaġġ"
+
+msgid "Method"
+msgstr "Metodu"
+
+msgid "Mobile"
+msgstr "Mobbli"
+
+msgid "Necessary"
+msgstr "Meħtieġa"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Il-cookies meħtieġa huma dejjem attivi u ma jistgħux jiġu diżattivati. "
+"Agħżel liema kategoriji fakultattivi jistgħu jikkontrollaw il-viżitaturi."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Għandek bżonn lingwa li mhijiex inkluża? Itlobha u aħna niġġenerawha għas-"
+"sit tiegħek. Il-fajl tat-traduzzjoni jinħażen fil-folder tal-uploads tiegħek"
+" (qatt ma jinkiteb fuq waqt aġġornament) u jiġi attivat awtomatikament."
+
+msgid "No consent records yet."
+msgstr "Għad m’hemmx rekords tal-kunsens."
+
+msgid "No data yet."
+msgstr "Għad m’hemmx dejta."
+
+msgid "No file was uploaded."
+msgstr "Ma ttellgħax fajl."
+
+msgid "No thanks, don’t show this again"
+msgstr "Le grazzi, turihiex aktar"
+
+msgid "Notice only"
+msgstr "Avviż biss"
+
+msgid "Off"
+msgstr "Mitfi"
+
+msgid "Offered languages"
+msgstr "Lingwi offruti"
+
+msgid "Offset from corner (px)"
+msgstr "Offset mill-kantuniera (px)"
+
+msgid "On"
+msgstr "Mixgħul"
+
+msgid "Once Weekly"
+msgstr "Darba fil-ġimgħa"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "Biss jekk tixtieq tweġiba. Ħalli vojt biex tibgħat b’mod anonimu."
+
+msgid "Opacity"
+msgstr "Opakità"
+
+msgid "Operating systems"
+msgstr "Sistemi operattivi"
+
+msgid "Opt-in everywhere"
+msgstr "Opt-in kullimkien"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Opt-in kullimkien (GDPR — l-aktar sigur)"
+
+msgid "Opt-out everywhere"
+msgstr "Opt-out kullimkien"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Opt-out kullimkien (stil CCPA)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"CSS addizzjonali mhux obbligatorju mehmuż mal-folja ta’ stil tal-banner. "
+"Immira s-seletturi .lynbro-cc."
+
+msgid "Other"
+msgstr "Oħra"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Qabeż kwalunkwe test tal-banner għal lingwa speċifika. Ħalli qasam vojt biex"
+" tuża t-traduzzjoni inkluża (jew id-default bl-Ingliż). Prijorità: il-qabża "
+"tiegħek → it-traduzzjoni inkluża → id-default."
+
+msgid "Overview"
+msgstr "Ħarsa ġenerali"
+
+msgid "Period"
+msgstr "Perjodu"
+
+msgid "Please choose a valid language code."
+msgstr "Jekk jogħġbok agħżel kodiċi tal-lingwa validu."
+
+msgid "Please enter a message before sending."
+msgstr "Jekk jogħġbok daħħal messaġġ qabel tibgħat."
+
+msgid "Please upload a .json settings file."
+msgstr "Jekk jogħġbok ittella’ fajl tas-settings .json."
+
+msgid "Plugin home page"
+msgstr "Paġna ewlenija tal-plug-in"
+
+msgid "Policy URL"
+msgstr "URL tal-politika"
+
+msgid "Policy version"
+msgstr "Verżjoni tal-politika"
+
+msgid "Position"
+msgstr "Pożizzjoni"
+
+msgid "Preferences"
+msgstr "Preferenzi"
+
+msgid "Privacy Policy & Terms"
+msgstr "Politika ta’ Privatezza u Termini"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "URL tal-politika tal-Privatezza/Cookies"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Statistika privata mingħajr cookies maħżuna biss fid-database tiegħek stess."
+" Din hija miġbura b’mod sħiħ — l-ebda indirizz IP, l-ebda identifikatur tal-"
+"viżitatur u l-ebda data personali ma tiġi rreġistrata qatt. Minħabba dan, "
+"din l-istatistika waħedha ma teħtieġx kunsens."
+
+msgid "Read more"
+msgstr "Aqra iktar"
+
+msgid "Recent consent records"
+msgstr "Rekords reċenti tal-kunsens"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Rekords eqdem minn dan jitħassru awtomatikament. Issettja għal 0 biex iżżomm"
+" ir-rekords għal dejjem."
+
+msgid "Region"
+msgstr "Reġjun"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Ir-reġjun jiġi skopert minn headers tas-CDN/edge (eż. Cloudflare). Meta jkun"
+" mhux magħruf, jintuża l-aktar mudell sigur ta’ opt-in. L-ebda API esterna "
+"tal-ġeolokalizzazzjoni ma tissejjaħ."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Irreġistra bħala l-fornitur tal-kunsens għall-plug-in WP Consent API u avża "
+"plug-ins oħra bl-għażla tal-viżitatur (funzjonali, preferenzi, statistika, "
+"marketing)."
+
+msgid "Reject all"
+msgstr "Irrifjuta kollox"
+
+msgid "Reject button"
+msgstr "Buttuna ta’ rifjut"
+
+msgid "Report a bug"
+msgstr "Irrapporta bug"
+
+msgid "Request a language"
+msgstr "Itlob lingwa"
+
+msgid "Request this language"
+msgstr "Itlob din il-lingwa"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Meħtieġa biex is-sit web jiffunzjona u ma jistgħux jintfew. Normalment jiġu "
+"ssettjati b’reazzjoni għal azzjonijiet li tieħu, bħal meta tissettja "
+"l-preferenzi tal-privatezza jew tidħol fis-sistema."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Trasparenza waqt il-mistrieħ (0.2–1.0). Il-buttuna ssir kompletament opaka "
+"fuq hover jew focus. Id-default hu 0.55."
+
+msgid "Retention (days)"
+msgstr "Żamma (jiem)"
+
+msgid "Round"
+msgstr "Tond"
+
+msgid "Rounded"
+msgstr "Maqrib"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"It-tond tal-kantunieri tal-banner, il-kaxxa u l-modal. Issettja 0 biex tuża "
+"d-default."
+
+msgid "Save language settings"
+msgstr "Issejvja s-settings tal-lingwa"
+
+msgid "Save preferences"
+msgstr "Issejvja l-preferenzi"
+
+msgid "Save-preferences button"
+msgstr "Buttuna tal-ħażna tal-preferenzi"
+
+msgid "Send feedback"
+msgstr "Ibgħat feedback"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Jibgħat biss l-isem tal-plugin, il-verżjoni u l-kodiċi tal-lingwa lill-"
+"portal Lynbro. Ara l-%s tagħna."
+
+msgid "Set"
+msgstr "Issettja"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Jissettja s-sinjali kollha tal-kunsens għal \"denied\" awtomatikament qabel "
+"il-kunsens, imbagħad jaġġornahom skont l-għażla tal-viżitatur (ad_storage, "
+"analytics_storage, ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Issettjar"
+
+msgid "Settings imported successfully."
+msgstr "Is-settings ġew importati b'suċċess."
+
+msgid "Shape"
+msgstr "Forma"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Aqsam statistika anonima biex tgħin ittejjeb il-plugin — u ara kif ir-rata "
+"ta' aċċettazzjoni tiegħek tqabbel mal-medja. Mitfi b'mod awtomatiku. Jibgħat"
+" biss numri aggregati u d-dominju tas-sit tiegħek (qatt l-IP tal-viżitaturi)"
+" lill-portal Lynbro, darba fil-ġimgħa."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Uri link \"Tibqax Tbiegħ jew Taqsam l-Informazzjoni Personali Tiegħi\" fil-"
+"modalità ta' opt-out."
+
+msgid "Show floating settings button on the site"
+msgstr "Uri buttuna f'wiċċ l-ilma tas-settings fis-sit"
+
+msgid "Show language switcher"
+msgstr "Uri swiċċ tal-lingwa"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Uri l-ikona tal-cookies (irrikkmandat). Meta jkun mitfi, jintwera t-tikketta"
+" aċċessibbli bħala buttuna żgħira ta' test minflokha."
+
+msgid "Size (px)"
+msgstr "Daqs (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Skużana, dik il-lingwa ma setgħetx tinġibed bħalissa. Jekk jogħġbok erġa' "
+"pprova aktar tard."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr ""
+"Skużana, il-messaġġ ma setax jintbagħat. Jekk jogħġbok erġa' pprova aktar "
+"tard."
+
+msgid "Square"
+msgstr "Kwadru"
+
+msgid "Stacking (z-index base)"
+msgstr "Stivar (bażi z-index)"
+
+msgid "Statistics"
+msgstr "Statistika"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"L-istatistika bħalissa hija mitfija. Attiva “Iġbor statistika anonima” fit-"
+"tab Ġenerali biex tibda tiġbor numri aggregati."
+
+msgid "Statistics are disabled."
+msgstr "L-istatistika hija diżattivata."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Aħżen prova tal-kunsens li tirrispetta l-privatezza fid-database tiegħek "
+"stess. L-ebda indirizz IP mhux maħdum ma jinħażen — biss hash anonimizzat "
+"b'salt għal de-duplicazzjoni."
+
+msgid "Tablet"
+msgstr "Tablet"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Għidilna x'taħseb, x'jonqos, jew x'ma marx tajjeb…"
+
+msgid "Text color"
+msgstr "Kulur tat-test"
+
+msgid "Thank you! Your message was sent."
+msgstr "Grazzi! Il-messaġġ tiegħek intbagħat."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Ir-rata medja ta' aċċettazzjoni fuq siti li għażlu tidher bħala %s%%. "
+"Tiegħek tidher hawnhekk ladarba l-viżitaturi jibdew jagħżlu."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Il-lingwa tal-banner issegwi katina sigura għall-cache: il-lingwa tal-paġna "
+"kurrenti (Polylang/WPML/TranslatePress), imbagħad il-lingwa tas-sit tiegħek,"
+" imbagħad l-Ingliż. Id-detezzjoni awtomatika tal-browser u s-swiċċer "
+"fakultattiv fil-banner iseħħu kompletament fil-browser tal-viżitatur, "
+"għalhekk il-cache tal-paġna tiegħek qatt ma tiġi affettwata."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Il-file ma fihx settings validi ta' Lynbro Cookie Consent."
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Dawn huma l-lingwi ppreparati għad-detezzjoni awtomatika mill-browser u "
+"għas-swiċċer. Lingwi b'traduzzjoni inkluża fil-plugin jidhru hawn "
+"awtomatikament. Il-lingwa tas-sit tiegħek dejjem tinkludiha."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Dan jikkomplementa l-immarkar manwali tal-iskripts. Id-detezzjoni kollha "
+"hija lokali; ma jsir l-ebda talba esterna."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Dan il-plugin jgħin fil-konformità mal-cookies iżda ma jikkostitwixxix parir"
+" legali."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Parir: il-kliem dwar il-cookies/kunsens jista' jkollu implikazzjonijiet "
+"legali. Ħalli l-partijiet legali ta' kwalunkwe traduzzjoni jiġu riveduti "
+"minn persuna familjari mal-ġurisdizzjoni tiegħek."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Biex tara dan il-kontenut minn %s, għandek bżonn taċċetta l-cookies "
+"rilevanti. Il-fornitur jista' jissettja cookies u jiġbor data personali."
+
+msgid "Today"
+msgstr "Illum"
+
+msgid "Too many requests."
+msgstr "Wisq talbiet."
+
+msgid "Tools"
+msgstr "Għodod"
+
+msgid "Top bar"
+msgstr "Barra ta' fuq"
+
+msgid "Top left"
+msgstr "Fuq ix-xellug"
+
+msgid "Top right"
+msgstr "Fuq il-lemin ta’ fuq"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Rekords totali: %d (jidhru l-50 l-aktar reċenti)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Jekk ma timmarkax dan, il-buttuna li tgħum tinħeba kompletament — il-"
+"viżitaturi ma jaraw l-ebda mod biex jerġgħu jiftħu s-settings tal-cookies "
+"tagħhom (sakemm ma żżidx il-shortcode [lynbro_cookie_settings] xi mkien)."
+
+msgid "Updates"
+msgstr "Aġġornamenti"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"L-aġġornamenti jitwasslu awtomatikament permezz ta’ WordPress.org — m’hemmx "
+"updater personalizzat u l-verżjoni b’xejn qatt ma tibgħat informazzjoni "
+"lura."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Jintuża bħala t-tooltip u t-tikketta tal-qari tal-iskrin. Ħallih vojt għall-"
+"default tradott."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Jintuża biss meta l-Pożizzjoni tkun \"Kaxxa li tgħum\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Jintuża biex isegwi l-viżitaturi bejn websajts biex jintwerew reklami "
+"rilevanti u titkejjel l-effettività tal-kampanji."
+
+msgid "Version & updates"
+msgstr "Verżjoni u aġġornamenti"
+
+msgid "Vertical"
+msgstr "Vertikali"
+
+msgid "View changelog"
+msgstr "Ara l-lista tal-bidliet"
+
+msgid "Visibility"
+msgstr "Viżibbiltà"
+
+msgid "Visit Lynbro"
+msgstr "Żur Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Sibna sinjal ta’ Global Privacy Control u awtomatikament warrabniek mill-"
+"cookies mhux essenzjali."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Nużaw cookies biex intejbu l-esperjenza tiegħek ta’ browsing, nipprovdu "
+"kontenut personalizzat u nanalizzaw it-traffiku tagħna. Tista’ taċċetta "
+"l-cookies kollha, tirrifjuta dawk mhux essenzjali, jew timmaniġġa "
+"l-preferenzi tiegħek."
+
+msgid "We value your privacy"
+msgstr "Napprezzaw il-privatezza tiegħek"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Wisa’ u għoli tal-buttuna (24–96). In-nuqqas huwa 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Ikteb reviżjoni"
+
+msgid "Yesterday"
+msgstr "Ilbieraħ"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Xorta tista’ timblokka l-iskripts tiegħek manwalment:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "M’għandekx permessi biżżejjed biex taċċessa din il-paġna."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Ir-rata ta’ aċċettazzjoni tiegħek matul l-aħħar 7 ijiem hija %1$s%%. Il-"
+"medja fost is-siti li qabel aċċettaw hija %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Il-banner tal-kunsens tiegħek hu live"
+
+msgid "Your email (optional)"
+msgstr "L-email tiegħek (mhux obbligatorju)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Il-messaġġ tiegħek, il-verżjoni tal-plugin u d-dominju tas-sit tiegħek "
+"jintbagħtu lill-portal Lynbro. Ara l-%s tagħna."
+
+msgid "\"Read more\" link"
+msgstr "link \"Aqra iktar\""
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "lingwa tas-sit"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Qed nippreparaw il-lingwa tiegħek… Dan jista’ jieħu madwar minuta l-ewwel "
+"darba. Se tiżdied awtomatikament — tista’ tkompli taħdem."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Il-lingwa lesta u attivata: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Ma setax jiġi ppreparat: %s. Jekk jogħġbok erġa’ pprova aktar tard."
+
+msgid "Accessibility"
+msgstr "Aċċessibilità"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Tapply dan il-preset tad-disinn? Se jissostitwixxi s-settings attwali tad-"
+"Disinn tiegħek (xorta tista’ tirrevedi qabel tissejvja)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Paletta kalma, b’kuntrast baxx, f’kaxxa b’kantunieri mdawra."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Dialog ċċentrat b’saff skur ta’ sfond, tema skura."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Il-kuluri jissodisfaw l-aċċessibilità WCAG AA"
+
+msgid "Design presets"
+msgstr "Presets tad-disinn"
+
+msgid "Details"
+msgstr "Dettalji"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Barra b’wisa’ sħiħa fil-qiegħ, ħafifa u newtrali."
+
+msgid "Hide details"
+msgstr "Aħbi d-dettalji"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Punti tat-tluq b’klikksa waħda. L-applikazzjoni ta’ preset timla l-oqsma "
+"tad-Disinn hawn taħt u taġġorna l-preview live — irrevedih, imbagħad Save "
+"Changes biex iżżommu."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Preset applikat. Irrevedi l-preview, imbagħad Save Changes biex iżżommu."
+
+msgid "Preview device width"
+msgstr "Wisa’ tal-apparat għall-preview"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Barra rqiqa u kwadra mwaħħla mal-parti ta’ fuq tal-paġna."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Karta ħafifa li tgħum fir-rokna t’isfel tal-lemin."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Xi kuluri għandhom kuntrast baxx (%s) — ara d-dettalji."

@@ -1,0 +1,1188 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s sekunder (fra banneret vises til besøkendes valg)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"En liten knapp kun med ikon som lar besøkende åpne "
+"informasjonskapselinnstillingene på nytt etter at de har gjort et valg. Den "
+"skjules automatisk mens banneret eller preferansedialogen er åpen."
+
+msgid "About"
+msgstr "Om"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Om Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Godta alle"
+
+msgid "Accept button"
+msgstr "Godkjenn-knapp"
+
+msgid "Accept rate"
+msgstr "Godkjenningsrate"
+
+msgid "Accessible label"
+msgstr "Tilgjengelighetslabel"
+
+msgid "Add a custom language"
+msgstr "Legg til et egendefinert språk"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Legg til en liten språkvelger i banneret slik at besøkende kan bytte språk "
+"manuelt (valget deres huskes)."
+
+msgid "Add your privacy policy link"
+msgstr "Legg til lenken til personvernerklæringen din"
+
+msgid "Additional CSS"
+msgstr "Tilpasset CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Tillat at nettstedet husker valg du gjør (for eksempel språk eller region) "
+"for å tilby forbedrede, personaliserte funksjoner."
+
+msgid "Already downloaded on demand:"
+msgstr "Allerede lastet ned ved behov:"
+
+msgid "Always allow %s"
+msgstr "Alltid tillat %s"
+
+msgid "Always on"
+msgstr "Alltid på"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Anonym statistikk"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Auto (følg besøkendes system)"
+
+msgid "Auto by region"
+msgstr "Auto etter region"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr "Auto etter region (EU velg inn, USA velg ut, resten etter valg)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Auto bruker lyse farger som standard og mørke farger når den besøkendes "
+"enhet foretrekker et mørkt fargeoppsett."
+
+msgid "Auto-block trackers"
+msgstr "Auto-blokker sporere"
+
+msgid "Auto-detect visitor language"
+msgstr "Auto-oppdag besøkendes språk"
+
+msgid "Automatic tracker blocking"
+msgstr "Automatisk blokkering av sporere"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Blokker automatisk kjente tredjepartssporere (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity og flere) til den aktuelle kategorien er gitt."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Vis automatisk banneret på den besøkendes nettleserspråk når det er ett av "
+"de tilbudte språkene."
+
+msgid "Average time to decision"
+msgstr "Gjennomsnittstid til valg"
+
+msgid "Background color"
+msgstr "Bakgrunnsfarge"
+
+msgid "Banner background"
+msgstr "Bannerbakgrunn"
+
+msgid "Banner description"
+msgstr "Bannerbeskrivelse"
+
+msgid "Banner max width (px)"
+msgstr "Maks bredde på banner (px)"
+
+msgid "Banner shown"
+msgstr "Banner vist"
+
+msgid "Banner text on background"
+msgstr "Bannertekst på bakgrunn"
+
+msgid "Banner title"
+msgstr "Bannertittel"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Grunnleggende z-indeks for banneret, overlegg, modal og flytende knapp. Øk "
+"den hvis et annet element dekker banneret; senk den hvis banneret dekker noe"
+" det ikke skal."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Grunnleggende HTML er tillatt: lenker, fet, kursiv, linjeskift. La stå tom "
+"for den oversatte standardteksten."
+
+msgid "Benchmark sharing"
+msgstr "Benchmark-deling"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Benchmark-deling er på. Din første sammenligning vises her etter at den "
+"ukentlige rapporten er kjørt."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Blokker innebygd innhold (YouTube, Vimeo, Google Maps, sosiale embeds, "
+"reCAPTCHA og mer) frem til samtykke, og vis en ryddig plassholder med en "
+"\"tillat\"-knapp."
+
+msgid "Blocking & Embeds"
+msgstr "Blokkering og innebygde elementer"
+
+msgid "Bottom bar"
+msgstr "Bunnlinje"
+
+msgid "Bottom left"
+msgstr "Nede til venstre"
+
+msgid "Bottom right"
+msgstr "Nede til høyre"
+
+msgid "Box corner"
+msgstr "Boks hjørne"
+
+msgid "Browser languages"
+msgstr "Nettleserspråk"
+
+msgid "Button icon"
+msgstr "Knappeikon"
+
+msgid "Button text"
+msgstr "Knappetekst"
+
+msgid "Button text on Accept button"
+msgstr "Knappetekst på Godta-knappen"
+
+msgid "Button text on Reject button"
+msgstr "Knappetekst på Avslå-knappen"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "CCPA / CPRA-avmeldingslenke"
+
+msgid "Categories"
+msgstr "Kategorier"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Category “%s” — description"
+msgstr "Kategori “%s” — beskrivelse"
+
+msgid "Category “%s” — name"
+msgstr "Kategori “%s” — navn"
+
+msgid "Center modal (with overlay)"
+msgstr "Sentrert modal (med overlegg)"
+
+msgid "Choose language"
+msgstr "Velg språk"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Samle inn anonym statistikk (hvor mange besøkende som godtar, avviser eller "
+"åpner innstillinger). Fullt aggregert og uten informasjonskapsler — ingen "
+"IP-adresse eller personopplysninger lagres. Vises i Statistikk-fanen."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"Komma-separerte side-/innleggs-ID-er der banneret ikke skal vises (f.eks. "
+"landingssider)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Konfigurer cookie-banneret ditt for GDPR/ePrivacy og Google Consent Mode v2."
+" Denne pluginen hjelper med samsvar, men utgjør ikke juridisk rådgivning."
+
+msgid "Consent Log"
+msgstr "Samtykkelogg"
+
+msgid "Consent Mode"
+msgstr "Samtykkemodus"
+
+msgid "Consent Mode v2"
+msgstr "Samtykkemodus v2"
+
+msgid "Consent logging is disabled."
+msgstr "Samtykkelagring er deaktivert."
+
+msgid "Consent mode"
+msgstr "Samtykkemodus"
+
+msgid "Content from %s is blocked"
+msgstr "Innhold fra %s er blokkert"
+
+msgid "Cookie Consent"
+msgstr "Informasjonskapselsamtykke"
+
+msgid "Cookie settings"
+msgstr "Innstillinger for informasjonskapsler"
+
+msgid "Corner radius (px)"
+msgstr "Hjørneradius (px)"
+
+msgid "Custom CSS"
+msgstr "Egendefinert CSS"
+
+msgid "Dark"
+msgstr "Mørk"
+
+msgid "Dark colors"
+msgstr "Mørke farger"
+
+msgid "Date (UTC)"
+msgstr "Dato (UTC)"
+
+msgid "Design"
+msgstr "Design"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Devices"
+msgstr "Enheter"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Ikke selg eller del mine personopplysninger"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Last ned alle innstillinger som en JSON-fil for gjenbruk på et annet "
+"nettsted."
+
+msgid "Edge offset (px)"
+msgstr "Kantavstand (px)"
+
+msgid "Edit texts per language"
+msgstr "Rediger tekster per språk"
+
+msgid "Embed consent category"
+msgstr "Bygg inn samtykkekategori"
+
+msgid "Embed placeholders"
+msgstr "Bygg inn plassholdere"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Innebygde elementer blokkeres når besøkende gir samtykke til denne "
+"kategorien (eller klikker «tillat» på plassholderen)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Aktiver signaler for Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "Aktiver denne kategorien"
+
+msgid "Engagement (last 30 days)"
+msgstr "Engasjement (siste 30 dager)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Liker du Lynbro Cookie Consent? En kort, ærlig anmeldelse hjelper andre "
+"nettstedseiere å finne det. Ingen press — bare hvis du har et minutt."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Angi en WordPress-lokalekode (for eksempel pt_PT eller ca) for å tilby et "
+"språk som ikke følger med. Etter lagring fyller du inn teksten nedenfor."
+
+msgid "Exclude pages/posts"
+msgstr "Ekskluder sider/innlegg"
+
+msgid "Export CSV"
+msgstr "Eksporter CSV"
+
+msgid "Export settings"
+msgstr "Eksporter innstillinger"
+
+msgid "Export settings (JSON)"
+msgstr "Eksporter innstillinger (JSON)"
+
+msgid "Feedback"
+msgstr "Tilbakemelding"
+
+msgid "Feedback on this plugin"
+msgstr "Tilbakemelding på dette pluginet"
+
+msgid "Floating box (corner)"
+msgstr "Flytende boks (hjørne)"
+
+msgid "Floating settings button"
+msgstr "Flytende innstillingsknapp"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Avstand fra skjermkantene for layouten med flytende boks."
+
+msgid "General"
+msgstr "Generelt"
+
+msgid "Get support"
+msgstr "Få support"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "God kontrast (%s:1) — oppfyller WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Har du en idé, et problem eller en forespørsel? Send det direkte til "
+"utviklerne. Dette er helt valgfritt og sendes bare når du klikker Send."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Hjelp oss å forstå hvordan besøkende samhandler med nettstedet ved å samle "
+"inn og rapportere informasjon anonymt."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Respekter nettleserens Global Privacy Control-signal. I opt-out-modus "
+"(USA/CCPA) blir besøkende med GPC automatisk reservert bort fra samtykke og "
+"får en synlig bekreftelse (påkrevd i California fra 2026)."
+
+msgid "Horizontal"
+msgstr "Horisontal"
+
+msgid "How you compare"
+msgstr "Hvordan du sammenligner"
+
+msgid "Icon"
+msgstr "Ikon"
+
+msgid "Icon color"
+msgstr "Ikonfarge"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Idé til en ny funksjon eller et nytt plugin"
+
+msgid "Import settings"
+msgstr "Importer innstillinger"
+
+msgid "Importing overwrites your current settings."
+msgstr "Importering overskriver de gjeldende innstillingene dine."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Øk dette tallet hver gang cookie-erklæringen din endres. Besøkende blir bedt"
+" om å samtykke på nytt."
+
+msgid "Installed version"
+msgstr "Installert versjon"
+
+msgid "Invalid security token."
+msgstr "Ugyldig sikkerhetstoken."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Det fungerer rett ut av boksen med GDPR-klare standardinnstillinger — en "
+"likeverdig Avslå-knapp og ikke-nødvendige informasjonskapsler blokkert frem "
+"til samtykke."
+
+msgid "Language"
+msgstr "Språk"
+
+msgid "Language downloaded and activated."
+msgstr "Språk lastet ned og aktivert."
+
+msgid "Language settings saved."
+msgstr "Språkinnstillinger lagret."
+
+msgid "Language switches"
+msgstr "Språkvalg"
+
+msgid "Languages"
+msgstr "Språk"
+
+msgid "Last 30 days"
+msgstr "Siste 30 dager"
+
+msgid "Last 365 days"
+msgstr "Siste 365 dager"
+
+msgid "Last 7 days"
+msgstr "Siste 7 dager"
+
+msgid "Leave a review"
+msgstr "Legg igjen en omtale"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "La stå tomt for å bruke fargen til Godta-knappen."
+
+msgid "Leave empty to use the Button text color."
+msgstr "La stå tomt for å bruke knappetekstfargen."
+
+msgid "Leave empty to use the translated default."
+msgstr "La stå tomt for å bruke den oversatte standarden."
+
+msgid "Legal mode"
+msgstr "Juridisk modus"
+
+msgid "Light"
+msgstr "Lys"
+
+msgid "Light colors"
+msgstr "Lyse farger"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Forhåndsvisning i sanntid (oppdateres mens du endrer Design- og Generelle "
+"innstillinger):"
+
+msgid "Load content from %s"
+msgstr "Last inn innhold fra %s"
+
+msgid "Local consent log"
+msgstr "Lokal samtykkelogg"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr "Lav kontrast (%s:1). Sikt på minst 4,5:1 for å oppfylle WCAG AA."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent er en gratis cookie-banner med personvern først, laget"
+" av Lynbro. Målet vårt er en vakker, ekte flerspråklig banner klar for "
+"GDPR/ePrivacy, med en likeverdig Avvis-knapp — og ingen begrensninger på "
+"sidevisninger, ingen betalingsmur for det nødvendige, og ingen sporing på "
+"forsiden."
+
+msgid "Manage opened"
+msgstr "Administrer åpnet"
+
+msgid "Manage preferences"
+msgstr "Administrer preferanser"
+
+msgid "Manage-preferences button"
+msgstr "Knapp for administrasjon av preferanser"
+
+msgid "Marketing"
+msgstr "Markedsføring"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Maks bredde på den flytende boksen og midtstilte modalen. Sett 0 for å bruke"
+" standardverdien."
+
+msgid "Message"
+msgstr "Melding"
+
+msgid "Method"
+msgstr "Metode"
+
+msgid "Mobile"
+msgstr "Mobil"
+
+msgid "Necessary"
+msgstr "Nødvendige"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Nødvendige cookies er alltid aktive og kan ikke deaktiveres. Velg hvilke "
+"valgfrie kategorier besøkende kan kontrollere."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Trenger du et språk som ikke er inkludert? Be om det, så genererer vi det "
+"for nettstedet ditt. Oversettelsesfilen lagres i opplastingsmappen din "
+"(skrives aldri over ved oppdatering) og aktiveres automatisk."
+
+msgid "No consent records yet."
+msgstr "Ingen samtykkeoppføringer ennå."
+
+msgid "No data yet."
+msgstr "Ingen data ennå."
+
+msgid "No file was uploaded."
+msgstr "Ingen fil ble lastet opp."
+
+msgid "No thanks, don’t show this again"
+msgstr "Nei takk, ikke vis dette igjen"
+
+msgid "Notice only"
+msgstr "Bare varsel"
+
+msgid "Off"
+msgstr "Av"
+
+msgid "Offered languages"
+msgstr "Tilgjengelige språk"
+
+msgid "Offset from corner (px)"
+msgstr "Forskyvning fra hjørnet (px)"
+
+msgid "On"
+msgstr "På"
+
+msgid "Once Weekly"
+msgstr "Én gang i uken"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "Bare hvis du ønsker svar. La stå tomt for å sende anonymt."
+
+msgid "Opacity"
+msgstr "Gjennomsiktighet"
+
+msgid "Operating systems"
+msgstr "Operativsystemer"
+
+msgid "Opt-in everywhere"
+msgstr "Opt-in overalt"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Opt-in overalt (GDPR — tryggest)"
+
+msgid "Opt-out everywhere"
+msgstr "Opt-out overalt"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Opt-out overalt (CCPA-stil)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Valgfri CSS som legges til bannerstilarket. Målrett .lynbro-cc-selektorene."
+
+msgid "Other"
+msgstr "Annet"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Overstyr all bannertekst for et bestemt språk. La et felt stå tomt for å "
+"bruke den medfølgende oversettelsen (eller standard engelsk). Prioritet: din"
+" overstyring → medfølgende oversettelse → standard."
+
+msgid "Overview"
+msgstr "Oversikt"
+
+msgid "Period"
+msgstr "Periode"
+
+msgid "Please choose a valid language code."
+msgstr "Velg en gyldig språkkode."
+
+msgid "Please enter a message before sending."
+msgstr "Vennligst skriv inn en melding før du sender."
+
+msgid "Please upload a .json settings file."
+msgstr "Last opp en .json-innstillingsfil."
+
+msgid "Plugin home page"
+msgstr "Plugin-ens hjemmeside"
+
+msgid "Policy URL"
+msgstr "Policy-URL"
+
+msgid "Policy version"
+msgstr "Policyversjon"
+
+msgid "Position"
+msgstr "Plassering"
+
+msgid "Preferences"
+msgstr "Preferanser"
+
+msgid "Privacy Policy & Terms"
+msgstr "Personvernregler og vilkår"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "URL til personvern-/cookiepolicy"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Private, cookieløse statistikker lagret kun i din egen database. De er "
+"fullstendig aggregert — ingen IP-adresse, ingen besøksidentifikator og ingen"
+" personopplysninger registreres noen gang. Derfor krever ikke disse "
+"statistikkene samtykke i seg selv."
+
+msgid "Read more"
+msgstr "Les mer"
+
+msgid "Recent consent records"
+msgstr "Nylige samtykkeregistreringer"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Poster som er eldre enn dette slettes automatisk. Sett til 0 for å beholde "
+"poster på ubestemt tid."
+
+msgid "Region"
+msgstr "Region"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Regionen oppdages fra CDN/edge-headere (f.eks. Cloudflare). Når den er "
+"ukjent, brukes den tryggeste opt-in-modellen. Ingen ekstern "
+"geolokaliserings-API kalles."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Registrer deg som samtykkeleverandør for WP Consent API-pluginen og varsle "
+"andre plugins om besøkendes valg (funksjonelle, preferanser, statistikk, "
+"markedsføring)."
+
+msgid "Reject all"
+msgstr "Avvis alle"
+
+msgid "Reject button"
+msgstr "Avvis-knapp"
+
+msgid "Report a bug"
+msgstr "Rapporter en feil"
+
+msgid "Request a language"
+msgstr "Be om et språk"
+
+msgid "Request this language"
+msgstr "Be om dette språket"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Nødvendig for at nettstedet skal fungere og kan ikke slås av. De settes "
+"vanligvis som svar på handlinger du utfører, for eksempel når du angir "
+"personverninnstillinger eller logger inn."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Gjennomsiktighet i hvile (0.2–1.0). Knappen blir helt ugjennomsiktig ved "
+"hover eller fokus. Standard er 0.55."
+
+msgid "Retention (days)"
+msgstr "Oppbevaring (dager)"
+
+msgid "Round"
+msgstr "Rund"
+
+msgid "Rounded"
+msgstr "Avrundet"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Avrunding av hjørnene på banner, boks og modal. Sett 0 for å bruke "
+"standardinnstillingen."
+
+msgid "Save language settings"
+msgstr "Lagre språkinnstillinger"
+
+msgid "Save preferences"
+msgstr "Lagre preferanser"
+
+msgid "Save-preferences button"
+msgstr "Lagre preferanse-knapp"
+
+msgid "Send feedback"
+msgstr "Send tilbakemelding"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Sender bare plugin-navnet, versjonen og språkkoden til Lynbro-portalen. Se "
+"vår %s."
+
+msgid "Set"
+msgstr "Sett"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Setter alle samtykkesignaler til \"denied\" som standard før samtykke, og "
+"oppdaterer dem deretter basert på besøkendes valg (ad_storage, "
+"analytics_storage, ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Innstillinger"
+
+msgid "Settings imported successfully."
+msgstr "Innstillingene ble importert."
+
+msgid "Shape"
+msgstr "Form"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Del anonym statistikk for å hjelpe med å forbedre pluginet — og se hvordan "
+"samtykkeraten din sammenlignes med gjennomsnittet. Av som standard. Sender "
+"bare aggregerte tall og domenet til nettstedet ditt (aldri besøkendes IP-"
+"adresser) til Lynbro-portalen, én gang i uken."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Vis en lenke med «Do Not Sell or Share My Personal Information» i opt-out-"
+"modus."
+
+msgid "Show floating settings button on the site"
+msgstr "Vis flytende innstillingsknapp på nettstedet"
+
+msgid "Show language switcher"
+msgstr "Vis språkvelger"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Vis cookie-ikonet (anbefalt). Når av, vises den tilgjengelige etiketten i "
+"stedet som en liten tekstknapp."
+
+msgid "Size (px)"
+msgstr "Størrelse (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Beklager, det språket kunne ikke hentes akkurat nå. Prøv igjen senere."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "Beklager, meldingen kunne ikke sendes. Prøv igjen senere."
+
+msgid "Square"
+msgstr "Firkant"
+
+msgid "Stacking (z-index base)"
+msgstr "Stabling (z-indeks-base)"
+
+msgid "Statistics"
+msgstr "Statistikk"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Statistikk er for øyeblikket deaktivert. Aktiver «Samle anonym statistikk» i"
+" Generelt-fanen for å begynne å samle aggregerte tall."
+
+msgid "Statistics are disabled."
+msgstr "Statistikk er deaktivert."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Lagre et personvernvennlig bevis på samtykke i din egen database. Ingen rå "
+"IP-adresse lagres — bare en saltet, anonymisert hash for å unngå duplikater."
+
+msgid "Tablet"
+msgstr "Nettbrett"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Fortell oss hva du synes, hva som mangler, eller hva som gikk galt…"
+
+msgid "Text color"
+msgstr "Tekstfarge"
+
+msgid "Thank you! Your message was sent."
+msgstr "Takk! Meldingen din ble sendt."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Gjennomsnittlig samtykkerate på tvers av nettsteder som har valgt inn, er "
+"%s%%. Din vises her når besøkende begynner å velge."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Bannerets språk følger en cache-sikker kjede: gjeldende sidespråk "
+"(Polylang/WPML/TranslatePress), deretter nettstedets språk, deretter "
+"engelsk. Automatisk nettlesergjenkjenning og den valgfrie språkvelgeren i "
+"banneret skjer helt i besøkendes nettleser, så sidens cache påvirkes aldri."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Filen inneholder ikke gyldige Lynbro Cookie Consent-innstillinger."
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Dette er språkene som er klargjort for automatisk nettlesergjenkjenning og "
+"språkvelgeren. Språk med en innebygd oversettelse vises her automatisk. "
+"Nettstedets språk er alltid inkludert."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Dette utfyller manuell skriptmerking. All deteksjon er lokal; ingen ekstern "
+"forespørsel sendes."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Dette pluginet hjelper med samsvar med informasjonskapsler, men utgjør ikke "
+"juridisk rådgivning."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Tips: ordlyd om informasjonskapsler/samtykke kan ha juridiske konsekvenser. "
+"La de juridiske delene av enhver oversettelse bli gjennomgått av en person "
+"som kjenner din jurisdiksjon."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"For å se dette innholdet fra %s, må du godta de relevante "
+"informasjonskapslene. Tilbyderen kan sette informasjonskapsler og samle inn "
+"personopplysninger."
+
+msgid "Today"
+msgstr "I dag"
+
+msgid "Too many requests."
+msgstr "For mange forespørsler."
+
+msgid "Tools"
+msgstr "Verktøy"
+
+msgid "Top bar"
+msgstr "Topplinje"
+
+msgid "Top left"
+msgstr "Øverst til venstre"
+
+msgid "Top right"
+msgstr "Øverst til høyre"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Totalt antall poster: %d (viser de 50 nyeste)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Hvis du fjerner haken her, skjules den flytende knappen helt — besøkende vil"
+" ikke ha noen måte å åpne cookie-innstillingene sine igjen på (med mindre du"
+" legger til kortkoden [lynbro_cookie_settings] et sted)."
+
+msgid "Updates"
+msgstr "Oppdateringer"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Oppdateringer leveres automatisk via WordPress.org — det finnes ingen egen "
+"oppdaterer, og gratisversjonen ringer aldri hjem."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Brukes som verktøytips og skjermleser-etikett. La stå tomt for "
+"standardteksten på oversatt språk."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Brukes bare når plasseringen er \"Flytende boks\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Brukes til å spore besøkende på tvers av nettsteder for å vise relevant "
+"annonsering og måle kampanjeeffektivitet."
+
+msgid "Version & updates"
+msgstr "Versjon og oppdateringer"
+
+msgid "Vertical"
+msgstr "Vertikal"
+
+msgid "View changelog"
+msgstr "Se endringslogg"
+
+msgid "Visibility"
+msgstr "Synlighet"
+
+msgid "Visit Lynbro"
+msgstr "Besøk Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Vi oppdaget et Global Privacy Control-signal og valgte deg automatisk ut av "
+"ikke-essensielle cookies."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Vi bruker cookies for å forbedre nettleseropplevelsen din, levere personlig "
+"tilpasset innhold og analysere trafikken vår. Du kan godta alle cookies, "
+"avvise de ikke-essensielle, eller administrere preferansene dine."
+
+msgid "We value your privacy"
+msgstr "Vi verdsetter personvernet ditt"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Bredde og høyde på knappen (24–96). Standard er 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Skriv en anmeldelse"
+
+msgid "Yesterday"
+msgstr "I går"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Du kan fortsatt blokkere egne skript manuelt:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Du har ikke tilstrekkelige tillatelser til å få tilgang til denne siden."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Godkjenningsraten din de siste 7 dagene er %1$s%%. Gjennomsnittet blant "
+"nettsteder som har valgt inn, er %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Samtykkebanneret ditt er aktivt"
+
+msgid "Your email (optional)"
+msgstr "E-postadressen din (valgfritt)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Meldingen din, plugin-versjonen og domenet til nettstedet ditt sendes til "
+"Lynbro-portalen. Se vår %s."
+
+msgid "\"Read more\" link"
+msgstr "Lenke til \"Les mer\""
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "nettstedsspråk"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Forbereder språket ditt… Dette kan ta omtrent et minutt første gang. Det "
+"legges til automatisk — du kan fortsette å jobbe."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Språket er klart og aktivert: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Kunne ikke forberede: %s. Prøv igjen senere."
+
+msgid "Accessibility"
+msgstr "Tilgjengelighet"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Bruke denne designforhåndsinnstillingen? Den vil overskrive dine nåværende "
+"designinnstillinger (du kan fortsatt gjennomgå før lagring)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Rolig palett med lav kontrast i en boks med avrundede hjørner."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Sentrert dialog med nedtonet overlegg, mørkt tema."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Fargene oppfyller WCAG AA-krav til tilgjengelighet"
+
+msgid "Design presets"
+msgstr "Designforhåndsinnstillinger"
+
+msgid "Details"
+msgstr "Detaljer"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Full bredde-linje nederst, lys og nøytral."
+
+msgid "Hide details"
+msgstr "Skjul detaljer"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Startpunkter med ett klikk. Når du bruker en forhåndsinnstilling, fylles "
+"designfeltene nedenfor ut og forhåndsvisningen oppdateres — gå gjennom den, "
+"og lagre deretter endringene for å beholde dem."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Forhåndsinnstilling brukt. Gå gjennom forhåndsvisningen, og lagre deretter "
+"endringene for å beholde dem."
+
+msgid "Preview device width"
+msgstr "Bredde for forhåndsvisningsenhet"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Slank, firkantet linje festet øverst på siden."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Mykt flytende kort i nederste høyre hjørne."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Noen farger har lav kontrast (%s) — se detaljer."

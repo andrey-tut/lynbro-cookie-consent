@@ -1,0 +1,622 @@
+/**
+ * Cookie consent banner — front-end styles.
+ *
+ * Colours are driven by CSS custom properties injected inline from the saved
+ * options (see banner.php). Lightweight, responsive and accessible:
+ * visible focus rings, ARIA-friendly structure, reduced-motion support and an
+ * equally prominent Reject button (Datatilsynet / GDPR rejection-equality).
+ *
+ * @package LynbroCookieConsent
+ */
+
+:root {
+	--lynbro-cc-bg: #ffffff;
+	--lynbro-cc-text: #1e1e1e;
+	--lynbro-cc-accept: #1a7f5a;
+	--lynbro-cc-reject: #6b6b6b;
+	--lynbro-cc-btn-text: #ffffff;
+
+	/* Stacking — overridden inline from the saved z-index base. */
+	--lynbro-cc-z-base: 99990;
+	--lynbro-cc-z-root: 99995;
+	--lynbro-cc-z-float: 99989;
+	--lynbro-cc-z-toast: 100000;
+
+	/* Geometry — overridden inline from the saved options. */
+	--lynbro-cc-offset: 20px;
+	--lynbro-cc-max-width: 420px;
+	--lynbro-cc-radius: 12px;
+
+	/* Floating button — overridden inline from the saved options. */
+	--lynbro-cc-float-size: 40px;
+	--lynbro-cc-float-x: 16px;
+	--lynbro-cc-float-y: 16px;
+	--lynbro-cc-float-opacity: 0.55;
+	--lynbro-cc-float-bg: var(--lynbro-cc-accept);
+	--lynbro-cc-float-icon: var(--lynbro-cc-btn-text);
+}
+
+.lynbro-cc[hidden] {
+	display: none;
+}
+
+.lynbro-cc {
+	position: fixed;
+	z-index: var(--lynbro-cc-z-root);
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
+	color: var(--lynbro-cc-text);
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.lynbro-cc *,
+.lynbro-cc *::before,
+.lynbro-cc *::after {
+	box-sizing: border-box;
+}
+
+/* Position variants. */
+.lynbro-cc--bottom-bar {
+	bottom: 0;
+}
+
+.lynbro-cc--top {
+	top: 0;
+}
+
+.lynbro-cc--box {
+	bottom: var(--lynbro-cc-offset);
+	left: auto;
+	right: var(--lynbro-cc-offset);
+	max-width: var(--lynbro-cc-max-width);
+}
+
+/* Box corners. */
+.lynbro-cc--box.lynbro-cc--corner-bottom-right {
+	bottom: var(--lynbro-cc-offset);
+	top: auto;
+	right: var(--lynbro-cc-offset);
+	left: auto;
+}
+
+.lynbro-cc--box.lynbro-cc--corner-bottom-left {
+	bottom: var(--lynbro-cc-offset);
+	top: auto;
+	left: var(--lynbro-cc-offset);
+	right: auto;
+}
+
+.lynbro-cc--box.lynbro-cc--corner-top-right {
+	top: var(--lynbro-cc-offset);
+	bottom: auto;
+	right: var(--lynbro-cc-offset);
+	left: auto;
+}
+
+.lynbro-cc--box.lynbro-cc--corner-top-left {
+	top: var(--lynbro-cc-offset);
+	bottom: auto;
+	left: var(--lynbro-cc-offset);
+	right: auto;
+}
+
+/* Center modal: full-viewport overlay + centered dialog. */
+.lynbro-cc--center-modal {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background: rgba( 0, 0, 0, 0.55 );
+	overflow: auto;
+}
+
+.lynbro-cc--center-modal .lynbro-cc__dialog {
+	flex-direction: column;
+	align-items: stretch;
+	max-width: var(--lynbro-cc-modal-width, 560px);
+	width: 100%;
+	border-radius: var(--lynbro-cc-radius, 14px);
+	box-shadow: 0 10px 40px rgba( 0, 0, 0, 0.35 );
+}
+
+/* Prevent background scroll while the modal is open. */
+body.lynbro-cc-modal-open {
+	overflow: hidden;
+}
+
+.lynbro-cc__dialog {
+	background: var(--lynbro-cc-bg);
+	box-shadow: 0 -2px 16px rgba( 0, 0, 0, 0.18 );
+	padding: 18px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	border-radius: 0;
+}
+
+.lynbro-cc--box .lynbro-cc__dialog {
+	flex-direction: column;
+	align-items: stretch;
+	border-radius: var(--lynbro-cc-radius, 12px);
+	box-shadow: 0 4px 24px rgba( 0, 0, 0, 0.22 );
+}
+
+.lynbro-cc--top .lynbro-cc__dialog {
+	box-shadow: 0 2px 16px rgba( 0, 0, 0, 0.18 );
+}
+
+.lynbro-cc__body {
+	flex: 1 1 380px;
+	min-width: 0;
+}
+
+.lynbro-cc__title {
+	margin: 0 0 6px;
+	font-size: 18px;
+	line-height: 1.3;
+	color: var(--lynbro-cc-text);
+}
+
+.lynbro-cc__desc {
+	margin: 0;
+	color: var(--lynbro-cc-text);
+}
+
+.lynbro-cc__desc a,
+.lynbro-cc__policy {
+	color: var(--lynbro-cc-accept);
+	text-decoration: underline;
+}
+
+/* In-banner language switcher. */
+.lynbro-cc__lang {
+	margin: 0 0 10px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 13px;
+}
+
+.lynbro-cc__lang[hidden] {
+	display: none;
+}
+
+.lynbro-cc__lang-label {
+	font-weight: 600;
+	opacity: 0.85;
+}
+
+.lynbro-cc__lang-select {
+	font: inherit;
+	font-size: 13px;
+	padding: 4px 8px;
+	border-radius: 6px;
+	border: 1px solid currentColor;
+	background: transparent;
+	color: inherit;
+	min-height: 32px;
+	max-width: 220px;
+}
+
+.lynbro-cc__lang-select:focus-visible {
+	outline: 3px solid #2563eb;
+	outline-offset: 2px;
+}
+
+/* Categories. */
+.lynbro-cc__categories {
+	margin-top: 14px;
+	width: 100%;
+	border-top: 1px solid rgba( 0, 0, 0, 0.1 );
+	padding-top: 10px;
+}
+
+.lynbro-cc__category {
+	padding: 8px 0;
+	border-bottom: 1px solid rgba( 0, 0, 0, 0.06 );
+}
+
+.lynbro-cc__category:last-child {
+	border-bottom: none;
+}
+
+.lynbro-cc__category-head {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.lynbro-cc__toggle {
+	width: 18px;
+	height: 18px;
+	flex: 0 0 auto;
+	accent-color: var(--lynbro-cc-accept);
+}
+
+.lynbro-cc__badge {
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	background: rgba( 0, 0, 0, 0.08 );
+	padding: 2px 8px;
+	border-radius: 999px;
+}
+
+.lynbro-cc__category-desc {
+	margin: 4px 0 0 26px;
+	font-size: 13px;
+	opacity: 0.85;
+}
+
+/* Actions — Reject is equally prominent to Accept. */
+.lynbro-cc__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	flex: 0 0 auto;
+	align-items: center;
+}
+
+.lynbro-cc--box .lynbro-cc__actions {
+	width: 100%;
+}
+
+.lynbro-cc__btn {
+	font: inherit;
+	font-weight: 600;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	padding: 10px 18px;
+	cursor: pointer;
+	line-height: 1.2;
+	min-height: 44px; /* a11y touch target */
+}
+
+.lynbro-cc__btn--accept {
+	background: var(--lynbro-cc-accept);
+	color: var(--lynbro-cc-btn-text);
+	border-color: var(--lynbro-cc-accept);
+}
+
+/* Reject: same size, solid, high contrast — not a faded "ghost" link. */
+.lynbro-cc__btn--reject {
+	background: var(--lynbro-cc-reject);
+	color: var(--lynbro-cc-btn-text);
+	border-color: var(--lynbro-cc-reject);
+}
+
+.lynbro-cc__btn--save {
+	background: var(--lynbro-cc-accept);
+	color: var(--lynbro-cc-btn-text);
+	border-color: var(--lynbro-cc-accept);
+}
+
+.lynbro-cc__btn--prefs {
+	background: transparent;
+	color: var(--lynbro-cc-text);
+	border-color: currentColor;
+}
+
+.lynbro-cc__btn:hover {
+	filter: brightness( 0.95 );
+}
+
+/* Accessible focus ring. */
+.lynbro-cc__btn:focus-visible,
+.lynbro-cc__toggle:focus-visible,
+.lynbro-cc__desc a:focus-visible {
+	outline: 3px solid #2563eb;
+	outline-offset: 2px;
+}
+
+/* Floating "Cookie settings" button from the shortcode. */
+.lynbro-cc-settings-btn {
+	font: inherit;
+	cursor: pointer;
+	border: 1px solid currentColor;
+	background: transparent;
+	border-radius: 8px;
+	padding: 8px 14px;
+	min-height: 40px;
+}
+
+.lynbro-cc-settings-btn:focus-visible {
+	outline: 3px solid #2563eb;
+	outline-offset: 2px;
+}
+
+/* Responsive: stack the buttons full width on small screens. */
+@media ( max-width: 600px ) {
+	.lynbro-cc__dialog {
+		flex-direction: column;
+		align-items: stretch;
+		padding: 16px;
+	}
+
+	.lynbro-cc__actions {
+		width: 100%;
+	}
+
+	.lynbro-cc__btn {
+		flex: 1 1 100%;
+		text-align: center;
+	}
+
+	.lynbro-cc--box {
+		left: 10px;
+		right: 10px;
+		max-width: none;
+	}
+}
+
+/* RTL. */
+.lynbro-cc--rtl {
+	direction: rtl;
+}
+
+.lynbro-cc--rtl .lynbro-cc__category-desc {
+	margin: 4px 26px 0 0;
+}
+
+/* CCPA / "Do Not Sell or Share" link. */
+.lynbro-cc__ccpa {
+	margin: 10px 0 0;
+}
+
+.lynbro-cc__link {
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	color: var( --lynbro-cc-accept );
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.lynbro-cc__link:focus-visible {
+	outline: 3px solid #2563eb;
+	outline-offset: 2px;
+}
+
+/* Floating re-open button (icon-only, translucent by default). */
+.lynbro-cc-float {
+	position: fixed;
+	z-index: var(--lynbro-cc-z-float);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: var(--lynbro-cc-float-size);
+	height: var(--lynbro-cc-float-size);
+	padding: 0;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	color: var(--lynbro-cc-float-icon);
+	background: var(--lynbro-cc-float-bg);
+	box-shadow: 0 2px 10px rgba( 0, 0, 0, 0.2 );
+	opacity: var(--lynbro-cc-float-opacity);
+	transition: opacity 0.15s ease;
+}
+
+.lynbro-cc-float[hidden] {
+	display: none;
+}
+
+/* Shape variants. */
+.lynbro-cc-float--shape-round {
+	border-radius: 50%;
+}
+
+.lynbro-cc-float--shape-rounded {
+	border-radius: 12px;
+}
+
+.lynbro-cc-float--shape-square {
+	border-radius: 0;
+}
+
+.lynbro-cc-float__icon {
+	display: inline-flex;
+	width: 55%;
+	height: 55%;
+}
+
+.lynbro-cc-float__icon svg {
+	width: 100%;
+	height: 100%;
+}
+
+/* Icon-only button: keep the label for screen readers only. */
+.lynbro-cc-float__label {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect( 0, 0, 0, 0 );
+	white-space: nowrap;
+	border: 0;
+}
+
+/* Text variant (icon disabled): show the label as a pill instead. */
+.lynbro-cc-float--text {
+	width: auto;
+	height: auto;
+	min-height: var(--lynbro-cc-float-size);
+	padding: 8px 16px;
+	font: inherit;
+	font-weight: 600;
+}
+
+.lynbro-cc-float--text.lynbro-cc-float--shape-round {
+	border-radius: 999px;
+}
+
+.lynbro-cc-float--text .lynbro-cc-float__label {
+	position: static;
+	width: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	clip: auto;
+	white-space: nowrap;
+}
+
+@media ( prefers-reduced-motion: reduce ) {
+	.lynbro-cc-float {
+		transition: none;
+	}
+}
+
+.lynbro-cc-float--bottom-right {
+	bottom: var(--lynbro-cc-float-y);
+	right: var(--lynbro-cc-float-x);
+}
+
+.lynbro-cc-float--bottom-left {
+	bottom: var(--lynbro-cc-float-y);
+	left: var(--lynbro-cc-float-x);
+}
+
+.lynbro-cc-float--top-right {
+	top: var(--lynbro-cc-float-y);
+	right: var(--lynbro-cc-float-x);
+}
+
+.lynbro-cc-float--top-left {
+	top: var(--lynbro-cc-float-y);
+	left: var(--lynbro-cc-float-x);
+}
+
+.lynbro-cc-float:hover,
+.lynbro-cc-float:focus-visible {
+	opacity: 1;
+}
+
+.lynbro-cc-float:focus-visible {
+	outline: 3px solid #2563eb;
+	outline-offset: 2px;
+}
+
+/* Embed consent placeholders — zero CLS via aspect-ratio reservation. */
+.lynbro-cc-embed {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	background: #f3f3f3;
+	border: 1px solid rgba( 0, 0, 0, 0.12 );
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+}
+
+.lynbro-cc-embed__inner {
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	max-width: 460px;
+}
+
+.lynbro-cc-embed__title {
+	margin: 0 0 6px;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.lynbro-cc-embed__text {
+	margin: 0 0 14px;
+	font-size: 14px;
+	opacity: 0.85;
+}
+
+.lynbro-cc-embed__actions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.lynbro-cc-embed__btn {
+	font: inherit;
+	font-weight: 600;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 18px;
+	min-height: 44px;
+	cursor: pointer;
+	color: #fff;
+	background: #1a7f5a;
+}
+
+.lynbro-cc-embed__btn:hover {
+	filter: brightness( 0.95 );
+}
+
+.lynbro-cc-embed__btn:focus-visible,
+.lynbro-cc-embed__always input:focus-visible {
+	outline: 3px solid #2563eb;
+	outline-offset: 2px;
+}
+
+.lynbro-cc-embed__always {
+	font-size: 13px;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	cursor: pointer;
+}
+
+/* GPC confirmation toast. */
+.lynbro-cc-toast {
+	position: fixed;
+	z-index: var(--lynbro-cc-z-toast);
+	left: 50%;
+	bottom: 24px;
+	transform: translate( -50%, 20px );
+	max-width: 92vw;
+	background: #1e1e1e;
+	color: #fff;
+	padding: 12px 18px;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba( 0, 0, 0, 0.3 );
+	font-size: 14px;
+	line-height: 1.4;
+	opacity: 0;
+	transition: opacity 0.3s ease, transform 0.3s ease;
+	pointer-events: none;
+}
+
+.lynbro-cc-toast--show {
+	opacity: 1;
+	transform: translate( -50%, 0 );
+}
+
+/* RTL mirroring for the floating button. */
+.lynbro-cc--rtl .lynbro-cc-embed__inner {
+	direction: rtl;
+}
+
+/* Respect reduced-motion. */
+@media ( prefers-reduced-motion: reduce ) {
+	.lynbro-cc,
+	.lynbro-cc__btn,
+	.lynbro-cc-toast,
+	.lynbro-cc-float {
+		transition: none !important;
+		animation: none !important;
+	}
+}

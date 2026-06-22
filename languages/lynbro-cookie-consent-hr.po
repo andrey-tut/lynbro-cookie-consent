@@ -1,0 +1,1192 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s sekundi (od prikaza bannera do izbora posjetitelja)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Mali gumb samo s ikonom koji omogućuje posjetiteljima ponovno otvaranje "
+"postavki kolačića nakon što donesu izbor. Automatski je skriven dok su "
+"banner ili dijalog postavki otvoreni."
+
+msgid "About"
+msgstr "O programu"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "O Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Prihvati sve"
+
+msgid "Accept button"
+msgstr "Gumb za prihvaćanje"
+
+msgid "Accept rate"
+msgstr "Stopa prihvaćanja"
+
+msgid "Accessible label"
+msgstr "Pristupačna oznaka"
+
+msgid "Add a custom language"
+msgstr "Dodaj prilagođeni jezik"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Dodajte mali padajući izbornik jezika na banner kako bi posjetitelji mogli "
+"ručno promijeniti jezik (njihov se izbor pamti)."
+
+msgid "Add your privacy policy link"
+msgstr "Dodajte poveznicu na politiku privatnosti"
+
+msgid "Additional CSS"
+msgstr "Dodatni CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Dopustite web-stranici da pamti izbore koje napravite (kao što su jezik ili "
+"regija) radi pružanja poboljšanih, personaliziranih značajki."
+
+msgid "Already downloaded on demand:"
+msgstr "Već preuzeto na zahtjev:"
+
+msgid "Always allow %s"
+msgstr "Uvijek dopusti %s"
+
+msgid "Always on"
+msgstr "Uvijek uključeno"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Anonimna statistika"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Automatski (prati sustav posjetitelja)"
+
+msgid "Auto by region"
+msgstr "Automatski prema regiji"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr "Automatski prema regiji (EU prijava, SAD odjava, ostalo prema izboru)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Automatski koristi svijetle boje prema zadanim postavkama i tamne boje kada "
+"uređaj posjetitelja preferira tamnu shemu boja."
+
+msgid "Auto-block trackers"
+msgstr "Automatsko blokiranje pratitelja"
+
+msgid "Auto-detect visitor language"
+msgstr "Automatski otkrij jezik posjetitelja"
+
+msgid "Automatic tracker blocking"
+msgstr "Automatsko blokiranje pratitelja"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Automatski blokirajte poznate pratitelje trećih strana (Google Analytics, "
+"GTM, Meta Pixel, Hotjar, Clarity i druge) dok se ne odobri odgovarajuća "
+"kategorija."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Automatski prikažite banner na jeziku preglednika posjetitelja kada je taj "
+"jezik među ponuđenima."
+
+msgid "Average time to decision"
+msgstr "Prosječno vrijeme do odluke"
+
+msgid "Background color"
+msgstr "Boja pozadine"
+
+msgid "Banner background"
+msgstr "Pozadina bannera"
+
+msgid "Banner description"
+msgstr "Opis bannera"
+
+msgid "Banner max width (px)"
+msgstr "Maks. širina bannera (px)"
+
+msgid "Banner shown"
+msgstr "Banner prikazan"
+
+msgid "Banner text on background"
+msgstr "Tekst bannera na pozadini"
+
+msgid "Banner title"
+msgstr "Naslov bannera"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Osnovni z-index za banner, prekrivanje, modal i plutajući gumb. Povećajte ga"
+" ako drugi element prekriva banner; smanjite ga ako banner prekriva nešto "
+"što ne bi trebao."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Dopušten je osnovni HTML: poveznice, podebljano, kurziv, prijelomi redaka. "
+"Ostavite prazno za zadani prijevod."
+
+msgid "Benchmark sharing"
+msgstr "Dijeljenje benchmarka"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Dijeljenje benchmarka je uključeno. Vaša prva usporedba pojavit će se ovdje "
+"nakon što tjedno izvješće bude izrađeno."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Blokirajte ugrađeni sadržaj (YouTube, Vimeo, Google Maps, društvene "
+"ugradnje, reCAPTCHA i drugo) do privole, uz uredan rezervni prikaz s gumbom "
+"\"dopusti\"."
+
+msgid "Blocking & Embeds"
+msgstr "Blokiranje i ugradnje"
+
+msgid "Bottom bar"
+msgstr "Donja traka"
+
+msgid "Bottom left"
+msgstr "Dolje lijevo"
+
+msgid "Bottom right"
+msgstr "Dolje desno"
+
+msgid "Box corner"
+msgstr "Zaobljeni kut"
+
+msgid "Browser languages"
+msgstr "Jezici preglednika"
+
+msgid "Button icon"
+msgstr "Ikona gumba"
+
+msgid "Button text"
+msgstr "Tekst gumba"
+
+msgid "Button text on Accept button"
+msgstr "Tekst gumba na gumbu Prihvati"
+
+msgid "Button text on Reject button"
+msgstr "Tekst gumba na gumbu Odbij"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "CCPA / CPRA poveznica za odjavu"
+
+msgid "Categories"
+msgstr "Kategorije"
+
+msgid "Category"
+msgstr "Kategorija"
+
+msgid "Category “%s” — description"
+msgstr "Kategorija “%s” — opis"
+
+msgid "Category “%s” — name"
+msgstr "Kategorija “%s” — naziv"
+
+msgid "Center modal (with overlay)"
+msgstr "Modalni prozor u sredini (s prekrivačem)"
+
+msgid "Choose language"
+msgstr "Odaberite jezik"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Prikupljajte anonimne statistike (koliko posjetitelja prihvaća, odbija ili "
+"otvara postavke). Potpuno agregirano i bez kolačića — ne pohranjuju se IP "
+"adresa ni osobni podaci. Prikazuje se na kartici Statistika."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"ID-jevi stranica/doprinosa odvojeni zarezima na kojima se banner ne smije "
+"prikazati (npr. odredišne stranice)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Konfigurirajte svoj GDPR/ePrivacy i Google Consent Mode v2 banner za "
+"kolačiće. Ovaj dodatak pomaže u usklađenosti, ali ne predstavlja pravni "
+"savjet."
+
+msgid "Consent Log"
+msgstr "Dnevnik privola"
+
+msgid "Consent Mode"
+msgstr "Consent Mode"
+
+msgid "Consent Mode v2"
+msgstr "Consent Mode v2"
+
+msgid "Consent logging is disabled."
+msgstr "Evidentiranje privola je onemogućeno."
+
+msgid "Consent mode"
+msgstr "Način privole"
+
+msgid "Content from %s is blocked"
+msgstr "Sadržaj iz %s je blokiran"
+
+msgid "Cookie Consent"
+msgstr "Privola za kolačiće"
+
+msgid "Cookie settings"
+msgstr "Postavke kolačića"
+
+msgid "Corner radius (px)"
+msgstr "Radijus kuta (px)"
+
+msgid "Custom CSS"
+msgstr "Prilagođeni CSS"
+
+msgid "Dark"
+msgstr "Tamna"
+
+msgid "Dark colors"
+msgstr "Tamne boje"
+
+msgid "Date (UTC)"
+msgstr "Datum (UTC)"
+
+msgid "Design"
+msgstr "Dizajn"
+
+msgid "Desktop"
+msgstr "Radna površina"
+
+msgid "Devices"
+msgstr "Uređaji"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Nemoj prodavati niti dijeliti moje osobne podatke"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Preuzmite sve postavke kao JSON datoteku za ponovnu upotrebu na drugoj web-"
+"lokaciji."
+
+msgid "Edge offset (px)"
+msgstr "Odstupanje od ruba (px)"
+
+msgid "Edit texts per language"
+msgstr "Uredi tekstove po jeziku"
+
+msgid "Embed consent category"
+msgstr "Ugradi kategoriju pristanka"
+
+msgid "Embed placeholders"
+msgstr "Ugradi zamjenska mjesta"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Ugrađeni sadržaji se odblokiraju kada posjetitelj odobri ovu kategoriju (ili"
+" klikne \"dopusti\" na zamjenskom mjestu)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Omogući signale Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "Omogući ovu kategoriju"
+
+msgid "Engagement (last 30 days)"
+msgstr "Angažman (zadnjih 30 dana)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Uživáte u Lynbro Cookie Consentu? Kratak, iskren osvrt pomaže drugim "
+"vlasnicima web-mjesta da ga pronađu. Bez pritiska — samo ako imate minutu."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Unesite WordPress kôd lokalne postavke (na primjer pt_PT ili ca) kako biste "
+"ponudili jezik koji nije uključen u paket. Nakon spremanja, unesite tekstove"
+" ispod."
+
+msgid "Exclude pages/posts"
+msgstr "Isključi stranice/objave"
+
+msgid "Export CSV"
+msgstr "Izvoz CSV"
+
+msgid "Export settings"
+msgstr "Izvezi postavke"
+
+msgid "Export settings (JSON)"
+msgstr "Izvezi postavke (JSON)"
+
+msgid "Feedback"
+msgstr "Povratne informacije"
+
+msgid "Feedback on this plugin"
+msgstr "Povratne informacije o ovom dodatku"
+
+msgid "Floating box (corner)"
+msgstr "Plutajući okvir (kut)"
+
+msgid "Floating settings button"
+msgstr "Plutajući gumb postavki"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Razmak od rubova zaslona za raspored plutajućeg okvira."
+
+msgid "General"
+msgstr "Općenito"
+
+msgid "Get support"
+msgstr "Zatraži podršku"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Globalna kontrola privatnosti (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Dobar kontrast (%s:1) — zadovoljava WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Imate ideju, problem ili zahtjev? Pošaljite ga izravno programerima. Ovo je "
+"u potpunosti opcionalno i šalje se samo kada kliknete Pošalji."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Pomozite nam razumjeti kako posjetitelji komuniciraju s web-mjestom "
+"prikupljanjem i anonimnim izvještavanjem informacija."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Poštujte signal Global Privacy Control preglednika. U načinu odbijanja "
+"(US/CCPA), posjetitelji s GPC-om automatski su isključeni i prikazana im je "
+"vidljiva potvrda (obavezno u Kaliforniji od 2026.)."
+
+msgid "Horizontal"
+msgstr "Horizontalno"
+
+msgid "How you compare"
+msgstr "Kako se uspoređujete"
+
+msgid "Icon"
+msgstr "Ikona"
+
+msgid "Icon color"
+msgstr "Boja ikone"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Ideja za novu značajku ili dodatak"
+
+msgid "Import settings"
+msgstr "Uvezi postavke"
+
+msgid "Importing overwrites your current settings."
+msgstr "Uvoz prepisuje vaše trenutne postavke."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Povećajte ovaj broj svaki put kada se vaša pravila o kolačićima promijene. "
+"Posjetitelji će ponovno biti zatraženi da daju privolu."
+
+msgid "Installed version"
+msgstr "Instalirana verzija"
+
+msgid "Invalid security token."
+msgstr "Nevažeći sigurnosni token."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Radi odmah s zadanim postavkama usklađenima s GDPR-om — jednak gumb Odbij i "
+"nebitni kolačići blokirani do privole."
+
+msgid "Language"
+msgstr "Jezik"
+
+msgid "Language downloaded and activated."
+msgstr "Jezik je preuzet i aktiviran."
+
+msgid "Language settings saved."
+msgstr "Postavke jezika su spremljene."
+
+msgid "Language switches"
+msgstr "Prekidači jezika"
+
+msgid "Languages"
+msgstr "Jezici"
+
+msgid "Last 30 days"
+msgstr "Zadnjih 30 dana"
+
+msgid "Last 365 days"
+msgstr "Zadnjih 365 dana"
+
+msgid "Last 7 days"
+msgstr "Zadnjih 7 dana"
+
+msgid "Leave a review"
+msgstr "Ostavite recenziju"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Ostavite prazno za korištenje boje gumba Prihvati."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Ostavite prazno za korištenje boje teksta gumba."
+
+msgid "Leave empty to use the translated default."
+msgstr "Ostavite prazno za korištenje prevedenog zadanog."
+
+msgid "Legal mode"
+msgstr "Pravni način rada"
+
+msgid "Light"
+msgstr "Svijetla"
+
+msgid "Light colors"
+msgstr "Svijetle boje"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr "Pregled uživo (ažurira se dok mijenjate postavke Dizajn i Općenito):"
+
+msgid "Load content from %s"
+msgstr "Učitaj sadržaj iz %s"
+
+msgid "Local consent log"
+msgstr "Lokalni zapis privole"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Nizak kontrast (%s:1). Ciljajte najmanje 4,5:1 kako biste zadovoljili WCAG "
+"AA."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent je besplatan kolačić-banner usmjeren na privatnost, "
+"izrađen od strane Lynbro. Naš je cilj lijep, uistinu višejezičan banner "
+"spreman za GDPR/ePrivacy, s jednakim gumbom Odbij — i bez ograničenja "
+"pregleda stranica, bez paywalla na osnovnim funkcijama i bez praćenja na "
+"prednjoj strani."
+
+msgid "Manage opened"
+msgstr "Upravljanje otvoreno"
+
+msgid "Manage preferences"
+msgstr "Upravljanje postavkama"
+
+msgid "Manage-preferences button"
+msgstr "Gumb za upravljanje postavkama"
+
+msgid "Marketing"
+msgstr "Marketing"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Maksimalna širina plutajućeg okvira i središnjeg modala. Postavite 0 za "
+"korištenje zadane vrijednosti."
+
+msgid "Message"
+msgstr "Poruka"
+
+msgid "Method"
+msgstr "Metoda"
+
+msgid "Mobile"
+msgstr "Mobilni"
+
+msgid "Necessary"
+msgstr "Potrebni"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Potrebni kolačići uvijek su aktivni i ne mogu se onemogućiti. Odaberite "
+"kojima će se opcionalnim kategorijama posjetitelji moći upravljati."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Treba vam jezik koji nije uključen? Zatražite ga i generirat ćemo ga za vašu"
+" stranicu. Datoteka prijevoda pohranjuje se u vašu uploads mapu (nikada se "
+"ne prepisuje pri ažuriranju) i automatski se aktivira."
+
+msgid "No consent records yet."
+msgstr "Još nema zapisa privole."
+
+msgid "No data yet."
+msgstr "Još nema podataka."
+
+msgid "No file was uploaded."
+msgstr "Nijedna datoteka nije učitana."
+
+msgid "No thanks, don’t show this again"
+msgstr "Ne, hvala, ne prikazuj ovo opet"
+
+msgid "Notice only"
+msgstr "Samo obavijest"
+
+msgid "Off"
+msgstr "Isključeno"
+
+msgid "Offered languages"
+msgstr "Dostupni jezici"
+
+msgid "Offset from corner (px)"
+msgstr "Pomak od kuta (px)"
+
+msgid "On"
+msgstr "Uključeno"
+
+msgid "Once Weekly"
+msgstr "Jednom tjedno"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "Samo ako želite odgovor. Ostavite prazno za slanje anonimno."
+
+msgid "Opacity"
+msgstr "Neprozirnost"
+
+msgid "Operating systems"
+msgstr "Operacijski sustavi"
+
+msgid "Opt-in everywhere"
+msgstr "Opt-in posvuda"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Opt-in posvuda (GDPR — najsigurnije)"
+
+msgid "Opt-out everywhere"
+msgstr "Opt-out posvuda"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Opt-out posvuda (CCPA stil)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Neobavezni CSS koji se dodaje stilu bannera. Ciljajte .lynbro-cc selektore."
+
+msgid "Other"
+msgstr "Ostalo"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Zamijeni bilo koji tekst bannera za određeni jezik. Ostavite polje prazno za"
+" korištenje uključenog prijevoda (ili engleske zadane vrijednosti). "
+"Prioritet: vaša zamjena → uključeni prijevod → zadano."
+
+msgid "Overview"
+msgstr "Pregled"
+
+msgid "Period"
+msgstr "Razdoblje"
+
+msgid "Please choose a valid language code."
+msgstr "Odaberite valjanu šifru jezika."
+
+msgid "Please enter a message before sending."
+msgstr "Unesite poruku prije slanja."
+
+msgid "Please upload a .json settings file."
+msgstr "Prenesite .json datoteku postavki."
+
+msgid "Plugin home page"
+msgstr "Početna stranica dodatka"
+
+msgid "Policy URL"
+msgstr "URL pravila"
+
+msgid "Policy version"
+msgstr "Verzija pravila"
+
+msgid "Position"
+msgstr "Položaj"
+
+msgid "Preferences"
+msgstr "Postavke"
+
+msgid "Privacy Policy & Terms"
+msgstr "Politika privatnosti i uvjeti"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "URL politike privatnosti/kolačića"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Privatna statistika bez kolačića, pohranjena samo u vašoj vlastitoj bazi "
+"podataka. Potpuno je agregirana — ne bilježi se IP adresa, identifikator "
+"posjetitelja niti bilo kakvi osobni podaci. Zbog toga te statistike same po "
+"sebi ne zahtijevaju privolu."
+
+msgid "Read more"
+msgstr "Saznajte više"
+
+msgid "Recent consent records"
+msgstr "Nedavni zapisi privole"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Zapisi stariji od toga automatski se brišu. Postavite na 0 za zadržavanje "
+"zapisa neograničeno."
+
+msgid "Region"
+msgstr "Regija"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Regija se otkriva iz CDN/edge zaglavlja (npr. Cloudflare). Kada je "
+"nepoznata, koristi se najsigurniji opt-in model. Ne poziva se nijedan "
+"vanjski API za geolokaciju."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Registrirajte se kao pružatelj privole za dodatak WP Consent API i "
+"obavijestite druge dodatke o izboru posjetitelja (funkcionalni, postavke, "
+"statistika, marketing)."
+
+msgid "Reject all"
+msgstr "Odbaci sve"
+
+msgid "Reject button"
+msgstr "Gumb za odbijanje"
+
+msgid "Report a bug"
+msgstr "Prijavi grešku"
+
+msgid "Request a language"
+msgstr "Zatraži jezik"
+
+msgid "Request this language"
+msgstr "Zatraži ovaj jezik"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Potrebno za rad web-mjesta i ne može se isključiti. Obično se postavlja kao "
+"odgovor na radnje koje poduzimate, poput postavljanja postavki privatnosti "
+"ili prijave."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Prozirnost u mirovanju (0.2–1.0). Gumb postaje potpuno neproziran pri "
+"prelasku mišem ili fokusu. Zadano je 0.55."
+
+msgid "Retention (days)"
+msgstr "Zadržavanje (dani)"
+
+msgid "Round"
+msgstr "Zaobljeno"
+
+msgid "Rounded"
+msgstr "Zaobljeni"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Zaobljenje rubova bannera, okvira i modala. Postavite 0 za korištenje zadane"
+" vrijednosti."
+
+msgid "Save language settings"
+msgstr "Spremi postavke jezika"
+
+msgid "Save preferences"
+msgstr "Spremi postavke"
+
+msgid "Save-preferences button"
+msgstr "Gumb za spremanje postavki"
+
+msgid "Send feedback"
+msgstr "Pošaljite povratne informacije"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Šalje samo naziv dodatka, verziju i kod jezika u Lynbro portal. Pogledajte "
+"naš %s."
+
+msgid "Set"
+msgstr "Postavi"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Postavlja sve signale privole na \"denied\" prema zadanim postavkama prije "
+"privole, a zatim ih ažurira prema odabiru posjetitelja (ad_storage, "
+"analytics_storage, ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Postavke"
+
+msgid "Settings imported successfully."
+msgstr "Postavke su uspješno uvezene."
+
+msgid "Shape"
+msgstr "Oblik"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Dijelite anonimne statistike kako biste pomogli poboljšati dodatak — i "
+"vidjeli kako se vaša stopa prihvaćanja uspoređuje s prosjekom. Isključeno "
+"prema zadanim postavkama. Šalje samo agregirane brojeve i domenu vaše web-"
+"lokacije (nikada IP adrese posjetitelja) u Lynbro portal, jednom tjedno."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Prikaži poveznicu \"Nemoj prodavati ili dijeliti moje osobne podatke\" u "
+"načinu odbijanja."
+
+msgid "Show floating settings button on the site"
+msgstr "Prikaži plutajući gumb postavki na web-lokaciji"
+
+msgid "Show language switcher"
+msgstr "Prikaži odabir jezika"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Prikaži ikonu kolačića (preporučeno). Kada je isključeno, umjesto toga "
+"prikazuje se pristupačna oznaka kao mali tekstualni gumb."
+
+msgid "Size (px)"
+msgstr "Veličina (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Nažalost, taj jezik trenutačno nije moguće dohvatiti. Pokušajte ponovno "
+"kasnije."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "Nažalost, poruku nije moguće poslati. Pokušajte ponovno kasnije."
+
+msgid "Square"
+msgstr "Kvadrat"
+
+msgid "Stacking (z-index base)"
+msgstr "Slaganje (osnovni z-index)"
+
+msgid "Statistics"
+msgstr "Statistika"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Statistika je trenutačno isključena. U kartici Općenito omogućite "
+"“Prikupljaj anonimne statistike” kako biste započeli prikupljanje "
+"agregiranih podataka."
+
+msgid "Statistics are disabled."
+msgstr "Statistika je onemogućena."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Pohranite dokaz privole koji poštuje privatnost u vlastitu bazu podataka. Ne"
+" pohranjuje se sirova IP adresa — samo posoljeni, anonimizirani hash za "
+"uklanjanje duplikata."
+
+msgid "Tablet"
+msgstr "Tablet"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Recite nam što mislite, što nedostaje ili što je pošlo po zlu…"
+
+msgid "Text color"
+msgstr "Boja teksta"
+
+msgid "Thank you! Your message was sent."
+msgstr "Hvala! Vaša je poruka poslana."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Prosječna stopa prihvaćanja na web-lokacijama koje su uključile tu opciju "
+"iznosi %s%%. Vaša će se prikazati ovdje kada posjetitelji počnu birati."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Jezik banera slijedi predmemorijski siguran niz: trenutačni jezik stranice "
+"(Polylang/WPML/TranslatePress), zatim jezik vaše web-lokacije, pa engleski. "
+"Automatsko prepoznavanje preglednika i opcijski odabir unutar banera "
+"odvijaju se potpuno u pregledniku posjetitelja, pa vaša predmemorija "
+"stranice nikada nije pogođena."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Datoteka ne sadrži valjane postavke Lynbro Cookie Consenta."
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Ovo su jezici pripremljeni za automatsko prepoznavanje u pregledniku i "
+"odabir jezika. Jezici s uključenim prijevodom pojavljuju se ovdje "
+"automatski. Jezik vaše web-lokacije uvijek je uključen."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Ovo nadopunjuje ručno označavanje skripti. Sva je detekcija lokalna; ne "
+"šalje se nijedan vanjski zahtjev."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Ovaj dodatak pomaže u usklađivanju s pravilima o kolačićima, ali ne "
+"predstavlja pravni savjet."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Savjet: formulacije vezane uz kolačiće/privolu mogu imati pravne posljedice."
+" Pravne dijelove svakog prijevoda neka pregleda osoba upoznata s vašom "
+"jurisdikcijom."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Za prikaz ovog sadržaja s %s trebate prihvatiti relevantne kolačiće. "
+"Pružatelj može postaviti kolačiće i prikupljati osobne podatke."
+
+msgid "Today"
+msgstr "Danas"
+
+msgid "Too many requests."
+msgstr "Previše zahtjeva."
+
+msgid "Tools"
+msgstr "Alati"
+
+msgid "Top bar"
+msgstr "Gornja traka"
+
+msgid "Top left"
+msgstr "Gore lijevo"
+
+msgid "Top right"
+msgstr "Gore desno"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Ukupan broj zapisa: %d (prikazuje se 50 najnovijih)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Ako ovo poništite, plutajuća tipka bit će potpuno skrivena — posjetitelji "
+"neće imati način ponovno otvoriti postavke kolačića (osim ako negdje ne "
+"dodate shortcode [lynbro_cookie_settings])."
+
+msgid "Updates"
+msgstr "Ažuriranja"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Ažuriranja se automatski isporučuju putem WordPress.org — nema prilagođenog "
+"sustava za ažuriranje i besplatna verzija nikad ne šalje podatke kući."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Koristi se kao opis alata i oznaka za čitače zaslona. Ostavite prazno za "
+"zadani prijevod."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Koristi se samo kada je položaj \"Plutajući okvir\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Koristi se za praćenje posjetitelja na različitim web-mjestima radi "
+"prikazivanja relevantnog oglašavanja i mjerenja učinkovitosti kampanja."
+
+msgid "Version & updates"
+msgstr "Verzija i ažuriranja"
+
+msgid "Vertical"
+msgstr "Okomito"
+
+msgid "View changelog"
+msgstr "Prikaži zapis promjena"
+
+msgid "Visibility"
+msgstr "Vidljivost"
+
+msgid "Visit Lynbro"
+msgstr "Posjetite Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Otkrili smo signal Global Privacy Control i automatski smo vas isključili iz"
+" nebitnih kolačića."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Koristimo kolačiće za poboljšanje vašeg iskustva pregledavanja, prikaz "
+"prilagođenog sadržaja i analizu prometa. Možete prihvatiti sve kolačiće, "
+"odbiti one nebitne ili upravljati svojim postavkama."
+
+msgid "We value your privacy"
+msgstr "Cijenimo vašu privatnost"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Širina i visina tipke (24–96). Zadano je 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Napišite recenziju"
+
+msgid "Yesterday"
+msgstr "Jučer"
+
+msgid "You can still block your own scripts manually:"
+msgstr "I dalje možete ručno blokirati svoje skripte:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemate dovoljno dopuštenja za pristup ovoj stranici."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Vaša stopa prihvaćanja u posljednjih 7 dana iznosi %1$s%%. Prosjek na web-"
+"mjestima s uključenim privolama iznosi %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Vaš banner privole je aktivan"
+
+msgid "Your email (optional)"
+msgstr "Vaša e-pošta (neobavezno)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Vaša poruka, verzija dodatka i domena vaše web-stranice šalju se na Lynbro "
+"portal. Pogledajte našu %s."
+
+msgid "\"Read more\" link"
+msgstr "Poveznica \"Pročitaj više\""
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "jezik web-mjesta"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Priprema vašeg jezika… To prvi put može potrajati otprilike minutu. Bit će "
+"dodan automatski — možete nastaviti raditi."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Jezik je spreman i aktiviran: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Nije moguće pripremiti: %s. Pokušajte ponovno kasnije."
+
+msgid "Accessibility"
+msgstr "Pristupačnost"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Primijeniti ovu postavku dizajna? Ovo će prebrisati vaše trenutačne postavke"
+" dizajna (još uvijek ih možete pregledati prije spremanja)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Smirena paleta niskog kontrasta u okviru sa zaobljenim kutovima."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Središnji dijalog s prigušenim prekrivačem, tamna tema."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Boje zadovoljavaju WCAG AA kriterije pristupačnosti"
+
+msgid "Design presets"
+msgstr "Postavke dizajna"
+
+msgid "Details"
+msgstr "Detalji"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Traka pune širine pri dnu, svijetla i neutralna."
+
+msgid "Hide details"
+msgstr "Sakrij detalje"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Polazišne točke jednim klikom. Primjena postavke popunit će polja dizajna u "
+"nastavku i ažurirati pregled uživo — pregledajte ga, a zatim spremite "
+"promjene da biste ih zadržali."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Postavka primijenjena. Pregledajte pregled, a zatim spremite promjene da "
+"biste je zadržali."
+
+msgid "Preview device width"
+msgstr "Širina uređaja za pregled"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Uska, četvrtasta traka prikvačena na vrh stranice."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Meka plutajuća kartica u donjem desnom kutu."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Neke boje imaju nizak kontrast (%s) — pogledajte detalje."

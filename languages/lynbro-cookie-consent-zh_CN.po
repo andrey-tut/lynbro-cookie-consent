@@ -1,0 +1,1053 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s 秒（从横幅显示到访客做出选择）。"
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr "一个仅图标的小按钮，允许访客在做出选择后重新打开 Cookie 设置。横幅或偏好设置对话框打开时会自动隐藏。"
+
+msgid "About"
+msgstr "关于"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "关于 Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "全部接受"
+
+msgid "Accept button"
+msgstr "接受按钮"
+
+msgid "Accept rate"
+msgstr "接受率"
+
+msgid "Accessible label"
+msgstr "可访问性标签"
+
+msgid "Add a custom language"
+msgstr "添加自定义语言"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr "在横幅中添加一个小型语言下拉菜单，让访客可手动切换语言（其选择会被记住）。"
+
+msgid "Add your privacy policy link"
+msgstr "添加您的隐私政策链接"
+
+msgid "Additional CSS"
+msgstr "附加 CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr "允许网站记住您所做的选择（例如语言或地区），以提供增强的个性化功能。"
+
+msgid "Already downloaded on demand:"
+msgstr "已按需下载："
+
+msgid "Always allow %s"
+msgstr "始终允许 %s"
+
+msgid "Always on"
+msgstr "始终开启"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "匿名统计"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "自动（跟随访客系统）"
+
+msgid "Auto by region"
+msgstr "按地区自动"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr "按地区自动（欧盟选择加入、美国选择退出、其余地区按选择）"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr "自动模式默认使用浅色，若访客设备偏好深色配色方案，则使用深色。"
+
+msgid "Auto-block trackers"
+msgstr "自动拦截跟踪器"
+
+msgid "Auto-detect visitor language"
+msgstr "自动检测访客语言"
+
+msgid "Automatic tracker blocking"
+msgstr "自动跟踪器拦截"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"自动拦截已知的第三方跟踪器（Google Analytics、GTM、Meta Pixel、Hotjar、Clarity 等），直到相应类别获得同意。"
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr "当访客浏览器语言属于可用语言之一时，自动以该语言显示横幅。"
+
+msgid "Average time to decision"
+msgstr "平均决策时间"
+
+msgid "Background color"
+msgstr "背景颜色"
+
+msgid "Banner background"
+msgstr "横幅背景"
+
+msgid "Banner description"
+msgstr "横幅说明"
+
+msgid "Banner max width (px)"
+msgstr "横幅最大宽度（px）"
+
+msgid "Banner shown"
+msgstr "横幅已显示"
+
+msgid "Banner text on background"
+msgstr "横幅背景文字颜色"
+
+msgid "Banner title"
+msgstr "横幅标题"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr "横幅、遮罩层、模态框和浮动按钮的基础 z-index。若其他元素遮挡横幅，请提高该值；若横幅遮挡了不应遮挡的内容，请降低该值。"
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr "允许基本 HTML：链接、粗体、斜体、换行。留空则使用翻译后的默认值。"
+
+msgid "Benchmark sharing"
+msgstr "基准共享"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr "基准共享已开启。您的首次对比将在每周报告运行后显示在这里。"
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"在获得同意前拦截嵌入内容（YouTube、Vimeo、Google 地图、社交嵌入、reCAPTCHA 等），并显示一个整洁的占位符及“允许”按钮。"
+
+msgid "Blocking & Embeds"
+msgstr "阻止与嵌入"
+
+msgid "Bottom bar"
+msgstr "底部栏"
+
+msgid "Bottom left"
+msgstr "左下角"
+
+msgid "Bottom right"
+msgstr "右下角"
+
+msgid "Box corner"
+msgstr "圆角框"
+
+msgid "Browser languages"
+msgstr "浏览器语言"
+
+msgid "Button icon"
+msgstr "按钮图标"
+
+msgid "Button text"
+msgstr "按钮文字"
+
+msgid "Button text on Accept button"
+msgstr "接受按钮上的文字"
+
+msgid "Button text on Reject button"
+msgstr "拒绝按钮上的文字"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "CCPA / CPRA 不出售或共享我的个人信息链接"
+
+msgid "Categories"
+msgstr "分类"
+
+msgid "Category"
+msgstr "类别"
+
+msgid "Category “%s” — description"
+msgstr "类别“%s” — 描述"
+
+msgid "Category “%s” — name"
+msgstr "类别“%s” — 名称"
+
+msgid "Center modal (with overlay)"
+msgstr "居中弹窗（带遮罩）"
+
+msgid "Choose language"
+msgstr "选择语言"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"收集匿名统计数据（访问者接受、拒绝或打开偏好设置的数量）。完全汇总且无需 Cookie — 不存储 IP 地址或个人数据。显示在统计选项卡中。"
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr "以逗号分隔的页面/文章 ID，这些页面/文章上不应显示横幅（例如落地页）。"
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"配置您的 GDPR/ePrivacy 和 Google Consent Mode v2 Cookie 横幅。此插件有助于合规，但不构成法律建议。"
+
+msgid "Consent Log"
+msgstr "同意日志"
+
+msgid "Consent Mode"
+msgstr "同意模式"
+
+msgid "Consent Mode v2"
+msgstr "同意模式 v2"
+
+msgid "Consent logging is disabled."
+msgstr "同意日志已禁用。"
+
+msgid "Consent mode"
+msgstr "同意模式"
+
+msgid "Content from %s is blocked"
+msgstr "来自 %s 的内容已被阻止"
+
+msgid "Cookie Consent"
+msgstr "Cookie 同意"
+
+msgid "Cookie settings"
+msgstr "Cookie 设置"
+
+msgid "Corner radius (px)"
+msgstr "圆角半径（px）"
+
+msgid "Custom CSS"
+msgstr "自定义 CSS"
+
+msgid "Dark"
+msgstr "深色"
+
+msgid "Dark colors"
+msgstr "深色配色"
+
+msgid "Date (UTC)"
+msgstr "日期（UTC）"
+
+msgid "Design"
+msgstr "设计"
+
+msgid "Desktop"
+msgstr "桌面端"
+
+msgid "Devices"
+msgstr "设备"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "请勿出售或共享我的个人信息"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr "将所有设置下载为 JSON 文件，以便在其他网站上复用。"
+
+msgid "Edge offset (px)"
+msgstr "边缘偏移（px）"
+
+msgid "Edit texts per language"
+msgstr "按语言编辑文本"
+
+msgid "Embed consent category"
+msgstr "嵌入式同意类别"
+
+msgid "Embed placeholders"
+msgstr "嵌入占位符"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr "当访客授予此类别（或在占位符上点击“允许”）时，嵌入内容将解除阻止。"
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "启用 Google Consent Mode v2 信号"
+
+msgid "Enable this category"
+msgstr "启用此类别"
+
+msgid "Engagement (last 30 days)"
+msgstr "参与度（最近 30 天）"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr "喜欢 Lynbro Cookie Consent？一段简短、真诚的评价能帮助其他网站所有者找到它。不必有压力——如果您有时间再说。"
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr "输入一个 WordPress 地区代码（例如 pt_PT 或 ca），以提供未内置的语言。保存后，请在下方填写其文本。"
+
+msgid "Exclude pages/posts"
+msgstr "排除页面/文章"
+
+msgid "Export CSV"
+msgstr "导出 CSV"
+
+msgid "Export settings"
+msgstr "导出设置"
+
+msgid "Export settings (JSON)"
+msgstr "导出设置（JSON）"
+
+msgid "Feedback"
+msgstr "反馈"
+
+msgid "Feedback on this plugin"
+msgstr "对此插件的反馈"
+
+msgid "Floating box (corner)"
+msgstr "浮动框（角落）"
+
+msgid "Floating settings button"
+msgstr "浮动设置按钮"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "浮动框布局与屏幕边缘之间的间距。"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Get support"
+msgstr "获取支持"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control（GPC）"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "良好对比度（%s:1）——符合 WCAG AA。"
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr "有想法、问题或请求？直接发送给开发者。这完全是可选的，仅在您点击发送时才会提交。"
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr "通过匿名收集和报告信息，帮助我们了解访客如何与网站互动。"
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"遵守浏览器的 Global Privacy Control 信号。在退出同意（美国/CCPA）模式下，启用 GPC "
+"的访客会被自动设为退出，并显示可见确认（加州自 2026 年起要求）。"
+
+msgid "Horizontal"
+msgstr "横向"
+
+msgid "How you compare"
+msgstr "您的对比情况"
+
+msgid "Icon"
+msgstr "图标"
+
+msgid "Icon color"
+msgstr "图标颜色"
+
+msgid "Idea for a new feature or plugin"
+msgstr "新功能或插件的想法"
+
+msgid "Import settings"
+msgstr "导入设置"
+
+msgid "Importing overwrites your current settings."
+msgstr "导入会覆盖您当前的设置。"
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr "每当您的 cookie 政策发生变化时，请增加此数字。届时会要求访客再次同意。"
+
+msgid "Installed version"
+msgstr "已安装版本"
+
+msgid "Invalid security token."
+msgstr "安全令牌无效。"
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr "开箱即用，默认符合 GDPR：提供同等的“拒绝”按钮，并在获得同意前阻止非必要 cookie。"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Language downloaded and activated."
+msgstr "语言已下载并激活。"
+
+msgid "Language settings saved."
+msgstr "语言设置已保存。"
+
+msgid "Language switches"
+msgstr "语言切换"
+
+msgid "Languages"
+msgstr "语言"
+
+msgid "Last 30 days"
+msgstr "最近30天"
+
+msgid "Last 365 days"
+msgstr "最近365天"
+
+msgid "Last 7 days"
+msgstr "最近7天"
+
+msgid "Leave a review"
+msgstr "留下评价"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "留空以使用“接受”按钮颜色。"
+
+msgid "Leave empty to use the Button text color."
+msgstr "留空以使用按钮文字颜色。"
+
+msgid "Leave empty to use the translated default."
+msgstr "留空以使用已翻译的默认值。"
+
+msgid "Legal mode"
+msgstr "法律模式"
+
+msgid "Light"
+msgstr "浅色"
+
+msgid "Light colors"
+msgstr "浅色配色"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr "实时预览（在您更改设计和常规设置时更新）："
+
+msgid "Load content from %s"
+msgstr "从 %s 加载内容"
+
+msgid "Local consent log"
+msgstr "本地同意记录"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr "对比度较低（%s:1）。请至少达到 4.5:1 以符合 WCAG AA。"
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent 是由 Lynbro 打造的免费、隐私优先的 cookie "
+"横幅。我们的目标是提供一个美观、真正支持多语言、符合 GDPR/ePrivacy "
+"的横幅，并带有同等的“拒绝”按钮——不限制页面浏览量，不对核心功能设付费墙，也不进行前端跟踪。"
+
+msgid "Manage opened"
+msgstr "管理已打开"
+
+msgid "Manage preferences"
+msgstr "管理偏好"
+
+msgid "Manage-preferences button"
+msgstr "“管理偏好”按钮"
+
+msgid "Marketing"
+msgstr "营销"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr "浮动框和居中弹窗的最大宽度。设为 0 则使用默认值。"
+
+msgid "Message"
+msgstr "消息"
+
+msgid "Method"
+msgstr "方法"
+
+msgid "Mobile"
+msgstr "移动端"
+
+msgid "Necessary"
+msgstr "必要"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr "必要 cookies 始终启用，无法禁用。请选择访客可控制的可选类别。"
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr "需要未内置的语言吗？请申请，我们会为您的网站生成。翻译文件保存在您的 uploads 文件夹中（更新时不会被覆盖），并自动激活。"
+
+msgid "No consent records yet."
+msgstr "暂无同意记录。"
+
+msgid "No data yet."
+msgstr "暂无数据。"
+
+msgid "No file was uploaded."
+msgstr "未上传文件。"
+
+msgid "No thanks, don’t show this again"
+msgstr "不用了，不要再显示"
+
+msgid "Notice only"
+msgstr "仅通知"
+
+msgid "Off"
+msgstr "关闭"
+
+msgid "Offered languages"
+msgstr "提供的语言"
+
+msgid "Offset from corner (px)"
+msgstr "距角落偏移（px）"
+
+msgid "On"
+msgstr "开启"
+
+msgid "Once Weekly"
+msgstr "每周一次"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "仅在您希望收到回复时填写。留空则匿名发送。"
+
+msgid "Opacity"
+msgstr "不透明度"
+
+msgid "Operating systems"
+msgstr "操作系统"
+
+msgid "Opt-in everywhere"
+msgstr "全站选择加入"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "全站选择加入（GDPR — 最安全）"
+
+msgid "Opt-out everywhere"
+msgstr "全站选择退出"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "全站选择退出（CCPA 风格）"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr "附加到横幅样式表的可选 CSS。请针对 .lynbro-cc 选择器。"
+
+msgid "Other"
+msgstr "其他"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr "覆盖特定语言的任意横幅文本。留空字段可使用内置翻译（或英文默认值）。优先级：您的覆盖 → 内置翻译 → 默认值。"
+
+msgid "Overview"
+msgstr "概览"
+
+msgid "Period"
+msgstr "期间"
+
+msgid "Please choose a valid language code."
+msgstr "请选择有效的语言代码。"
+
+msgid "Please enter a message before sending."
+msgstr "发送前请输入消息。"
+
+msgid "Please upload a .json settings file."
+msgstr "请上传 .json 设置文件。"
+
+msgid "Plugin home page"
+msgstr "插件主页"
+
+msgid "Policy URL"
+msgstr "政策 URL"
+
+msgid "Policy version"
+msgstr "政策版本"
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Preferences"
+msgstr "偏好设置"
+
+msgid "Privacy Policy & Terms"
+msgstr "隐私政策和条款"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "隐私/Cookie 政策 URL"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"仅存储在您自己的数据库中的私密、无 Cookie 统计数据。它们是完全汇总的——不会记录 IP "
+"地址、访客标识符，也不会记录任何个人数据。正因如此，这些统计数据本身不需要同意。"
+
+msgid "Read more"
+msgstr "了解更多"
+
+msgid "Recent consent records"
+msgstr "最近的同意记录"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr "早于此时间的记录将自动删除。设为 0 可无限期保留记录。"
+
+msgid "Region"
+msgstr "地区"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr "地区通过 CDN/边缘头信息检测（例如 Cloudflare）。在未知时，将使用最安全的选择加入模式。不会调用外部地理位置 API。"
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr "注册为 WP Consent API 插件的同意提供方，并将访客的选择通知其他插件（功能、偏好、统计、营销）。"
+
+msgid "Reject all"
+msgstr "全部拒绝"
+
+msgid "Reject button"
+msgstr "拒绝按钮"
+
+msgid "Report a bug"
+msgstr "报告错误"
+
+msgid "Request a language"
+msgstr "请求一种语言"
+
+msgid "Request this language"
+msgstr "请求此语言"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr "网站正常运行所必需，无法关闭。它们通常是为了响应您执行的操作而设置的，例如设置隐私偏好或登录。"
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr "静止时透明度（0.2–1.0）。按钮在悬停或获得焦点时会变为完全不透明。默认值为 0.55。"
+
+msgid "Retention (days)"
+msgstr "保留期（天）"
+
+msgid "Round"
+msgstr "圆角"
+
+msgid "Rounded"
+msgstr "圆角化"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr "横幅、框和弹窗角的圆角程度。设为 0 可使用默认值。"
+
+msgid "Save language settings"
+msgstr "保存语言设置"
+
+msgid "Save preferences"
+msgstr "保存偏好设置"
+
+msgid "Save-preferences button"
+msgstr "保存偏好按钮"
+
+msgid "Send feedback"
+msgstr "发送反馈"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr "仅将插件名称、版本和语言代码发送到 Lynbro 门户。请参阅我们的 %s。"
+
+msgid "Set"
+msgstr "设置"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"在同意之前，默认将所有同意信号设为“拒绝”，然后根据访客的选择进行更新（ad_storage、analytics_storage、ad_user_data、ad_personalization、functionality_storage、personalization_storage、security_storage）。"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Settings imported successfully."
+msgstr "设置已成功导入。"
+
+msgid "Shape"
+msgstr "形状"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"共享匿名统计数据以帮助改进插件，并查看您的接受率与平均值相比如何。默认关闭。每周仅向 Lynbro 门户发送汇总数据和您的网站域名（从不发送访客 "
+"IP）。"
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr "在退出模式下显示“请勿出售或共享我的个人信息”链接。"
+
+msgid "Show floating settings button on the site"
+msgstr "在网站上显示浮动设置按钮"
+
+msgid "Show language switcher"
+msgstr "显示语言切换器"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr "显示 cookie 图标（推荐）。关闭时，将改为显示可访问标签的小型文字按钮。"
+
+msgid "Size (px)"
+msgstr "大小（px）"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr "抱歉，目前无法获取该语言。请稍后再试。"
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "抱歉，消息无法发送。请稍后再试。"
+
+msgid "Square"
+msgstr "方形"
+
+msgid "Stacking (z-index base)"
+msgstr "层叠（z-index 基准）"
+
+msgid "Statistics"
+msgstr "统计"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr "统计目前已关闭。在“常规”选项卡中启用“收集匿名统计”以开始收集汇总数据。"
+
+msgid "Statistics are disabled."
+msgstr "统计已禁用。"
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr "在您自己的数据库中存储尊重隐私的同意证明。不会存储原始 IP 地址——仅存储用于去重的加盐匿名哈希。"
+
+msgid "Tablet"
+msgstr "平板电脑"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "告诉我们您的想法、缺少什么，或哪里出了问题……"
+
+msgid "Text color"
+msgstr "文字颜色"
+
+msgid "Thank you! Your message was sent."
+msgstr "谢谢！您的消息已发送。"
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr "已选择加入的网站的平均接受率为 %s%%。当访客开始选择后，您的数据将显示在这里。"
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"横幅语言遵循缓存安全级联：当前页面语言（Polylang/WPML/TranslatePress），然后是您的站点语言，最后是英语。浏览器自动检测和可选的横幅内切换器完全在访客的浏览器中进行，因此不会影响您的页面缓存。"
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "该文件不包含有效的 Lynbro Cookie Consent 设置。"
+
+msgid "Theme"
+msgstr "主题"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr "这些是为浏览器自动检测和切换器准备的语言。带有内置翻译的语言会自动显示在这里。始终包含您的站点语言。"
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr "这补充了手动脚本标记。所有检测都在本地进行；不会发出外部请求。"
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr "此插件有助于 cookie 合规，但不构成法律建议。"
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr "提示：cookie/同意措辞可能具有法律影响。请让熟悉您所在司法辖区的人审阅任何翻译中的法律部分。"
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr "要查看来自 %s 的此内容，您需要接受相关 cookie。提供方可能会设置 cookie 并收集个人数据。"
+
+msgid "Today"
+msgstr "今天"
+
+msgid "Too many requests."
+msgstr "请求过多。"
+
+msgid "Tools"
+msgstr "工具"
+
+msgid "Top bar"
+msgstr "顶部栏"
+
+msgid "Top left"
+msgstr "左上角"
+
+msgid "Top right"
+msgstr "右上角"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "总记录数：%d（显示最近的 50 条）。"
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"取消勾选将会完全隐藏悬浮按钮——访客将无法看到重新打开 cookie 设置的入口（除非你在某处添加 [lynbro_cookie_settings] "
+"短代码）。"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr "更新会通过 WordPress.org 自动推送——没有自定义更新器，免费版也绝不会回传任何信息。"
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr "用作工具提示和屏幕阅读器标签。若留空，则使用已翻译的默认值。"
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "仅在位置为“浮动框”时使用。"
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr "用于跨网站跟踪访客，以展示相关广告并衡量活动效果。"
+
+msgid "Version & updates"
+msgstr "版本与更新"
+
+msgid "Vertical"
+msgstr "垂直"
+
+msgid "View changelog"
+msgstr "查看更新日志"
+
+msgid "Visibility"
+msgstr "可见性"
+
+msgid "Visit Lynbro"
+msgstr "访问 Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr "我们检测到全局隐私控制信号，已自动将您排除在非必要 cookie 之外。"
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"我们使用 cookie 来提升您的浏览体验、提供个性化内容并分析流量。您可以接受所有 cookie、拒绝非必要 cookie，或管理您的偏好。"
+
+msgid "We value your privacy"
+msgstr "我们重视您的隐私"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "按钮的宽度和高度（24–96）。默认值为 40。"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "写评论"
+
+msgid "Yesterday"
+msgstr "昨天"
+
+msgid "You can still block your own scripts manually:"
+msgstr "您仍然可以手动屏蔽自己的脚本："
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页面。"
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr "您过去 7 天的接受率为 %1$s%%。已同意站点的平均值为 %2$s%%。"
+
+msgid "Your consent banner is live"
+msgstr "您的同意横幅已上线"
+
+msgid "Your email (optional)"
+msgstr "您的电子邮件（可选）"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr "您的消息、插件版本和网站域名会发送到 Lynbro 门户。请参阅我们的 %s。"
+
+msgid "\"Read more\" link"
+msgstr "“阅读更多”链接"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "网站语言"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr "正在准备您的语言……首次可能需要约一分钟。完成后会自动添加——您可以继续工作。"
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "语言已准备就绪并已激活：%s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "无法准备：%s。请稍后再试。"
+
+msgid "Accessibility"
+msgstr "无障碍"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr "应用此设计预设？这将覆盖您当前的设计设置（您仍可在保存前查看）。"
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "圆角框中的平静低对比度配色。"
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "带有半透明遮罩的居中对话框，深色主题。"
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "颜色符合 WCAG AA 无障碍标准"
+
+msgid "Design presets"
+msgstr "设计预设"
+
+msgid "Details"
+msgstr "详情"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "底部全宽横条，浅色且中性。"
+
+msgid "Hide details"
+msgstr "隐藏详情"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr "一键起点。应用预设会填充下方的设计字段并更新实时预览——请先查看，然后保存更改以保留。"
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr "预设已应用。请先查看预览，然后保存更改以保留。"
+
+msgid "Preview device width"
+msgstr "预览设备宽度"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "固定在页面顶部的窄方形横条。"
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "右下角的柔和浮动卡片。"
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "部分颜色对比度较低（%s）——请查看详情。"

@@ -1,0 +1,559 @@
+/**
+ * Admin settings page styles.
+ *
+ * @package LynbroCookieConsent
+ */
+
+.lynbro-cc-settings .lynbro-cc-tab-panel {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-top: none;
+	padding: 4px 16px 16px;
+	margin-bottom: 16px;
+}
+
+.lynbro-cc-settings .lynbro-cc-tabs {
+	margin-bottom: 0;
+}
+
+.lynbro-cc-settings .lynbro-cc-color {
+	width: 90px;
+}
+
+/* Live preview — sticky so it stays visible while scrolling the long form. */
+.lynbro-cc-preview {
+	position: sticky;
+	top: 46px; /* clears the WordPress admin bar */
+	z-index: 10;
+	margin: 16px 0;
+	padding: 16px;
+	background: #f6f7f7;
+	border: 1px solid #c3c4c7;
+	border-radius: 6px;
+	box-shadow: 0 2px 8px rgba( 0, 0, 0, 0.06 );
+	max-height: calc( 100vh - 70px );
+	overflow: auto;
+}
+
+/* Preview toolbar: hint text + device switcher on one row. */
+.lynbro-cc-preview__bar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	margin: 0 0 10px;
+}
+
+.lynbro-cc-preview__hint {
+	margin: 0;
+	font-style: italic;
+	color: #50575e;
+}
+
+/* Device width switcher. */
+.lynbro-cc-devices {
+	display: inline-flex;
+	gap: 2px;
+	background: #e7e8ea;
+	border-radius: 6px;
+	padding: 2px;
+}
+
+.lynbro-cc-device {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 28px;
+	padding: 0;
+	border: 0;
+	border-radius: 4px;
+	background: transparent;
+	color: #50575e;
+	cursor: pointer;
+}
+
+.lynbro-cc-device:hover {
+	color: #1d2327;
+}
+
+.lynbro-cc-device.is-active {
+	background: #fff;
+	color: #2271b1;
+	box-shadow: 0 1px 2px rgba( 0, 0, 0, 0.15 );
+}
+
+.lynbro-cc-device:focus {
+	outline: 2px solid #2271b1;
+	outline-offset: 1px;
+}
+
+/* Viewport wraps the stage and constrains its width per selected device. */
+.lynbro-cc-preview__viewport {
+	margin: 0 auto;
+	max-width: 100%;
+	transition: max-width 0.18s ease;
+}
+
+.lynbro-cc-preview__viewport[data-lynbro-cc-device="tablet"],
+.lynbro-cc-preview__viewport[data-lynbro-cc-device="mobile"] {
+	border: 1px solid #c3c4c7;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba( 0, 0, 0, 0.12 );
+	overflow: hidden;
+}
+
+.lynbro-cc-preview__stage {
+	background:
+		linear-gradient( 45deg, #e9e9e9 25%, transparent 25% ),
+		linear-gradient( -45deg, #e9e9e9 25%, transparent 25% ),
+		linear-gradient( 45deg, transparent 75%, #e9e9e9 75% ),
+		linear-gradient( -45deg, transparent 75%, #e9e9e9 75% );
+	background-size: 20px 20px;
+	background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+	padding: 0;
+	border-radius: 6px;
+	position: relative;
+	min-height: 230px;
+	overflow: hidden;
+}
+
+/* Dimmed overlay shown only for the center-modal position. */
+.lynbro-cc-preview__overlay {
+	display: none;
+	position: absolute;
+	inset: 0;
+	background: rgba( 0, 0, 0, 0.5 );
+}
+
+.lynbro-cc-preview__stage[data-lynbro-cc-position="center-modal"] .lynbro-cc-preview__overlay {
+	display: block;
+}
+
+/* Floating button preview chip in the corner of the stage. */
+.lynbro-cc-float-preview {
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+	z-index: 3;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	box-shadow: 0 2px 10px rgba( 0, 0, 0, 0.2 );
+}
+
+.lynbro-cc-float-preview svg {
+	width: 55%;
+	height: 55%;
+}
+
+/* Inline labels next to grouped number inputs (offset X/Y). */
+.lynbro-cc-inline-label {
+	display: inline-block;
+	margin: 0 6px 0 0;
+	font-weight: 600;
+}
+
+.lynbro-cc-inline-label + input {
+	margin-right: 16px;
+}
+
+/* Banner is positioned inside the stage according to the chosen position. */
+.lynbro-cc-preview__banner {
+	position: absolute;
+	z-index: 2;
+	box-sizing: border-box;
+	padding: 16px 18px;
+	border-radius: 10px;
+	box-shadow: 0 4px 24px rgba( 0, 0, 0, 0.22 );
+}
+
+.lynbro-cc-preview__banner * {
+	box-sizing: border-box;
+}
+
+/* Bottom bar: full width, pinned to the bottom edge. */
+.lynbro-cc-preview__stage[data-lynbro-cc-position="bottom-bar"] .lynbro-cc-preview__banner {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 0;
+}
+
+/* Top bar: full width, pinned to the top edge. */
+.lynbro-cc-preview__stage[data-lynbro-cc-position="top"] .lynbro-cc-preview__banner {
+	left: 0;
+	right: 0;
+	top: 0;
+	border-radius: 0;
+}
+
+/* Floating box: a card in the chosen corner. */
+.lynbro-cc-preview__stage[data-lynbro-cc-position="box"] .lynbro-cc-preview__banner {
+	max-width: 320px;
+	width: calc( 100% - 32px );
+	bottom: 16px;
+	right: 16px;
+}
+
+.lynbro-cc-preview__stage[data-lynbro-cc-position="box"][data-lynbro-cc-corner="bottom-left"] .lynbro-cc-preview__banner {
+	bottom: 16px;
+	top: auto;
+	left: 16px;
+	right: auto;
+}
+
+.lynbro-cc-preview__stage[data-lynbro-cc-position="box"][data-lynbro-cc-corner="top-right"] .lynbro-cc-preview__banner {
+	top: 16px;
+	bottom: auto;
+	right: 16px;
+	left: auto;
+}
+
+.lynbro-cc-preview__stage[data-lynbro-cc-position="box"][data-lynbro-cc-corner="top-left"] .lynbro-cc-preview__banner {
+	top: 16px;
+	bottom: auto;
+	left: 16px;
+	right: auto;
+}
+
+/* Center modal: centered card over the overlay. */
+.lynbro-cc-preview__stage[data-lynbro-cc-position="center-modal"] .lynbro-cc-preview__banner {
+	max-width: 360px;
+	width: calc( 100% - 40px );
+	top: 50%;
+	left: 50%;
+	right: auto;
+	bottom: auto;
+	transform: translate( -50%, -50% );
+}
+
+.lynbro-cc-preview__title {
+	margin: 0 0 6px;
+	font-size: 17px;
+}
+
+.lynbro-cc-preview__desc {
+	margin: 0 0 14px;
+	font-size: 13px;
+}
+
+.lynbro-cc-preview__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.lynbro-cc-preview__btn {
+	font: inherit;
+	font-weight: 600;
+	font-size: 13px;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	padding: 8px 14px;
+	cursor: default;
+}
+
+/* On narrow device widths, buttons stack — mirrors the real banner. */
+.lynbro-cc-preview__viewport[data-lynbro-cc-device="mobile"] .lynbro-cc-preview__actions {
+	flex-direction: column;
+}
+
+.lynbro-cc-preview__viewport[data-lynbro-cc-device="mobile"] .lynbro-cc-preview__btn {
+	width: 100%;
+}
+
+/* ---------- Accessibility / contrast summary ---------- */
+.lynbro-cc-contrast {
+	margin-top: 14px;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+}
+
+.lynbro-cc-contrast__heading {
+	margin: 0 0 4px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #646970;
+}
+
+.lynbro-cc-contrast__status {
+	margin: 0;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 13px;
+}
+
+.lynbro-cc-contrast__status.is-pass {
+	color: #1a7f37;
+}
+
+.lynbro-cc-contrast__status.is-fail {
+	color: #b32d2e;
+	font-weight: 600;
+}
+
+.lynbro-cc-contrast__icon {
+	font-size: 14px;
+	line-height: 1;
+}
+
+.lynbro-cc-contrast__toggle {
+	margin-left: 10px;
+	font-size: 12px;
+	vertical-align: baseline;
+}
+
+.lynbro-cc-contrast__details {
+	margin-top: 8px;
+}
+
+.lynbro-cc-contrast__row {
+	margin: 4px 0;
+	padding: 6px 10px;
+	border-radius: 4px;
+	font-size: 13px;
+}
+
+.lynbro-cc-contrast__row.is-pass {
+	background: #edfaef;
+	border-left: 4px solid #00a32a;
+}
+
+.lynbro-cc-contrast__row.is-fail {
+	background: #fcf0f1;
+	border-left: 4px solid #d63638;
+}
+
+/* ---------- Design presets ---------- */
+.lynbro-cc-presets {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 12px 0 20px;
+}
+
+.lynbro-cc-preset {
+	flex: 0 1 220px;
+	text-align: left;
+	padding: 10px 14px;
+	border: 1px solid #c3c4c7;
+	border-radius: 8px;
+	background: #fff;
+	cursor: pointer;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.lynbro-cc-preset:hover {
+	border-color: #2271b1;
+	box-shadow: 0 2px 8px rgba( 0, 0, 0, 0.08 );
+}
+
+.lynbro-cc-preset:focus {
+	outline: 2px solid #2271b1;
+	outline-offset: 1px;
+}
+
+.lynbro-cc-preset__name {
+	display: block;
+	font-weight: 600;
+	font-size: 13px;
+	color: #1d2327;
+	margin-bottom: 2px;
+}
+
+.lynbro-cc-preset__desc {
+	display: block;
+	font-size: 12px;
+	color: #646970;
+	line-height: 1.4;
+}
+
+.lynbro-cc-tools-import {
+	max-width: 800px;
+}
+
+/* Status / quick-start block. */
+.lynbro-cc-status {
+	margin: 16px 0;
+	padding: 14px 18px;
+	background: #f0f6ec;
+	border: 1px solid #c3e0b3;
+	border-left: 4px solid #00a32a;
+	border-radius: 6px;
+}
+
+.lynbro-cc-status__headline {
+	margin: 0 0 8px;
+	font-size: 14px;
+}
+
+.lynbro-cc-status__dot {
+	margin-right: 4px;
+}
+
+.lynbro-cc-status__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 22px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 13px;
+}
+
+.lynbro-cc-status__items li {
+	margin: 0;
+}
+
+.lynbro-cc-status__label {
+	font-weight: 600;
+	color: #50575e;
+}
+
+/* Languages tab. */
+.lynbro-cc-locales {
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax( 220px, 1fr ) );
+	gap: 6px 16px;
+	max-width: 760px;
+}
+
+.lynbro-cc-locale {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.lynbro-cc-locale code {
+	opacity: 0.7;
+}
+
+.lynbro-cc-locale__badge {
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	background: #e5e5e5;
+	padding: 1px 7px;
+	border-radius: 999px;
+}
+
+.lynbro-cc-lang-group {
+	margin: 8px 0;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	background: #fbfbfc;
+}
+
+.lynbro-cc-lang-group > summary {
+	cursor: pointer;
+	padding: 10px 14px;
+	font-size: 13px;
+}
+
+.lynbro-cc-lang-group > summary code {
+	margin-left: 6px;
+	opacity: 0.7;
+}
+
+.lynbro-cc-lang-group .form-table {
+	margin: 0 14px 8px;
+}
+
+.lynbro-cc-legal-note {
+	max-width: 760px;
+}
+
+/* About tab. */
+.lynbro-cc-about {
+	max-width: 760px;
+}
+
+.lynbro-cc-about__links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 14px 0 20px;
+}
+
+/* Statistics tab. */
+.lynbro-cc-stat-table {
+	max-width: 860px;
+	margin: 8px 0 24px;
+}
+
+.lynbro-cc-stat-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 28px;
+	margin: 12px 0 8px;
+}
+
+.lynbro-cc-stat-col {
+	flex: 1 1 240px;
+	min-width: 240px;
+}
+
+.lynbro-cc-stat-col h3 {
+	margin: 0 0 10px;
+}
+
+.lynbro-cc-stat-bars {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lynbro-cc-stat-bar {
+	display: grid;
+	grid-template-columns: 90px 1fr auto;
+	align-items: center;
+	gap: 10px;
+	margin: 0 0 8px;
+	font-size: 13px;
+}
+
+.lynbro-cc-stat-bar__label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.lynbro-cc-stat-bar__track {
+	display: block;
+	height: 10px;
+	border-radius: 6px;
+	background: #e5e7eb;
+	overflow: hidden;
+}
+
+.lynbro-cc-stat-bar__fill {
+	display: block;
+	height: 100%;
+	background: #2271b1;
+	border-radius: 6px;
+}
+
+.lynbro-cc-stat-bar__value {
+	color: #50575e;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+.lynbro-cc-benchmark {
+	max-width: 760px;
+	margin: 8px 0 16px;
+	padding: 4px 0;
+}
+
+.lynbro-cc-feedback-form,
+.lynbro-cc-request-language {
+	max-width: 760px;
+}

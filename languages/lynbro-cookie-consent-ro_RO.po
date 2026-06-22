@@ -1,0 +1,1203 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr ""
+"%s secunde (de la afișarea bannerului până la alegerea vizitatorului)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Un buton mic, doar cu pictogramă, care le permite vizitatorilor să "
+"redeschidă setările pentru cookie-uri după ce au făcut o alegere. Este "
+"ascuns automat cât timp bannerul sau dialogul de preferințe este deschis."
+
+msgid "About"
+msgstr "Despre"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Despre Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Acceptă toate"
+
+msgid "Accept button"
+msgstr "Buton de acceptare"
+
+msgid "Accept rate"
+msgstr "Rată de acceptare"
+
+msgid "Accessible label"
+msgstr "Etichetă accesibilă"
+
+msgid "Add a custom language"
+msgstr "Adaugă o limbă personalizată"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Adaugă în banner un mic meniu derulant pentru limbă, astfel încât "
+"vizitatorii să poată schimba manual limba (alegerea lor este memorată)."
+
+msgid "Add your privacy policy link"
+msgstr "Adaugă linkul către politica de confidențialitate"
+
+msgid "Additional CSS"
+msgstr "CSS suplimentar"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Permite site-ului să rețină alegerile pe care le faci (cum ar fi limba sau "
+"regiunea) pentru a oferi funcții îmbunătățite și personalizate."
+
+msgid "Already downloaded on demand:"
+msgstr "Deja descărcat la cerere:"
+
+msgid "Always allow %s"
+msgstr "Permite întotdeauna %s"
+
+msgid "Always on"
+msgstr "Întotdeauna activ"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Statistici anonime"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Automat (conform sistemului vizitatorului)"
+
+msgid "Auto by region"
+msgstr "Automat după regiune"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"Automat după regiune (opt-in în UE, opt-out în SUA, restul la alegere)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Modul automat folosește implicit culorile deschise și culorile închise când "
+"dispozitivul vizitatorului preferă o schemă de culori închise."
+
+msgid "Auto-block trackers"
+msgstr "Blochează automat trackerele"
+
+msgid "Auto-detect visitor language"
+msgstr "Detectează automat limba vizitatorului"
+
+msgid "Automatic tracker blocking"
+msgstr "Blocare automată a trackerelor"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Blochează automat tracker-ele terțe cunoscute (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity și altele) până când este acordată categoria "
+"corespunzătoare."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Afișează automat bannerul în limba browserului vizitatorului atunci când "
+"aceasta este una dintre limbile oferite."
+
+msgid "Average time to decision"
+msgstr "Timp mediu până la decizie"
+
+msgid "Background color"
+msgstr "Culoare de fundal"
+
+msgid "Banner background"
+msgstr "Fundal banner"
+
+msgid "Banner description"
+msgstr "Descriere banner"
+
+msgid "Banner max width (px)"
+msgstr "Lățime maximă banner (px)"
+
+msgid "Banner shown"
+msgstr "Banner afișat"
+
+msgid "Banner text on background"
+msgstr "Text banner pe fundal"
+
+msgid "Banner title"
+msgstr "Titlu banner"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Z-index de bază pentru banner, suprapunere, fereastră modală și butonul "
+"flotant. Mărește-l dacă un alt element acoperă bannerul; micșorează-l dacă "
+"bannerul acoperă ceva ce nu ar trebui."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Se permite HTML de bază: linkuri, bold, italic, întreruperi de linie. Lăsați"
+" gol pentru valoarea implicită tradusă."
+
+msgid "Benchmark sharing"
+msgstr "Partajarea benchmark-ului"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Partajarea benchmark-ului este activă. Prima comparație va apărea aici după "
+"ce va rula raportul săptămânal."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Blochează conținutul încorporat (YouTube, Vimeo, Google Maps, încorporări "
+"sociale, reCAPTCHA și altele) până la consimțământ, afișând un substituent "
+"ordonat cu un buton „permite”."
+
+msgid "Blocking & Embeds"
+msgstr "Blocare și integrări"
+
+msgid "Bottom bar"
+msgstr "Bară de jos"
+
+msgid "Bottom left"
+msgstr "Stânga jos"
+
+msgid "Bottom right"
+msgstr "Dreapta jos"
+
+msgid "Box corner"
+msgstr "Colț rotunjit"
+
+msgid "Browser languages"
+msgstr "Limbile browserului"
+
+msgid "Button icon"
+msgstr "Pictogramă buton"
+
+msgid "Button text"
+msgstr "Text buton"
+
+msgid "Button text on Accept button"
+msgstr "Textul butonului Acceptă"
+
+msgid "Button text on Reject button"
+msgstr "Textul butonului Respinge"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "Link de renunțare CCPA / CPRA"
+
+msgid "Categories"
+msgstr "Categorii"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Category “%s” — description"
+msgstr "Categoria „%s” — descriere"
+
+msgid "Category “%s” — name"
+msgstr "Categoria „%s” — nume"
+
+msgid "Center modal (with overlay)"
+msgstr "Modal centrat (cu suprapunere)"
+
+msgid "Choose language"
+msgstr "Alege limba"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Colectează statistici anonime (câți vizitatori acceptă, resping sau deschid "
+"preferințele). Complet agregate și fără cookie-uri — nu se stochează adresa "
+"IP sau date personale. Afișat în fila Statistici."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"ID-uri de pagini/articole separate prin virgulă unde bannerul nu ar trebui "
+"afișat (de ex. pagini de destinație)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Configurează bannerul tău de cookie-uri GDPR/ePrivacy și Google Consent Mode"
+" v2. Acest plugin ajută la conformitate, dar nu constituie consultanță "
+"juridică."
+
+msgid "Consent Log"
+msgstr "Jurnal de consimțământ"
+
+msgid "Consent Mode"
+msgstr "Consent Mode"
+
+msgid "Consent Mode v2"
+msgstr "Consent Mode v2"
+
+msgid "Consent logging is disabled."
+msgstr "Înregistrarea consimțământului este dezactivată."
+
+msgid "Consent mode"
+msgstr "mod de consimțământ"
+
+msgid "Content from %s is blocked"
+msgstr "Conținutul de la %s este blocat"
+
+msgid "Cookie Consent"
+msgstr "Consimțământ pentru cookie-uri"
+
+msgid "Cookie settings"
+msgstr "Setări cookie-uri"
+
+msgid "Corner radius (px)"
+msgstr "Rază colț (px)"
+
+msgid "Custom CSS"
+msgstr "CSS personalizat"
+
+msgid "Dark"
+msgstr "Întunecat"
+
+msgid "Dark colors"
+msgstr "Culori închise"
+
+msgid "Date (UTC)"
+msgstr "Data (UTC)"
+
+msgid "Design"
+msgstr "Design"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Devices"
+msgstr "Dispozitive"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Nu vindeți și nu partajați informațiile mele personale"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Descarcă toate setările ca fișier JSON pentru a le reutiliza pe un alt site."
+
+msgid "Edge offset (px)"
+msgstr "Deplasare față de margine (px)"
+
+msgid "Edit texts per language"
+msgstr "Editează textele per limbă"
+
+msgid "Embed consent category"
+msgstr "Categorie de consimțământ pentru încorporări"
+
+msgid "Embed placeholders"
+msgstr "Marcaje de substituție pentru încorporări"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Încorporările sunt deblocate când vizitatorul acordă consimțământ pentru "
+"această categorie (sau face clic pe „permite” în marcajul de substituție)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Activează semnalele Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "Activează această categorie"
+
+msgid "Engagement (last 30 days)"
+msgstr "Interacțiune (ultimele 30 de zile)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Îți place Lynbro Cookie Consent? O recenzie scurtă și sinceră îi ajută pe "
+"alți proprietari de site-uri să-l găsească. Fără presiune — doar dacă ai un "
+"minut."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Introduceți un cod de localizare WordPress (de exemplu pt_PT sau ca) pentru "
+"a oferi o limbă care nu este inclusă în pachet. După salvare, completați "
+"textele ei mai jos."
+
+msgid "Exclude pages/posts"
+msgstr "Excludeți pagini/articole"
+
+msgid "Export CSV"
+msgstr "Exportă CSV"
+
+msgid "Export settings"
+msgstr "Exportă setările"
+
+msgid "Export settings (JSON)"
+msgstr "Exportă setările (JSON)"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "Feedback on this plugin"
+msgstr "Feedback pentru acest plugin"
+
+msgid "Floating box (corner)"
+msgstr "Casetă flotantă (colț)"
+
+msgid "Floating settings button"
+msgstr "Buton flotant pentru setări"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Spațiul dintre marginile ecranului pentru aspectul casetei flotante."
+
+msgid "General"
+msgstr "General"
+
+msgid "Get support"
+msgstr "Obțineți suport"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Contrast bun (%s:1) — respectă WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Ai o idee, o problemă sau o solicitare? Trimite-o direct dezvoltatorilor. "
+"Este complet opțional și este trimisă numai când apeși Trimite."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Ajută-ne să înțelegem cum interacționează vizitatorii cu site-ul prin "
+"colectarea și raportarea anonimă a informațiilor."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Respectă semnalul Global Privacy Control al browserului. În modul de "
+"renunțare (US/CCPA), vizitatorii cu GPC sunt dezactivați automat și li se "
+"afișează o confirmare vizibilă (obligatorie în California din 2026)."
+
+msgid "Horizontal"
+msgstr "Orizontal"
+
+msgid "How you compare"
+msgstr "Cum te compari"
+
+msgid "Icon"
+msgstr "Pictogramă"
+
+msgid "Icon color"
+msgstr "Culoare pictogramă"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Idee pentru o funcție nouă sau un plugin"
+
+msgid "Import settings"
+msgstr "Importă setările"
+
+msgid "Importing overwrites your current settings."
+msgstr "Importarea va suprascrie setările curente."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Creșteți acest număr ori de câte ori se modifică politica privind cookie-"
+"urile. Vizitatorilor li se va cere din nou consimțământul."
+
+msgid "Installed version"
+msgstr "Versiune instalată"
+
+msgid "Invalid security token."
+msgstr "Token de securitate invalid."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Funcționează din start cu valori implicite conforme GDPR — un buton Respinge"
+" egal și cookie-uri neesențiale blocate până la consimțământ."
+
+msgid "Language"
+msgstr "Limbă"
+
+msgid "Language downloaded and activated."
+msgstr "Limba a fost descărcată și activată."
+
+msgid "Language settings saved."
+msgstr "Setările limbii au fost salvate."
+
+msgid "Language switches"
+msgstr "Comutatoare de limbă"
+
+msgid "Languages"
+msgstr "Limbi"
+
+msgid "Last 30 days"
+msgstr "Ultimele 30 de zile"
+
+msgid "Last 365 days"
+msgstr "Ultimele 365 de zile"
+
+msgid "Last 7 days"
+msgstr "Ultimele 7 zile"
+
+msgid "Leave a review"
+msgstr "Lasă o recenzie"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Lăsați gol pentru a folosi culoarea butonului Acceptare."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Lăsați gol pentru a folosi culoarea textului butonului."
+
+msgid "Leave empty to use the translated default."
+msgstr "Lăsați gol pentru a folosi valoarea implicită tradusă."
+
+msgid "Legal mode"
+msgstr "Mod legal"
+
+msgid "Light"
+msgstr "Deschis"
+
+msgid "Light colors"
+msgstr "Culori deschise"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Previzualizare live (se actualizează pe măsură ce modificați setările Design"
+" și Generale):"
+
+msgid "Load content from %s"
+msgstr "Încarcă conținut din %s"
+
+msgid "Local consent log"
+msgstr "Jurnal local de consimțământ"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Contrast redus (%s:1). Urmăriți cel puțin 4,5:1 pentru a respecta WCAG AA."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent este un banner gratuit, cu prioritate pentru "
+"confidențialitate, creat de Lynbro. Scopul nostru este un banner frumos, cu "
+"adevărat multilingv, pregătit pentru GDPR/ePrivacy, cu un buton Refuz egal —"
+" și fără limite de afișări, fără paywall pentru funcțiile esențiale și fără "
+"urmărire pe frontend."
+
+msgid "Manage opened"
+msgstr "Gestionare deschisă"
+
+msgid "Manage preferences"
+msgstr "Gestionează preferințele"
+
+msgid "Manage-preferences button"
+msgstr "Butonul Gestionează preferințele"
+
+msgid "Marketing"
+msgstr "Marketing"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Lățimea maximă a casetei flotante și a modalei centrale. Setați 0 pentru a "
+"folosi valoarea implicită."
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Method"
+msgstr "Metodă"
+
+msgid "Mobile"
+msgstr "Mobil"
+
+msgid "Necessary"
+msgstr "Necesare"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Cookie-urile necesare sunt mereu active și nu pot fi dezactivate. Alegeți ce"
+" categorii opționale pot controla vizitatorii."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Aveți nevoie de o limbă care nu este inclusă? Solicitați-o și o vom genera "
+"pentru site-ul dvs. Fișierul de traducere este stocat în folderul dvs. "
+"uploads (nu este suprascris niciodată la actualizare) și este activat "
+"automat."
+
+msgid "No consent records yet."
+msgstr "Nu există încă înregistrări ale consimțământului."
+
+msgid "No data yet."
+msgstr "Nu există încă date."
+
+msgid "No file was uploaded."
+msgstr "Nu a fost încărcat niciun fișier."
+
+msgid "No thanks, don’t show this again"
+msgstr "Nu, mulțumesc, nu mai afișa asta"
+
+msgid "Notice only"
+msgstr "Doar notificare"
+
+msgid "Off"
+msgstr "Oprit"
+
+msgid "Offered languages"
+msgstr "Limbi oferite"
+
+msgid "Offset from corner (px)"
+msgstr "Decalaj față de colț (px)"
+
+msgid "On"
+msgstr "Pornit"
+
+msgid "Once Weekly"
+msgstr "O dată pe săptămână"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "Doar dacă doriți un răspuns. Lăsați gol pentru a trimite anonim."
+
+msgid "Opacity"
+msgstr "Opacitate"
+
+msgid "Operating systems"
+msgstr "Sisteme de operare"
+
+msgid "Opt-in everywhere"
+msgstr "Opt-in peste tot"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Opt-in peste tot (GDPR — cea mai sigură opțiune)"
+
+msgid "Opt-out everywhere"
+msgstr "Opt-out peste tot"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Opt-out peste tot (stil CCPA)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"CSS opțional adăugat la stylesheet-ul bannerului. Țintiți selectorii "
+".lynbro-cc."
+
+msgid "Other"
+msgstr "Altele"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Suprascrieți orice text al bannerului pentru o limbă specifică. Lăsați un "
+"câmp gol pentru a folosi traducerea inclusă (sau valoarea implicită în "
+"engleză). Prioritate: suprascrierea dvs. → traducerea inclusă → valoarea "
+"implicită."
+
+msgid "Overview"
+msgstr "Prezentare generală"
+
+msgid "Period"
+msgstr "Perioadă"
+
+msgid "Please choose a valid language code."
+msgstr "Vă rugăm să alegeți un cod de limbă valid."
+
+msgid "Please enter a message before sending."
+msgstr "Vă rugăm să introduceți un mesaj înainte de trimitere."
+
+msgid "Please upload a .json settings file."
+msgstr "Vă rugăm să încărcați un fișier de setări .json."
+
+msgid "Plugin home page"
+msgstr "Pagina principală a pluginului"
+
+msgid "Policy URL"
+msgstr "URL-ul politicii"
+
+msgid "Policy version"
+msgstr "Versiunea politicii"
+
+msgid "Position"
+msgstr "Poziție"
+
+msgid "Preferences"
+msgstr "Preferințe"
+
+msgid "Privacy Policy & Terms"
+msgstr "Politica de confidențialitate și termenii"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "URL-ul politicii de confidențialitate/cookie-uri"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Statistici private, fără cookie-uri, stocate doar în propria bază de date. "
+"Sunt complet agregate — nu se înregistrează nici adresa IP, nici un "
+"identificator al vizitatorului și niciodată date personale. Din acest motiv,"
+" aceste statistici nu necesită consimțământ prin ele însele."
+
+msgid "Read more"
+msgstr "Citiți mai mult"
+
+msgid "Recent consent records"
+msgstr "Înregistrări recente ale consimțământului"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Înregistrările mai vechi de atât sunt șterse automat. Setați la 0 pentru a "
+"păstra înregistrările pe termen nelimitat."
+
+msgid "Region"
+msgstr "Regiune"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Regiunea este detectată din antetele CDN/edge (de ex. Cloudflare). Când este"
+" necunoscută, se folosește modelul de opt-in cel mai sigur. Nu se apelează "
+"nicio API externă de geolocalizare."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Înregistrați-vă ca furnizor de consimțământ pentru pluginul WP Consent API "
+"și notificați celelalte pluginuri despre alegerea vizitatorului (funcțional,"
+" preferințe, statistici, marketing)."
+
+msgid "Reject all"
+msgstr "Respingeți tot"
+
+msgid "Reject button"
+msgstr "Butonul de respingere"
+
+msgid "Report a bug"
+msgstr "Raportați o eroare"
+
+msgid "Request a language"
+msgstr "Solicitați o limbă"
+
+msgid "Request this language"
+msgstr "Solicitați această limbă"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Necesare pentru funcționarea site-ului și nu pot fi dezactivate. Sunt de "
+"obicei setate ca răspuns la acțiunile dvs., cum ar fi setarea preferințelor "
+"de confidențialitate sau autentificarea."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Transparență în repaus (0,2–1,0). Butonul devine complet opac la hover sau "
+"focus. Valoarea implicită este 0,55."
+
+msgid "Retention (days)"
+msgstr "Păstrare (zile)"
+
+msgid "Round"
+msgstr "Rotunjit"
+
+msgid "Rounded"
+msgstr "Rotunjite"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Rotunjirea colțurilor bannerului, casetei și modalului. Setați 0 pentru a "
+"folosi valoarea implicită."
+
+msgid "Save language settings"
+msgstr "Salvați setările de limbă"
+
+msgid "Save preferences"
+msgstr "Salvați preferințele"
+
+msgid "Save-preferences button"
+msgstr "Butonul de salvare a preferințelor"
+
+msgid "Send feedback"
+msgstr "Trimite feedback"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Trimite numai numele pluginului, versiunea și codul limbii către portalul "
+"Lynbro. Vezi %s al nostru."
+
+msgid "Set"
+msgstr "Setează"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Setează toate semnalele de consimțământ la „refuzat” implicit, înainte de "
+"consimțământ, apoi le actualizează în funcție de alegerea vizitatorului "
+"(ad_storage, analytics_storage, ad_user_data, ad_personalization, "
+"functionality_storage, personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Setări"
+
+msgid "Settings imported successfully."
+msgstr "Setările au fost importate cu succes."
+
+msgid "Shape"
+msgstr "Formă"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Partajează statistici anonime pentru a ajuta la îmbunătățirea pluginului — "
+"și vezi cum se compară rata ta de acceptare cu media. Dezactivat implicit. "
+"Trimite doar valori agregate și domeniul site-ului tău (niciodată IP-urile "
+"vizitatorilor) către portalul Lynbro, o dată pe săptămână."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Afișează un link „Nu vinde și nu partaja informațiile mele personale” în "
+"modul de renunțare."
+
+msgid "Show floating settings button on the site"
+msgstr "Afișează butonul plutitor de setări pe site"
+
+msgid "Show language switcher"
+msgstr "Afișează selectorul de limbă"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Afișează pictograma cookie-urilor (recomandat). Când este dezactivat, în "
+"schimb este afișată o etichetă accesibilă ca buton text mic."
+
+msgid "Size (px)"
+msgstr "Dimensiune (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Ne pare rău, acel limbaj nu a putut fi preluat chiar acum. Te rugăm să "
+"încerci din nou mai târziu."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr ""
+"Ne pare rău, mesajul nu a putut fi trimis. Te rugăm să încerci din nou mai "
+"târziu."
+
+msgid "Square"
+msgstr "Pătrat"
+
+msgid "Stacking (z-index base)"
+msgstr "Suprapunere (bază z-index)"
+
+msgid "Statistics"
+msgstr "Statistici"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Statisticile sunt dezactivate momentan. Activează „Colectează statistici "
+"anonime” în fila General pentru a începe colectarea valorilor agregate."
+
+msgid "Statistics are disabled."
+msgstr "Statisticile sunt dezactivate."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Stochează în propria ta bază de date o dovadă a consimțământului care "
+"respectă confidențialitatea. Nu este stocată nicio adresă IP brută — doar un"
+" hash anonimizat cu sare pentru deduplicare."
+
+msgid "Tablet"
+msgstr "Tabletă"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Spune-ne ce părere ai, ce lipsește sau ce a mers prost…"
+
+msgid "Text color"
+msgstr "Culoarea textului"
+
+msgid "Thank you! Your message was sent."
+msgstr "Mulțumim! Mesajul tău a fost trimis."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Rata medie de acceptare pe site-urile care au optat pentru activare este de "
+"%s%%. A ta va apărea aici după ce vizitatorii încep să aleagă."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Limba bannerului urmează o succesiune sigură pentru cache: limba paginii "
+"curente (Polylang/WPML/TranslatePress), apoi limba site-ului tău, apoi "
+"engleza. Detectarea automată din browser și selectorul opțional din banner "
+"se fac integral în browserul vizitatorului, astfel încât cache-ul paginii "
+"tale nu este niciodată afectat."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Fișierul nu conține setări valide Lynbro Cookie Consent."
+
+msgid "Theme"
+msgstr "Temă"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Acestea sunt limbile pregătite pentru detectarea automată în browser și "
+"pentru selector. Limbile cu o traducere inclusă apar aici automat. Limba "
+"site-ului tău este mereu inclusă."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Acest lucru completează marcarea manuală a scripturilor. Toată detectarea "
+"este locală; nu se face nicio solicitare externă."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Acest plugin ajută la conformitatea cu cookie-urile, dar nu constituie "
+"consultanță juridică."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Sfat: formulările privind cookie-urile/consimțământul pot avea implicații "
+"juridice. Fă ca părțile juridice ale oricărei traduceri să fie revizuite de "
+"o persoană familiarizată cu jurisdicția ta."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Pentru a vedea acest conținut de la %s, trebuie să accepți cookie-urile "
+"relevante. Furnizorul poate seta cookie-uri și colecta date cu caracter "
+"personal."
+
+msgid "Today"
+msgstr "Astăzi"
+
+msgid "Too many requests."
+msgstr "Prea multe cereri."
+
+msgid "Tools"
+msgstr "Instrumente"
+
+msgid "Top bar"
+msgstr "Bară de sus"
+
+msgid "Top left"
+msgstr "Stânga sus"
+
+msgid "Top right"
+msgstr "Sus dreapta"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Total înregistrări: %d (se afișează cele mai recente 50)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Debifarea acestei opțiuni ascunde complet butonul flotant — vizitatorii nu "
+"vor vedea nicio modalitate de a redeschide setările cookie-urilor (cu "
+"excepția cazului în care adăugați shortcode-ul [lynbro_cookie_settings] "
+"undeva)."
+
+msgid "Updates"
+msgstr "Actualizări"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Actualizările sunt livrate automat prin WordPress.org — nu există un "
+"actualizator personalizat, iar versiunea gratuită nu transmite niciodată "
+"date către serverele noastre."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Folosit ca tooltip și etichetă pentru cititorul de ecran. Lăsați gol pentru "
+"valoarea implicită tradusă."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Folosit doar când Poziția este \"Casetă flotantă\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Folosit pentru a urmări vizitatorii pe mai multe site-uri web, pentru a "
+"afișa publicitate relevantă și a măsura eficiența campaniilor."
+
+msgid "Version & updates"
+msgstr "Versiune și actualizări"
+
+msgid "Vertical"
+msgstr "Vertical"
+
+msgid "View changelog"
+msgstr "Vezi jurnalul modificărilor"
+
+msgid "Visibility"
+msgstr "Vizibilitate"
+
+msgid "Visit Lynbro"
+msgstr "Vizitează Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Am detectat un semnal Global Privacy Control și v-am exclus automat de la "
+"cookie-urile neesențiale."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Folosim cookie-uri pentru a vă îmbunătăți experiența de navigare, pentru a "
+"oferi conținut personalizat și pentru a analiza traficul nostru. Puteți "
+"accepta toate cookie-urile, puteți respinge cele neesențiale sau vă puteți "
+"gestiona preferințele."
+
+msgid "We value your privacy"
+msgstr "Respectăm confidențialitatea dvs."
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Lățimea și înălțimea butonului (24–96). Valoarea implicită este 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Scrie o recenzie"
+
+msgid "Yesterday"
+msgstr "Ieri"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Puteți totuși să blocați manual propriile scripturi:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nu aveți suficiente permisiuni pentru a accesa această pagină."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Rata dvs. de acceptare din ultimele 7 zile este %1$s%%. Media pe site-urile "
+"cu utilizatori optați este %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Bannerul dvs. de consimțământ este activ"
+
+msgid "Your email (optional)"
+msgstr "Adresa dvs. de e-mail (opțional)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Mesajul dvs., versiunea pluginului și domeniul site-ului dvs. sunt trimise "
+"către portalul Lynbro. Consultați %s."
+
+msgid "\"Read more\" link"
+msgstr "Linkul „Citește mai mult”"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "limba site-ului"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Se pregătește limba dvs.… Prima dată poate dura aproximativ un minut. Va fi "
+"adăugată automat — puteți continua să lucrați."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Limba este gata și activată: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Nu s-a putut pregăti: %s. Vă rugăm să încercați din nou mai târziu."
+
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Aplicați acest preset de design? Va suprascrie setările actuale de Design "
+"(puteți totuși să le revizuiți înainte de salvare)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Paletă calmă, cu contrast redus, într-o casetă cu colțuri rotunjite."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Dialog centrat, cu suprapunere estompată, temă întunecată."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Culorile respectă accesibilitatea WCAG AA"
+
+msgid "Design presets"
+msgstr "Preseturi de design"
+
+msgid "Details"
+msgstr "Detalii"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Bară pe toată lățimea, în partea de jos, deschisă și neutră."
+
+msgid "Hide details"
+msgstr "Ascunde detaliile"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Puncte de pornire cu un singur clic. Aplicarea unui preset completează "
+"câmpurile de Design de mai jos și actualizează previzualizarea live — "
+"verificați, apoi salvați modificările pentru a-l păstra."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Preset aplicat. Verificați previzualizarea, apoi salvați modificările pentru"
+" a-l păstra."
+
+msgid "Preview device width"
+msgstr "Lățimea dispozitivului de previzualizare"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Bară subțire, pătrată, fixată în partea de sus a paginii."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Card plutitor, delicat, în colțul din dreapta jos."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Unele culori au contrast scăzut (%s) — vedeți detaliile."

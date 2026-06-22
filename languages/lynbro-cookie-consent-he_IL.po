@@ -1,0 +1,1158 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s שניות (מהצגת הבאנר ועד לבחירת המבקר)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"כפתור קטן עם אייקון בלבד שמאפשר למבקרים לפתוח מחדש את הגדרות העוגיות לאחר "
+"שבחרו. הוא מוסתר אוטומטית בזמן שהבאנר או תיבת ההעדפות פתוחים."
+
+msgid "About"
+msgstr "אודות"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "אודות Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "אישור הכל"
+
+msgid "Accept button"
+msgstr "כפתור האישור"
+
+msgid "Accept rate"
+msgstr "שיעור אישור"
+
+msgid "Accessible label"
+msgstr "תווית נגישה"
+
+msgid "Add a custom language"
+msgstr "הוספת שפה מותאמת אישית"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"הוסף לבאנר תפריט נפתח קטן לבחירת שפה, כדי שמבקרים יוכלו להחליף שפה ידנית "
+"(הבחירה שלהם נשמרת)."
+
+msgid "Add your privacy policy link"
+msgstr "הוסף קישור למדיניות הפרטיות שלך"
+
+msgid "Additional CSS"
+msgstr "CSS נוסף"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"אפשר לאתר לזכור בחירות שאתה עושה (כגון שפה או אזור) כדי לספק תכונות משופרות "
+"ומותאמות אישית."
+
+msgid "Already downloaded on demand:"
+msgstr "כבר הורד לפי דרישה:"
+
+msgid "Always allow %s"
+msgstr "התר בש תמיד %s"
+
+msgid "Always on"
+msgstr "תמיד פעיל"
+
+msgid "Android"
+msgstr "אנדרואיד"
+
+msgid "Anonymous statistics"
+msgstr "סטטיסטיקה אנונימית"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "אוטומטי (לפי מערכת המבקר)"
+
+msgid "Auto by region"
+msgstr "אוטומטי לפי אזור"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"אוטומטי לפי אזור (הסכמה מראש באיחוד האירופי, ביטול הסכמה מראש בארה\"ב, ובשאר"
+" העולם לפי בחירה)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"אוטומטי משתמש כברירת מחדל בצבעים בהירים ובצבעים כהים כאשר המכשיר של המבקר "
+"מעדיף ערכת צבעים כהה."
+
+msgid "Auto-block trackers"
+msgstr "חסימת עוקבים אוטומטית"
+
+msgid "Auto-detect visitor language"
+msgstr "זיהוי אוטומטי של שפת המבקר"
+
+msgid "Automatic tracker blocking"
+msgstr "חסימה אוטומטית של עוקבים"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"חסימה אוטומטית של עוקבי צד שלישי מוכרים (Google Analytics, GTM, Meta Pixel, "
+"Hotjar, Clarity ועוד) עד לאישור הקטגוריה המתאימה."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"הצג את הבאנר אוטומטית בשפת הדפדפן של המבקר כאשר היא אחת מהשפות המוצעות."
+
+msgid "Average time to decision"
+msgstr "זמן ממוצע להחלטה"
+
+msgid "Background color"
+msgstr "צבע רקע"
+
+msgid "Banner background"
+msgstr "רקע הבאנר"
+
+msgid "Banner description"
+msgstr "תיאור הבאנר"
+
+msgid "Banner max width (px)"
+msgstr "רוחב מרבי של הבאנר (px)"
+
+msgid "Banner shown"
+msgstr "הבאנר הוצג"
+
+msgid "Banner text on background"
+msgstr "טקסט הבאנר על הרקע"
+
+msgid "Banner title"
+msgstr "כותרת הבאנר"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"z-index בסיסי עבור הבאנר, שכבת העל, החלון המודאלי והכפתור הצף. הגדל אותו אם "
+"רכיב אחר מכסה את הבאנר; הקטן אותו אם הבאנר מכסה משהו שלא אמור להיות מכוסה."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"HTML בסיסי מותר: קישורים, מודגש, נטוי, מעברי שורה. השאר ריק כדי להשתמש "
+"בברירת המחדל המתורגמת."
+
+msgid "Benchmark sharing"
+msgstr "שיתוף השוואות ביצועים"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"שיתוף השוואות ביצועים פעיל. ההשוואה הראשונה שלך תופיע כאן לאחר שהדוח השבועי "
+"יופעל."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"חסום תוכן מוטמע (YouTube, Vimeo, Google Maps, הטמעות חברתיות, reCAPTCHA "
+"ועוד) עד להסכמה, והצג מציין מיקום מסודר עם כפתור \"אפשר\"."
+
+msgid "Blocking & Embeds"
+msgstr "חסימות והטמעות"
+
+msgid "Bottom bar"
+msgstr "סרגל תחתון"
+
+msgid "Bottom left"
+msgstr "למטה משמאל"
+
+msgid "Bottom right"
+msgstr "למטה מימין"
+
+msgid "Box corner"
+msgstr "פינה מעוגלת"
+
+msgid "Browser languages"
+msgstr "שפות הדפדפן"
+
+msgid "Button icon"
+msgstr "סמל כפתור"
+
+msgid "Button text"
+msgstr "טקסט הכפתור"
+
+msgid "Button text on Accept button"
+msgstr "טקסט הכפתור בלחצן אישור"
+
+msgid "Button text on Reject button"
+msgstr "טקסט הכפתור בלחצן דחייה"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "קישור ביטול הסכמה לפי CCPA / CPRA"
+
+msgid "Categories"
+msgstr "קטגוריות"
+
+msgid "Category"
+msgstr "קטגוריה"
+
+msgid "Category “%s” — description"
+msgstr "קטגוריה “%s” — תיאור"
+
+msgid "Category “%s” — name"
+msgstr "קטגוריה “%s” — שם"
+
+msgid "Center modal (with overlay)"
+msgstr "מודאל מרכזי (עם שכבת כיסוי)"
+
+msgid "Choose language"
+msgstr "בחרו שפה"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"איסוף נתונים סטטיסטיים אנונימיים (כמה מבקרים מאשרים, דוחים או פותחים "
+"העדפות). נתונים מצטברים לחלוטין וללא קובצי Cookie — לא נשמרת כתובת IP או "
+"נתונים אישיים. מוצג בלשונית הסטטיסטיקה."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr "מזהי עמוד/פוסט מופרדים בפסיקים שבהם הבאנר לא יוצג (למשל, דפי נחיתה)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"הגדירו את באנר קובצי ה-Cookie שלכם ל-GDPR/ePrivacy ול-Google Consent Mode "
+"v2. התוסף הזה מסייע בעמידה בדרישות, אך אינו מהווה ייעוץ משפטי."
+
+msgid "Consent Log"
+msgstr "יומן הסכמה"
+
+msgid "Consent Mode"
+msgstr "מצב הסכמה"
+
+msgid "Consent Mode v2"
+msgstr "מצב הסכמה v2"
+
+msgid "Consent logging is disabled."
+msgstr "רישום ההסכמה מושבת."
+
+msgid "Consent mode"
+msgstr "מצב הסכמה"
+
+msgid "Content from %s is blocked"
+msgstr "התוכן מ-%s חסום"
+
+msgid "Cookie Consent"
+msgstr "הסכמת Cookie"
+
+msgid "Cookie settings"
+msgstr "הגדרות Cookie"
+
+msgid "Corner radius (px)"
+msgstr "רדיוס פינות (px)"
+
+msgid "Custom CSS"
+msgstr "CSS מותאם אישית"
+
+msgid "Dark"
+msgstr "כהה"
+
+msgid "Dark colors"
+msgstr "צבעים כהים"
+
+msgid "Date (UTC)"
+msgstr "תאריך (UTC)"
+
+msgid "Design"
+msgstr "עיצוב"
+
+msgid "Desktop"
+msgstr "מחשב שולחני"
+
+msgid "Devices"
+msgstr "מכשירים"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "אל תמכרו או תשתפו את המידע האישי שלי"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr "הורידו את כל ההגדרות כקובץ JSON לשימוש באתר אחר."
+
+msgid "Edge offset (px)"
+msgstr "היסט היקפי (px)"
+
+msgid "Edit texts per language"
+msgstr "עריכת טקסטים לפי שפה"
+
+msgid "Embed consent category"
+msgstr "הטמעת קטגוריית הסכמה"
+
+msgid "Embed placeholders"
+msgstr "מצייני מיקום להטמעות"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"הטמעות נפתחות כשהמבקר מעניק לקטגוריה זו הסכמה (או לוחץ על \"אפשר\" במציין "
+"המיקום)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "הפעלת אותות Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "הפעל את הקטגוריה הזו"
+
+msgid "Engagement (last 30 days)"
+msgstr "מעורבות (30 הימים האחרונים)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"נהנים מ-Lynbro Cookie Consent? סקירה קצרה וכנה תעזור לבעלי אתרים אחרים למצוא"
+" אותו. בלי לחץ — רק אם יש לכם דקה."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"הזינו קוד אזור-מקום של WordPress (למשל pt_PT או ca) כדי להציע שפה שאינה "
+"כלולה בחבילה. לאחר השמירה, מלאו את הטקסטים שלה למטה."
+
+msgid "Exclude pages/posts"
+msgstr "החרגת עמודים/פוסטים"
+
+msgid "Export CSV"
+msgstr "ייצוא CSV"
+
+msgid "Export settings"
+msgstr "ייצוא הגדרות"
+
+msgid "Export settings (JSON)"
+msgstr "ייצוא הגדרות (JSON)"
+
+msgid "Feedback"
+msgstr "משוב"
+
+msgid "Feedback on this plugin"
+msgstr "משוב על התוסף הזה"
+
+msgid "Floating box (corner)"
+msgstr "תיבה צפה (פינה)"
+
+msgid "Floating settings button"
+msgstr "כפתור הגדרות צף"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "המרווח מהקצוות של המסך עבור פריסת התיבה הצפה."
+
+msgid "General"
+msgstr "כללי"
+
+msgid "Get support"
+msgstr "קבלת תמיכה"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "בקרת פרטיות גלובלית (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "ניגודיות טובה (%s:1) — עומד ב-WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"יש לכם רעיון, בעיה או בקשה? שלחו זאת ישירות למפתחים. זה לחלוטין אופציונלי "
+"ונשלח רק כשאתם לוחצים על שלח."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"עזרו לנו להבין כיצד מבקרים מקיימים אינטראקציה עם האתר על ידי איסוף ודיווח של"
+" מידע באופן אנונימי."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"כבדו את אות Global Privacy Control של הדפדפן. במצב opt-out (ארה\"ב/CCPA), "
+"מבקרים עם GPC מבוטלים אוטומטית ומוצגת להם הודעת אישור גלויה (נדרש בקליפורניה"
+" החל מ-2026)."
+
+msgid "Horizontal"
+msgstr "אופקי"
+
+msgid "How you compare"
+msgstr "ההשוואה שלכם"
+
+msgid "Icon"
+msgstr "סמל"
+
+msgid "Icon color"
+msgstr "צבע הסמל"
+
+msgid "Idea for a new feature or plugin"
+msgstr "רעיון לפיצ'ר חדש או לתוסף"
+
+msgid "Import settings"
+msgstr "ייבוא הגדרות"
+
+msgid "Importing overwrites your current settings."
+msgstr "הייבוא יחליף את ההגדרות הנוכחיות שלכם."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"הגדילו מספר זה בכל פעם שמדיניות העוגיות שלכם משתנה. המבקרים יתבקשו להסכים "
+"מחדש."
+
+msgid "Installed version"
+msgstr "גרסה מותקנת"
+
+msgid "Invalid security token."
+msgstr "אסימון אבטחה לא תקין."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"הוא עובד מיד מהקופסה עם ברירות מחדל מוכנות ל-GDPR — כפתור דחייה שווה וכל "
+"העוגיות שאינן חיוניות נחסמות עד לקבלת הסכמה."
+
+msgid "Language"
+msgstr "שפה"
+
+msgid "Language downloaded and activated."
+msgstr "השפה הורדה והופעלה."
+
+msgid "Language settings saved."
+msgstr "הגדרות השפה נשמרו."
+
+msgid "Language switches"
+msgstr "מחליפי שפה"
+
+msgid "Languages"
+msgstr "שפות"
+
+msgid "Last 30 days"
+msgstr "30 הימים האחרונים"
+
+msgid "Last 365 days"
+msgstr "365 הימים האחרונים"
+
+msgid "Last 7 days"
+msgstr "7 הימים האחרונים"
+
+msgid "Leave a review"
+msgstr "השארת ביקורת"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "השאירו ריק כדי להשתמש בצבע כפתור קבל."
+
+msgid "Leave empty to use the Button text color."
+msgstr "השאירו ריק כדי להשתמש בצבע טקסט הכפתור."
+
+msgid "Leave empty to use the translated default."
+msgstr "השאירו ריק כדי להשתמש בברירת המחדל המתורגמת."
+
+msgid "Legal mode"
+msgstr "מצב משפטי"
+
+msgid "Light"
+msgstr "בהיר"
+
+msgid "Light colors"
+msgstr "צבעים בהירים"
+
+msgid "Linux"
+msgstr "לינוקס"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr "תצוגה מקדימה חיה (מתעדכנת בזמן שאתם משנים את הגדרות העיצוב והכלליות):"
+
+msgid "Load content from %s"
+msgstr "טעינת תוכן מ-%s"
+
+msgid "Local consent log"
+msgstr "יומן הסכמה מקומי"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr "ניגודיות נמוכה (%s:1). יש לשאוף לפחות ל-4.5:1 כדי לעמוד בתקן WCAG AA."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent הוא באנר קוקיות חינמי, פרטי-מראש, שנבנה על ידי Lynbro."
+" המטרה שלנו היא באנר יפהפה, רב-לשוני באמת, מוכן ל-GDPR/ePrivacy, עם כפתור "
+"דחייה שווה — ובלי מגבלות צפיות בעמודים, בלי חומת תשלום על הדברים החיוניים, "
+"ובלי מעקב בצד הלקוח."
+
+msgid "Manage opened"
+msgstr "ניהול פתוח"
+
+msgid "Manage preferences"
+msgstr "ניהול העדפות"
+
+msgid "Manage-preferences button"
+msgstr "כפתור ניהול העדפות"
+
+msgid "Marketing"
+msgstr "שיווק"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"הרוחב המקסימלי של התיבה הצפה ושל המודאל המרכזי. הגדירו 0 כדי להשתמש בברירת "
+"המחדל."
+
+msgid "Message"
+msgstr "הודעה"
+
+msgid "Method"
+msgstr "שיטה"
+
+msgid "Mobile"
+msgstr "נייד"
+
+msgid "Necessary"
+msgstr "נחוץ"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"קוקיות נחוצות תמיד פעילות ולא ניתן להשבית אותן. בחרו אילו קטגוריות "
+"אופציונליות המבקרים יכולים לשלוט בהן."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"צריכים שפה שאינה כלולה בחבילה? בקשו אותה ואנחנו ניצור אותה עבור האתר שלכם. "
+"קובץ התרגום נשמר בתיקיית ההעלאות שלכם (לעולם אינו נדרס בעדכון) ומופעל "
+"אוטומטית."
+
+msgid "No consent records yet."
+msgstr "עדיין אין רשומות הסכמה."
+
+msgid "No data yet."
+msgstr "עדיין אין נתונים."
+
+msgid "No file was uploaded."
+msgstr "לא הועלה קובץ."
+
+msgid "No thanks, don’t show this again"
+msgstr "לא תודה, אל תציג זאת שוב"
+
+msgid "Notice only"
+msgstr "הודעה בלבד"
+
+msgid "Off"
+msgstr "כבוי"
+
+msgid "Offered languages"
+msgstr "שפות מוצעות"
+
+msgid "Offset from corner (px)"
+msgstr "היסט מהפינה (px)"
+
+msgid "On"
+msgstr "פעיל"
+
+msgid "Once Weekly"
+msgstr "פעם בשבוע"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "רק אם תרצו תשובה. השאירו ריק כדי לשלוח באופן אנונימי."
+
+msgid "Opacity"
+msgstr "אטימות"
+
+msgid "Operating systems"
+msgstr "מערכות הפעלה"
+
+msgid "Opt-in everywhere"
+msgstr "הסכמה בכל מקום"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "הסכמה בכל מקום (GDPR — הבטוח ביותר)"
+
+msgid "Opt-out everywhere"
+msgstr "אי-הסכמה בכל מקום"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "אי-הסכמה בכל מקום (בסגנון CCPA)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"CSS אופציונלי שיוסף ל־stylesheet של הבאנר. יש לכוון לבחורים .lynbro-cc."
+
+msgid "Other"
+msgstr "אחר"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"דרוס כל טקסט בבאנר עבור שפה מסוימת. השאר שדה ריק כדי להשתמש בתרגום המצורף "
+"(או בברירת המחדל באנגלית). סדר עדיפות: הדריסה שלך → התרגום המצורף → ברירת "
+"המחדל."
+
+msgid "Overview"
+msgstr "סקירה כללית"
+
+msgid "Period"
+msgstr "תקופה"
+
+msgid "Please choose a valid language code."
+msgstr "נא לבחור קוד שפה תקין."
+
+msgid "Please enter a message before sending."
+msgstr "נא להזין הודעה לפני השליחה."
+
+msgid "Please upload a .json settings file."
+msgstr "נא להעלות קובץ הגדרות מסוג .json."
+
+msgid "Plugin home page"
+msgstr "דף הבית של התוסף"
+
+msgid "Policy URL"
+msgstr "כתובת ה־URL של המדיניות"
+
+msgid "Policy version"
+msgstr "גרסת המדיניות"
+
+msgid "Position"
+msgstr "מיקום"
+
+msgid "Preferences"
+msgstr "העדפות"
+
+msgid "Privacy Policy & Terms"
+msgstr "מדיניות פרטיות ותנאים"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "כתובת ה־URL של מדיניות הפרטיות/קובצי ה־Cookie"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"סטטיסטיקות פרטיות ללא קובצי Cookie, הנשמרות רק במסד הנתונים שלך. הן מצטברות "
+"לחלוטין — ללא כתובת IP, ללא מזהה מבקר וללא תיעוד של מידע אישי. לכן, "
+"סטטיסטיקות אלו כשלעצמן אינן מחייבות הסכמה."
+
+msgid "Read more"
+msgstr "קרא עוד"
+
+msgid "Recent consent records"
+msgstr "רשומות הסכמה אחרונות"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"רשומות ישנות מכך יימחקו אוטומטית. הגדר 0 כדי לשמור את הרשומות ללא הגבלת זמן."
+
+msgid "Region"
+msgstr "אזור"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"האזור מזוהה מכותרות CDN/edge (למשל Cloudflare). כאשר אינו ידוע, נעשה שימוש "
+"במודל ההסכמה הבטוח ביותר. לא מתבצעת קריאת API חיצונית לקביעת מיקום."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"רישום כספק ההסכמה עבור תוסף WP Consent API והודעה לתוספים אחרים על בחירת "
+"המבקר (תפקודי, העדפות, סטטיסטיקה, שיווק)."
+
+msgid "Reject all"
+msgstr "דחיית הכול"
+
+msgid "Reject button"
+msgstr "לחצן דחייה"
+
+msgid "Report a bug"
+msgstr "דיווח על באג"
+
+msgid "Request a language"
+msgstr "בקשת שפה"
+
+msgid "Request this language"
+msgstr "בקשת שפה זו"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"נדרשים כדי שהאתר יפעל ואי אפשר לכבותם. בדרך כלל הם מוגדרים בתגובה לפעולות "
+"שלך, כמו הגדרת העדפות פרטיות או התחברות."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"שקיפות במצב מנוחה (0.2–1.0). הכפתור נעשה אטום לחלוטין בעת ריחוף או מיקוד. "
+"ברירת המחדל היא 0.55."
+
+msgid "Retention (days)"
+msgstr "שמירה (ימים)"
+
+msgid "Round"
+msgstr "עיגול"
+
+msgid "Rounded"
+msgstr "מעוגל"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr "עיגול הפינות של הבאנר, התיבה והמודל. הגדר 0 כדי להשתמש בברירת המחדל."
+
+msgid "Save language settings"
+msgstr "שמור הגדרות שפה"
+
+msgid "Save preferences"
+msgstr "שמור העדפות"
+
+msgid "Save-preferences button"
+msgstr "כפתור שמירת העדפות"
+
+msgid "Send feedback"
+msgstr "שליחת משוב"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr "שולח רק את שם התוסף, הגרסה וקוד השפה לפורטל Lynbro. ראו את %s שלנו."
+
+msgid "Set"
+msgstr "הגדרה"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"מגדיר את כל אותות ההסכמה ל\"נדחה\" כברירת מחדל לפני ההסכמה, ואז מעדכן אותם "
+"בהתאם לבחירת המבקר (ad_storage, analytics_storage, ad_user_data, "
+"ad_personalization, functionality_storage, personalization_storage, "
+"security_storage)."
+
+msgid "Settings"
+msgstr "הגדרות"
+
+msgid "Settings imported successfully."
+msgstr "ההגדרות יובאו בהצלחה."
+
+msgid "Shape"
+msgstr "צורה"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"שתף סטטיסטיקות אנונימיות כדי לעזור לשפר את התוסף — וגם לראות כיצד שיעור "
+"האישור שלך בהשוואה לממוצע. כבוי כברירת מחדל. שולח רק מספרים מצטברים ואת "
+"דומיין האתר שלך (לעולם לא כתובות IP של מבקרים) לפורטל Lynbro, פעם בשבוע."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr "הצג קישור \"אל תמכור או שתף את המידע האישי שלי\" במצב ביטול הסכמה."
+
+msgid "Show floating settings button on the site"
+msgstr "הצג כפתור הגדרות צף באתר"
+
+msgid "Show language switcher"
+msgstr "הצג מחליף שפה"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"הצג את סמל העוגייה (מומלץ). כאשר כבוי, תווית הנגישות מוצגת במקום זאת ככפתור "
+"טקסט קטן."
+
+msgid "Size (px)"
+msgstr "גודל (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr "מצטערים, לא ניתן היה לאחזר את השפה הזו כעת. אנא נסו שוב מאוחר יותר."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "מצטערים, לא ניתן היה לשלוח את ההודעה. אנא נסו שוב מאוחר יותר."
+
+msgid "Square"
+msgstr "ריבוע"
+
+msgid "Stacking (z-index base)"
+msgstr "ערימה (בסיס z-index)"
+
+msgid "Statistics"
+msgstr "סטטיסטיקות"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"הסטטיסטיקות כבויות כרגע. הפעילו את \"איסוף סטטיסטיקות אנונימיות\" בלשונית "
+"כללי כדי להתחיל לאסוף נתונים מצטברים."
+
+msgid "Statistics are disabled."
+msgstr "הסטטיסטיקות מושבתות."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"אחסן הוכחת הסכמה המכבדת פרטיות במסד הנתונים שלך. לא נשמרת כתובת IP גולמית — "
+"רק גיבוב מונח מלח ומאנונימי לצורך מניעת כפילויות."
+
+msgid "Tablet"
+msgstr "טאבלט"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "ספרו לנו מה דעתכם, מה חסר, או מה השתבש…"
+
+msgid "Text color"
+msgstr "צבע טקסט"
+
+msgid "Thank you! Your message was sent."
+msgstr "תודה! ההודעה שלך נשלחה."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"שיעור האישור הממוצע באתרים שהצטרפו הוא %s%%. שלכם יופיע כאן ברגע שמבקרים "
+"יתחילו לבחור."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"שפת הבאנר פועלת לפי שרשרת בטוחה למטמון: שפת הדף הנוכחי "
+"(Polylang/WPML/TranslatePress), ואז שפת האתר שלך, ואז אנגלית. זיהוי אוטומטי "
+"של הדפדפן ומחליף השפה האופציונלי בתוך הבאנר פועלים לחלוטין בדפדפן של המבקר, "
+"כך שהמטמון של הדף שלך אינו מושפע כלל."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "הקובץ אינו מכיל הגדרות תקפות של Lynbro Cookie Consent."
+
+msgid "Theme"
+msgstr "ערכת עיצוב"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"אלו הן השפות שהוכנו לזיהוי אוטומטי של הדפדפן ולמחליף. שפות עם תרגום מובנה "
+"מופיעות כאן אוטומטית. שפת האתר שלך תמיד כלולה."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"זה משלים סימון ידני של סקריפטים. כל הזיהוי מתבצע מקומית; לא נשלחת בקשה "
+"חיצונית."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr "תוסף זה מסייע בעמידה בדרישות עוגיות אך אינו מהווה ייעוץ משפטי."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"טיפ: לנוסח הקשור לעוגיות/הסכמה עשויות להיות השלכות משפטיות. יש לבקש מאדם "
+"המכיר את תחום השיפוט שלכם לבדוק את החלקים המשפטיים של כל תרגום."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"כדי לצפות בתוכן זה מ-%s, עליכם לקבל את העוגיות הרלוונטיות. הספק עשוי להגדיר "
+"עוגיות ולאסוף נתונים אישיים."
+
+msgid "Today"
+msgstr "היום"
+
+msgid "Too many requests."
+msgstr "יותר מדי בקשות."
+
+msgid "Tools"
+msgstr "כלים"
+
+msgid "Top bar"
+msgstr "סרגל עליון"
+
+msgid "Top left"
+msgstr "שמאל למעלה"
+
+msgid "Top right"
+msgstr "ימין למעלה"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "סה\"כ רשומות: %d (מוצגות 50 האחרונות)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"ביטול הסימון של אפשרות זו יסתיר את הכפתור הצף לחלוטין — המבקרים לא יראו דרך "
+"לפתוח שוב את הגדרות העוגיות שלהם (אלא אם תוסיפו את "
+"ה-[lynbro_cookie_settings] shortcode במקום כלשהו)."
+
+msgid "Updates"
+msgstr "עדכונים"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"העדכונים נמסרים אוטומטית דרך WordPress.org — אין מנגנון עדכון מותאם אישית, "
+"והגרסה החינמית לעולם לא יוצרת קשר עם השרת."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"משמש כהסבר קצר וכתווית לקורא מסך. השאירו ריק כדי להשתמש בערך ברירת המחדל "
+"המתורגם."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "משמש רק כאשר המיקום הוא \"תיבה צפה\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"משמש למעקב אחר מבקרים בין אתרים כדי להציג פרסום רלוונטי ולמדוד את יעילות "
+"הקמפיינים."
+
+msgid "Version & updates"
+msgstr "גרסה ועדכונים"
+
+msgid "Vertical"
+msgstr "אנכי"
+
+msgid "View changelog"
+msgstr "הצגת יומן השינויים"
+
+msgid "Visibility"
+msgstr "נראות"
+
+msgid "Visit Lynbro"
+msgstr "בקרו ב-Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"זיהינו אות Global Privacy Control והסרנו את הסכמתכם אוטומטית לעוגיות שאינן "
+"חיוניות."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"אנו משתמשים בעוגיות כדי לשפר את חוויית הגלישה שלכם, להציג תוכן מותאם אישית "
+"ולנתח את התנועה באתר. תוכלו לאשר את כל העוגיות, לדחות את הלא-חיוניות, או "
+"לנהל את ההעדפות שלכם."
+
+msgid "We value your privacy"
+msgstr "הפרטיות שלכם חשובה לנו"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "הרוחב והגובה של הכפתור (24–96). ברירת המחדל היא 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "כתיבת ביקורת"
+
+msgid "Yesterday"
+msgstr "אתמול"
+
+msgid "You can still block your own scripts manually:"
+msgstr "עדיין תוכלו לחסום ידנית את הסקריפטים שלכם:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "אין לכם הרשאות מספיקות כדי לגשת לדף זה."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"שיעור ההסכמה שלכם ב-7 הימים האחרונים הוא %1$s%%. הממוצע באתרים עם הצטרפות "
+"הוא %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "באנר ההסכמה שלכם פעיל"
+
+msgid "Your email (optional)"
+msgstr "האימייל שלכם (אופציונלי)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"ההודעה שלכם, גרסת התוסף ודומיין האתר שלכם נשלחים לפורטל של Lynbro. ראו את %s"
+" שלנו."
+
+msgid "\"Read more\" link"
+msgstr "קישור \"קראו עוד\""
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "שפת האתר"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"מכין את השפה שלכם… זה עשוי להימשך כדקה בפעם הראשונה. ההתקנה תתבצע אוטומטית —"
+" תוכלו להמשיך לעבוד."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "השפה מוכנה והופעלה: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "לא ניתן היה להכין: %s. נסו שוב מאוחר יותר."
+
+msgid "Accessibility"
+msgstr "נגישות"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"להחיל את קביעת העיצוב המוגדרת מראש הזו? פעולה זו תחליף את הגדרות העיצוב "
+"הנוכחיות שלך (עדיין אפשר לעבור עליהן לפני השמירה)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "פלטת צבעים רגועה, בעלת ניגודיות נמוכה, בתיבה עם פינות מעוגלות."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "חלון דיאלוג ממורכז עם שכבת כיסוי מעומעמת, ערכת עיצוב כהה."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "הצבעים עומדים בדרישות הנגישות WCAG AA"
+
+msgid "Design presets"
+msgstr "קביעות עיצוב מוגדרות מראש"
+
+msgid "Details"
+msgstr "פרטים"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "סרגל ברוחב מלא בתחתית, בהיר וניטרלי."
+
+msgid "Hide details"
+msgstr "הסתר פרטים"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"נקודות התחלה בלחיצה אחת. החלת קביעה מוגדרת מראש תמלא את שדות העיצוב שלמטה "
+"ותעדכן את התצוגה המקדימה החיה — עברו עליה ואז שמרו שינויים כדי לשמור אותה."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"הקביעה המוגדרת מראש הוחלה. עברו על התצוגה המקדימה ואז שמרו שינויים כדי לשמור"
+" אותה."
+
+msgid "Preview device width"
+msgstr "רוחב התקן התצוגה המקדימה"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "סרגל דק ומרובע המעוגן בראש הדף."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "כרטיס צף רך בפינה הימנית התחתונה."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "לחלק מהצבעים יש ניגודיות נמוכה (%s) — ראו פרטים."

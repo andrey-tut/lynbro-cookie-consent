@@ -1,0 +1,1199 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s секунд (від показу банера до вибору відвідувача)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Невелика кнопка лише з іконкою, яка дозволяє відвідувачам знову відкрити "
+"налаштування файлів cookie після того, як вони зробили вибір. Вона "
+"автоматично приховується, коли відкрито банер або діалог налаштувань."
+
+msgid "About"
+msgstr "Про"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Про Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Прийняти все"
+
+msgid "Accept button"
+msgstr "Кнопка «Прийняти»"
+
+msgid "Accept rate"
+msgstr "Рівень прийняття"
+
+msgid "Accessible label"
+msgstr "Доступний напис"
+
+msgid "Add a custom language"
+msgstr "Додати власну мову"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Додайте до банера невеликий випадаючий список мов, щоб відвідувачі могли "
+"вручну перемикати мову (їхній вибір зберігається)."
+
+msgid "Add your privacy policy link"
+msgstr "Додайте посилання на вашу політику конфіденційності"
+
+msgid "Additional CSS"
+msgstr "Додатковий CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Дозвольте вебсайту запам’ятовувати ваші вибори (наприклад, мову або регіон),"
+" щоб надавати розширені персоналізовані функції."
+
+msgid "Already downloaded on demand:"
+msgstr "Уже завантажено на вимогу:"
+
+msgid "Always allow %s"
+msgstr "Завжди дозволяти %s"
+
+msgid "Always on"
+msgstr "Завжди увімкнено"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Анонімна статистика"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Авто (слідувати системним налаштуванням відвідувача)"
+
+msgid "Auto by region"
+msgstr "Автоматично за регіоном"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"Автоматично за регіоном (ЄС — за згодою, США — відмова, решта — за вибором)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Авто використовує світлу кольорову схему за замовчуванням і темну, коли "
+"пристрій відвідувача надає перевагу темній кольоровій схемі."
+
+msgid "Auto-block trackers"
+msgstr "Автоблокування трекерів"
+
+msgid "Auto-detect visitor language"
+msgstr "Автовизначення мови відвідувача"
+
+msgid "Automatic tracker blocking"
+msgstr "Автоматичне блокування трекерів"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Автоматично блокуйте відомі сторонні трекери (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity та інші) до надання відповідної категорії."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Автоматично показувати банер мовою браузера відвідувача, якщо вона є серед "
+"доступних мов."
+
+msgid "Average time to decision"
+msgstr "Середній час до прийняття рішення"
+
+msgid "Background color"
+msgstr "Колір фону"
+
+msgid "Banner background"
+msgstr "Фон банера"
+
+msgid "Banner description"
+msgstr "Опис банера"
+
+msgid "Banner max width (px)"
+msgstr "Макс. ширина банера (px)"
+
+msgid "Banner shown"
+msgstr "Банер показано"
+
+msgid "Banner text on background"
+msgstr "Текст банера на фоні"
+
+msgid "Banner title"
+msgstr "Заголовок банера"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Базовий z-index для банера, накладання, модального вікна та плаваючої "
+"кнопки. Збільште його, якщо інший елемент перекриває банер; зменште, якщо "
+"банер перекриває те, що не повинен."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Дозволено базовий HTML: посилання, жирний, курсив, розриви рядків. Залиште "
+"порожнім для перекладеного значення за замовчуванням."
+
+msgid "Benchmark sharing"
+msgstr "Поширення бенчмарків"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Поширення бенчмарків увімкнено. Ваше перше порівняння з’явиться тут після "
+"виконання щотижневого звіту."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Блокуйте вбудований вміст (YouTube, Vimeo, Google Maps, соцмережеві "
+"вбудовування, reCAPTCHA та інше) до отримання згоди, показуючи акуратний "
+"заповнювач із кнопкою «дозволити»."
+
+msgid "Blocking & Embeds"
+msgstr "Блокування та вбудовування"
+
+msgid "Bottom bar"
+msgstr "Нижня панель"
+
+msgid "Bottom left"
+msgstr "Внизу ліворуч"
+
+msgid "Bottom right"
+msgstr "Внизу праворуч"
+
+msgid "Box corner"
+msgstr "Кутовий блок"
+
+msgid "Browser languages"
+msgstr "Мови браузера"
+
+msgid "Button icon"
+msgstr "Іконка кнопки"
+
+msgid "Button text"
+msgstr "Текст кнопки"
+
+msgid "Button text on Accept button"
+msgstr "Текст кнопки «Прийняти»"
+
+msgid "Button text on Reject button"
+msgstr "Текст кнопки «Відхилити»"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr ""
+"Посилання для відмови від продажу або передання персональної інформації за "
+"CCPA / CPRA"
+
+msgid "Categories"
+msgstr "Категорії"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Category “%s” — description"
+msgstr "Категорія «%s» — опис"
+
+msgid "Category “%s” — name"
+msgstr "Категорія «%s» — назва"
+
+msgid "Center modal (with overlay)"
+msgstr "По центру (з накладанням)"
+
+msgid "Choose language"
+msgstr "Вибрати мову"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Збирати анонімну статистику (скільки відвідувачів приймають, відхиляють або "
+"відкривають налаштування). Повністю агреговано та без cookie — IP-адреса й "
+"персональні дані не зберігаються. Відображається на вкладці «Статистика»."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"ID сторінок/записів, розділені комами, де банер не має показуватися "
+"(наприклад, цільові сторінки)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Налаштуйте свій банер cookie для GDPR/ePrivacy та Google Consent Mode v2. "
+"Цей плагін допомагає з дотриманням вимог, але не є юридичною консультацією."
+
+msgid "Consent Log"
+msgstr "Журнал згоди"
+
+msgid "Consent Mode"
+msgstr "Режим згоди"
+
+msgid "Consent Mode v2"
+msgstr "Режим згоди v2"
+
+msgid "Consent logging is disabled."
+msgstr "Журналювання згоди вимкнено."
+
+msgid "Consent mode"
+msgstr "Режим згоди"
+
+msgid "Content from %s is blocked"
+msgstr "Вміст із %s заблоковано"
+
+msgid "Cookie Consent"
+msgstr "Згода на файли cookie"
+
+msgid "Cookie settings"
+msgstr "Налаштування cookie"
+
+msgid "Corner radius (px)"
+msgstr "Радіус кутів (px)"
+
+msgid "Custom CSS"
+msgstr "Власний CSS"
+
+msgid "Dark"
+msgstr "Темна"
+
+msgid "Dark colors"
+msgstr "Темні кольори"
+
+msgid "Date (UTC)"
+msgstr "Дата (UTC)"
+
+msgid "Design"
+msgstr "Дизайн"
+
+msgid "Desktop"
+msgstr "Комп’ютер"
+
+msgid "Devices"
+msgstr "Пристрої"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Не продавати та не передавати мою особисту інформацію"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Завантажте всі налаштування як файл JSON, щоб використати їх на іншому "
+"сайті."
+
+msgid "Edge offset (px)"
+msgstr "Зсув від краю (px)"
+
+msgid "Edit texts per language"
+msgstr "Редагувати тексти за мовами"
+
+msgid "Embed consent category"
+msgstr "Вбудувати категорію згоди"
+
+msgid "Embed placeholders"
+msgstr "Заповнювачі для вбудовувань"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Вбудовування розблоковуються, коли відвідувач надає згоду на цю категорію "
+"(або натискає \"дозволити\" на заповнювачі)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Увімкнути сигнали Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "Увімкнути цю категорію"
+
+msgid "Engagement (last 30 days)"
+msgstr "Залучення (останні 30 днів)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Подобається Lynbro Cookie Consent? Короткий чесний відгук допоможе іншим "
+"власникам сайтів знайти його. Без тиску — лише якщо маєте хвилинку."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Введіть код локалі WordPress (наприклад, pt_PT або ca), щоб запропонувати "
+"мову, яка не входить до комплекту. Після збереження заповніть її тексти "
+"нижче."
+
+msgid "Exclude pages/posts"
+msgstr "Виключити сторінки/записи"
+
+msgid "Export CSV"
+msgstr "Експортувати CSV"
+
+msgid "Export settings"
+msgstr "Експортувати налаштування"
+
+msgid "Export settings (JSON)"
+msgstr "Експортувати налаштування (JSON)"
+
+msgid "Feedback"
+msgstr "Відгук"
+
+msgid "Feedback on this plugin"
+msgstr "Відгук про цей плагін"
+
+msgid "Floating box (corner)"
+msgstr "Плаваючий блок (у куті)"
+
+msgid "Floating settings button"
+msgstr "Плаваюча кнопка налаштувань"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Відступ від країв екрана для макета плаваючого блока."
+
+msgid "General"
+msgstr "Загальні"
+
+msgid "Get support"
+msgstr "Отримати підтримку"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Добрий контраст (%s:1) — відповідає WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Маєте ідею, проблему або запит? Надішліть її прямо розробникам. Це цілком "
+"необов’язково і надсилається лише після натискання «Надіслати»."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Допоможіть нам зрозуміти, як відвідувачі взаємодіють із вебсайтом, збираючи "
+"та надсилаючи інформацію анонімно."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Дотримуйтесь сигналу Global Privacy Control у браузері. У режимі відмови "
+"(US/CCPA) відвідувачі з GPC автоматично вважаються тими, хто відмовився, і "
+"бачать видиме підтвердження (вимога Каліфорнії з 2026 року)."
+
+msgid "Horizontal"
+msgstr "Горизонтальний"
+
+msgid "How you compare"
+msgstr "Ваше порівняння"
+
+msgid "Icon"
+msgstr "Іконка"
+
+msgid "Icon color"
+msgstr "Колір іконки"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Ідея для нової функції або плагіна"
+
+msgid "Import settings"
+msgstr "Імпортувати налаштування"
+
+msgid "Importing overwrites your current settings."
+msgstr "Імпортування перезапише ваші поточні налаштування."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Збільшуйте це число щоразу, коли змінюється ваша політика щодо файлів "
+"cookie. У відвідувачів знову запитають згоду."
+
+msgid "Installed version"
+msgstr "Встановлена версія"
+
+msgid "Invalid security token."
+msgstr "Недійсний токен безпеки."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Працює одразу з готовими налаштуваннями, що відповідають GDPR — рівноцінна "
+"кнопка «Відхилити» та блокування неосновних файлів cookie до отримання "
+"згоди."
+
+msgid "Language"
+msgstr "Мова"
+
+msgid "Language downloaded and activated."
+msgstr "Мову завантажено та активовано."
+
+msgid "Language settings saved."
+msgstr "Налаштування мови збережено."
+
+msgid "Language switches"
+msgstr "Перемикачі мов"
+
+msgid "Languages"
+msgstr "Мови"
+
+msgid "Last 30 days"
+msgstr "Останні 30 днів"
+
+msgid "Last 365 days"
+msgstr "Останні 365 днів"
+
+msgid "Last 7 days"
+msgstr "Останні 7 днів"
+
+msgid "Leave a review"
+msgstr "Залишити відгук"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Залиште порожнім, щоб використати колір кнопки «Прийняти»."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Залиште порожнім, щоб використати колір тексту кнопки."
+
+msgid "Leave empty to use the translated default."
+msgstr ""
+"Залиште порожнім, щоб використати перекладене значення за замовчуванням."
+
+msgid "Legal mode"
+msgstr "Юридичний режим"
+
+msgid "Light"
+msgstr "Світлий"
+
+msgid "Light colors"
+msgstr "Світлі кольори"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Попередній перегляд у реальному часі (оновлюється під час зміни налаштувань "
+"Дизайну та Загальних налаштувань):"
+
+msgid "Load content from %s"
+msgstr "Завантажити вміст із %s"
+
+msgid "Local consent log"
+msgstr "Локальний журнал згоди"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Низький контраст (%s:1). Прагніть щонайменше до 4.5:1, щоб відповідати WCAG "
+"AA."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent — це безкоштовний банер про cookies з пріоритетом "
+"приватності, створений Lynbro. Наша мета — красивий, справді багатомовний "
+"банер, готовий до GDPR/ePrivacy, із рівноправною кнопкою Відхилити — без "
+"лімітів переглядів сторінок, без платного доступу до основних функцій і без "
+"відстеження на фронтенді."
+
+msgid "Manage opened"
+msgstr "Керування відкрито"
+
+msgid "Manage preferences"
+msgstr "Керувати налаштуваннями"
+
+msgid "Manage-preferences button"
+msgstr "Кнопка керування налаштуваннями"
+
+msgid "Marketing"
+msgstr "Маркетинг"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Максимальна ширина плаваючого блоку та центрального модального вікна. "
+"Встановіть 0, щоб використовувати значення за замовчуванням."
+
+msgid "Message"
+msgstr "Повідомлення"
+
+msgid "Method"
+msgstr "Метод"
+
+msgid "Mobile"
+msgstr "Мобільний"
+
+msgid "Necessary"
+msgstr "Необхідні"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Необхідні cookies завжди активні й не можуть бути вимкнені. Оберіть, які "
+"додаткові категорії можуть контролювати відвідувачі."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Потрібна мова, якої немає в комплекті? Запросіть її, і ми згенеруємо її для "
+"вашого сайту. Файл перекладу зберігається у вашій папці uploads (ніколи не "
+"перезаписується під час оновлення) та активується автоматично."
+
+msgid "No consent records yet."
+msgstr "Поки що немає записів про згоду."
+
+msgid "No data yet."
+msgstr "Поки що немає даних."
+
+msgid "No file was uploaded."
+msgstr "Файл не було завантажено."
+
+msgid "No thanks, don’t show this again"
+msgstr "Ні, дякую, не показувати це знову"
+
+msgid "Notice only"
+msgstr "Лише повідомлення"
+
+msgid "Off"
+msgstr "Вимкнено"
+
+msgid "Offered languages"
+msgstr "Доступні мови"
+
+msgid "Offset from corner (px)"
+msgstr "Зсув від кута (px)"
+
+msgid "On"
+msgstr "Увімкнено"
+
+msgid "Once Weekly"
+msgstr "Раз на тиждень"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr ""
+"Лише якщо ви хочете отримати відповідь. Залиште порожнім, щоб надіслати "
+"анонімно."
+
+msgid "Opacity"
+msgstr "Непрозорість"
+
+msgid "Operating systems"
+msgstr "Операційні системи"
+
+msgid "Opt-in everywhere"
+msgstr "Opt-in скрізь"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Opt-in скрізь (GDPR — найбезпечніше)"
+
+msgid "Opt-out everywhere"
+msgstr "Opt-out скрізь"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Opt-out скрізь (стиль CCPA)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Додатковий CSS, що додається до таблиці стилів банера. Цільтеся в селектори "
+".lynbro-cc."
+
+msgid "Other"
+msgstr "Інше"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Перевизначте будь-який текст банера для певної мови. Залиште поле порожнім, "
+"щоб використати вбудований переклад (або стандартний англійський). "
+"Пріоритет: ваше перевизначення → вбудований переклад → стандартний текст."
+
+msgid "Overview"
+msgstr "Огляд"
+
+msgid "Period"
+msgstr "Період"
+
+msgid "Please choose a valid language code."
+msgstr "Будь ласка, виберіть дійсний код мови."
+
+msgid "Please enter a message before sending."
+msgstr "Будь ласка, введіть повідомлення перед надсиланням."
+
+msgid "Please upload a .json settings file."
+msgstr "Будь ласка, завантажте файл налаштувань .json."
+
+msgid "Plugin home page"
+msgstr "Домашня сторінка плагіна"
+
+msgid "Policy URL"
+msgstr "URL політики"
+
+msgid "Policy version"
+msgstr "Версія політики"
+
+msgid "Position"
+msgstr "Розташування"
+
+msgid "Preferences"
+msgstr "Налаштування"
+
+msgid "Privacy Policy & Terms"
+msgstr "Політика конфіденційності та умови"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "URL політики конфіденційності/файлів cookie"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Приватна статистика без файлів cookie, що зберігається лише у вашій базі "
+"даних. Вона повністю агрегована — не записуються ані IP-адреса, ані "
+"ідентифікатор відвідувача, ані будь-які персональні дані. Через це така "
+"статистика сама по собі не потребує згоди."
+
+msgid "Read more"
+msgstr "Докладніше"
+
+msgid "Recent consent records"
+msgstr "Нещодавні записи згоди"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Записи, старіші за цей термін, видаляються автоматично. Встановіть 0, щоб "
+"зберігати записи безстроково."
+
+msgid "Region"
+msgstr "Регіон"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Регіон визначається за заголовками CDN/edge (наприклад, Cloudflare). Коли "
+"регіон невідомий, використовується найбезпечніша модель opt-in. Зовнішні API"
+" геолокації не викликаються."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Реєструється як постачальник згоди для плагіна WP Consent API та сповіщає "
+"інші плагіни про вибір відвідувача (функціональні, налаштування, статистика,"
+" маркетинг)."
+
+msgid "Reject all"
+msgstr "Відхилити все"
+
+msgid "Reject button"
+msgstr "Кнопка відхилення"
+
+msgid "Report a bug"
+msgstr "Повідомити про помилку"
+
+msgid "Request a language"
+msgstr "Запросити мову"
+
+msgid "Request this language"
+msgstr "Запросити цю мову"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Потрібні для роботи вебсайту й не можуть бути вимкнені. Зазвичай вони "
+"встановлюються у відповідь на ваші дії, наприклад налаштування "
+"конфіденційності або вхід у систему."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Прозорість у спокійному стані (0.2–1.0). Під час наведення або фокусування "
+"кнопка стає повністю непрозорою. За замовчуванням — 0.55."
+
+msgid "Retention (days)"
+msgstr "Зберігання (дні)"
+
+msgid "Round"
+msgstr "Заокруглити"
+
+msgid "Rounded"
+msgstr "Заокруглений"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Заокруглення кутів банера, блоку та модального вікна. Встановіть 0, щоб "
+"використати значення за замовчуванням."
+
+msgid "Save language settings"
+msgstr "Зберегти налаштування мови"
+
+msgid "Save preferences"
+msgstr "Зберегти налаштування"
+
+msgid "Save-preferences button"
+msgstr "Кнопка збереження налаштувань"
+
+msgid "Send feedback"
+msgstr "Надіслати відгук"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Надсилає до порталу Lynbro лише назву плагіна, версію та код мови. Див. наш "
+"%s."
+
+msgid "Set"
+msgstr "Встановити"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"За замовчуванням встановлює всі сигнали згоди як \"відхилено\" до отримання "
+"згоди, а потім оновлює їх на основі вибору відвідувача (ad_storage, "
+"analytics_storage, ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Налаштування"
+
+msgid "Settings imported successfully."
+msgstr "Налаштування успішно імпортовано."
+
+msgid "Shape"
+msgstr "Форма"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Діліться анонімною статистикою, щоб допомогти покращити плагін — і "
+"подивитися, як ваш рівень прийняття порівнюється із середнім. Вимкнено за "
+"замовчуванням. Надсилає до порталу Lynbro лише агреговані показники та домен"
+" вашого сайту (ніколи IP відвідувачів) раз на тиждень."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Показувати посилання \"Do Not Sell or Share My Personal Information\" у "
+"режимі відмови."
+
+msgid "Show floating settings button on the site"
+msgstr "Показувати плаваючу кнопку налаштувань на сайті"
+
+msgid "Show language switcher"
+msgstr "Показувати перемикач мов"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Показувати піктограму файлів cookie (рекомендовано). Коли вимкнено, замість "
+"неї відображається доступна текстова кнопка-мітка."
+
+msgid "Size (px)"
+msgstr "Розмір (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr "Вибачте, цю мову зараз не вдалося отримати. Спробуйте ще раз пізніше."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "Вибачте, не вдалося надіслати повідомлення. Спробуйте ще раз пізніше."
+
+msgid "Square"
+msgstr "Квадрат"
+
+msgid "Stacking (z-index base)"
+msgstr "Накладання (базовий z-index)"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Статистику наразі вимкнено. Увімкніть «Збирати анонімну статистику» на "
+"вкладці «Загальні», щоб почати збирати агреговані показники."
+
+msgid "Statistics are disabled."
+msgstr "Статистику вимкнено."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Зберігайте у власній базі даних доказ згоди, що відповідає принципам "
+"приватності. Жодної сирої IP-адреси не зберігається — лише хеш із сіллю, "
+"анонімізований для усунення дублювань."
+
+msgid "Tablet"
+msgstr "Планшет"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Розкажіть, що ви думаєте, чого бракує або що пішло не так…"
+
+msgid "Text color"
+msgstr "Колір тексту"
+
+msgid "Thank you! Your message was sent."
+msgstr "Дякуємо! Ваше повідомлення надіслано."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Середній рівень прийняття серед сайтів, що надали згоду, становить %s%%. Ваш"
+" показник з’явиться тут, щойно відвідувачі почнуть обирати."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Мова банера дотримується безпечної для кешу послідовності: поточна мова "
+"сторінки (Polylang/WPML/TranslatePress), потім мова вашого сайту, далі "
+"англійська. Автовизначення в браузері та необов’язковий перемикач у банері "
+"працюють повністю в браузері відвідувача, тож кеш вашої сторінки ніколи не "
+"зачіпається."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Файл не містить дійсних налаштувань Lynbro Cookie Consent."
+
+msgid "Theme"
+msgstr "Тема"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Це мови, підготовлені для автовизначення в браузері та перемикача. Мови з "
+"вбудованим перекладом з’являються тут автоматично. Мова вашого сайту завжди "
+"включена."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Це доповнює ручне позначення скриптів. Усе визначення виконується локально; "
+"зовнішні запити не надсилаються."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Цей плагін допомагає забезпечити відповідність вимогам щодо файлів cookie, "
+"але не є юридичною консультацією."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Порада: формулювання щодо файлів cookie/згоди можуть мати юридичні наслідки."
+" Попросіть людину, обізнану у вашій юрисдикції, перевірити юридичні частини "
+"будь-якого перекладу."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Щоб переглянути цей вміст із %s, вам потрібно прийняти відповідні файли "
+"cookie. Постачальник може встановлювати файли cookie та збирати персональні "
+"дані."
+
+msgid "Today"
+msgstr "Сьогодні"
+
+msgid "Too many requests."
+msgstr "Забагато запитів."
+
+msgid "Tools"
+msgstr "Інструменти"
+
+msgid "Top bar"
+msgstr "Верхня панель"
+
+msgid "Top left"
+msgstr "Угорі ліворуч"
+
+msgid "Top right"
+msgstr "Угорі праворуч"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Усього записів: %d (показано 50 останніх)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Якщо зняти прапорець, плаваючу кнопку буде повністю приховано — відвідувачі "
+"не зможуть знову відкрити налаштування файлів cookie (якщо ви не додасте "
+"shortcode [lynbro_cookie_settings] десь на сайті)."
+
+msgid "Updates"
+msgstr "Оновлення"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Оновлення доставляються автоматично через WordPress.org — тут немає власного"
+" оновлювача, і безплатна версія нікуди не надсилає дані."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Використовується як підказка та мітка для читача екрана. Залиште порожнім "
+"для перекладеного значення за замовчуванням."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Використовується лише коли Position — \"Плаваюче вікно\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Використовується для відстеження відвідувачів між сайтами, щоб показувати "
+"релевантну рекламу та вимірювати ефективність кампаній."
+
+msgid "Version & updates"
+msgstr "Версія та оновлення"
+
+msgid "Vertical"
+msgstr "Вертикально"
+
+msgid "View changelog"
+msgstr "Переглянути журнал змін"
+
+msgid "Visibility"
+msgstr "Видимість"
+
+msgid "Visit Lynbro"
+msgstr "Відвідати Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Ми виявили сигнал Global Privacy Control і автоматично вимкнули для вас "
+"неосновні файли cookie."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Ми використовуємо файли cookie, щоб покращити ваш досвід перегляду, надавати"
+" персоналізований контент і аналізувати наш трафік. Ви можете прийняти всі "
+"файли cookie, відхилити неосновні або керувати своїми налаштуваннями."
+
+msgid "We value your privacy"
+msgstr "Ми цінуємо вашу конфіденційність"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Ширина і висота кнопки (24–96). За замовчуванням — 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Написати відгук"
+
+msgid "Yesterday"
+msgstr "Учора"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Ви все ще можете заблокувати власні скрипти вручну:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостатньо прав для доступу до цієї сторінки."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Ваш рівень прийняття за останні 7 днів становить %1$s%%. Середній показник "
+"серед сайтів, де користувачі дали згоду, — %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Ваш банер згоди активний"
+
+msgid "Your email (optional)"
+msgstr "Ваша електронна адреса (необов’язково)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Ваше повідомлення, версія плагіна та домен вашого сайту надсилаються до "
+"порталу Lynbro. Див. нашу %s."
+
+msgid "\"Read more\" link"
+msgstr "посилання «Читати далі»"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "мова сайту"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Підготовка вашої мови… Це може зайняти близько хвилини вперше. Її буде "
+"додано автоматично — ви можете продовжувати роботу."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Мову підготовлено й активовано: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Не вдалося підготувати: %s. Спробуйте ще раз пізніше."
+
+msgid "Accessibility"
+msgstr "Доступність"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Застосувати цей шаблон оформлення? Він замінить ваші поточні налаштування "
+"дизайну (ви все ще зможете переглянути їх перед збереженням)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr ""
+"Спокійна палітра з низьким контрастом у блоці із заокругленими кутами."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Діалогове вікно по центру із затемненим накладанням, темна тема."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Кольори відповідають вимогам доступності WCAG AA"
+
+msgid "Design presets"
+msgstr "Шаблони оформлення"
+
+msgid "Details"
+msgstr "Деталі"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Повнорозмірна панель унизу, світла й нейтральна."
+
+msgid "Hide details"
+msgstr "Приховати деталі"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Стартові варіанти в один клік. Застосування шаблону заповнює поля дизайну "
+"нижче та оновлює живий перегляд — перевірте його, а потім натисніть "
+"«Зберегти зміни», щоб зберегти."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Шаблон застосовано. Перевірте перегляд, а потім натисніть «Зберегти зміни», "
+"щоб зберегти."
+
+msgid "Preview device width"
+msgstr "Ширина пристрою для перегляду"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Вузька квадратна панель, закріплена вгорі сторінки."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "М’яка плаваюча картка в нижньому правому куті."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Деякі кольори мають низький контраст (%s) — див. деталі."

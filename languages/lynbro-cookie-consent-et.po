@@ -1,0 +1,1192 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s sekundit (alates bänneri kuvamisest kuni külastaja valikuni)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Väike ainult ikooniga nupp, mis võimaldab külastajatel pärast valiku "
+"tegemist küpsiste seaded uuesti avada. See on bänneri või eelistuste "
+"dialoogi avatud oleku ajal automaatselt peidetud."
+
+msgid "About"
+msgstr "Teave"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Teave Lynbro Cookie Consent kohta"
+
+msgid "Accept all"
+msgstr "Nõustu kõigiga"
+
+msgid "Accept button"
+msgstr "Nõustumisnupp"
+
+msgid "Accept rate"
+msgstr "Nõustumismäär"
+
+msgid "Accessible label"
+msgstr "Ligipääsetavuse silt"
+
+msgid "Add a custom language"
+msgstr "Lisa kohandatud keel"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Lisa bännerile väike keelevaliku rippmenüü, et külastajad saaksid keelt "
+"käsitsi vahetada (nende valik jäetakse meelde)."
+
+msgid "Add your privacy policy link"
+msgstr "Lisa oma privaatsuspoliitika link"
+
+msgid "Additional CSS"
+msgstr "Lisatud CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Lubage veebisaidil meeles pidada teie valikuid (nt keel või piirkond), et "
+"pakkuda täiustatud ja isikupärastatud funktsioone."
+
+msgid "Already downloaded on demand:"
+msgstr "Tellimusel juba alla laaditud:"
+
+msgid "Always allow %s"
+msgstr "Alati luba %s"
+
+msgid "Always on"
+msgstr "Alati sees"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Anonüümsed statistikaandmed"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Automaatne (järgib külastaja süsteemi)"
+
+msgid "Auto by region"
+msgstr "Automaatne piirkonna järgi"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"Automaatne piirkonna järgi (EL-is nõusolek, USA-s loobumine, mujal valiku "
+"järgi)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Automaatrežiim kasutab vaikimisi heledaid värve ja külastaja seadme "
+"eelistusel tumedat värviskeemi tumedaid värve."
+
+msgid "Auto-block trackers"
+msgstr "Blokeeri jälgijad automaatselt"
+
+msgid "Auto-detect visitor language"
+msgstr "Tuvasta külastaja keel automaatselt"
+
+msgid "Automatic tracker blocking"
+msgstr "Jälgijate automaatne blokeerimine"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Blokeeri teadaolevad kolmandate osapoolte jälgijad automaatselt (Google "
+"Analytics, GTM, Meta Pixel, Hotjar, Clarity ja teised) kuni vastava "
+"kategooria nõusolekuni."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Näita bännerit automaatselt külastaja brauseri keeles, kui see on üks "
+"pakutud keeltest."
+
+msgid "Average time to decision"
+msgstr "Keskmine aeg otsuseni"
+
+msgid "Background color"
+msgstr "Taustavärv"
+
+msgid "Banner background"
+msgstr "Bänneri taust"
+
+msgid "Banner description"
+msgstr "Bänneri kirjeldus"
+
+msgid "Banner max width (px)"
+msgstr "Bänneri maksimaalne laius (px)"
+
+msgid "Banner shown"
+msgstr "Bänner kuvatud"
+
+msgid "Banner text on background"
+msgstr "Bänneri tekst taustal"
+
+msgid "Banner title"
+msgstr "Bänneri pealkiri"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Bänneri, ülekatte, modali ja ujuvnupu põhine z-index. Suurenda seda, kui "
+"mõni muu element katab bänneri; vähenda seda, kui bänner katab midagi, mida "
+"ei peaks."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Lubatud on lihtne HTML: lingid, rasvane, kaldkiri, reavahetused. Jäta "
+"tühjaks, et kasutada tõlgitud vaikimisi teksti."
+
+msgid "Benchmark sharing"
+msgstr "Võrdlusandmete jagamine"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Võrdlusandmete jagamine on sisse lülitatud. Sinu esimene võrdlus ilmub siia "
+"pärast nädalaraporti käivitamist."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Blokeeri manustatud sisu (YouTube, Vimeo, Google Maps, sotsiaalmeedia "
+"manused, reCAPTCHA ja muu) kuni nõusolekuni, näidates korralikku kohatäidet "
+"koos nupuga „luba“."
+
+msgid "Blocking & Embeds"
+msgstr "Blokeerimised ja manused"
+
+msgid "Bottom bar"
+msgstr "Alumine riba"
+
+msgid "Bottom left"
+msgstr "All vasakul"
+
+msgid "Bottom right"
+msgstr "All paremal"
+
+msgid "Box corner"
+msgstr "Nurga kast"
+
+msgid "Browser languages"
+msgstr "Brauseri keeled"
+
+msgid "Button icon"
+msgstr "Nupu ikoon"
+
+msgid "Button text"
+msgstr "Nupu tekst"
+
+msgid "Button text on Accept button"
+msgstr "Nupu tekst nupul „Nõustu“"
+
+msgid "Button text on Reject button"
+msgstr "Nupu tekst nupul „Keeldu“"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "CCPA / CPRA loobumislink"
+
+msgid "Categories"
+msgstr "Kategooriad"
+
+msgid "Category"
+msgstr "Kategooria"
+
+msgid "Category “%s” — description"
+msgstr "Kategooria „%s“ — kirjeldus"
+
+msgid "Category “%s” — name"
+msgstr "Kategooria „%s“ — nimi"
+
+msgid "Center modal (with overlay)"
+msgstr "Keskel olev modaalaken (kattega)"
+
+msgid "Choose language"
+msgstr "Vali keel"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Kogu anonüümseid statistikaandmeid (mitu külastajat nõustub, keeldub või "
+"avab eelistused). Täielikult koondatud ja küpsisevaba — IP-aadressi ega "
+"isikuandmeid ei salvestata. Kuvatakse vahekaardil Statistika."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"Komadega eraldatud lehe-/postituse ID-d, millel bännerit ei kuvata (nt "
+"sihtlehed)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Sea üles oma GDPRi/ePrivaatsuse ja Google Consent Mode v2 küpsisebänner. See"
+" plugin aitab nõuetele vastavust tagada, kuid ei ole õigusnõu."
+
+msgid "Consent Log"
+msgstr "Nõusoleku logi"
+
+msgid "Consent Mode"
+msgstr "Nõusoleku režiim"
+
+msgid "Consent Mode v2"
+msgstr "Nõusoleku režiim v2"
+
+msgid "Consent logging is disabled."
+msgstr "Nõusoleku logimine on keelatud."
+
+msgid "Consent mode"
+msgstr "Nõusoleku režiim"
+
+msgid "Content from %s is blocked"
+msgstr "Sisu saidilt %s on blokeeritud"
+
+msgid "Cookie Consent"
+msgstr "Küpsiste nõusolek"
+
+msgid "Cookie settings"
+msgstr "Küpsiste seaded"
+
+msgid "Corner radius (px)"
+msgstr "Nurga raadius (px)"
+
+msgid "Custom CSS"
+msgstr "Kohandatud CSS"
+
+msgid "Dark"
+msgstr "Tume"
+
+msgid "Dark colors"
+msgstr "Tumedad värvid"
+
+msgid "Date (UTC)"
+msgstr "Kuupäev (UTC)"
+
+msgid "Design"
+msgstr "Kujundus"
+
+msgid "Desktop"
+msgstr "Töölaud"
+
+msgid "Devices"
+msgstr "Seadmed"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Ära müü ega jaga minu isikuandmeid"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Laadi kõik seaded JSON-failina alla, et kasutada neid teisel saidil uuesti."
+
+msgid "Edge offset (px)"
+msgstr "Serva nihe (px)"
+
+msgid "Edit texts per language"
+msgstr "Muuda tekste keele järgi"
+
+msgid "Embed consent category"
+msgstr "Kuva nõusolekukategooria"
+
+msgid "Embed placeholders"
+msgstr "Kuva kohahoidjad"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Kuvad avatakse blokeeringust, kui külastaja annab selle kategooria jaoks "
+"nõusoleku (või klõpsab kohahoidjal „luba“)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Luba Google Consent Mode v2 signaalid"
+
+msgid "Enable this category"
+msgstr "Luba see kategooria"
+
+msgid "Engagement (last 30 days)"
+msgstr "Kaasatus (viimased 30 päeva)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Kas Lynbro Cookie Consent meeldib? Lühike ja aus arvustus aitab teistel "
+"saidiomanikel selle leida. Pole survet — vaid siis, kui sul on hetk aega."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Sisesta WordPressi lokaadikood (näiteks pt_PT või ca), et pakkuda keelt, "
+"mida komplektis pole. Pärast salvestamist täida selle tekstid allpool."
+
+msgid "Exclude pages/posts"
+msgstr "Jäta lehed/postitused välja"
+
+msgid "Export CSV"
+msgstr "Ekspordi CSV"
+
+msgid "Export settings"
+msgstr "Ekspordi seaded"
+
+msgid "Export settings (JSON)"
+msgstr "Ekspordi seaded (JSON)"
+
+msgid "Feedback"
+msgstr "Tagasiside"
+
+msgid "Feedback on this plugin"
+msgstr "Tagasiside selle plugina kohta"
+
+msgid "Floating box (corner)"
+msgstr "Ujuv kast (nurk)"
+
+msgid "Floating settings button"
+msgstr "Ujuv seadete nupp"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Vahe ujuva kasti paigutuse ja ekraaniservade vahel."
+
+msgid "General"
+msgstr "Üldine"
+
+msgid "Get support"
+msgstr "Hangi tuge"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Globaalse privaatsuskontrolli (GPC) signaal"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Hea kontrast (%s:1) — vastab WCAG AA-le."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"On sul idee, probleem või soovitus? Saada see otse arendajatele. See on "
+"täiesti vabatahtlik ja saadetakse ainult siis, kui klõpsad Saada."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Aitab meil mõista, kuidas külastajad veebisaidiga suhtlevad, kogudes ja "
+"edastades teavet anonüümselt."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Austa brauseri Global Privacy Control signaali. Opt-out (USA/CCPA) režiimis "
+"pannakse GPC-ga külastajad automaatselt nõusolekust välja ja neile kuvatakse"
+" nähtav kinnitus (California nõue alates 2026. aastast)."
+
+msgid "Horizontal"
+msgstr "Horisontaalne"
+
+msgid "How you compare"
+msgstr "Sinu võrdlus"
+
+msgid "Icon"
+msgstr "Ikoon"
+
+msgid "Icon color"
+msgstr "Ikooni värv"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Idee uue funktsiooni või plugina jaoks"
+
+msgid "Import settings"
+msgstr "Impordi seaded"
+
+msgid "Importing overwrites your current settings."
+msgstr "Importimine kirjutab sinu praegused seaded üle."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Suurenda seda arvu alati, kui sinu küpsiste poliitika muutub. Külastajatelt "
+"küsitakse uuesti nõusolekut."
+
+msgid "Installed version"
+msgstr "Installitud versioon"
+
+msgid "Invalid security token."
+msgstr "Vale turvamärgend."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"See töötab kohe koos GDPR-valmis vaikeseadetega — võrdne Nõustu nupu asemel "
+"Keeldu nupp ja mittehädavajalikud küpsised on kuni nõusolekuni blokeeritud."
+
+msgid "Language"
+msgstr "Keel"
+
+msgid "Language downloaded and activated."
+msgstr "Keel allalaaditud ja aktiveeritud."
+
+msgid "Language settings saved."
+msgstr "Keele seaded salvestatud."
+
+msgid "Language switches"
+msgstr "Keele lülitid"
+
+msgid "Languages"
+msgstr "Keeled"
+
+msgid "Last 30 days"
+msgstr "Viimased 30 päeva"
+
+msgid "Last 365 days"
+msgstr "Viimased 365 päeva"
+
+msgid "Last 7 days"
+msgstr "Viimased 7 päeva"
+
+msgid "Leave a review"
+msgstr "Jäta arvustus"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Jäta tühjaks, et kasutada Nõustu nupu värvi."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Jäta tühjaks, et kasutada nupu teksti värvi."
+
+msgid "Leave empty to use the translated default."
+msgstr "Jäta tühjaks, et kasutada tõlgitud vaikeseadet."
+
+msgid "Legal mode"
+msgstr "Juriidiline režiim"
+
+msgid "Light"
+msgstr "Hele"
+
+msgid "Light colors"
+msgstr "Heledad värvid"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Reaalajas eelvaade (uuendub, kui muudate Kujunduse ja Üldisi seadeid):"
+
+msgid "Load content from %s"
+msgstr "Laadi sisu aadressilt %s"
+
+msgid "Local consent log"
+msgstr "Kohalik nõusolekulogi"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Madal kontrast (%s:1). WCAG AA nõude täitmiseks on soovitatav vähemalt "
+"4.5:1."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent on Lynbro loodud tasuta, privaatsusele keskenduv "
+"küpsiste bänner. Meie eesmärk on ilus, tõeliselt mitmekeelne, "
+"GDPRi/ePrivaatsuse nõuetele vastav bänner võrdse Keeldu nupuga — ja ilma "
+"lehevaatamiste piiranguteta, ilma põhifunktsioonide tasumüürita ning ilma "
+"esikülje jälgimiseta."
+
+msgid "Manage opened"
+msgstr "Halduse avatud"
+
+msgid "Manage preferences"
+msgstr "Halda eelistusi"
+
+msgid "Manage-preferences button"
+msgstr "Eelistuste haldamise nupp"
+
+msgid "Marketing"
+msgstr "Turundus"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Ujuva kasti ja keskmise modaalakna maksimaalne laius. Vaikeväärtuse "
+"kasutamiseks määrake 0."
+
+msgid "Message"
+msgstr "Sõnum"
+
+msgid "Method"
+msgstr "Meetod"
+
+msgid "Mobile"
+msgstr "Mobiil"
+
+msgid "Necessary"
+msgstr "Vajalik"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Vajalikud küpsised on alati aktiivsed ja neid ei saa keelata. Valige, "
+"milliseid valikulisi kategooriaid külastajad saavad hallata."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Kas vajate keelt, mida paketis ei ole? Taotlege seda ja me genereerime selle"
+" teie saidi jaoks. Tõlkefail salvestatakse teie üleslaadimiste kausta "
+"(uuendamisel ei kirjutata seda kunagi üle) ja aktiveeritakse automaatselt."
+
+msgid "No consent records yet."
+msgstr "Nõusolekukirjeid veel pole."
+
+msgid "No data yet."
+msgstr "Andmeid veel pole."
+
+msgid "No file was uploaded."
+msgstr "Faili ei laaditud üles."
+
+msgid "No thanks, don’t show this again"
+msgstr "Ei aitäh, ära näita seda uuesti"
+
+msgid "Notice only"
+msgstr "Ainult teavitus"
+
+msgid "Off"
+msgstr "Väljas"
+
+msgid "Offered languages"
+msgstr "Pakutavad keeled"
+
+msgid "Offset from corner (px)"
+msgstr "Nihe nurgast (px)"
+
+msgid "On"
+msgstr "Sees"
+
+msgid "Once Weekly"
+msgstr "Kord nädalas"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr ""
+"Ainult juhul, kui soovite vastust. Jätke tühjaks, et saata anonüümselt."
+
+msgid "Opacity"
+msgstr "Läbipaistmatus"
+
+msgid "Operating systems"
+msgstr "Operatsioonisüsteemid"
+
+msgid "Opt-in everywhere"
+msgstr "Nõusolek igal pool"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Nõusolek igal pool (GDPR — kõige turvalisem)"
+
+msgid "Opt-out everywhere"
+msgstr "Keeldumine igal pool"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Keeldumine igal pool (CCPA stiil)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Valikuline CSS, mis lisatakse bänneri stiililehele. Kasuta .lynbro-cc "
+"selektoreid."
+
+msgid "Other"
+msgstr "Muu"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Kirjuta konkreetse keele jaoks üle mis tahes bänneri tekst. Jäta väli "
+"tühjaks, et kasutada pakendatud tõlget (või ingliskeelset vaikeversiooni). "
+"Prioriteet: sinu ülekanne → pakendatud tõlge → vaikeversioon."
+
+msgid "Overview"
+msgstr "Ülevaade"
+
+msgid "Period"
+msgstr "Periood"
+
+msgid "Please choose a valid language code."
+msgstr "Palun vali kehtiv keelekood."
+
+msgid "Please enter a message before sending."
+msgstr "Palun sisesta enne saatmist sõnum."
+
+msgid "Please upload a .json settings file."
+msgstr "Palun laadi üles .json seadistusfail."
+
+msgid "Plugin home page"
+msgstr "Plugina koduleht"
+
+msgid "Policy URL"
+msgstr "Poliitika URL"
+
+msgid "Policy version"
+msgstr "Poliitika versioon"
+
+msgid "Position"
+msgstr "Asukoht"
+
+msgid "Preferences"
+msgstr "Eelistused"
+
+msgid "Privacy Policy & Terms"
+msgstr "Privaatsuspoliitika ja tingimused"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "Privaatsus-/küpsistepoliitika URL"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Privaatne, küpsisevaba statistika, mis salvestatakse ainult sinu enda "
+"andmebaasi. See on täielikult koondatud — IP-aadressi, külastaja "
+"identifikaatorit ega isikuandmeid ei salvestata kunagi. Seetõttu ei vaja see"
+" statistika iseenesest nõusolekut."
+
+msgid "Read more"
+msgstr "Loe rohkem"
+
+msgid "Recent consent records"
+msgstr "Hiljutised nõusolekukirjed"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Vanemad kirjed kustutatakse automaatselt. Määra 0, et hoida kirjeid "
+"tähtajatult."
+
+msgid "Region"
+msgstr "Piirkond"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Piirkond tuvastatakse CDN-i/edge'i päiste järgi (nt Cloudflare). Kui see on "
+"teadmata, kasutatakse kõige turvalisemat nõusolekumudelit. Välise "
+"geolokatsiooni API-t ei kasutata."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Registreeru WP Consent API plugina nõusoleku pakkujaks ja teavita teisi "
+"pluginaid külastaja valikust (funktsionaalsus, eelistused, statistika, "
+"turundus)."
+
+msgid "Reject all"
+msgstr "Keeldu kõigest"
+
+msgid "Reject button"
+msgstr "Keeldumise nupp"
+
+msgid "Report a bug"
+msgstr "Teata veast"
+
+msgid "Request a language"
+msgstr "Taotle keelt"
+
+msgid "Request this language"
+msgstr "Taotle seda keelt"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Vajalik veebisaidi toimimiseks ega saa välja lülitada. Tavaliselt määratakse"
+" need vastuseks sinu tegevustele, näiteks privaatsuseelistuste seadistamine "
+"või sisse logimine."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Puhkeseisundi läbipaistvus (0.2–1.0). Nupp muutub hiirega üle minnes või "
+"fookuses täielikult läbipaistmatuks. Vaikeväärtus on 0.55."
+
+msgid "Retention (days)"
+msgstr "Säilitusaeg (päevades)"
+
+msgid "Round"
+msgstr "Ümar"
+
+msgid "Rounded"
+msgstr "Ümardatud"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Bänneri, kasti ja modali nurkade ümardus. Vaikeväärtuse kasutamiseks määra "
+"0."
+
+msgid "Save language settings"
+msgstr "Salvesta keele seaded"
+
+msgid "Save preferences"
+msgstr "Salvesta eelistused"
+
+msgid "Save-preferences button"
+msgstr "Salvesta-eelistused nupp"
+
+msgid "Send feedback"
+msgstr "Saada tagasisidet"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Saadab Lynbro portaali ainult plugina nime, versiooni ja keelekoodi. Vaadake"
+" meie %s."
+
+msgid "Set"
+msgstr "Määra"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Seab kõik nõusolekusignaalid vaikimisi enne nõusolekut olekusse „keeldutud“ "
+"ning uuendab neid seejärel vastavalt külastaja valikule (ad_storage, "
+"analytics_storage, ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Seaded"
+
+msgid "Settings imported successfully."
+msgstr "Seaded imporditi edukalt."
+
+msgid "Shape"
+msgstr "Kuju"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Jaga anonüümseid statistikaandmeid, et aidata pluginat täiustada — ja näe, "
+"kuidas teie nõustumismäär võrdleb keskmisega. Vaikimisi välja lülitatud. "
+"Saadab Lynbro portaali kord nädalas ainult koondandmed ja teie saidi domeeni"
+" (mitte kunagi külastaja IP-aadresse)."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Näita väljaregistreerimisrežiimis linki „Ära müü ega jaga minu "
+"isikuandmeid“."
+
+msgid "Show floating settings button on the site"
+msgstr "Näita saidil hõljuvat seadete nuppu"
+
+msgid "Show language switcher"
+msgstr "Näita keelevahetajat"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Näita küpsiseikooni (soovitatav). Kui see on väljas, kuvatakse selle asemel "
+"ligipääsetav silt väikese tekstinupuna."
+
+msgid "Size (px)"
+msgstr "Suurus (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Vabandust, seda keelt ei saanud praegu laadida. Palun proovige hiljem "
+"uuesti."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "Vabandust, sõnumit ei saanud saata. Palun proovige hiljem uuesti."
+
+msgid "Square"
+msgstr "Ruut"
+
+msgid "Stacking (z-index base)"
+msgstr "Kihistus (z-indexi alus)"
+
+msgid "Statistics"
+msgstr "Statistika"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Statistika on praegu välja lülitatud. Koondandmete kogumise alustamiseks "
+"lubage vahekaardil Üldine „Kogu anonüümset statistikat“."
+
+msgid "Statistics are disabled."
+msgstr "Statistika on keelatud."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Salvestab teie enda andmebaasi privaatsust austava tõendi nõusoleku kohta. "
+"Toorest IP-aadressi ei salvestata — ainult soolatud anonüümset räsi "
+"dubleerimise vältimiseks."
+
+msgid "Tablet"
+msgstr "Tahvelarvuti"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Öelge meile, mida arvate, mis on puudu või mis läks valesti…"
+
+msgid "Text color"
+msgstr "Teksti värv"
+
+msgid "Thank you! Your message was sent."
+msgstr "Aitäh! Teie sõnum saadeti."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Keskmine nõustumismäär liitunud saitide seas on %s%%. Teie oma kuvatakse "
+"siin, kui külastajad hakkavad valikuid tegema."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Bänneri keel järgib vahemälusõbralikku järjekorda: praeguse lehe keel "
+"(Polylang/WPML/TranslatePress), seejärel teie saidi keel, seejärel inglise "
+"keel. Brauseri automaattuvastus ja valikuline bännerisisene keelevahetaja "
+"toimivad täielikult külastaja brauseris, nii et teie lehe vahemälu ei mõjuta"
+" see kunagi."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Fail ei sisalda kehtivaid Lynbro Cookie Consent seadistusi."
+
+msgid "Theme"
+msgstr "Teema"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Need on keeled, mis on ette valmistatud brauseri automaattuvastuseks ja "
+"keelevahetajaks. Keeled, millel on kaasas tõlge, kuvatakse siin "
+"automaatselt. Teie saidi keel on alati kaasatud."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"See täiendab skriptide käsitsi märgistamist. Kõik tuvastamine toimub "
+"lokaalselt; väliseid päringuid ei tehta."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"See plugin aitab küpsisenõuetele vastata, kuid ei kujuta endast õigusnõu."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Nipp: küpsiste/nõusoleku sõnastusel võivad olla õiguslikud tagajärjed. Laske"
+" mis tahes tõlke juriidilised osad üle vaadata inimesel, kes tunneb teie "
+"jurisdiktsiooni."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Selle sisu vaatamiseks teenusest %s peate aktsepteerima asjakohased "
+"küpsised. Teenusepakkuja võib seada küpsiseid ja koguda isikuandmeid."
+
+msgid "Today"
+msgstr "Täna"
+
+msgid "Too many requests."
+msgstr "Liiga palju päringuid."
+
+msgid "Tools"
+msgstr "Tööriistad"
+
+msgid "Top bar"
+msgstr "Ülariba"
+
+msgid "Top left"
+msgstr "Ülemine vasak"
+
+msgid "Top right"
+msgstr "Üleval paremal"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Kokku kirjeid: %d (näidatakse 50 kõige hilisemat)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Selle märkimata jätmine peidab ujuva nupu täielikult — külastajad ei näe "
+"võimalust oma küpsiseseadeid uuesti avada (kui te ei lisa "
+"[lynbro_cookie_settings] lühikoodi kuhugi)."
+
+msgid "Updates"
+msgstr "Värskendused"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Värskendused toimitakse automaatselt WordPress.org kaudu — kohandatud "
+"uuendajat ei ole ja tasuta versioon ei saada kunagi andmeid tagasi."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Kasutatakse kohtspikrina ja ekraanilugeja sildina. Jätke tühjaks, et "
+"kasutada tõlgitud vaikeväärtust."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Kasutatakse ainult siis, kui asukoht on „Ujuv kast“."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Kasutatakse külastajate jälgimiseks veebisaitide lõikes, et näidata "
+"asjakohaseid reklaame ja mõõta kampaaniate tõhusust."
+
+msgid "Version & updates"
+msgstr "Versioon ja värskendused"
+
+msgid "Vertical"
+msgstr "Vertikaalne"
+
+msgid "View changelog"
+msgstr "Vaata muudatuste logi"
+
+msgid "Visibility"
+msgstr "Nähtavus"
+
+msgid "Visit Lynbro"
+msgstr "Külasta Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Tuvastasime Global Privacy Control signaali ja keeldusime automaatselt "
+"mittehädavajalikest küpsistest."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Kasutame küpsiseid, et parandada teie sirvimiskogemust, pakkuda "
+"isikupärastatud sisu ja analüüsida oma liiklust. Võite nõustuda kõigi "
+"küpsistega, keelduda mittehädavajalikest või hallata oma eelistusi."
+
+msgid "We value your privacy"
+msgstr "Hindame teie privaatsust"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Nupu laius ja kõrgus (24–96). Vaikeväärtus on 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Kirjuta arvustus"
+
+msgid "Yesterday"
+msgstr "Eile"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Saate endiselt oma skripte käsitsi blokeerida:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Teil ei ole selle lehe kasutamiseks piisavalt õigusi."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Teie nõustumismäär viimase 7 päeva jooksul on %1$s%%. Keskmine määr "
+"nõustunud saitide seas on %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Teie nõusolekubänner on aktiivne"
+
+msgid "Your email (optional)"
+msgstr "Teie e-postiaadress (valikuline)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Teie sõnum, pistikprogrammi versioon ja teie saidi domeen saadetakse Lynbro "
+"portaalile. Vaadake meie %s."
+
+msgid "\"Read more\" link"
+msgstr "„Loe edasi“ link"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "saidi keel"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Teie keele ettevalmistamine… See võib esimesel korral võtta umbes minuti. "
+"See lisatakse automaatselt — võite tööd jätkata."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Keel on valmis ja aktiveeritud: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Ei õnnestunud ette valmistada: %s. Palun proovige hiljem uuesti."
+
+msgid "Accessibility"
+msgstr "Ligipääsetavus"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Kas rakendada seda kujunduse eelseadet? See kirjutab üle teie praegused "
+"kujundussätted (saate enne salvestamist siiski üle vaadata)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Rahulik, madala kontrastiga palett ümarate nurkadega kastis."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Keskel dialoogiaken tumendatud taustkattega, tume teema."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Värvid vastavad WCAG AA ligipääsetavusnõuetele"
+
+msgid "Design presets"
+msgstr "Kujunduse eelseaded"
+
+msgid "Details"
+msgstr "Üksikasjad"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Täislaiuses riba allosas, hele ja neutraalne."
+
+msgid "Hide details"
+msgstr "Peida üksikasjad"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Ühe klõpsuga alguspunktid. Eelseade rakendamine täidab allolevad "
+"kujundusväljad ja uuendab reaalaja eelvaadet — vaadake see üle ja seejärel "
+"salvestage muudatused, et see alles jääks."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Eelseade rakendatud. Vaadake eelvaade üle ja seejärel salvestage muudatused,"
+" et see alles jääks."
+
+msgid "Preview device width"
+msgstr "Eelvaate seadme laius"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Peenike, kandiline riba lehe ülaossa kinnitatud."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Õrn ujuv kaart paremas alanurgas."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Mõnel värvil on madal kontrast (%s) — vaadake üksikasju."

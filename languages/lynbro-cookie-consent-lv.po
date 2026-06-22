@@ -1,0 +1,1198 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s sekundes (no banera parādīšanas līdz apmeklētāja izvēlei)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Neliela poga tikai ar ikonu, kas ļauj apmeklētājiem atkārtoti atvērt "
+"sīkdatņu iestatījumus pēc izvēles izdarīšanas. Tā tiek automātiski paslēpta,"
+" kamēr ir atvērts baneris vai preferenču dialoglodziņš."
+
+msgid "About"
+msgstr "Par"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Par Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Pieņemt visu"
+
+msgid "Accept button"
+msgstr "Poga \"Pieņemt\""
+
+msgid "Accept rate"
+msgstr "Pieņemšanas rādītājs"
+
+msgid "Accessible label"
+msgstr "Pieejama etiķete"
+
+msgid "Add a custom language"
+msgstr "Pievienot pielāgotu valodu"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Pievienot banerim nelielu valodas nolaižamo izvēlni, lai apmeklētāji varētu "
+"manuāli pārslēgt valodu (viņu izvēle tiek saglabāta)."
+
+msgid "Add your privacy policy link"
+msgstr "Pievienot privātuma politikas saiti"
+
+msgid "Additional CSS"
+msgstr "Papildu CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Atļaut vietnei atcerēties jūsu izvēles (piemēram, valodu vai reģionu), lai "
+"nodrošinātu uzlabotas, personalizētas funkcijas."
+
+msgid "Already downloaded on demand:"
+msgstr "Jau lejupielādēts pēc pieprasījuma:"
+
+msgid "Always allow %s"
+msgstr "Vienmēr atļaut %s"
+
+msgid "Always on"
+msgstr "Vienmēr ieslēgts"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Anonīma statistika"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Automātiski (pēc apmeklētāja sistēmas)"
+
+msgid "Auto by region"
+msgstr "Automātiski pēc reģiona"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"Automātiski pēc reģiona (ES piekrišana, ASV atteikšanās, pārējie pēc "
+"izvēles)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Automātiskajā režīmā pēc noklusējuma tiek izmantotas gaišās krāsas, bet "
+"tumšās — tad, kad apmeklētāja ierīce dod priekšroku tumšai krāsu shēmai."
+
+msgid "Auto-block trackers"
+msgstr "Automātiski bloķēt izsekotājus"
+
+msgid "Auto-detect visitor language"
+msgstr "Automātiski noteikt apmeklētāja valodu"
+
+msgid "Automatic tracker blocking"
+msgstr "Automātiska izsekotāju bloķēšana"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Automātiski bloķēt zināmos trešo pušu izsekotājus (Google Analytics, GTM, "
+"Meta Pixel, Hotjar, Clarity un citus), līdz attiecīgā kategorija ir "
+"piešķirta."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Automātiski rādīt baneri apmeklētāja pārlūkprogrammas valodā, ja tā ir viena"
+" no piedāvātajām valodām."
+
+msgid "Average time to decision"
+msgstr "Vidējais laiks līdz lēmumam"
+
+msgid "Background color"
+msgstr "Fona krāsa"
+
+msgid "Banner background"
+msgstr "Banera fons"
+
+msgid "Banner description"
+msgstr "Banera apraksts"
+
+msgid "Banner max width (px)"
+msgstr "Banera maksimālais platums (px)"
+
+msgid "Banner shown"
+msgstr "Baneris parādīts"
+
+msgid "Banner text on background"
+msgstr "Banera teksts uz fona"
+
+msgid "Banner title"
+msgstr "Banera virsraksts"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Bāzes z-index banerim, pārklājumam, modālajam logam un peldošajai pogai. "
+"Palieliniet to, ja cits elements pārklāj baneri; samaziniet to, ja baneris "
+"pārklāj kaut ko, ko tam nevajadzētu."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Atļauts vienkāršs HTML: saites, treknraksts, slīpraksts, rindu pārtraukumi. "
+"Atstājiet tukšu, lai izmantotu tulkoto noklusējumu."
+
+msgid "Benchmark sharing"
+msgstr "Dalīšanās ar salīdzinošajiem rādītājiem"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Dalīšanās ar salīdzinošajiem rādītājiem ir ieslēgta. Jūsu pirmais "
+"salīdzinājums šeit parādīsies pēc nedēļas pārskata izpildes."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Bloķēt iegulto saturu (YouTube, Vimeo, Google Maps, sociālo tīklu iegultnes,"
+" reCAPTCHA un citus) līdz piekrišanai, rādot sakārtotu vietturi ar pogu "
+"\"atļaut\"."
+
+msgid "Blocking & Embeds"
+msgstr "Bloķēšana un ieguldes"
+
+msgid "Bottom bar"
+msgstr "Apakšējā josla"
+
+msgid "Bottom left"
+msgstr "Apakšējais kreisais"
+
+msgid "Bottom right"
+msgstr "Apakšējais labais"
+
+msgid "Box corner"
+msgstr "Kastes stūris"
+
+msgid "Browser languages"
+msgstr "Pārlūkprogrammas valodas"
+
+msgid "Button icon"
+msgstr "Pogas ikona"
+
+msgid "Button text"
+msgstr "Pogas teksts"
+
+msgid "Button text on Accept button"
+msgstr "Pogas teksts pie pogas “Pieņemt”"
+
+msgid "Button text on Reject button"
+msgstr "Pogas teksts pie pogas “Noraidīt”"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "CCPA / CPRA atteikšanās saite"
+
+msgid "Categories"
+msgstr "Kategorijas"
+
+msgid "Category"
+msgstr "Kategorija"
+
+msgid "Category “%s” — description"
+msgstr "Kategorija “%s” — apraksts"
+
+msgid "Category “%s” — name"
+msgstr "Kategorija “%s” — nosaukums"
+
+msgid "Center modal (with overlay)"
+msgstr "Centrāls modālais logs (ar pārklājumu)"
+
+msgid "Choose language"
+msgstr "Izvēlēties valodu"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Apkopot anonīmu statistiku (cik apmeklētāju pieņem, noraida vai atver "
+"iestatījumus). Pilnībā apkopots un bez sīkfailiem — netiek saglabāta IP "
+"adrese vai personas dati. Tiek rādīts cilnē Statistika."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"Ar komatiem atdalīti lapu/rakstu ID, kur baneri nedrīkst rādīt (piem., "
+"galvenās lapas)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Konfigurējiet savu GDPR/ePrivacy un Google Consent Mode v2 sīkfailu baneri. "
+"Šis spraudnis palīdz nodrošināt atbilstību, bet nav juridisks padoms."
+
+msgid "Consent Log"
+msgstr "Piekrišanas žurnāls"
+
+msgid "Consent Mode"
+msgstr "Piekrišanas režīms"
+
+msgid "Consent Mode v2"
+msgstr "Piekrišanas režīms v2"
+
+msgid "Consent logging is disabled."
+msgstr "Piekrišanas reģistrēšana ir atspējota."
+
+msgid "Consent mode"
+msgstr "Piekrišanas režīms"
+
+msgid "Content from %s is blocked"
+msgstr "Saturs no %s ir bloķēts"
+
+msgid "Cookie Consent"
+msgstr "Sīkfailu piekrišana"
+
+msgid "Cookie settings"
+msgstr "Sīkfailu iestatījumi"
+
+msgid "Corner radius (px)"
+msgstr "Stūra rādiuss (px)"
+
+msgid "Custom CSS"
+msgstr "Pielāgots CSS"
+
+msgid "Dark"
+msgstr "Tumšs"
+
+msgid "Dark colors"
+msgstr "Tumšās krāsas"
+
+msgid "Date (UTC)"
+msgstr "Datums (UTC)"
+
+msgid "Design"
+msgstr "Dizains"
+
+msgid "Desktop"
+msgstr "Darbvirsma"
+
+msgid "Devices"
+msgstr "Ierīces"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Nepārdot un nekopīgot manu personas informāciju"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Lejupielādējiet visus iestatījumus kā JSON failu, lai tos izmantotu citā "
+"vietnē."
+
+msgid "Edge offset (px)"
+msgstr "Malas nobīde (px)"
+
+msgid "Edit texts per language"
+msgstr "Rediģēt tekstus pēc valodas"
+
+msgid "Embed consent category"
+msgstr "Ieguldes piekrišanas kategorija"
+
+msgid "Embed placeholders"
+msgstr "Ieguldes vietturi"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Ieguldes tiek atbloķētas, kad apmeklētājs piešķir šai kategorijai piekrišanu"
+" (vai noklikšķina uz \"atļaut\" vietturī)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Iespējot Google Consent Mode v2 signālus"
+
+msgid "Enable this category"
+msgstr "Iespējot šo kategoriju"
+
+msgid "Engagement (last 30 days)"
+msgstr "Iesaistīšanās (pēdējās 30 dienās)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Patīk Lynbro Cookie Consent? Īsa, godīga atsauksme palīdzēs citiem vietņu "
+"īpašniekiem to atrast. Bez spiediena — tikai, ja jums ir minūte."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Ievadiet WordPress lokāles kodu (piemēram, pt_PT vai ca), lai piedāvātu "
+"valodu, kas nav iekļauta komplektā. Pēc saglabāšanas zemāk aizpildiet tās "
+"tekstus."
+
+msgid "Exclude pages/posts"
+msgstr "Izslēgt lapas/rakstus"
+
+msgid "Export CSV"
+msgstr "Eksportēt CSV"
+
+msgid "Export settings"
+msgstr "Eksportēt iestatījumus"
+
+msgid "Export settings (JSON)"
+msgstr "Eksportēt iestatījumus (JSON)"
+
+msgid "Feedback"
+msgstr "Atsauksmes"
+
+msgid "Feedback on this plugin"
+msgstr "Atsauksmes par šo spraudni"
+
+msgid "Floating box (corner)"
+msgstr "Peldošs lodziņš (stūrī)"
+
+msgid "Floating settings button"
+msgstr "Peldoša iestatījumu poga"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Atstarpe no ekrāna malām peldošā lodziņa izkārtojumam."
+
+msgid "General"
+msgstr "Vispārīgi"
+
+msgid "Get support"
+msgstr "Saņemt atbalstu"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Labs kontrasts (%s:1) — atbilst WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Ir ideja, problēma vai pieprasījums? Nosūtiet to tieši izstrādātājiem. Tas "
+"ir pilnīgi brīvprātīgi un tiek nosūtīts tikai, kad noklikšķināt uz Sūtīt."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Palīdziet mums saprast, kā apmeklētāji mijiedarbojas ar vietni, anonīmi "
+"vācot un ziņojot informāciju."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Ievērojiet pārlūkprogrammas Global Privacy Control signālu. Opt-out "
+"(ASV/CCPA) režīmā apmeklētāji ar GPC tiek automātiski atteikti un viņiem "
+"tiek parādīts redzams apstiprinājums (Kalifornijā tas būs obligāts no 2026. "
+"gada)."
+
+msgid "Horizontal"
+msgstr "Horizontāli"
+
+msgid "How you compare"
+msgstr "Jūsu salīdzinājums"
+
+msgid "Icon"
+msgstr "Ikona"
+
+msgid "Icon color"
+msgstr "Ikonas krāsa"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Ideja jaunai funkcijai vai spraudnim"
+
+msgid "Import settings"
+msgstr "Importēt iestatījumus"
+
+msgid "Importing overwrites your current settings."
+msgstr "Importēšana pārrakstīs jūsu pašreizējos iestatījumus."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Palieliniet šo skaitli ikreiz, kad mainās jūsu sīkdatņu politika. "
+"Apmeklētājiem tiks lūgts vēlreiz sniegt piekrišanu."
+
+msgid "Installed version"
+msgstr "Instalētā versija"
+
+msgid "Invalid security token."
+msgstr "Nederīgs drošības marķieris."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Tas darbojas uzreiz ar GDPR gataviem noklusējumiem — vienādu Noraidīt pogu "
+"un nebūtiskās sīkdatnes bloķētas līdz piekrišanai."
+
+msgid "Language"
+msgstr "Valoda"
+
+msgid "Language downloaded and activated."
+msgstr "Valoda lejupielādēta un aktivizēta."
+
+msgid "Language settings saved."
+msgstr "Valodas iestatījumi saglabāti."
+
+msgid "Language switches"
+msgstr "Valodu pārslēdzēji"
+
+msgid "Languages"
+msgstr "Valodas"
+
+msgid "Last 30 days"
+msgstr "Pēdējās 30 dienas"
+
+msgid "Last 365 days"
+msgstr "Pēdējās 365 dienas"
+
+msgid "Last 7 days"
+msgstr "Pēdējās 7 dienas"
+
+msgid "Leave a review"
+msgstr "Atstāt atsauksmi"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Atstājiet tukšu, lai izmantotu pogas “Pieņemt” krāsu."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Atstājiet tukšu, lai izmantotu pogas teksta krāsu."
+
+msgid "Leave empty to use the translated default."
+msgstr "Atstājiet tukšu, lai izmantotu tulkoto noklusējumu."
+
+msgid "Legal mode"
+msgstr "Juridiskais režīms"
+
+msgid "Light"
+msgstr "Gaišs"
+
+msgid "Light colors"
+msgstr "Gaišas krāsas"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Tiešais priekšskatījums (atjauninās, mainot Dizaina un Vispārīgos "
+"iestatījumus):"
+
+msgid "Load content from %s"
+msgstr "Ielādēt saturu no %s"
+
+msgid "Local consent log"
+msgstr "Lokālais piekrišanas žurnāls"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Zems kontrasts (%s:1). Lai atbilstu WCAG AA, tiecieties vismaz uz 4.5:1."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent ir bezmaksas, privātumu prioritizējošs sīkfailu "
+"baneris, ko izveidojis Lynbro. Mūsu mērķis ir skaists, patiesi daudzvalodu, "
+"GDPR/ePrivacy prasībām gatavs baneris ar vienlīdzīgu pogu Noraidīt — un bez "
+"lapu skatījumu ierobežojumiem, bez maksas sienas pamatfunkcijām un bez "
+"izsekošanas priekšpusē."
+
+msgid "Manage opened"
+msgstr "Pārvaldība atvērta"
+
+msgid "Manage preferences"
+msgstr "Pārvaldīt iestatījumus"
+
+msgid "Manage-preferences button"
+msgstr "Pogas “Pārvaldīt iestatījumus”"
+
+msgid "Marketing"
+msgstr "Mārketings"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Peldošā lodziņa un centrālā modāļa maksimālais platums. Iestatiet 0, lai "
+"izmantotu noklusējumu."
+
+msgid "Message"
+msgstr "Ziņojums"
+
+msgid "Method"
+msgstr "Metode"
+
+msgid "Mobile"
+msgstr "Mobilais"
+
+msgid "Necessary"
+msgstr "Nepieciešamie"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Nepieciešamās sīkdatnes vienmēr ir aktīvas, un tās nevar atspējot. "
+"Izvēlieties, kuras papildu kategorijas apmeklētāji var kontrolēt."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Nepieciešama valoda, kas nav iekļauta komplektā? Pieprasiet to, un mēs to "
+"ģenerēsim jūsu vietnei. Tulkošanas fails tiek glabāts jūsu uploads mapē "
+"(nekad netiek pārrakstīts atjauninājumos) un tiek aktivizēts automātiski."
+
+msgid "No consent records yet."
+msgstr "Vēl nav piekrišanas ierakstu."
+
+msgid "No data yet."
+msgstr "Datu vēl nav."
+
+msgid "No file was uploaded."
+msgstr "Fails netika augšupielādēts."
+
+msgid "No thanks, don’t show this again"
+msgstr "Nē, paldies, nerādīt šo vairs"
+
+msgid "Notice only"
+msgstr "Tikai paziņojums"
+
+msgid "Off"
+msgstr "Izslēgts"
+
+msgid "Offered languages"
+msgstr "Piedāvātās valodas"
+
+msgid "Offset from corner (px)"
+msgstr "Nobīde no stūra (px)"
+
+msgid "On"
+msgstr "Ieslēgts"
+
+msgid "Once Weekly"
+msgstr "Reizi nedēļā"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr ""
+"Tikai, ja vēlaties saņemt atbildi. Atstājiet tukšu, lai sūtītu anonīmi."
+
+msgid "Opacity"
+msgstr "Necaurredzamība"
+
+msgid "Operating systems"
+msgstr "Operētājsistēmas"
+
+msgid "Opt-in everywhere"
+msgstr "Piekrišana visur"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Piekrišana visur (GDPR — drošākais)"
+
+msgid "Opt-out everywhere"
+msgstr "Atteikšanās visur"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Atteikšanās visur (CCPA stilā)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Papildu CSS, kas pievienots reklāmjoslas stila lapai. Mērķējiet uz .lynbro-"
+"cc selektoriem."
+
+msgid "Other"
+msgstr "Cits"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Pārrakstiet jebkuru reklāmjoslas tekstu konkrētai valodai. Atstājiet lauku "
+"tukšu, lai izmantotu iekļauto tulkojumu (vai noklusējuma angļu valodu). "
+"Prioritāte: jūsu pārraksts → iekļautais tulkojums → noklusējums."
+
+msgid "Overview"
+msgstr "Pārskats"
+
+msgid "Period"
+msgstr "Periods"
+
+msgid "Please choose a valid language code."
+msgstr "Lūdzu, izvēlieties derīgu valodas kodu."
+
+msgid "Please enter a message before sending."
+msgstr "Lūdzu, ievadiet ziņojumu pirms sūtīšanas."
+
+msgid "Please upload a .json settings file."
+msgstr "Lūdzu, augšupielādējiet .json iestatījumu failu."
+
+msgid "Plugin home page"
+msgstr "Spraudņa sākumlapa"
+
+msgid "Policy URL"
+msgstr "Politikas URL"
+
+msgid "Policy version"
+msgstr "Politikas versija"
+
+msgid "Position"
+msgstr "Novietojums"
+
+msgid "Preferences"
+msgstr "Preferences"
+
+msgid "Privacy Policy & Terms"
+msgstr "Privātuma politika un lietošanas noteikumi"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "Privātuma/sīkdatņu politikas URL"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Privāta, bez sīkdatnēm statistika, kas glabājas tikai jūsu datubāzē. Tā ir "
+"pilnībā apkopota — netiek reģistrēta ne IP adrese, ne apmeklētāja "
+"identifikators, un nekādi personas dati nekad netiek saglabāti. Tāpēc šādai "
+"statistikai pašai par sevi nav nepieciešama piekrišana."
+
+msgid "Read more"
+msgstr "Lasīt vairāk"
+
+msgid "Recent consent records"
+msgstr "Jaunākie piekrišanas ieraksti"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Ieraksti, kas vecāki par šo, tiek automātiski dzēsti. Iestatiet 0, lai "
+"saglabātu ierakstus bezgalīgi."
+
+msgid "Region"
+msgstr "Reģions"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Reģions tiek noteikts no CDN/edge galvenēm (piem., Cloudflare). Ja tas nav "
+"zināms, tiek izmantots drošākais piekrišanas modelis. Netiek izsaukts "
+"neviens ārējs ģeolokācijas API."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Reģistrējieties kā piekrišanas nodrošinātājs WP Consent API spraudnim un "
+"paziņojiet citiem spraudņiem par apmeklētāja izvēli (funkcionālie, "
+"preferences, statistika, mārketings)."
+
+msgid "Reject all"
+msgstr "Noraidīt visu"
+
+msgid "Reject button"
+msgstr "Noraidīšanas poga"
+
+msgid "Report a bug"
+msgstr "Ziņot par kļūdu"
+
+msgid "Request a language"
+msgstr "Pieprasīt valodu"
+
+msgid "Request this language"
+msgstr "Pieprasīt šo valodu"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Nepieciešams, lai vietne darbotos, un to nevar izslēgt. Parasti tas tiek "
+"iestatīts, reaģējot uz jūsu veiktajām darbībām, piemēram, privātuma "
+"preferenču iestatīšanu vai pieteikšanos."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Atpūtas caurspīdīgums (0,2–1,0). Poga kļūst pilnībā necaurspīdīga, kad uz "
+"tās uzved kursoru vai tai pievieno fokusu. Noklusējums ir 0,55."
+
+msgid "Retention (days)"
+msgstr "Saglabāšanas periods (dienās)"
+
+msgid "Round"
+msgstr "Apaļš"
+
+msgid "Rounded"
+msgstr "Noapaļots"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Reklāmjoslas, kastes un modāļa stūru noapaļojums. Iestatiet 0, lai izmantotu"
+" noklusējumu."
+
+msgid "Save language settings"
+msgstr "Saglabāt valodas iestatījumus"
+
+msgid "Save preferences"
+msgstr "Saglabāt preferences"
+
+msgid "Save-preferences button"
+msgstr "Saglabāšanas preferenču poga"
+
+msgid "Send feedback"
+msgstr "Nosūtīt atsauksmi"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Nosūta Lynbro portalam tikai spraudņa nosaukumu, versiju un valodas kodu. "
+"Skatiet mūsu %s."
+
+msgid "Set"
+msgstr "Iestatīt"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Pēc noklusējuma pirms piekrišanas visus piekrišanas signālus iestata uz "
+"\"noraidīts\", pēc tam tos atjaunina, pamatojoties uz apmeklētāja izvēli "
+"(ad_storage, analytics_storage, ad_user_data, ad_personalization, "
+"functionality_storage, personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Iestatījumi"
+
+msgid "Settings imported successfully."
+msgstr "Iestatījumi importēti veiksmīgi."
+
+msgid "Shape"
+msgstr "Forma"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Kopīgot anonīmu statistiku, lai palīdzētu uzlabot spraudni — un redzēt, kā "
+"jūsu apstiprinājumu rādītājs salīdzinās ar vidējo. Pēc noklusējuma izslēgts."
+" Reizi nedēļā uz Lynbro portālu tiek nosūtīti tikai apkopoti skaitļi un jūsu"
+" vietnes domēns (nekad apmeklētāju IP adreses)."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Rādīt saiti \"Nepārdot vai nekopīgot manu personisko informāciju\" "
+"atteikšanās režīmā."
+
+msgid "Show floating settings button on the site"
+msgstr "Rādīt peldošu iestatījumu pogu vietnē"
+
+msgid "Show language switcher"
+msgstr "Rādīt valodas pārslēdzēju"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Rādīt sīkfailu ikonu (ieteicams). Kad izslēgts, tā vietā tiek rādīta "
+"pieejamības etiķete kā maza teksta poga."
+
+msgid "Size (px)"
+msgstr "Izmērs (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Atvainojiet, šo valodu pašlaik nevarēja izgūt. Lūdzu, mēģiniet vēlreiz "
+"vēlāk."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr ""
+"Atvainojiet, ziņojumu neizdevās nosūtīt. Lūdzu, mēģiniet vēlreiz vēlāk."
+
+msgid "Square"
+msgstr "Kvadrāts"
+
+msgid "Stacking (z-index base)"
+msgstr "Slāņošana (z-index bāze)"
+
+msgid "Statistics"
+msgstr "Statistika"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Statistika pašlaik ir izslēgta. Cilnē \"Vispārīgi\" iespējojiet \"Apkopot "
+"anonīmu statistiku\", lai sāktu vākt apkopotus skaitļus."
+
+msgid "Statistics are disabled."
+msgstr "Statistika ir atspējota."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Saglabāt savā datubāzē privātumu respektējošu piekrišanas apliecinājumu. "
+"Netiek saglabāta neapstrādāta IP adrese — tikai ar sāli aizsargāts, "
+"anonimizēts jaukts kods dublikātu noteikšanai."
+
+msgid "Tablet"
+msgstr "Planšete"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Pastāstiet, ko domājat, kas pietrūkst vai kas nogāja greizi…"
+
+msgid "Text color"
+msgstr "Teksta krāsa"
+
+msgid "Thank you! Your message was sent."
+msgstr "Paldies! Jūsu ziņojums tika nosūtīts."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Vidējais apstiprinājumu rādītājs opt-in vietnēs ir %s%%. Jūsu rādītājs tiks "
+"parādīts šeit, tiklīdz apmeklētāji sāks izvēlēties."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Banera valoda seko kešatmiņai drošai ķēdei: pašreizējās lapas valodai "
+"(Polylang/WPML/TranslatePress), pēc tam jūsu vietnes valodai, un tad angļu "
+"valodai. Pārlūkprogrammas automātiskā noteikšana un izvēles valodas "
+"pārslēdzējs banerī darbojas pilnībā apmeklētāja pārlūkprogrammā, tāpēc jūsu "
+"lapas kešatmiņa netiek ietekmēta."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Failā nav derīgu Lynbro Cookie Consent iestatījumu."
+
+msgid "Theme"
+msgstr "Motīvs"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Šīs ir valodas, kas sagatavotas pārlūkprogrammas automātiskajai noteikšanai "
+"un pārslēdzējam. Valodas ar iekļautu tulkojumu šeit parādās automātiski. "
+"Jūsu vietnes valoda vienmēr ir iekļauta."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Tas papildina manuālu skriptu marķēšanu. Visa noteikšana notiek lokāli; "
+"netiek veikts neviens ārējs pieprasījums."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Šis spraudnis palīdz nodrošināt sīkfailu atbilstību, bet nav juridisks "
+"padoms."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Padoms: sīkfailu/piekrišanas formulējums var radīt juridiskas sekas. "
+"Lūdziet, lai juridiskā daļa jebkurā tulkojumā tiktu pārskatīta personai, kas"
+" pārzina jūsu jurisdikciju."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Lai skatītu šo saturu no %s, jums jāpieņem attiecīgie sīkfaili. Pakalpojuma "
+"sniedzējs var iestatīt sīkfailus un vākt personas datus."
+
+msgid "Today"
+msgstr "Šodien"
+
+msgid "Too many requests."
+msgstr "Pārāk daudz pieprasījumu."
+
+msgid "Tools"
+msgstr "Rīki"
+
+msgid "Top bar"
+msgstr "Augšējā josla"
+
+msgid "Top left"
+msgstr "Augšā pa kreisi"
+
+msgid "Top right"
+msgstr "Augšējais labais stūris"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Kopējais ierakstu skaits: %d (rāda 50 jaunākos)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Noņemot atzīmi, peldošā poga tiks pilnībā paslēpta — apmeklētājiem nebūs "
+"veida atkārtoti atvērt sīkdatņu iestatījumus (ja vien kaut kur "
+"nepievienosiet [lynbro_cookie_settings] īskodu)."
+
+msgid "Updates"
+msgstr "Atjauninājumi"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Atjauninājumi tiek piegādāti automātiski caur WordPress.org — nav pielāgota "
+"atjauninātāja, un bezmaksas versija nekad neveic saziņu ar ārēju serveri."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Tiek izmantots kā paskaidrojums un ekrānlasītāja etiķete. Atstājiet tukšu, "
+"lai lietotu tulkoto noklusējumu."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Tiek izmantots tikai tad, ja pozīcija ir \"Peldošais lodziņš\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Tiek izmantots, lai sekotu apmeklētājiem starp vietnēm, rādītu atbilstošas "
+"reklāmas un mērītu kampaņu efektivitāti."
+
+msgid "Version & updates"
+msgstr "Versija un atjauninājumi"
+
+msgid "Vertical"
+msgstr "Vertikāls"
+
+msgid "View changelog"
+msgstr "Skatīt izmaiņu žurnālu"
+
+msgid "Visibility"
+msgstr "Redzamība"
+
+msgid "Visit Lynbro"
+msgstr "Apmeklēt Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP piekrišanas API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Mēs konstatējām Globālās privātuma kontroles signālu un automātiski atteicām"
+" jūs no nebūtiskajām sīkdatnēm."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Mēs izmantojam sīkdatnes, lai uzlabotu jūsu pārlūkošanas pieredzi, "
+"nodrošinātu personalizētu saturu un analizētu mūsu datplūsmu. Jūs varat "
+"piekrist visām sīkdatnēm, atteikties no nebūtiskajām vai pārvaldīt savas "
+"preferences."
+
+msgid "We value your privacy"
+msgstr "Mēs cienām jūsu privātumu"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Pogas platums un augstums (24–96). Noklusējums ir 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Uzrakstīt atsauksmi"
+
+msgid "Yesterday"
+msgstr "Vakar"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Jūs joprojām varat manuāli bloķēt savus skriptus:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Jums nav pietiekamu tiesību, lai piekļūtu šai lapai."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Jūsu pieņemšanas rādītājs pēdējo 7 dienu laikā ir %1$s%%. Vidējais rādītājs "
+"piesaistītajās vietnēs ir %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Jūsu piekrišanas paziņojums ir aktīvs"
+
+msgid "Your email (optional)"
+msgstr "Jūsu e-pasts (neobligāts)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Jūsu ziņojums, spraudņa versija un jūsu vietnes domēns tiek nosūtīti uz "
+"Lynbro portālu. Skatiet mūsu %s."
+
+msgid "\"Read more\" link"
+msgstr "Saite \"Lasīt vairāk\""
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "vietnes valoda"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Notiek valodas sagatavošana… Pirmoreiz tas var aizņemt apmēram minūti. Tā "
+"tiks pievienota automātiski — jūs varat turpināt darbu."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Valoda ir gatava un aktivizēta: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Neizdevās sagatavot: %s. Lūdzu, mēģiniet vēlāk."
+
+msgid "Accessibility"
+msgstr "Pieejamība"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Vai lietot šo dizaina sākotnējo iestatījumu? Tas pārrakstīs pašreizējos "
+"dizaina iestatījumus (pirms saglabāšanas vēl varēsiet tos pārskatīt)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Mierīga, zema kontrasta palete noapaļota stūra lodziņā."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Centrēts dialogs ar aptumšotu pārklājumu, tumša tēma."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Krāsas atbilst WCAG AA pieejamības prasībām"
+
+msgid "Design presets"
+msgstr "Dizaina sākotnējie iestatījumi"
+
+msgid "Details"
+msgstr "Detaļas"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Pilna platuma josla apakšā, gaiša un neitrāla."
+
+msgid "Hide details"
+msgstr "Slēpt detaļas"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Sākuma punkti ar vienu klikšķi. Lietojot sākotnējo iestatījumu, tālāk "
+"norādītie Dizaina lauki tiek aizpildīti un tiešais priekšskatījums tiek "
+"atjaunināts — pārskatiet to, tad Saglabāt izmaiņas, lai paturētu to."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Sākotnējais iestatījums lietots. Pārskatiet priekšskatījumu, tad Saglabāt "
+"izmaiņas, lai paturētu to."
+
+msgid "Preview device width"
+msgstr "Priekšskatījuma ierīces platums"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Plāna, kvadrātveida josla piesprausta lapas augšdaļai."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Maiga peldoša kartīte apakšējā labajā stūrī."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Dažām krāsām ir zems kontrasts (%s) — skatiet detaļas."

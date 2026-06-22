@@ -1,0 +1,1190 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s sekund (od zobrazení banneru do volby návštěvníka)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Malé tlačítko pouze s ikonou, které návštěvníkům umožní znovu otevřít "
+"nastavení cookies poté, co učinili volbu. Automaticky se skryje, když je "
+"banner nebo dialog předvoleb otevřený."
+
+msgid "About"
+msgstr "O aplikaci"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "O Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Přijmout vše"
+
+msgid "Accept button"
+msgstr "Tlačítko Přijmout"
+
+msgid "Accept rate"
+msgstr "Míra přijetí"
+
+msgid "Accessible label"
+msgstr "Přístupný popisek"
+
+msgid "Add a custom language"
+msgstr "Přidat vlastní jazyk"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Přidat do banneru malý rozbalovací seznam jazyků, aby návštěvníci mohli "
+"jazyk přepnout ručně (jejich volba se zapamatuje)."
+
+msgid "Add your privacy policy link"
+msgstr "Přidat odkaz na zásady ochrany osobních údajů"
+
+msgid "Additional CSS"
+msgstr "Dodatečné CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Umožnit webu pamatovat si vaše volby (například jazyk nebo oblast) a "
+"poskytovat tak rozšířené, personalizované funkce."
+
+msgid "Already downloaded on demand:"
+msgstr "Již staženo na vyžádání:"
+
+msgid "Always allow %s"
+msgstr "Vždy povolit %s"
+
+msgid "Always on"
+msgstr "Vždy zapnuto"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Anonymní statistiky"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Automaticky (podle systému návštěvníka)"
+
+msgid "Auto by region"
+msgstr "Automaticky podle regionu"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"Automaticky podle regionu (EU opt-in, USA opt-out, ostatní podle volby)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Automaticky používá ve výchozím nastavení světlé barvy a tmavé barvy, pokud "
+"zařízení návštěvníka upřednostňuje tmavý barevný motiv."
+
+msgid "Auto-block trackers"
+msgstr "Automatické blokování trackerů"
+
+msgid "Auto-detect visitor language"
+msgstr "Automaticky rozpoznat jazyk návštěvníka"
+
+msgid "Automatic tracker blocking"
+msgstr "Automatické blokování trackerů"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Automaticky blokovat známé trackery třetích stran (Google Analytics, GTM, "
+"Meta Pixel, Hotjar, Clarity a další), dokud není udělena odpovídající "
+"kategorie."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Automaticky zobrazit banner v jazyce prohlížeče návštěvníka, pokud je jedním"
+" z nabízených jazyků."
+
+msgid "Average time to decision"
+msgstr "Průměrná doba do rozhodnutí"
+
+msgid "Background color"
+msgstr "Barva pozadí"
+
+msgid "Banner background"
+msgstr "Pozadí banneru"
+
+msgid "Banner description"
+msgstr "Popis banneru"
+
+msgid "Banner max width (px)"
+msgstr "Max. šířka banneru (px)"
+
+msgid "Banner shown"
+msgstr "Banner zobrazen"
+
+msgid "Banner text on background"
+msgstr "Text banneru na pozadí"
+
+msgid "Banner title"
+msgstr "Nadpis banneru"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Základní z-index pro banner, překryv, modální okno a plovoucí tlačítko. "
+"Zvyšte ho, pokud banner překrývá jiný prvek; snižte ho, pokud banner "
+"překrývá něco, co by neměl."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Povoleno základní HTML: odkazy, tučné písmo, kurzíva, zalomení řádku. "
+"Ponechte prázdné pro přeložený výchozí text."
+
+msgid "Benchmark sharing"
+msgstr "Sdílení benchmarku"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Sdílení benchmarku je zapnuto. Vaše první srovnání se zde zobrazí po "
+"spuštění týdenní zprávy."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Blokovat vložený obsah (YouTube, Vimeo, Google Maps, sociální vložený obsah,"
+" reCAPTCHA a další) až do udělení souhlasu a zobrazit přehledný zástupný "
+"obsah s tlačítkem „povolit“."
+
+msgid "Blocking & Embeds"
+msgstr "Blokování a vložené prvky"
+
+msgid "Bottom bar"
+msgstr "Spodní lišta"
+
+msgid "Bottom left"
+msgstr "Vlevo dole"
+
+msgid "Bottom right"
+msgstr "Vpravo dole"
+
+msgid "Box corner"
+msgstr "Zaoblený roh"
+
+msgid "Browser languages"
+msgstr "Jazyky prohlížeče"
+
+msgid "Button icon"
+msgstr "Ikona tlačítka"
+
+msgid "Button text"
+msgstr "Text tlačítka"
+
+msgid "Button text on Accept button"
+msgstr "Text tlačítka pro tlačítko Přijmout"
+
+msgid "Button text on Reject button"
+msgstr "Text tlačítka pro tlačítko Odmítnout"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "Odkaz na odmítnutí podle CCPA / CPRA"
+
+msgid "Categories"
+msgstr "Kategorie"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Category “%s” — description"
+msgstr "Kategorie „%s“ — popis"
+
+msgid "Category “%s” — name"
+msgstr "Kategorie „%s“ — název"
+
+msgid "Center modal (with overlay)"
+msgstr "Uprostřed modální okno (s překryvem)"
+
+msgid "Choose language"
+msgstr "Vybrat jazyk"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Shromažďovat anonymní statistiky (kolik návštěvníků přijme, odmítne nebo "
+"otevře předvolby). Plně agregované a bez cookies — neukládá se IP adresa ani"
+" osobní údaje. Zobrazuje se na kartě Statistiky."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"ID stránek/příspěvků oddělená čárkami, na kterých se banner nemá zobrazovat "
+"(např. vstupní stránky)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Nakonfigurujte svůj cookie banner pro GDPR/ePrivacy a Google Consent Mode "
+"v2. Tento plugin pomáhá s dodržováním předpisů, ale nepředstavuje právní "
+"poradenství."
+
+msgid "Consent Log"
+msgstr "Záznam souhlasů"
+
+msgid "Consent Mode"
+msgstr "Consent Mode"
+
+msgid "Consent Mode v2"
+msgstr "Consent Mode v2"
+
+msgid "Consent logging is disabled."
+msgstr "Záznam souhlasů je vypnutý."
+
+msgid "Consent mode"
+msgstr "Režim souhlasu"
+
+msgid "Content from %s is blocked"
+msgstr "Obsah z %s je blokován"
+
+msgid "Cookie Consent"
+msgstr "Souhlas s cookies"
+
+msgid "Cookie settings"
+msgstr "Nastavení cookies"
+
+msgid "Corner radius (px)"
+msgstr "Poloměr rohů (px)"
+
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+msgid "Dark"
+msgstr "Tmavý"
+
+msgid "Dark colors"
+msgstr "Tmavé barvy"
+
+msgid "Date (UTC)"
+msgstr "Datum (UTC)"
+
+msgid "Design"
+msgstr "Design"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Devices"
+msgstr "Zařízení"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Neprodávat ani nesdílet mé osobní údaje"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Stáhněte všechna nastavení jako soubor JSON pro použití na jiném webu."
+
+msgid "Edge offset (px)"
+msgstr "Odsazení od okraje (px)"
+
+msgid "Edit texts per language"
+msgstr "Upravit texty podle jazyka"
+
+msgid "Embed consent category"
+msgstr "Vložit kategorii souhlasu"
+
+msgid "Embed placeholders"
+msgstr "Vložit zástupné symboly"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Vložené prvky se odblokují, když návštěvník udělí souhlas s touto kategorií "
+"(nebo klikne na „Povolit“ v zástupném symbolu)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Povolit signály Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "Povolit tuto kategorii"
+
+msgid "Engagement (last 30 days)"
+msgstr "Zapojení (posledních 30 dní)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Líbí se vám Lynbro Cookie Consent? Krátká upřímná recenze pomůže ostatním "
+"správcům webů ho najít. Bez tlaku — jen pokud máte chvilku."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Zadejte kód locale WordPressu (například pt_PT nebo ca), abyste nabídli "
+"jazyk, který není součástí balíčku. Po uložení sem doplňte jeho texty."
+
+msgid "Exclude pages/posts"
+msgstr "Vyloučit stránky/příspěvky"
+
+msgid "Export CSV"
+msgstr "Export CSV"
+
+msgid "Export settings"
+msgstr "Exportovat nastavení"
+
+msgid "Export settings (JSON)"
+msgstr "Exportovat nastavení (JSON)"
+
+msgid "Feedback"
+msgstr "Zpětná vazba"
+
+msgid "Feedback on this plugin"
+msgstr "Zpětná vazba k tomuto pluginu"
+
+msgid "Floating box (corner)"
+msgstr "Plovoucí box (v rohu)"
+
+msgid "Floating settings button"
+msgstr "Plovoucí tlačítko nastavení"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Odsazení plovoucího boxu od okrajů obrazovky."
+
+msgid "General"
+msgstr "Obecné"
+
+msgid "Get support"
+msgstr "Získat podporu"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Dobrý kontrast (%s:1) — splňuje WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Máte nápad, problém nebo požadavek? Pošlete jej přímo vývojářům. Je to zcela"
+" volitelné a odešle se to až po kliknutí na Odeslat."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Pomozte nám pochopit, jak návštěvníci interagují s webem, sběrem a anonymním"
+" reportováním informací."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Respektujte signál Global Privacy Control v prohlížeči. V režimu odhlášení "
+"(US/CCPA) budou návštěvníci s GPC automaticky odhlášeni a zobrazí se jim "
+"viditelné potvrzení (od roku 2026 vyžaduje Kalifornie)."
+
+msgid "Horizontal"
+msgstr "Na šířku"
+
+msgid "How you compare"
+msgstr "Jak si vedete"
+
+msgid "Icon"
+msgstr "Ikona"
+
+msgid "Icon color"
+msgstr "Barva ikony"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Nápad na novou funkci nebo plugin"
+
+msgid "Import settings"
+msgstr "Importovat nastavení"
+
+msgid "Importing overwrites your current settings."
+msgstr "Import přepíše vaše aktuální nastavení."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Toto číslo zvyšte vždy, když změníte zásady používání cookies. Uživatelé "
+"budou znovu požádáni o souhlas."
+
+msgid "Installed version"
+msgstr "Nainstalovaná verze"
+
+msgid "Invalid security token."
+msgstr "Neplatný bezpečnostní token."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Funguje ihned po instalaci s výchozím nastavením připraveným pro GDPR — "
+"stejné tlačítko Odmítnout a blokování necílových cookies do udělení "
+"souhlasu."
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "Language downloaded and activated."
+msgstr "Jazyk stažen a aktivován."
+
+msgid "Language settings saved."
+msgstr "Nastavení jazyka uloženo."
+
+msgid "Language switches"
+msgstr "Přepínače jazyků"
+
+msgid "Languages"
+msgstr "Jazyky"
+
+msgid "Last 30 days"
+msgstr "Posledních 30 dní"
+
+msgid "Last 365 days"
+msgstr "Posledních 365 dní"
+
+msgid "Last 7 days"
+msgstr "Posledních 7 dní"
+
+msgid "Leave a review"
+msgstr "Zanechat recenzi"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Nechte prázdné, pokud chcete použít barvu tlačítka Přijmout."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Nechte prázdné, pokud chcete použít barvu textu tlačítka."
+
+msgid "Leave empty to use the translated default."
+msgstr "Nechte prázdné, pokud chcete použít výchozí přeloženou hodnotu."
+
+msgid "Legal mode"
+msgstr "Právní režim"
+
+msgid "Light"
+msgstr "Světlý"
+
+msgid "Light colors"
+msgstr "Světlé barvy"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr "Živý náhled (aktualizuje se při změnách v nastavení Design a Obecné):"
+
+msgid "Load content from %s"
+msgstr "Načíst obsah z %s"
+
+msgid "Local consent log"
+msgstr "Místní záznam souhlasů"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Nízký kontrast (%s:1). Pro splnění WCAG AA se snažte dosáhnout alespoň "
+"4,5:1."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent je bezplatný banner pro cookies s důrazem na soukromí,"
+" vytvořený společností Lynbro. Naším cílem je krásný, skutečně vícejazyčný "
+"banner připravený pro GDPR/ePrivacy se stejně výrazným tlačítkem Odmítnout —"
+" a bez limitů zobrazení, bez platební brány u základních funkcí a bez "
+"sledování na front-endu."
+
+msgid "Manage opened"
+msgstr "Otevřít správu"
+
+msgid "Manage preferences"
+msgstr "Spravovat předvolby"
+
+msgid "Manage-preferences button"
+msgstr "Tlačítko Spravovat předvolby"
+
+msgid "Marketing"
+msgstr "Marketingové"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Maximální šířka plovoucího boxu a středového modalu. Pro použití výchozí "
+"hodnoty nastavte 0."
+
+msgid "Message"
+msgstr "Zpráva"
+
+msgid "Method"
+msgstr "Metoda"
+
+msgid "Mobile"
+msgstr "Mobilní"
+
+msgid "Necessary"
+msgstr "Nezbytné"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Nezbytné cookies jsou vždy aktivní a nelze je vypnout. Zvolte, které "
+"volitelné kategorie mohou návštěvníci spravovat."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Potřebujete jazyk, který není součástí balíčku? Požádejte o něj a my jej "
+"vygenerujeme pro váš web. Soubor s překladem se uloží do složky uploads (při"
+" aktualizaci nebude nikdy přepsán) a aktivuje se automaticky."
+
+msgid "No consent records yet."
+msgstr "Zatím nejsou žádné záznamy o souhlasu."
+
+msgid "No data yet."
+msgstr "Zatím nejsou žádná data."
+
+msgid "No file was uploaded."
+msgstr "Nebyl nahrán žádný soubor."
+
+msgid "No thanks, don’t show this again"
+msgstr "Ne, díky, už to znovu nezobrazovat"
+
+msgid "Notice only"
+msgstr "Pouze oznámení"
+
+msgid "Off"
+msgstr "Vypnuto"
+
+msgid "Offered languages"
+msgstr "Nabízené jazyky"
+
+msgid "Offset from corner (px)"
+msgstr "Odsazení od rohu (px)"
+
+msgid "On"
+msgstr "Zapnuto"
+
+msgid "Once Weekly"
+msgstr "Jednou týdně"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr ""
+"Pouze pokud si přejete odpověď. Nechte prázdné, pokud chcete odeslat "
+"anonymně."
+
+msgid "Opacity"
+msgstr "Neprůhlednost"
+
+msgid "Operating systems"
+msgstr "Operační systémy"
+
+msgid "Opt-in everywhere"
+msgstr "Opt-in všude"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Opt-in všude (GDPR — nejbezpečnější)"
+
+msgid "Opt-out everywhere"
+msgstr "Opt-out všude"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Opt-out všude (styl CCPA)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Volitelné CSS připojené ke stylům banneru. Zaměřte selektory .lynbro-cc."
+
+msgid "Other"
+msgstr "Ostatní"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Přepište jakýkoli text banneru pro konkrétní jazyk. Ponechte pole prázdné, "
+"chcete-li použít dodaný překlad (nebo výchozí anglickou verzi). Priorita: "
+"vaše úprava → dodaný překlad → výchozí."
+
+msgid "Overview"
+msgstr "Přehled"
+
+msgid "Period"
+msgstr "Období"
+
+msgid "Please choose a valid language code."
+msgstr "Zadejte prosím platný kód jazyka."
+
+msgid "Please enter a message before sending."
+msgstr "Před odesláním prosím zadejte zprávu."
+
+msgid "Please upload a .json settings file."
+msgstr "Nahrajte prosím soubor nastavení .json."
+
+msgid "Plugin home page"
+msgstr "Domovská stránka pluginu"
+
+msgid "Policy URL"
+msgstr "URL zásad"
+
+msgid "Policy version"
+msgstr "Verze zásad"
+
+msgid "Position"
+msgstr "Umístění"
+
+msgid "Preferences"
+msgstr "Předvolby"
+
+msgid "Privacy Policy & Terms"
+msgstr "Zásady ochrany osobních údajů a podmínky"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "URL zásad ochrany osobních údajů / cookies"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Soukromé statistiky bez cookies uložené pouze ve vaší vlastní databázi. Jsou"
+" plně agregované — neukládá se IP adresa, identifikátor návštěvníka ani "
+"žádné osobní údaje. Proto samy o sobě nevyžadují souhlas."
+
+msgid "Read more"
+msgstr "Přečíst více"
+
+msgid "Recent consent records"
+msgstr "Nedávné záznamy souhlasu"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Záznamy starší než tato doba se automaticky mažou. Nastavte 0 pro uchování "
+"záznamů na dobu neurčitou."
+
+msgid "Region"
+msgstr "Region"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Region je zjišťován z hlaviček CDN/edge (např. Cloudflare). Pokud není "
+"známý, použije se nejbezpečnější model opt-in. Nevolá se žádné externí "
+"geolokační API."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Zaregistrujte se jako poskytovatel souhlasu pro plugin WP Consent API a "
+"informujte další pluginy o volbě návštěvníka (funkční, předvolby, "
+"statistiky, marketing)."
+
+msgid "Reject all"
+msgstr "Odmítnout vše"
+
+msgid "Reject button"
+msgstr "Tlačítko odmítnutí"
+
+msgid "Report a bug"
+msgstr "Nahlásit chybu"
+
+msgid "Request a language"
+msgstr "Požádat o jazyk"
+
+msgid "Request this language"
+msgstr "Vyžádat si tento jazyk"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Nezbytné pro fungování webu a nelze je vypnout. Obvykle se nastavují v "
+"reakci na vaše akce, například nastavení předvoleb soukromí nebo přihlášení."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Průhlednost v klidovém stavu (0,2–1,0). Tlačítko je při najetí kurzorem nebo"
+" při fokusu plně neprůhledné. Výchozí hodnota je 0,55."
+
+msgid "Retention (days)"
+msgstr "Retence (dny)"
+
+msgid "Round"
+msgstr "Zaoblené"
+
+msgid "Rounded"
+msgstr "Zaoblený"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Zaoblení rohů banneru, boxu a modalu. Nastavte 0 pro použití výchozí "
+"hodnoty."
+
+msgid "Save language settings"
+msgstr "Uložit nastavení jazyka"
+
+msgid "Save preferences"
+msgstr "Uložit předvolby"
+
+msgid "Save-preferences button"
+msgstr "Tlačítko pro uložení předvoleb"
+
+msgid "Send feedback"
+msgstr "Odeslat zpětnou vazbu"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Odesílá do portálu Lynbro pouze název pluginu, verzi a jazykový kód. Viz "
+"naše %s."
+
+msgid "Set"
+msgstr "Nastavit"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Ve výchozím nastavení nastaví všechny signály souhlasu na „zamítnuto“ ještě "
+"před udělením souhlasu a poté je aktualizuje podle volby návštěvníka "
+"(ad_storage, analytics_storage, ad_user_data, ad_personalization, "
+"functionality_storage, personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Settings imported successfully."
+msgstr "Nastavení bylo úspěšně importováno."
+
+msgid "Shape"
+msgstr "Tvar"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Sdílejte anonymní statistiky, které pomohou zlepšit plugin — a podívejte se,"
+" jak se míra souhlasu porovnává s průměrem. Ve výchozím nastavení vypnuto. "
+"Do portálu Lynbro jednou týdně odesílá pouze souhrnné údaje a doménu vašeho "
+"webu (nikdy IP adresy návštěvníků)."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Zobrazit odkaz „Neprodávat ani nesdílet mé osobní údaje“ v režimu odhlášení."
+
+msgid "Show floating settings button on the site"
+msgstr "Zobrazit na webu plovoucí tlačítko nastavení"
+
+msgid "Show language switcher"
+msgstr "Zobrazit přepínač jazyků"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Zobrazit ikonu cookie (doporučeno). Je-li vypnuto, zobrazí se místo ní jako "
+"malé textové tlačítko přístupný štítek."
+
+msgid "Size (px)"
+msgstr "Velikost (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Litujeme, tento jazyk se nyní nepodařilo načíst. Zkuste to prosím později."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "Litujeme, zprávu se nepodařilo odeslat. Zkuste to prosím později."
+
+msgid "Square"
+msgstr "Čtverec"
+
+msgid "Stacking (z-index base)"
+msgstr "Vrstevnění (základ z-indexu)"
+
+msgid "Statistics"
+msgstr "Statistiky"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Statistiky jsou momentálně vypnuté. Chcete-li začít shromažďovat souhrnné "
+"údaje, zapněte v záložce Obecné možnost „Sbírat anonymní statistiky“."
+
+msgid "Statistics are disabled."
+msgstr "Statistiky jsou zakázány."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Ukládá do vaší vlastní databáze důkaz souhlasu respektující soukromí. "
+"Neukládá se žádná nezpracovaná IP adresa — pouze solený, anonymizovaný hash "
+"pro odstranění duplicit."
+
+msgid "Tablet"
+msgstr "Tablet"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Napište nám, co si myslíte, co chybí nebo co se nepovedlo…"
+
+msgid "Text color"
+msgstr "Barva textu"
+
+msgid "Thank you! Your message was sent."
+msgstr "Děkujeme! Vaše zpráva byla odeslána."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Průměrná míra souhlasu napříč weby, které se připojily, je %s%%. Vaše se "
+"zobrazí zde, jakmile si ji návštěvníci začnou volit."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Jazyk banneru se řídí cache-safe posloupností: aktuální jazyk stránky "
+"(Polylang/WPML/TranslatePress), poté jazyk vašeho webu a nakonec angličtina."
+" Automatická detekce prohlížeče a volitelný přepínač přímo v banneru "
+"probíhají výhradně v prohlížeči návštěvníka, takže se cache stránky nikdy "
+"neovlivní."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Soubor neobsahuje platná nastavení Lynbro Cookie Consent."
+
+msgid "Theme"
+msgstr "Motiv"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Toto jsou jazyky připravené pro automatickou detekci v prohlížeči a "
+"přepínač. Jazyky s přibaleným překladem se zde zobrazí automaticky. Jazyk "
+"vašeho webu je vždy zahrnut."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Doplňuje ruční označování skriptů. Veškerá detekce probíhá lokálně; "
+"neodesílá se žádný externí požadavek."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Tento plugin pomáhá s dodržováním pravidel pro cookies, ale nepředstavuje "
+"právní poradenství."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Tip: formulace týkající se cookies/souhlasu mohou mít právní důsledky. "
+"Nechte právní část případného překladu zkontrolovat osobou obeznámenou s "
+"vaší jurisdikcí."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Pro zobrazení tohoto obsahu z %s je třeba přijmout příslušné cookies. "
+"Poskytovatel může nastavit cookies a shromažďovat osobní údaje."
+
+msgid "Today"
+msgstr "Dnes"
+
+msgid "Too many requests."
+msgstr "Příliš mnoho požadavků."
+
+msgid "Tools"
+msgstr "Nástroje"
+
+msgid "Top bar"
+msgstr "Horní lišta"
+
+msgid "Top left"
+msgstr "Vlevo nahoře"
+
+msgid "Top right"
+msgstr "Vpravo nahoře"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Celkem záznamů: %d (zobrazuje se 50 nejnovějších)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Zrušením zaškrtnutí tuto plovoucího tlačítko zcela skryjete — návštěvníci "
+"neuvidí způsob, jak znovu otevřít nastavení souborů cookie (pokud na některé"
+" místo nepřidáte shortcode [lynbro_cookie_settings])."
+
+msgid "Updates"
+msgstr "Aktualizace"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Aktualizace se doručují automaticky prostřednictvím WordPress.org — "
+"neexistuje žádný vlastní aktualizační nástroj a bezplatná verze nikdy "
+"neodesílá údaje domů."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Používá se jako nápověda a popisek pro čtečky obrazovky. Pro přeloženou "
+"výchozí hodnotu ponechte prázdné."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Používá se pouze tehdy, když je Pozice nastavena na „Plovoucí box“."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Používá se ke sledování návštěvníků napříč weby za účelem zobrazování "
+"relevantní reklamy a měření účinnosti kampaní."
+
+msgid "Version & updates"
+msgstr "Verze a aktualizace"
+
+msgid "Vertical"
+msgstr "Svisle"
+
+msgid "View changelog"
+msgstr "Zobrazit changelog"
+
+msgid "Visibility"
+msgstr "Viditelnost"
+
+msgid "Visit Lynbro"
+msgstr "Navštívit Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Zaznamenali jsme signál Global Privacy Control a automaticky jsme vás "
+"odhlásili z nepodstatných souborů cookie."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Používáme soubory cookie ke zlepšení vašeho prohlížení, poskytování "
+"personalizovaného obsahu a analýze návštěvnosti. Můžete přijmout všechny "
+"soubory cookie, odmítnout nepodstatné, nebo spravovat své předvolby."
+
+msgid "We value your privacy"
+msgstr "Vaše soukromí je pro nás důležité"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Šířka a výška tlačítka (24–96). Výchozí hodnota je 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Napsat recenzi"
+
+msgid "Yesterday"
+msgstr "Včera"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Stále můžete své skripty blokovat ručně:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "K této stránce nemáte dostatečná oprávnění."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Vaše míra přijetí za posledních 7 dní je %1$s%%. Průměr mezi weby s aktivním"
+" souhlasem je %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Váš banner se souhlasem je aktivní"
+
+msgid "Your email (optional)"
+msgstr "Váš e-mail (volitelné)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Vaše zpráva, verze pluginu a doména vašeho webu jsou odeslány do portálu "
+"Lynbro. Podívejte se na naše %s."
+
+msgid "\"Read more\" link"
+msgstr "odkaz „Přečíst více“"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "jazyk webu"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Připravujeme váš jazyk… Poprvé to může trvat asi minutu. Přidá se "
+"automaticky — můžete dál pracovat."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Jazyk je připraven a aktivován: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Nepodařilo se připravit: %s. Zkuste to prosím později."
+
+msgid "Accessibility"
+msgstr "Přístupnost"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Použít tuto předvolbu designu? Přepíše to vaše aktuální nastavení designu "
+"(před uložením si ho stále můžete zkontrolovat)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Klidná, málo kontrastní paleta v zaobleném rámečku."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Vycentrovaný dialog se ztmaveným překrytím, tmavý motiv."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Barvy splňují přístupnost WCAG AA"
+
+msgid "Design presets"
+msgstr "Předvolby designu"
+
+msgid "Details"
+msgstr "Podrobnosti"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Lišta v plné šířce dole, světlá a neutrální."
+
+msgid "Hide details"
+msgstr "Skrýt podrobnosti"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Výchozí body na jedno kliknutí. Použití předvolby vyplní níže pole designu a"
+" aktualizuje živý náhled — zkontrolujte ho a poté klikněte na Uložit změny, "
+"aby se zachoval."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Předvolba použita. Zkontrolujte náhled a poté klikněte na Uložit změny, aby "
+"se zachoval."
+
+msgid "Preview device width"
+msgstr "Šířka zařízení v náhledu"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Úzká, hranatá lišta připnutá nahoře na stránce."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Jemná plovoucí karta v pravém dolním rohu."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Některé barvy mají nízký kontrast (%s) — viz podrobnosti."

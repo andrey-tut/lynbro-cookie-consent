@@ -1,0 +1,1202 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s секунд (с момента показа баннера до выбора посетителя)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Небольшая кнопка только с иконкой, позволяющая посетителям снова открыть "
+"настройки файлов cookie после того, как они сделали выбор. Автоматически "
+"скрывается, пока открыт баннер или диалог настроек."
+
+msgid "About"
+msgstr "О программе"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "О Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Принять все"
+
+msgid "Accept button"
+msgstr "Кнопка принятия"
+
+msgid "Accept rate"
+msgstr "Процент принятия"
+
+msgid "Accessible label"
+msgstr "Метка для скринридера"
+
+msgid "Add a custom language"
+msgstr "Добавить пользовательский язык"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Добавьте в баннер небольшой выпадающий список языков, чтобы посетители могли"
+" вручную переключать язык (их выбор запоминается)."
+
+msgid "Add your privacy policy link"
+msgstr "Добавьте ссылку на вашу политику конфиденциальности"
+
+msgid "Additional CSS"
+msgstr "Дополнительный CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Разрешить сайту запоминать сделанные вами выборы (например, язык или "
+"регион), чтобы предоставлять расширенные персонализированные функции."
+
+msgid "Already downloaded on demand:"
+msgstr "Уже загружено по запросу:"
+
+msgid "Always allow %s"
+msgstr "Всегда разрешать %s"
+
+msgid "Always on"
+msgstr "Всегда включено"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Анонимная статистика"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Авто (следовать системе посетителя)"
+
+msgid "Auto by region"
+msgstr "Авто по региону"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr "Авто по региону (ЕС — согласие, США — отказ, остальные — по выбору)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Авто по умолчанию использует светлые цвета, а тёмные — когда на устройстве "
+"посетителя включена тёмная цветовая схема."
+
+msgid "Auto-block trackers"
+msgstr "Автоблокировка трекеров"
+
+msgid "Auto-detect visitor language"
+msgstr "Автоопределение языка посетителя"
+
+msgid "Automatic tracker blocking"
+msgstr "Автоматическая блокировка трекеров"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Автоматически блокировать известные сторонние трекеры (Google Analytics, "
+"GTM, Meta Pixel, Hotjar, Clarity и другие) до получения согласия для "
+"соответствующей категории."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Автоматически показывать баннер на языке браузера посетителя, если он входит"
+" в список доступных языков."
+
+msgid "Average time to decision"
+msgstr "Среднее время до принятия решения"
+
+msgid "Background color"
+msgstr "Цвет фона"
+
+msgid "Banner background"
+msgstr "Фон баннера"
+
+msgid "Banner description"
+msgstr "Описание баннера"
+
+msgid "Banner max width (px)"
+msgstr "Макс. ширина баннера (px)"
+
+msgid "Banner shown"
+msgstr "Баннер показан"
+
+msgid "Banner text on background"
+msgstr "Текст баннера на фоне"
+
+msgid "Banner title"
+msgstr "Заголовок баннера"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Базовый z-index для баннера, оверлея, модального окна и плавающей кнопки. "
+"Увеличьте его, если другой элемент перекрывает баннер; уменьшите, если "
+"баннер перекрывает то, что не должен."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Допустим базовый HTML: ссылки, жирный, курсив, переносы строк. Оставьте "
+"пустым для переведённого значения по умолчанию."
+
+msgid "Benchmark sharing"
+msgstr "Совместный доступ к бенчмарку"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Совместный доступ к бенчмарку включён. Ваше первое сравнение появится здесь "
+"после выполнения еженедельного отчёта."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Блокировать встроенный контент (YouTube, Vimeo, Google Maps, социальные "
+"вставки, reCAPTCHA и многое другое) до получения согласия, показывая "
+"аккуратный заполнитель с кнопкой «разрешить»."
+
+msgid "Blocking & Embeds"
+msgstr "Блокировки и встраивания"
+
+msgid "Bottom bar"
+msgstr "Нижняя панель"
+
+msgid "Bottom left"
+msgstr "Внизу слева"
+
+msgid "Bottom right"
+msgstr "Внизу справа"
+
+msgid "Box corner"
+msgstr "Скруглённый угол"
+
+msgid "Browser languages"
+msgstr "Языки браузера"
+
+msgid "Button icon"
+msgstr "Иконка кнопки"
+
+msgid "Button text"
+msgstr "Текст кнопки"
+
+msgid "Button text on Accept button"
+msgstr "Текст на кнопке «Принять»"
+
+msgid "Button text on Reject button"
+msgstr "Текст на кнопке «Отклонить»"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "Ссылка отказа CCPA / CPRA"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Category “%s” — description"
+msgstr "Категория «%s» — описание"
+
+msgid "Category “%s” — name"
+msgstr "Категория «%s» — название"
+
+msgid "Center modal (with overlay)"
+msgstr "Центральное модальное окно (с затемнением фона)"
+
+msgid "Choose language"
+msgstr "Выберите язык"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Собирать анонимную статистику (сколько посетителей принимают, отклоняют или "
+"открывают настройки). Полностью агрегированно и без cookie — IP-адрес и "
+"персональные данные не сохраняются. Отображается во вкладке «Статистика»."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"ID страниц/записей через запятую, где баннер не должен отображаться "
+"(например, на целевых страницах)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Настройте баннер cookie для GDPR/ePrivacy и Google Consent Mode v2. Этот "
+"плагин помогает соблюдать требования, но не является юридической "
+"консультацией."
+
+msgid "Consent Log"
+msgstr "Журнал согласий"
+
+msgid "Consent Mode"
+msgstr "Режим согласия"
+
+msgid "Consent Mode v2"
+msgstr "Consent Mode v2"
+
+msgid "Consent logging is disabled."
+msgstr "Ведение журнала согласий отключено."
+
+msgid "Consent mode"
+msgstr "Режим согласия"
+
+msgid "Content from %s is blocked"
+msgstr "Содержимое из %s заблокировано"
+
+msgid "Cookie Consent"
+msgstr "Согласие на использование cookie"
+
+msgid "Cookie settings"
+msgstr "Настройки cookie"
+
+msgid "Corner radius (px)"
+msgstr "Радиус скругления (px)"
+
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+msgid "Dark"
+msgstr "Тёмная тема"
+
+msgid "Dark colors"
+msgstr "Тёмные цвета"
+
+msgid "Date (UTC)"
+msgstr "Дата (UTC)"
+
+msgid "Design"
+msgstr "Дизайн"
+
+msgid "Desktop"
+msgstr "Компьютер"
+
+msgid "Devices"
+msgstr "Устройства"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Не продавать и не передавать мои персональные данные"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Скачайте все настройки в виде JSON-файла, чтобы использовать их на другом "
+"сайте."
+
+msgid "Edge offset (px)"
+msgstr "Смещение от края (px)"
+
+msgid "Edit texts per language"
+msgstr "Редактировать тексты для каждого языка"
+
+msgid "Embed consent category"
+msgstr "Встроить категорию согласия"
+
+msgid "Embed placeholders"
+msgstr "Заполнители для встраиваемого контента"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Встраиваемый контент разблокируется, когда посетитель разрешает эту "
+"категорию (или нажимает «разрешить» на заполнителе)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Включить сигналы Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "Включить эту категорию"
+
+msgid "Engagement (last 30 days)"
+msgstr "Вовлечённость (за последние 30 дней)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Нравится Lynbro Cookie Consent? Короткий, честный отзыв поможет другим "
+"владельцам сайтов найти его. Без давления — только если у вас есть минутка."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Введите код локали WordPress (например, pt_PT или ca), чтобы предложить "
+"язык, который не входит в комплект. После сохранения заполните его тексты "
+"ниже."
+
+msgid "Exclude pages/posts"
+msgstr "Исключить страницы/записи"
+
+msgid "Export CSV"
+msgstr "Экспорт CSV"
+
+msgid "Export settings"
+msgstr "Экспорт настроек"
+
+msgid "Export settings (JSON)"
+msgstr "Экспорт настроек (JSON)"
+
+msgid "Feedback"
+msgstr "Обратная связь"
+
+msgid "Feedback on this plugin"
+msgstr "Отзывы об этом плагине"
+
+msgid "Floating box (corner)"
+msgstr "Плавающий блок (в углу)"
+
+msgid "Floating settings button"
+msgstr "Плавающая кнопка настроек"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Отступ плавающего блока от краёв экрана."
+
+msgid "General"
+msgstr "Общие"
+
+msgid "Get support"
+msgstr "Получить поддержку"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Хороший контраст (%s:1) — соответствует WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Есть идея, проблема или запрос? Отправьте прямо разработчикам. Это "
+"совершенно необязательно и отправляется только после нажатия «Отправить»."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Помогите нам понять, как посетители взаимодействуют с сайтом, собирая и "
+"передавая информацию анонимно."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Учитывать сигнал браузера Global Privacy Control. В режиме отказа от "
+"согласия (US/CCPA) посетители с GPC автоматически считаются отказавшимися, и"
+" им показывается видимое подтверждение (требуется в Калифорнии с 2026 года)."
+
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+msgid "How you compare"
+msgstr "Ваши показатели в сравнении"
+
+msgid "Icon"
+msgstr "Значок"
+
+msgid "Icon color"
+msgstr "Цвет значка"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Идея для новой функции или плагина"
+
+msgid "Import settings"
+msgstr "Импорт настроек"
+
+msgid "Importing overwrites your current settings."
+msgstr "При импорте ваши текущие настройки будут перезаписаны."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Увеличивайте это число каждый раз, когда меняется ваша cookie-политика. "
+"Посетителям будет предложено снова дать согласие."
+
+msgid "Installed version"
+msgstr "Установленная версия"
+
+msgid "Invalid security token."
+msgstr "Недействительный токен безопасности."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Он работает сразу после установки с настройками по умолчанию, готовыми к "
+"GDPR: кнопка «Отклонить» равного уровня и блокировка необязательных файлов "
+"cookie до получения согласия."
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Language downloaded and activated."
+msgstr "Язык загружен и активирован."
+
+msgid "Language settings saved."
+msgstr "Настройки языка сохранены."
+
+msgid "Language switches"
+msgstr "Переключатели языков"
+
+msgid "Languages"
+msgstr "Языки"
+
+msgid "Last 30 days"
+msgstr "За последние 30 дней"
+
+msgid "Last 365 days"
+msgstr "За последние 365 дней"
+
+msgid "Last 7 days"
+msgstr "За последние 7 дней"
+
+msgid "Leave a review"
+msgstr "Оставить отзыв"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Оставьте пустым, чтобы использовать цвет кнопки «Принять»."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Оставьте пустым, чтобы использовать цвет текста кнопки."
+
+msgid "Leave empty to use the translated default."
+msgstr "Оставьте пустым, чтобы использовать перевод по умолчанию."
+
+msgid "Legal mode"
+msgstr "Юридический режим"
+
+msgid "Light"
+msgstr "Светлая"
+
+msgid "Light colors"
+msgstr "Светлые цвета"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Живой предпросмотр (обновляется по мере изменения настроек дизайна и общих "
+"настроек):"
+
+msgid "Load content from %s"
+msgstr "Загружать содержимое из %s"
+
+msgid "Local consent log"
+msgstr "Локальный журнал согласий"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Низкий контраст (%s:1). Стремитесь как минимум к 4.5:1, чтобы "
+"соответствовать WCAG AA."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent — это бесплатный баннер cookie-файлов с приоритетом "
+"приватности, созданный Lynbro. Наша цель — красивый, по-настоящему "
+"многоязычный баннер, готовый к GDPR/ePrivacy, с равнозначной кнопкой "
+"«Отклонить» — без лимитов просмотров страниц, без платного доступа к базовым"
+" функциям и без отслеживания на фронтенде."
+
+msgid "Manage opened"
+msgstr "Управление открыто"
+
+msgid "Manage preferences"
+msgstr "Управлять настройками"
+
+msgid "Manage-preferences button"
+msgstr "Кнопка «Управлять настройками»"
+
+msgid "Marketing"
+msgstr "Маркетинг"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Максимальная ширина плавающего блока и центрального модального окна. "
+"Установите 0, чтобы использовать значение по умолчанию."
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Method"
+msgstr "Способ"
+
+msgid "Mobile"
+msgstr "Мобильный"
+
+msgid "Necessary"
+msgstr "Необходимые"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Необходимые cookie-файлы всегда активны и не могут быть отключены. Выберите,"
+" какими необязательными категориями могут управлять посетители."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Нужен язык, которого нет в комплекте? Запросите его, и мы сгенерируем его "
+"для вашего сайта. Файл перевода хранится в папке uploads (никогда не "
+"перезаписывается при обновлении) и активируется автоматически."
+
+msgid "No consent records yet."
+msgstr "Пока нет записей о согласии."
+
+msgid "No data yet."
+msgstr "Пока нет данных."
+
+msgid "No file was uploaded."
+msgstr "Файл не был загружен."
+
+msgid "No thanks, don’t show this again"
+msgstr "Нет, спасибо, больше не показывать"
+
+msgid "Notice only"
+msgstr "Только уведомление"
+
+msgid "Off"
+msgstr "Выкл"
+
+msgid "Offered languages"
+msgstr "Доступные языки"
+
+msgid "Offset from corner (px)"
+msgstr "Смещение от угла (px)"
+
+msgid "On"
+msgstr "Вкл"
+
+msgid "Once Weekly"
+msgstr "Раз в неделю"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr ""
+"Только если вы хотите получить ответ. Оставьте пустым, чтобы отправить "
+"анонимно."
+
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+msgid "Operating systems"
+msgstr "Операционные системы"
+
+msgid "Opt-in everywhere"
+msgstr "Запрашивать согласие везде"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Запрашивать согласие везде (GDPR — самый безопасный вариант)"
+
+msgid "Opt-out everywhere"
+msgstr "Отказ везде"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Отказ везде (в стиле CCPA)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Дополнительный CSS, который будет добавлен к таблице стилей баннера. "
+"Используйте селекторы .lynbro-cc."
+
+msgid "Other"
+msgstr "Другое"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Переопределяйте любой текст баннера для конкретного языка. Оставьте поле "
+"пустым, чтобы использовать встроенный перевод (или английский по умолчанию)."
+" Приоритет: ваше переопределение → встроенный перевод → значение по "
+"умолчанию."
+
+msgid "Overview"
+msgstr "Обзор"
+
+msgid "Period"
+msgstr "Период"
+
+msgid "Please choose a valid language code."
+msgstr "Пожалуйста, выберите действительный код языка."
+
+msgid "Please enter a message before sending."
+msgstr "Пожалуйста, введите сообщение перед отправкой."
+
+msgid "Please upload a .json settings file."
+msgstr "Пожалуйста, загрузите файл настроек .json."
+
+msgid "Plugin home page"
+msgstr "Домашняя страница плагина"
+
+msgid "Policy URL"
+msgstr "URL политики"
+
+msgid "Policy version"
+msgstr "Версия политики"
+
+msgid "Position"
+msgstr "Позиция"
+
+msgid "Preferences"
+msgstr "Настройки"
+
+msgid "Privacy Policy & Terms"
+msgstr "Политика конфиденциальности и условия"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "URL политики конфиденциальности/куки"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Приватная статистика без cookie, хранящаяся только в вашей собственной базе "
+"данных. Она полностью агрегирована — не записываются IP-адрес, идентификатор"
+" посетителя и какие-либо персональные данные. Поэтому сама по себе такая "
+"статистика не требует согласия."
+
+msgid "Read more"
+msgstr "Подробнее"
+
+msgid "Recent consent records"
+msgstr "Недавние записи согласия"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Записи старше этого срока удаляются автоматически. Установите 0, чтобы "
+"хранить записи бессрочно."
+
+msgid "Region"
+msgstr "Регион"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Регион определяется по заголовкам CDN/edge (например, Cloudflare). Если он "
+"неизвестен, используется самый безопасный режим запроса согласия. Внешний "
+"API геолокации не вызывается."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Зарегистрироваться как провайдер согласия для плагина WP Consent API и "
+"уведомлять другие плагины о выборе посетителя (функциональные, настройки, "
+"статистика, маркетинг)."
+
+msgid "Reject all"
+msgstr "Отклонить всё"
+
+msgid "Reject button"
+msgstr "Кнопка отклонения"
+
+msgid "Report a bug"
+msgstr "Сообщить об ошибке"
+
+msgid "Request a language"
+msgstr "Запросить язык"
+
+msgid "Request this language"
+msgstr "Запросить этот язык"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Необходимы для работы сайта и не могут быть отключены. Обычно они "
+"устанавливаются в ответ на ваши действия, например при настройке параметров "
+"конфиденциальности или входе в систему."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Прозрачность в состоянии покоя (0.2–1.0). При наведении или фокусе кнопка "
+"становится полностью непрозрачной. По умолчанию — 0.55."
+
+msgid "Retention (days)"
+msgstr "Срок хранения (дней)"
+
+msgid "Round"
+msgstr "Скругление"
+
+msgid "Rounded"
+msgstr "Скруглённый"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Скругление углов баннера, блока и модального окна. Установите 0, чтобы "
+"использовать значение по умолчанию."
+
+msgid "Save language settings"
+msgstr "Сохранить языковые настройки"
+
+msgid "Save preferences"
+msgstr "Сохранить настройки"
+
+msgid "Save-preferences button"
+msgstr "Кнопка сохранения предпочтений"
+
+msgid "Send feedback"
+msgstr "Отправить отзыв"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Отправляет на портал Lynbro только название плагина, версию и код языка. См."
+" наши %s."
+
+msgid "Set"
+msgstr "Установить"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"По умолчанию перед согласием устанавливает все сигналы согласия в "
+"\"denied\", а затем обновляет их на основе выбора посетителя (ad_storage, "
+"analytics_storage, ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Settings imported successfully."
+msgstr "Настройки успешно импортированы."
+
+msgid "Shape"
+msgstr "Форма"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Поделитесь анонимной статистикой, чтобы помочь улучшить плагин, и "
+"посмотрите, как ваш процент согласия соотносится со средним. По умолчанию "
+"выключено. На портал Lynbro раз в неделю отправляются только агрегированные "
+"данные и домен вашего сайта (никогда не IP посетителей)."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Показывать ссылку «Не продавать и не передавать мою личную информацию» в "
+"режиме отказа."
+
+msgid "Show floating settings button on the site"
+msgstr "Показывать на сайте плавающую кнопку настроек"
+
+msgid "Show language switcher"
+msgstr "Показывать переключатель языка"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Показывать значок cookie (рекомендуется). Если выключено, вместо него "
+"отображается доступная метка в виде небольшой текстовой кнопки."
+
+msgid "Size (px)"
+msgstr "Размер (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Извините, сейчас не удалось получить этот язык. Пожалуйста, попробуйте "
+"позже."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr ""
+"Извините, не удалось отправить сообщение. Пожалуйста, попробуйте позже."
+
+msgid "Square"
+msgstr "Квадрат"
+
+msgid "Stacking (z-index base)"
+msgstr "Наложение (базовый z-index)"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Статистика сейчас выключена. Включите «Собирать анонимную статистику» на "
+"вкладке «Общие», чтобы начать сбор агрегированных данных."
+
+msgid "Statistics are disabled."
+msgstr "Статистика отключена."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Сохраняет в вашей базе данных доказательство согласия с учетом приватности. "
+"Не сохраняется сырой IP-адрес — только обезличенный хэш с солью для "
+"исключения дубликатов."
+
+msgid "Tablet"
+msgstr "Планшет"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Расскажите, что вы думаете, чего не хватает или что пошло не так…"
+
+msgid "Text color"
+msgstr "Цвет текста"
+
+msgid "Thank you! Your message was sent."
+msgstr "Спасибо! Ваше сообщение отправлено."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Средний процент согласия среди сайтов с включенной подпиской — %s%%. Ваш "
+"показатель появится здесь, когда посетители начнут делать выбор."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Язык баннера следует безопасной для кэша последовательности: текущий язык "
+"страницы (Polylang/WPML/TranslatePress), затем язык вашего сайта, затем "
+"английский. Автоопределение по браузеру и необязательный переключатель в "
+"баннере работают полностью в браузере посетителя, поэтому кэш страницы "
+"никогда не затрагивается."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Файл не содержит допустимых настроек Lynbro Cookie Consent."
+
+msgid "Theme"
+msgstr "Тема"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Это языки, подготовленные для автоопределения по браузеру и переключателя. "
+"Языки с встроенным переводом появляются здесь автоматически. Язык вашего "
+"сайта всегда включен."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Это дополняет ручную разметку скриптов. Все определение выполняется "
+"локально; внешний запрос не отправляется."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Этот плагин помогает соблюдать требования к файлам cookie, но не является "
+"юридической консультацией."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Совет: формулировки о cookie/согласии могут иметь юридические последствия. "
+"Попросите человека, знакомого с вашим законодательством, проверить "
+"юридические части любого перевода."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Чтобы просмотреть этот контент от %s, необходимо принять соответствующие "
+"cookies. Провайдер может устанавливать cookies и собирать персональные "
+"данные."
+
+msgid "Today"
+msgstr "Сегодня"
+
+msgid "Too many requests."
+msgstr "Слишком много запросов."
+
+msgid "Tools"
+msgstr "Инструменты"
+
+msgid "Top bar"
+msgstr "Верхняя панель"
+
+msgid "Top left"
+msgstr "Вверху слева"
+
+msgid "Top right"
+msgstr "В правом верхнем углу"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Всего записей: %d (показаны 50 самых последних)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Если снять этот флажок, плавающая кнопка будет полностью скрыта — посетители"
+" не увидят способ снова открыть настройки файлов cookie (если только вы не "
+"добавите шорткод [lynbro_cookie_settings] где-либо на сайте)."
+
+msgid "Updates"
+msgstr "Обновления"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Обновления доставляются автоматически через WordPress.org — здесь нет "
+"собственного механизма обновления, а бесплатная версия никогда не отправляет"
+" данные на сервер."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Используется как всплывающая подсказка и метка для экранного диктора. "
+"Оставьте пустым, чтобы использовать переведённое значение по умолчанию."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Используется только когда для позиции выбрано «Плавающий блок»."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Используется для отслеживания посетителей на разных сайтах, чтобы показывать"
+" релевантную рекламу и оценивать эффективность кампаний."
+
+msgid "Version & updates"
+msgstr "Версия и обновления"
+
+msgid "Vertical"
+msgstr "Вертикально"
+
+msgid "View changelog"
+msgstr "Посмотреть журнал изменений"
+
+msgid "Visibility"
+msgstr "Видимость"
+
+msgid "Visit Lynbro"
+msgstr "Посетить Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Мы обнаружили сигнал Global Privacy Control и автоматически отключили для "
+"вас несущественные cookies."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Мы используем файлы cookie, чтобы улучшить ваш опыт просмотра, показывать "
+"персонализированный контент и анализировать наш трафик. Вы можете принять "
+"все файлы cookie, отклонить несущественные или управлять своими "
+"предпочтениями."
+
+msgid "We value your privacy"
+msgstr "Мы ценим вашу конфиденциальность"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Ширина и высота кнопки (24–96). По умолчанию 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Написать отзыв"
+
+msgid "Yesterday"
+msgstr "Вчера"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Вы всё ещё можете заблокировать свои скрипты вручную:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно прав для доступа к этой странице."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Ваш показатель согласия за последние 7 дней составляет %1$s%%. Средний "
+"показатель на сайтах с включённым согласием — %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Ваш баннер согласия активен"
+
+msgid "Your email (optional)"
+msgstr "Ваш email (необязательно)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Ваше сообщение, версия плагина и домен вашего сайта отправляются в портал "
+"Lynbro. См. нашу %s."
+
+msgid "\"Read more\" link"
+msgstr "Ссылка «Читать далее»"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "язык сайта"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Подготовка вашего языка… В первый раз это может занять около минуты. Он "
+"будет добавлен автоматически — вы можете продолжать работу."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Язык готов и активирован: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Не удалось подготовить: %s. Пожалуйста, попробуйте позже."
+
+msgid "Accessibility"
+msgstr "Доступность"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Применить этот шаблон оформления? Он заменит текущие настройки дизайна (вы "
+"сможете проверить их перед сохранением)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Спокойная палитра с низким контрастом в блоке со скруглёнными углами."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Диалог по центру с затемнённым фоном, тёмная тема."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Цвета соответствуют требованиям доступности WCAG AA"
+
+msgid "Design presets"
+msgstr "Шаблоны оформления"
+
+msgid "Details"
+msgstr "Подробности"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Полноширинная панель внизу, светлая и нейтральная."
+
+msgid "Hide details"
+msgstr "Скрыть подробности"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Быстрые варианты для старта. Применение шаблона заполнит поля дизайна ниже и"
+" обновит предпросмотр — проверьте его, затем нажмите «Сохранить изменения», "
+"чтобы оставить его."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Шаблон применён. Проверьте предпросмотр, затем нажмите «Сохранить "
+"изменения», чтобы оставить его."
+
+msgid "Preview device width"
+msgstr "Ширина предпросмотра на устройстве"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Узкая квадратная панель, закреплённая вверху страницы."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Мягкая плавающая карточка в правом нижнем углу."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Некоторые цвета имеют низкий контраст (%s) — см. подробности."

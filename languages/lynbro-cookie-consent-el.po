@@ -1,0 +1,1213 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr ""
+"%s δευτερόλεπτα (από την εμφάνιση του banner έως την επιλογή του επισκέπτη)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Ένα μικρό κουμπί μόνο με εικονίδιο που επιτρέπει στους επισκέπτες να "
+"ανοίξουν ξανά τις ρυθμίσεις cookie αφού έχουν κάνει μια επιλογή. Κρύβεται "
+"αυτόματα όσο το banner ή ο διάλογος προτιμήσεων είναι ανοιχτά."
+
+msgid "About"
+msgstr "Σχετικά"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Σχετικά με το Lynbro Cookie Consent"
+
+msgid "Accept all"
+msgstr "Αποδοχή όλων"
+
+msgid "Accept button"
+msgstr "Κουμπί αποδοχής"
+
+msgid "Accept rate"
+msgstr "Ποσοστό αποδοχής"
+
+msgid "Accessible label"
+msgstr "Προσβάσιμη ετικέτα"
+
+msgid "Add a custom language"
+msgstr "Προσθήκη προσαρμοσμένης γλώσσας"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Προσθέστε ένα μικρό αναδυόμενο μενού γλώσσας στο banner ώστε οι επισκέπτες "
+"να μπορούν να αλλάζουν γλώσσα χειροκίνητα (η επιλογή τους αποθηκεύεται)."
+
+msgid "Add your privacy policy link"
+msgstr "Προσθέστε σύνδεσμο προς την πολιτική απορρήτου σας"
+
+msgid "Additional CSS"
+msgstr "Πρόσθετο CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Επιτρέψτε στον ιστότοπο να θυμάται επιλογές που κάνετε (όπως γλώσσα ή "
+"περιοχή) για να παρέχει βελτιωμένες, εξατομικευμένες λειτουργίες."
+
+msgid "Already downloaded on demand:"
+msgstr "Έχει ήδη ληφθεί κατ' απαίτηση:"
+
+msgid "Always allow %s"
+msgstr "Να επιτρέπεται πάντα το %s"
+
+msgid "Always on"
+msgstr "Πάντα ενεργό"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Ανώνυμα στατιστικά"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Αυτόματα (ακολουθεί το σύστημα του επισκέπτη)"
+
+msgid "Auto by region"
+msgstr "Αυτόματα ανά περιοχή"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"Αυτόματα ανά περιοχή (opt-in στην ΕΕ, opt-out στις ΗΠΑ, για τις υπόλοιπες "
+"περιοχές με επιλογή)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Το αυτόματο χρησιμοποιεί από προεπιλογή τα ανοιχτά χρώματα και τα σκούρα "
+"χρώματα όταν η συσκευή του επισκέπτη προτιμά σκούρο χρωματικό σχήμα."
+
+msgid "Auto-block trackers"
+msgstr "Αυτόματο μπλοκάρισμα ιχνηλατών"
+
+msgid "Auto-detect visitor language"
+msgstr "Αυτόματη ανίχνευση γλώσσας επισκέπτη"
+
+msgid "Automatic tracker blocking"
+msgstr "Αυτόματο μπλοκάρισμα ιχνηλατών"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Μπλοκάρετε αυτόματα γνωστούς ιχνηλάτες τρίτων (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity και άλλα) μέχρι να δοθεί άδεια στην αντίστοιχη "
+"κατηγορία."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Εμφανίστε αυτόματα το banner στη γλώσσα του προγράμματος περιήγησης του "
+"επισκέπτη όταν αυτή είναι μία από τις διαθέσιμες γλώσσες."
+
+msgid "Average time to decision"
+msgstr "Μέσος χρόνος μέχρι την απόφαση"
+
+msgid "Background color"
+msgstr "Χρώμα φόντου"
+
+msgid "Banner background"
+msgstr "Φόντο banner"
+
+msgid "Banner description"
+msgstr "Περιγραφή banner"
+
+msgid "Banner max width (px)"
+msgstr "Μέγιστο πλάτος banner (px)"
+
+msgid "Banner shown"
+msgstr "Το banner εμφανίστηκε"
+
+msgid "Banner text on background"
+msgstr "Κείμενο banner πάνω σε φόντο"
+
+msgid "Banner title"
+msgstr "Τίτλος banner"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Βασικό z-index για το banner, την επικάλυψη, το modal και το αιωρούμενο "
+"κουμπί. Αυξήστε το αν κάποιο άλλο στοιχείο καλύπτει το banner· μειώστε το αν"
+" το banner καλύπτει κάτι που δεν θα έπρεπε."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Επιτρέπεται βασικό HTML: σύνδεσμοι, έντονα, πλάγια, αλλαγές γραμμής. Αφήστε "
+"κενό για την προεπιλεγμένη μετάφραση."
+
+msgid "Benchmark sharing"
+msgstr "Κοινοποίηση benchmark"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Η κοινοποίηση benchmark είναι ενεργή. Η πρώτη σας σύγκριση θα εμφανιστεί εδώ"
+" αφού εκτελεστεί η εβδομαδιαία αναφορά."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Μπλοκάρετε ενσωματωμένο περιεχόμενο (YouTube, Vimeo, Google Maps, "
+"ενσωματώσεις κοινωνικών δικτύων, reCAPTCHA και άλλα) μέχρι να δοθεί "
+"συγκατάθεση, εμφανίζοντας ένα καθαρό placeholder με κουμπί \"allow\"."
+
+msgid "Blocking & Embeds"
+msgstr "Αποκλεισμοί & Ενσωματώσεις"
+
+msgid "Bottom bar"
+msgstr "Κάτω μπάρα"
+
+msgid "Bottom left"
+msgstr "Κάτω αριστερά"
+
+msgid "Bottom right"
+msgstr "Κάτω δεξιά"
+
+msgid "Box corner"
+msgstr "Γωνία πλαισίου"
+
+msgid "Browser languages"
+msgstr "Γλώσσες του προγράμματος περιήγησης"
+
+msgid "Button icon"
+msgstr "Εικονίδιο κουμπιού"
+
+msgid "Button text"
+msgstr "Κείμενο κουμπιού"
+
+msgid "Button text on Accept button"
+msgstr "Κείμενο κουμπιού στο κουμπί Αποδοχή"
+
+msgid "Button text on Reject button"
+msgstr "Κείμενο κουμπιού στο κουμπί Απόρριψη"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "Σύνδεσμος εξαίρεσης CCPA / CPRA"
+
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+msgid "Category"
+msgstr "Κατηγορία"
+
+msgid "Category “%s” — description"
+msgstr "Κατηγορία “%s” — περιγραφή"
+
+msgid "Category “%s” — name"
+msgstr "Κατηγορία “%s” — όνομα"
+
+msgid "Center modal (with overlay)"
+msgstr "Κεντρικό modal (με επικάλυψη)"
+
+msgid "Choose language"
+msgstr "Επιλέξτε γλώσσα"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Συλλέγει ανώνυμα στατιστικά (πόσοι επισκέπτες αποδέχονται, απορρίπτουν ή "
+"ανοίγουν τις προτιμήσεις). Πλήρως συγκεντρωτικά και χωρίς cookies — δεν "
+"αποθηκεύεται διεύθυνση IP ή προσωπικά δεδομένα. Εμφανίζεται στην καρτέλα "
+"Στατιστικά."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"Αναγνωριστικά σελίδων/αναρτήσεων χωρισμένα με κόμμα, όπου δεν πρέπει να "
+"εμφανίζεται το banner (π.χ. σελίδες προορισμού)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Ρυθμίστε το banner cookies για GDPR/ePrivacy και Google Consent Mode v2. "
+"Αυτό το πρόσθετο βοηθά στη συμμόρφωση αλλά δεν αποτελεί νομική συμβουλή."
+
+msgid "Consent Log"
+msgstr "Καταγραφή Συγκατάθεσης"
+
+msgid "Consent Mode"
+msgstr "Λειτουργία Συγκατάθεσης"
+
+msgid "Consent Mode v2"
+msgstr "Consent Mode v2"
+
+msgid "Consent logging is disabled."
+msgstr "Η καταγραφή συγκατάθεσης είναι απενεργοποιημένη."
+
+msgid "Consent mode"
+msgstr "Λειτουργία συγκατάθεσης"
+
+msgid "Content from %s is blocked"
+msgstr "Το περιεχόμενο από %s είναι αποκλεισμένο"
+
+msgid "Cookie Consent"
+msgstr "Συγκατάθεση Cookies"
+
+msgid "Cookie settings"
+msgstr "Ρυθμίσεις cookies"
+
+msgid "Corner radius (px)"
+msgstr "Ακτίνα γωνίας (px)"
+
+msgid "Custom CSS"
+msgstr "Προσαρμοσμένο CSS"
+
+msgid "Dark"
+msgstr "Σκούρο"
+
+msgid "Dark colors"
+msgstr "Σκούρα χρώματα"
+
+msgid "Date (UTC)"
+msgstr "Ημερομηνία (UTC)"
+
+msgid "Design"
+msgstr "Σχεδίαση"
+
+msgid "Desktop"
+msgstr "Υπολογιστής"
+
+msgid "Devices"
+msgstr "Συσκευές"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Να μη γίνει πώληση ή κοινοποίηση των προσωπικών μου πληροφοριών"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Λήψη όλων των ρυθμίσεων ως αρχείο JSON για επαναχρησιμοποίηση σε άλλο "
+"ιστότοπο."
+
+msgid "Edge offset (px)"
+msgstr "Απόσταση από την άκρη (px)"
+
+msgid "Edit texts per language"
+msgstr "Επεξεργασία κειμένων ανά γλώσσα"
+
+msgid "Embed consent category"
+msgstr "Κατηγορία συγκατάθεσης για ενσωματώσεις"
+
+msgid "Embed placeholders"
+msgstr "Πλαίσια θέσης ενσωματώσεων"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Οι ενσωματώσεις ξεμπλοκάρονται όταν ο επισκέπτης δώσει συγκατάθεση σε αυτήν "
+"την κατηγορία (ή κάνει κλικ στο \"allow\" στο πλαίσιο θέσης)."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Ενεργοποίηση σημάτων Google Consent Mode v2"
+
+msgid "Enable this category"
+msgstr "Ενεργοποίηση αυτής της κατηγορίας"
+
+msgid "Engagement (last 30 days)"
+msgstr "Αλληλεπίδραση (τελευταίες 30 ημέρες)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Σας αρέσει το Lynbro Cookie Consent; Μια σύντομη, ειλικρινής κριτική βοηθά "
+"άλλους ιδιοκτήτες ιστότοπων να το βρουν. Χωρίς πίεση — μόνο αν έχετε λίγο "
+"χρόνο."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Εισαγάγετε έναν κωδικό τοπικής ρύθμισης WordPress (για παράδειγμα pt_PT ή "
+"ca) για να προσφέρετε μια γλώσσα που δεν περιλαμβάνεται. Αφού αποθηκεύσετε, "
+"συμπληρώστε παρακάτω τα κείμενά της."
+
+msgid "Exclude pages/posts"
+msgstr "Εξαίρεση σελίδων/αναρτήσεων"
+
+msgid "Export CSV"
+msgstr "Εξαγωγή CSV"
+
+msgid "Export settings"
+msgstr "Εξαγωγή ρυθμίσεων"
+
+msgid "Export settings (JSON)"
+msgstr "Εξαγωγή ρυθμίσεων (JSON)"
+
+msgid "Feedback"
+msgstr "Σχόλια"
+
+msgid "Feedback on this plugin"
+msgstr "Σχόλια για αυτό το πρόσθετο"
+
+msgid "Floating box (corner)"
+msgstr "Αιωρούμενο πλαίσιο (γωνία)"
+
+msgid "Floating settings button"
+msgstr "Αιωρούμενο κουμπί ρυθμίσεων"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr ""
+"Απόσταση από τα άκρα της οθόνης για τη διάταξη του αιωρούμενου πλαισίου."
+
+msgid "General"
+msgstr "Γενικά"
+
+msgid "Get support"
+msgstr "Λήψη υποστήριξης"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Καλή αντίθεση (%s:1) — πληροί το WCAG AA."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Έχετε μια ιδέα, ένα πρόβλημα ή ένα αίτημα; Στείλτε το απευθείας στους "
+"προγραμματιστές. Αυτό είναι εντελώς προαιρετικό και αποστέλλεται μόνο όταν "
+"κάνετε κλικ στο Send."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Βοηθήστε μας να κατανοήσουμε πώς αλληλεπιδρούν οι επισκέπτες με τον "
+"ιστότοπο, συλλέγοντας και αναφέροντας πληροφορίες ανώνυμα."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Σεβαστείτε το σήμα Global Privacy Control του προγράμματος περιήγησης. Στη "
+"λειτουργία opt-out (ΗΠΑ/CCPA), οι επισκέπτες με GPC εξαιρούνται αυτόματα και"
+" εμφανίζεται ορατή επιβεβαίωση (απαιτείται από την Καλιφόρνια από το 2026)."
+
+msgid "Horizontal"
+msgstr "Οριζόντιο"
+
+msgid "How you compare"
+msgstr "Πώς συγκρίνεστε"
+
+msgid "Icon"
+msgstr "Εικονίδιο"
+
+msgid "Icon color"
+msgstr "Χρώμα εικονιδίου"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Ιδέα για νέο χαρακτηριστικό ή πρόσθετο"
+
+msgid "Import settings"
+msgstr "Εισαγωγή ρυθμίσεων"
+
+msgid "Importing overwrites your current settings."
+msgstr "Η εισαγωγή αντικαθιστά τις τρέχουσες ρυθμίσεις σας."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Αυξήστε αυτόν τον αριθμό κάθε φορά που αλλάζει η πολιτική cookies σας. Θα "
+"ζητηθεί ξανά συγκατάθεση από τους επισκέπτες."
+
+msgid "Installed version"
+msgstr "Εγκατεστημένη έκδοση"
+
+msgid "Invalid security token."
+msgstr "Μη έγκυρο διακριτικό ασφαλείας."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Λειτουργεί αμέσως με προεπιλογές έτοιμες για GDPR — ίσο κουμπί Απόρριψης και"
+" μη απαραίτητα cookies αποκλεισμένα μέχρι να δοθεί συγκατάθεση."
+
+msgid "Language"
+msgstr "Γλώσσα"
+
+msgid "Language downloaded and activated."
+msgstr "Η γλώσσα λήφθηκε και ενεργοποιήθηκε."
+
+msgid "Language settings saved."
+msgstr "Οι ρυθμίσεις γλώσσας αποθηκεύτηκαν."
+
+msgid "Language switches"
+msgstr "Εναλλαγές γλώσσας"
+
+msgid "Languages"
+msgstr "Γλώσσες"
+
+msgid "Last 30 days"
+msgstr "Τελευταίες 30 ημέρες"
+
+msgid "Last 365 days"
+msgstr "Τελευταίες 365 ημέρες"
+
+msgid "Last 7 days"
+msgstr "Τελευταίες 7 ημέρες"
+
+msgid "Leave a review"
+msgstr "Αφήστε μια αξιολόγηση"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Αφήστε κενό για να χρησιμοποιηθεί το χρώμα του κουμπιού Αποδοχή."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Αφήστε κενό για να χρησιμοποιηθεί το χρώμα του κειμένου του κουμπιού."
+
+msgid "Leave empty to use the translated default."
+msgstr "Αφήστε κενό για να χρησιμοποιηθεί η προεπιλογή μετάφρασης."
+
+msgid "Legal mode"
+msgstr "Νομική λειτουργία"
+
+msgid "Light"
+msgstr "Ανοιχτό"
+
+msgid "Light colors"
+msgstr "Ανοιχτά χρώματα"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Ζωντανή προεπισκόπηση (ενημερώνεται καθώς αλλάζετε τις ρυθμίσεις Σχεδίασης "
+"και Γενικές ρυθμίσεις):"
+
+msgid "Load content from %s"
+msgstr "Φόρτωση περιεχομένου από %s"
+
+msgid "Local consent log"
+msgstr "Τοπικό αρχείο καταγραφής συγκατάθεσης"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Χαμηλή αντίθεση (%s:1). Στοχεύστε τουλάχιστον στο 4,5:1 για να πληροί το "
+"WCAG AA."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Το Lynbro Cookie Consent είναι ένα δωρεάν banner cookies με προτεραιότητα "
+"στην ιδιωτικότητα, κατασκευασμένο από τη Lynbro. Στόχος μας είναι ένα "
+"όμορφο, πραγματικά πολυγλωσσικό banner έτοιμο για GDPR/ePrivacy, με ισότιμο "
+"κουμπί Απόρριψης — και χωρίς όρια σε pageviews, χωρίς paywall στα βασικά και"
+" χωρίς παρακολούθηση στο frontend."
+
+msgid "Manage opened"
+msgstr "Ανοιχτό το μενού Διαχείριση"
+
+msgid "Manage preferences"
+msgstr "Διαχείριση προτιμήσεων"
+
+msgid "Manage-preferences button"
+msgstr "Κουμπί Διαχείριση προτιμήσεων"
+
+msgid "Marketing"
+msgstr "Μάρκετινγκ"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Μέγιστο πλάτος του αιωρούμενου πλαισίου και του κεντρικού modal. Ορίστε 0 "
+"για να χρησιμοποιηθεί η προεπιλογή."
+
+msgid "Message"
+msgstr "Μήνυμα"
+
+msgid "Method"
+msgstr "Μέθοδος"
+
+msgid "Mobile"
+msgstr "Κινητό"
+
+msgid "Necessary"
+msgstr "Απαραίτητα"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Τα απαραίτητα cookies είναι πάντα ενεργά και δεν μπορούν να "
+"απενεργοποιηθούν. Επιλέξτε ποιες προαιρετικές κατηγορίες μπορούν να ελέγχουν"
+" οι επισκέπτες."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Χρειάζεστε μια γλώσσα που δεν περιλαμβάνεται; Ζητήστε την και θα τη "
+"δημιουργήσουμε για τον ιστότοπό σας. Το αρχείο μετάφρασης αποθηκεύεται στον "
+"φάκελο uploads (δεν αντικαθίσταται ποτέ κατά την ενημέρωση) και "
+"ενεργοποιείται αυτόματα."
+
+msgid "No consent records yet."
+msgstr "Δεν υπάρχουν ακόμα εγγραφές συγκατάθεσης."
+
+msgid "No data yet."
+msgstr "Δεν υπάρχουν ακόμα δεδομένα."
+
+msgid "No file was uploaded."
+msgstr "Δεν μεταφορτώθηκε κανένα αρχείο."
+
+msgid "No thanks, don’t show this again"
+msgstr "Όχι, μην το εμφανίσετε ξανά"
+
+msgid "Notice only"
+msgstr "Μόνο ειδοποίηση"
+
+msgid "Off"
+msgstr "Απενεργοποιημένο"
+
+msgid "Offered languages"
+msgstr "Προσφερόμενες γλώσσες"
+
+msgid "Offset from corner (px)"
+msgstr "Μετατόπιση από τη γωνία (px)"
+
+msgid "On"
+msgstr "Ενεργοποιημένο"
+
+msgid "Once Weekly"
+msgstr "Μία φορά την εβδομάδα"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "Μόνο αν θέλετε απάντηση. Αφήστε κενό για να σταλεί ανώνυμα."
+
+msgid "Opacity"
+msgstr "Αδιαφάνεια"
+
+msgid "Operating systems"
+msgstr "Λειτουργικά συστήματα"
+
+msgid "Opt-in everywhere"
+msgstr "Επιλογή παντού"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Επιλογή παντού (GDPR — η ασφαλέστερη επιλογή)"
+
+msgid "Opt-out everywhere"
+msgstr "Αποεπιλογή παντού"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Αποεπιλογή παντού (στυλ CCPA)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Προαιρετικό CSS που προστίθεται στο stylesheet του banner. Στοχεύστε τους "
+".lynbro-cc selectors."
+
+msgid "Other"
+msgstr "Άλλο"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Παρακάμψτε οποιοδήποτε κείμενο banner για μια συγκεκριμένη γλώσσα. Αφήστε "
+"ένα πεδίο κενό για να χρησιμοποιηθεί η ενσωματωμένη μετάφραση (ή η "
+"προεπιλεγμένη αγγλική). Προτεραιότητα: η δική σας παράκαμψη → ενσωματωμένη "
+"μετάφραση → προεπιλογή."
+
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+msgid "Period"
+msgstr "Περίοδος"
+
+msgid "Please choose a valid language code."
+msgstr "Παρακαλώ επιλέξτε έναν έγκυρο κωδικό γλώσσας."
+
+msgid "Please enter a message before sending."
+msgstr "Παρακαλώ εισαγάγετε ένα μήνυμα πριν από την αποστολή."
+
+msgid "Please upload a .json settings file."
+msgstr "Παρακαλώ ανεβάστε ένα αρχείο ρυθμίσεων .json."
+
+msgid "Plugin home page"
+msgstr "Αρχική σελίδα του πρόσθετου"
+
+msgid "Policy URL"
+msgstr "URL πολιτικής"
+
+msgid "Policy version"
+msgstr "Έκδοση πολιτικής"
+
+msgid "Position"
+msgstr "Θέση"
+
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+msgid "Privacy Policy & Terms"
+msgstr "Πολιτική Απορρήτου & Όροι"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "URL πολιτικής απορρήτου/cookies"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Ιδιωτικά στατιστικά χωρίς cookies, αποθηκευμένα μόνο στη δική σας βάση "
+"δεδομένων. Είναι πλήρως συγκεντρωτικά — δεν καταγράφεται διεύθυνση IP, "
+"αναγνωριστικό επισκέπτη ή οποιοδήποτε προσωπικό δεδομένο. Εξαιτίας αυτού, "
+"αυτά τα στατιστικά δεν απαιτούν από μόνα τους συγκατάθεση."
+
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+msgid "Recent consent records"
+msgstr "Πρόσφατες εγγραφές συγκατάθεσης"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Οι εγγραφές παλαιότερες από αυτό διαγράφονται αυτόματα. Ορίστε το σε 0 για "
+"να διατηρούνται οι εγγραφές επ' αόριστον."
+
+msgid "Region"
+msgstr "Περιοχή"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Η περιοχή εντοπίζεται από κεφαλίδες CDN/edge (π.χ. Cloudflare). Όταν είναι "
+"άγνωστη, χρησιμοποιείται το ασφαλέστερο μοντέλο επιλογής. Δεν γίνεται κλήση "
+"σε εξωτερικό API γεωεντοπισμού."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Καταχωρίστε το πρόσθετο ως πάροχο συγκατάθεσης για το πρόσθετο WP Consent "
+"API και ειδοποιήστε άλλα πρόσθετα για την επιλογή του επισκέπτη "
+"(λειτουργικά, προτιμήσεις, στατιστικά, μάρκετινγκ)."
+
+msgid "Reject all"
+msgstr "Απόρριψη όλων"
+
+msgid "Reject button"
+msgstr "Κουμπί απόρριψης"
+
+msgid "Report a bug"
+msgstr "Αναφορά σφάλματος"
+
+msgid "Request a language"
+msgstr "Αίτημα γλώσσας"
+
+msgid "Request this language"
+msgstr "Ζητήστε αυτήν τη γλώσσα"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Απαιτούνται για τη λειτουργία του ιστότοπου και δεν μπορούν να "
+"απενεργοποιηθούν. Συνήθως ορίζονται ως απάντηση σε ενέργειες που κάνετε, "
+"όπως η ρύθμιση προτιμήσεων απορρήτου ή η σύνδεση."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Διαφάνεια σε κατάσταση ηρεμίας (0.2–1.0). Το κουμπί γίνεται πλήρως αδιαφανές"
+" στο πέρασμα του ποντικιού ή στη εστίαση. Η προεπιλογή είναι 0.55."
+
+msgid "Retention (days)"
+msgstr "Διατήρηση (ημέρες)"
+
+msgid "Round"
+msgstr "Στρογγυλό"
+
+msgid "Rounded"
+msgstr "Στρογγυλεμένο"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Στρογγυλοποίηση των γωνιών του banner, του πλαισίου και του modal. Ορίστε 0 "
+"για χρήση της προεπιλογής."
+
+msgid "Save language settings"
+msgstr "Αποθήκευση ρυθμίσεων γλώσσας"
+
+msgid "Save preferences"
+msgstr "Αποθήκευση προτιμήσεων"
+
+msgid "Save-preferences button"
+msgstr "Κουμπί αποθήκευσης προτιμήσεων"
+
+msgid "Send feedback"
+msgstr "Αποστολή σχολίων"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Στέλνει μόνο το όνομα του πρόσθετου, την έκδοση και τον κωδικό γλώσσας στην "
+"πύλη Lynbro. Δείτε την %s μας."
+
+msgid "Set"
+msgstr "Ορισμός"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Ορίζει όλα τα σήματα συγκατάθεσης σε \"denied\" από προεπιλογή πριν από τη "
+"συγκατάθεση και, στη συνέχεια, τα ενημερώνει με βάση την επιλογή του "
+"επισκέπτη (ad_storage, analytics_storage, ad_user_data, ad_personalization, "
+"functionality_storage, personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Settings imported successfully."
+msgstr "Οι ρυθμίσεις εισήχθησαν με επιτυχία."
+
+msgid "Shape"
+msgstr "Σχήμα"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Κοινοποιήστε ανώνυμα στατιστικά για να βοηθήσετε στη βελτίωση του πρόσθετου "
+"— και δείτε πώς συγκρίνεται το ποσοστό αποδοχής σας με τον μέσο όρο. "
+"Απενεργοποιημένο από προεπιλογή. Στέλνει μόνο συγκεντρωτικά στοιχεία και το "
+"domain του ιστότοπού σας (ποτέ IP επισκεπτών) στην πύλη Lynbro, μία φορά την"
+" εβδομάδα."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Εμφάνιση συνδέσμου \"Μην πουλάτε ή κοινοποιείτε τα προσωπικά μου δεδομένα\" "
+"σε λειτουργία εξαίρεσης."
+
+msgid "Show floating settings button on the site"
+msgstr "Εμφάνιση αιωρούμενου κουμπιού ρυθμίσεων στον ιστότοπο"
+
+msgid "Show language switcher"
+msgstr "Εμφάνιση εναλλαγής γλώσσας"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Εμφάνιση του εικονιδίου cookies (συνιστάται). Όταν είναι απενεργοποιημένο, "
+"εμφανίζεται αντί αυτού η προσβάσιμη ετικέτα ως μικρό κουμπί κειμένου."
+
+msgid "Size (px)"
+msgstr "Μέγεθος (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Λυπούμαστε, δεν ήταν δυνατή η λήψη αυτής της γλώσσας αυτή τη στιγμή. "
+"Δοκιμάστε ξανά αργότερα."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr ""
+"Λυπούμαστε, δεν ήταν δυνατή η αποστολή του μηνύματος. Δοκιμάστε ξανά "
+"αργότερα."
+
+msgid "Square"
+msgstr "Τετράγωνο"
+
+msgid "Stacking (z-index base)"
+msgstr "Στοίβαξη (βασικό z-index)"
+
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Τα στατιστικά είναι προς το παρόν απενεργοποιημένα. Ενεργοποιήστε το "
+"«Συλλογή ανώνυμων στατιστικών» στην καρτέλα Γενικά για να ξεκινήσει η "
+"συλλογή συγκεντρωτικών στοιχείων."
+
+msgid "Statistics are disabled."
+msgstr "Τα στατιστικά είναι απενεργοποιημένα."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Αποθηκεύστε σε βάση δεδομένων τη συμμορφούμενη με την ιδιωτικότητα απόδειξη "
+"συγκατάθεσης στη δική σας βάση δεδομένων. Δεν αποθηκεύεται ακατέργαστη "
+"διεύθυνση IP — μόνο ένα αλατισμένο, ανωνυμοποιημένο hash για αποδιπλοποίηση."
+
+msgid "Tablet"
+msgstr "Tablet"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Πείτε μας τι πιστεύετε, τι λείπει ή τι πήγε στραβά…"
+
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+msgid "Thank you! Your message was sent."
+msgstr "Ευχαριστούμε! Το μήνυμά σας στάλθηκε."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Το μέσο ποσοστό αποδοχής σε ιστότοπους με ενεργή συμμετοχή είναι %s%%. Το "
+"δικό σας θα εμφανιστεί εδώ μόλις οι επισκέπτες αρχίσουν να επιλέγουν."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Η γλώσσα του banner ακολουθεί μια αλυσίδα συμβατή με cache: τη γλώσσα της "
+"τρέχουσας σελίδας (Polylang/WPML/TranslatePress), έπειτα τη γλώσσα του "
+"ιστότοπού σας και, τέλος, τα Αγγλικά. Η αυτόματη ανίχνευση του browser και ο"
+" προαιρετικός εναλλάκτης μέσα στο banner γίνονται εξ ολοκλήρου στο πρόγραμμα"
+" περιήγησης του επισκέπτη, ώστε η cache της σελίδας σας να μην επηρεάζεται "
+"ποτέ."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Το αρχείο δεν περιέχει έγκυρες ρυθμίσεις του Lynbro Cookie Consent."
+
+msgid "Theme"
+msgstr "Θέμα"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Αυτές είναι οι γλώσσες που έχουν προετοιμαστεί για αυτόματη ανίχνευση από το"
+" πρόγραμμα περιήγησης και για τον εναλλάκτη. Οι γλώσσες με ενσωματωμένη "
+"μετάφραση εμφανίζονται εδώ αυτόματα. Η γλώσσα του ιστότοπού σας "
+"περιλαμβάνεται πάντα."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Αυτό συμπληρώνει τη μη αυτόματη επισήμανση σεναρίων. Όλη η ανίχνευση γίνεται"
+" τοπικά· δεν γίνεται καμία εξωτερική αίτηση."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Αυτό το πρόσθετο βοηθά στη συμμόρφωση με τα cookies, αλλά δεν αποτελεί "
+"νομική συμβουλή."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Συμβουλή: η διατύπωση για cookies/συγκατάθεση μπορεί να έχει νομικές "
+"συνέπειες. Ζητήστε να ελέγξει τα νομικά μέρη οποιασδήποτε μετάφρασης ένα "
+"άτομο εξοικειωμένο με τη δικαιοδοσία σας."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Για να δείτε αυτό το περιεχόμενο από το %s, πρέπει να αποδεχτείτε τα σχετικά"
+" cookies. Ο πάροχος ενδέχεται να ορίσει cookies και να συλλέξει προσωπικά "
+"δεδομένα."
+
+msgid "Today"
+msgstr "Σήμερα"
+
+msgid "Too many requests."
+msgstr "Πάρα πολλά αιτήματα."
+
+msgid "Tools"
+msgstr "Εργαλεία"
+
+msgid "Top bar"
+msgstr "Πάνω μπάρα"
+
+msgid "Top left"
+msgstr "Πάνω αριστερά"
+
+msgid "Top right"
+msgstr "Επάνω δεξιά"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Σύνολο εγγραφών: %d (εμφανίζονται οι 50 πιο πρόσφατες)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Η αποεπιλογή αυτού κρύβει εντελώς το αιωρούμενο κουμπί — οι επισκέπτες δεν "
+"θα βλέπουν τρόπο να ανοίξουν ξανά τις ρυθμίσεις cookie τους (εκτός αν "
+"προσθέσετε κάπου το shortcode [lynbro_cookie_settings])."
+
+msgid "Updates"
+msgstr "Ενημερώσεις"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Οι ενημερώσεις παρέχονται αυτόματα μέσω του WordPress.org — δεν υπάρχει "
+"προσαρμοσμένος ενημερωτής και η δωρεάν έκδοση δεν επικοινωνεί ποτέ με τον "
+"διακομιστή."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Χρησιμοποιείται ως η επεξήγηση και η ετικέτα για αναγνώστες οθόνης. Αφήστε "
+"το κενό για την προεπιλεγμένη μετάφραση."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Χρησιμοποιείται μόνο όταν η θέση είναι \"Floating box\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Χρησιμοποιείται για την παρακολούθηση επισκεπτών σε ιστοσελίδες, ώστε να "
+"προβάλλονται σχετικές διαφημίσεις και να μετράται η αποτελεσματικότητα των "
+"καμπανιών."
+
+msgid "Version & updates"
+msgstr "Έκδοση & ενημερώσεις"
+
+msgid "Vertical"
+msgstr "Κάθετα"
+
+msgid "View changelog"
+msgstr "Προβολή ιστορικού αλλαγών"
+
+msgid "Visibility"
+msgstr "Ορατότητα"
+
+msgid "Visit Lynbro"
+msgstr "Επισκεφθείτε το Lynbro"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Εντοπίσαμε σήμα Global Privacy Control και σας εξαιρέσαμε αυτόματα από τα μη"
+" απαραίτητα cookies."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία περιήγησής σας, να "
+"παρέχουμε εξατομικευμένο περιεχόμενο και να αναλύουμε την επισκεψιμότητά "
+"μας. Μπορείτε να αποδεχτείτε όλα τα cookies, να απορρίψετε τα μη απαραίτητα "
+"ή να διαχειριστείτε τις προτιμήσεις σας."
+
+msgid "We value your privacy"
+msgstr "Σεβόμαστε την ιδιωτικότητά σας"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Πλάτος και ύψος του κουμπιού (24–96). Η προεπιλογή είναι 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Γράψτε μια κριτική"
+
+msgid "Yesterday"
+msgstr "Χθες"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Μπορείτε ακόμα να αποκλείσετε χειροκίνητα τα δικά σας scripts:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Δεν έχετε επαρκή δικαιώματα για πρόσβαση σε αυτήν τη σελίδα."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Το ποσοστό αποδοχής σας τις τελευταίες 7 ημέρες είναι %1$s%%. Ο μέσος όρος "
+"στα sites που έχουν επιλέξει συμμετοχή είναι %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Το banner συγκατάθεσής σας είναι ενεργό"
+
+msgid "Your email (optional)"
+msgstr "Το email σας (προαιρετικό)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Το μήνυμά σας, η έκδοση του plugin και ο τομέας του site σας αποστέλλονται "
+"στο portal του Lynbro. Δείτε την %s μας."
+
+msgid "\"Read more\" link"
+msgstr "Σύνδεσμος «Διαβάστε περισσότερα»"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "γλώσσα του site"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Προετοιμασία της γλώσσας σας… Αυτό μπορεί να πάρει περίπου ένα λεπτό την "
+"πρώτη φορά. Θα προστεθεί αυτόματα — μπορείτε να συνεχίσετε να εργάζεστε."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Η γλώσσα είναι έτοιμη και ενεργοποιήθηκε: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Δεν ήταν δυνατή η προετοιμασία: %s. Παρακαλώ δοκιμάστε ξανά αργότερα."
+
+msgid "Accessibility"
+msgstr "Προσβασιμότητα"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Να εφαρμοστεί αυτή η προεπιλογή σχεδίασης; Θα αντικαταστήσει τις τρέχουσες "
+"ρυθμίσεις σχεδίασης (μπορείτε να κάνετε έλεγχο πριν από την αποθήκευση)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Ήρεμη παλέτα χαμηλής αντίθεσης σε πλαίσιο με στρογγυλεμένες γωνίες."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Κεντραρισμένο παράθυρο διαλόγου με σκιασμένο υπόβαθρο, σκοτεινό θέμα."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Τα χρώματα πληρούν την προσβασιμότητα WCAG AA"
+
+msgid "Design presets"
+msgstr "Προεπιλογές σχεδίασης"
+
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Μπάρα πλήρους πλάτους στο κάτω μέρος, ανοιχτή και ουδέτερη."
+
+msgid "Hide details"
+msgstr "Απόκρυψη λεπτομερειών"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Σημεία εκκίνησης με ένα κλικ. Η εφαρμογή μιας προεπιλογής συμπληρώνει τα "
+"παρακάτω πεδία Σχεδίασης και ενημερώνει την ζωντανή προεπισκόπηση — ελέγξτε "
+"την και μετά αποθηκεύστε τις αλλαγές για να τη διατηρήσετε."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Η προεπιλογή εφαρμόστηκε. Ελέγξτε την προεπισκόπηση και μετά αποθηκεύστε τις"
+" αλλαγές για να τη διατηρήσετε."
+
+msgid "Preview device width"
+msgstr "Πλάτος συσκευής προεπισκόπησης"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Λεπτή, τετράγωνη μπάρα καρφιτσωμένη στο επάνω μέρος της σελίδας."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Απαλή αιωρούμενη κάρτα στην κάτω δεξιά γωνία."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Ορισμένα χρώματα έχουν χαμηλή αντίθεση (%s) — δείτε τις λεπτομέρειες."

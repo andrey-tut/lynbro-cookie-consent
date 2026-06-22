@@ -1,0 +1,1198 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s sekuntia (bannerin näyttämisestä kävijän valintaan)."
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"Pieni pelkkä kuvake -painike, jonka avulla kävijät voivat avata "
+"evästeasetukset uudelleen tehtyään valinnan. Se piilotetaan automaattisesti,"
+" kun banneri tai asetusten valintaikkuna on auki."
+
+msgid "About"
+msgstr "Tietoja"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Tietoja Lynbro Cookie Consentista"
+
+msgid "Accept all"
+msgstr "Hyväksy kaikki"
+
+msgid "Accept button"
+msgstr "Hyväksy-painike"
+
+msgid "Accept rate"
+msgstr "Hyväksymisaste"
+
+msgid "Accessible label"
+msgstr "Saavutettava selite"
+
+msgid "Add a custom language"
+msgstr "Lisää mukautettu kieli"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr ""
+"Lisää banneriin pieni kielivalikko, jotta kävijät voivat vaihtaa kieltä "
+"manuaalisesti (heidän valintansa muistetaan)."
+
+msgid "Add your privacy policy link"
+msgstr "Lisää tietosuojakäytäntösi linkki"
+
+msgid "Additional CSS"
+msgstr "Lisä-CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr ""
+"Salli verkkosivuston muistaa valintasi (kuten kieli tai alue), jotta se voi "
+"tarjota parempia ja yksilöllisiä toimintoja."
+
+msgid "Already downloaded on demand:"
+msgstr "Ladattu jo tarvittaessa:"
+
+msgid "Always allow %s"
+msgstr "Salli aina %s"
+
+msgid "Always on"
+msgstr "Aina päällä"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "Anonyymit tilastot"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "Automaattinen (seuraa kävijän järjestelmää)"
+
+msgid "Auto by region"
+msgstr "Automaattisesti alueen mukaan"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr ""
+"Automaattisesti alueen mukaan (EU: suostumus, Yhdysvallat: kieltäytyminen, "
+"muualla valinnan mukaan)"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr ""
+"Automaatti käyttää oletuksena vaaleita värejä ja tummia värejä, kun kävijän "
+"laite suosii tummaa värimaailmaa."
+
+msgid "Auto-block trackers"
+msgstr "Estä seuranta automaattisesti"
+
+msgid "Auto-detect visitor language"
+msgstr "Tunnista kävijän kieli automaattisesti"
+
+msgid "Automatic tracker blocking"
+msgstr "Automaattinen seurannan esto"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"Estä tunnetut kolmannen osapuolen seurantatyökalut automaattisesti (Google "
+"Analytics, GTM, Meta Pixel, Hotjar, Clarity ja muut), kunnes vastaava luokka"
+" on hyväksytty."
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr ""
+"Näytä banneri automaattisesti kävijän selaimen kielellä, kun se kuuluu "
+"tarjottuihin kieliin."
+
+msgid "Average time to decision"
+msgstr "Keskimääräinen aika päätökseen"
+
+msgid "Background color"
+msgstr "Taustaväri"
+
+msgid "Banner background"
+msgstr "Bannerin tausta"
+
+msgid "Banner description"
+msgstr "Bannerin kuvaus"
+
+msgid "Banner max width (px)"
+msgstr "Bannerin enimmäisleveys (px)"
+
+msgid "Banner shown"
+msgstr "Banneri näytetty"
+
+msgid "Banner text on background"
+msgstr "Bannerin teksti taustalla"
+
+msgid "Banner title"
+msgstr "Bannerin otsikko"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"Bannerin, peittokuvan, modaalin ja kelluvan painikkeen perus-z-index. "
+"Suurenna sitä, jos jokin muu elementti peittää bannerin; pienennä sitä, jos "
+"banneri peittää jotain, mitä sen ei pitäisi peittää."
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr ""
+"Perustason HTML sallittu: linkit, lihavointi, kursivointi, rivinvaihdot. "
+"Jätä tyhjäksi, jos haluat oletusarvoisen käännöksen."
+
+msgid "Benchmark sharing"
+msgstr "Vertailun jakaminen"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr ""
+"Vertailun jakaminen on käytössä. Ensimmäinen vertailusi näkyy täällä "
+"viikkoraportin ajon jälkeen."
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"Estä upotettu sisältö (YouTube, Vimeo, Google Maps, sosiaalisen median "
+"upotukset, reCAPTCHA ja muut) kunnes suostumus on annettu, ja näytä siisti "
+"paikkamerkki, jossa on \"salli\"-painike."
+
+msgid "Blocking & Embeds"
+msgstr "Estot ja upotukset"
+
+msgid "Bottom bar"
+msgstr "Alapalkki"
+
+msgid "Bottom left"
+msgstr "Alavasen"
+
+msgid "Bottom right"
+msgstr "Alaoikea"
+
+msgid "Box corner"
+msgstr "Laatikon kulma"
+
+msgid "Browser languages"
+msgstr "Selainten kielet"
+
+msgid "Button icon"
+msgstr "Painikkeen kuvake"
+
+msgid "Button text"
+msgstr "Painikkeen teksti"
+
+msgid "Button text on Accept button"
+msgstr "Hyväksy-painikkeen teksti"
+
+msgid "Button text on Reject button"
+msgstr "Hylkää-painikkeen teksti"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "CCPA / CPRA -kieltäytymislinkki"
+
+msgid "Categories"
+msgstr "Kategoriat"
+
+msgid "Category"
+msgstr "Kategoria"
+
+msgid "Category “%s” — description"
+msgstr "Kategoria ”%s” — kuvaus"
+
+msgid "Category “%s” — name"
+msgstr "Kategoria ”%s” — nimi"
+
+msgid "Center modal (with overlay)"
+msgstr "Keskellä oleva modaali (peittokuvalla)"
+
+msgid "Choose language"
+msgstr "Valitse kieli"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"Kerää anonyymejä tilastoja (kuinka moni vierailija hyväksyy, hylkää tai avaa"
+" asetukset). Täysin koottua ja evästeetöntä — IP-osoitetta tai "
+"henkilötietoja ei tallenneta. Näytetään Tilastot-välilehdellä."
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr ""
+"Pilkuilla erotetut sivu-/artikkeli-ID:t, joilla banneria ei näytetä (esim. "
+"laskeutumissivut)."
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"Määritä GDPR/ePrivacy- ja Google Consent Mode v2 -evästepalkkisi. Tämä "
+"lisäosa auttaa vaatimustenmukaisuudessa, mutta ei ole oikeudellista "
+"neuvontaa."
+
+msgid "Consent Log"
+msgstr "Suostumusloki"
+
+msgid "Consent Mode"
+msgstr "Consent Mode"
+
+msgid "Consent Mode v2"
+msgstr "Consent Mode v2"
+
+msgid "Consent logging is disabled."
+msgstr "Suostumuksen lokitus on poistettu käytöstä."
+
+msgid "Consent mode"
+msgstr "Suostumustila"
+
+msgid "Content from %s is blocked"
+msgstr "Sisältö lähteestä %s on estetty"
+
+msgid "Cookie Consent"
+msgstr "Evästeiden suostumus"
+
+msgid "Cookie settings"
+msgstr "Evästeasetukset"
+
+msgid "Corner radius (px)"
+msgstr "Kulman pyöristys (px)"
+
+msgid "Custom CSS"
+msgstr "Mukautettu CSS"
+
+msgid "Dark"
+msgstr "Tumma"
+
+msgid "Dark colors"
+msgstr "Tummat värit"
+
+msgid "Date (UTC)"
+msgstr "Päivämäärä (UTC)"
+
+msgid "Design"
+msgstr "Ulkoasu"
+
+msgid "Desktop"
+msgstr "Työpöytä"
+
+msgid "Devices"
+msgstr "Laitteet"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "Älä myy tai jaa henkilötietojani"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr ""
+"Lataa kaikki asetukset JSON-tiedostona käytettäväksi toisella sivustolla."
+
+msgid "Edge offset (px)"
+msgstr "Reunan siirtymä (px)"
+
+msgid "Edit texts per language"
+msgstr "Muokkaa tekstejä kielen mukaan"
+
+msgid "Embed consent category"
+msgstr "Upota suostumuskategoria"
+
+msgid "Embed placeholders"
+msgstr "Upota paikkamerkit"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr ""
+"Upotukset estetään, kun vierailija antaa suostumuksen tähän kategoriaan (tai"
+" napsauttaa paikkamerkin \"salli\")."
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Ota käyttöön Google Consent Mode v2 -signaalit"
+
+msgid "Enable this category"
+msgstr "Ota tämä kategoria käyttöön"
+
+msgid "Engagement (last 30 days)"
+msgstr "Sitoutuminen (viimeiset 30 päivää)"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Pidätkö Lynbro Cookie Consentista? Lyhyt, rehellinen arvostelu auttaa muita "
+"sivuston ylläpitäjiä löytämään sen. Ei painetta — vain jos sinulla on hetki "
+"aikaa."
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"Syötä WordPressin kielitunnus (esimerkiksi pt_PT tai ca) tarjotaksesi "
+"kielen, joka ei sisälly pakettiin. Tallenna sitten sen tekstit alla."
+
+msgid "Exclude pages/posts"
+msgstr "Poissulje sivut/viestit"
+
+msgid "Export CSV"
+msgstr "Vie CSV"
+
+msgid "Export settings"
+msgstr "Vie asetukset"
+
+msgid "Export settings (JSON)"
+msgstr "Vie asetukset (JSON)"
+
+msgid "Feedback"
+msgstr "Palaute"
+
+msgid "Feedback on this plugin"
+msgstr "Palaute tästä lisäosasta"
+
+msgid "Floating box (corner)"
+msgstr "Kelluva laatikko (kulma)"
+
+msgid "Floating settings button"
+msgstr "Kelluva asetuspainike"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "Etäisyys näytön reunoista kelluvan laatikon asettelussa."
+
+msgid "General"
+msgstr "Yleiset"
+
+msgid "Get support"
+msgstr "Hanki tukea"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control (GPC)"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "Hyvä kontrasti (%s:1) — täyttää WCAG AA -vaatimukset."
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr ""
+"Onko sinulla idea, ongelma tai pyyntö? Lähetä se suoraan kehittäjille. Tämä "
+"on täysin vapaaehtoista ja lähetetään vain, kun napsautat Lähetä."
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr ""
+"Auta meitä ymmärtämään, miten kävijät käyttävät verkkosivustoa, keräämällä "
+"ja raportoimalla tietoja anonyymisti."
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"Noudata selaimen Global Privacy Control -signaalia. Opt-out-tilassa "
+"(US/CCPA) GPC:tä käyttävät vierailijat poistetaan automaattisesti "
+"suostumuksesta ja heille näytetään näkyvä vahvistus (Kalifornian vaatimus "
+"vuodesta 2026 alkaen)."
+
+msgid "Horizontal"
+msgstr "Vaaka"
+
+msgid "How you compare"
+msgstr "Vertailusi"
+
+msgid "Icon"
+msgstr "Kuvake"
+
+msgid "Icon color"
+msgstr "Kuvakkeen väri"
+
+msgid "Idea for a new feature or plugin"
+msgstr "Idea uudeksi ominaisuudeksi tai lisäosaksi"
+
+msgid "Import settings"
+msgstr "Tuo asetukset"
+
+msgid "Importing overwrites your current settings."
+msgstr "Tuonti korvaa nykyiset asetuksesi."
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr ""
+"Nosta tätä numeroa aina, kun evästekäytäntösi muuttuu. Vierailijoilta "
+"pyydetään suostumus uudelleen."
+
+msgid "Installed version"
+msgstr "Asennettu versio"
+
+msgid "Invalid security token."
+msgstr "Virheellinen suojaustunnus."
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr ""
+"Se toimii heti GDPR-valmiilla oletusasetuksilla — yhtä suuri Hylkää-painike "
+"ja ei-välttämättömät evästeet estettyinä, kunnes suostumus annetaan."
+
+msgid "Language"
+msgstr "Kieli"
+
+msgid "Language downloaded and activated."
+msgstr "Kieli ladattu ja aktivoitu."
+
+msgid "Language settings saved."
+msgstr "Kieliasetukset tallennettu."
+
+msgid "Language switches"
+msgstr "Kielen vaihtimet"
+
+msgid "Languages"
+msgstr "Kielet"
+
+msgid "Last 30 days"
+msgstr "Viimeiset 30 päivää"
+
+msgid "Last 365 days"
+msgstr "Viimeiset 365 päivää"
+
+msgid "Last 7 days"
+msgstr "Viimeiset 7 päivää"
+
+msgid "Leave a review"
+msgstr "Jätä arvostelu"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Jätä tyhjäksi käyttääksesi Hyväksy-painikkeen väriä."
+
+msgid "Leave empty to use the Button text color."
+msgstr "Jätä tyhjäksi käyttääksesi painikkeen tekstin väriä."
+
+msgid "Leave empty to use the translated default."
+msgstr "Jätä tyhjäksi käyttääksesi käännettyä oletusarvoa."
+
+msgid "Legal mode"
+msgstr "Oikeudellinen tila"
+
+msgid "Light"
+msgstr "Vaalea"
+
+msgid "Light colors"
+msgstr "Vaaleat värit"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr ""
+"Live-esikatselu (päivittyy samalla kun muutat Ulkoasu- ja Yleiset-"
+"asetuksia):"
+
+msgid "Load content from %s"
+msgstr "Lataa sisältö kohteesta %s"
+
+msgid "Local consent log"
+msgstr "Paikallinen suostumusloki"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr ""
+"Matalakontrastinen (%s:1). Pyri vähintään arvoon 4.5:1 WCAG AA -tason "
+"saavuttamiseksi."
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie Consent on Lynbron rakentama ilmainen, tietosuoja edellä "
+"-evästebanneri. Tavoitteenamme on kaunis, aidosti monikielinen, "
+"GDPR/ePrivacy-valmis banneri, jossa on yhtä näkyvä Hylkää-painike — eikä "
+"sivunäkymärajoituksia, ei maksuseinää olennaisille toiminnoille eikä etupään"
+" seurantaa."
+
+msgid "Manage opened"
+msgstr "Hallinta avattu"
+
+msgid "Manage preferences"
+msgstr "Hallitse asetuksia"
+
+msgid "Manage-preferences button"
+msgstr "Hallitse asetukset -painike"
+
+msgid "Marketing"
+msgstr "Markkinointi"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr ""
+"Liukuvan laatikon ja keskitetyn modaalin enimmäisleveys. Aseta 0 "
+"käyttääksesi oletusarvoa."
+
+msgid "Message"
+msgstr "Viesti"
+
+msgid "Method"
+msgstr "Menetelmä"
+
+msgid "Mobile"
+msgstr "Mobiili"
+
+msgid "Necessary"
+msgstr "Välttämättömät"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr ""
+"Välttämättömät evästeet ovat aina aktiivisia eikä niitä voi poistaa "
+"käytöstä. Valitse, mitä valinnaisia kategorioita kävijät voivat hallita."
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"Tarvitsetko kielen, joka ei sisälly pakkaukseen? Pyydä se, niin luomme sen "
+"sivustollesi. Käännöstiedosto tallennetaan uploads-kansioon (ei koskaan "
+"korvata päivityksen yhteydessä) ja aktivoidaan automaattisesti."
+
+msgid "No consent records yet."
+msgstr "Suostumusmerkintöjä ei vielä ole."
+
+msgid "No data yet."
+msgstr "Tietoja ei vielä ole."
+
+msgid "No file was uploaded."
+msgstr "Tiedostoa ei ladattu."
+
+msgid "No thanks, don’t show this again"
+msgstr "Ei kiitos, älä näytä tätä enää"
+
+msgid "Notice only"
+msgstr "Vain ilmoitus"
+
+msgid "Off"
+msgstr "Pois"
+
+msgid "Offered languages"
+msgstr "Tarjotut kielet"
+
+msgid "Offset from corner (px)"
+msgstr "Siirtymä kulmasta (px)"
+
+msgid "On"
+msgstr "Päällä"
+
+msgid "Once Weekly"
+msgstr "Kerran viikossa"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "Vain jos haluat vastauksen. Jätä tyhjäksi lähettääksesi nimettömänä."
+
+msgid "Opacity"
+msgstr "Peittävyys"
+
+msgid "Operating systems"
+msgstr "Käyttöjärjestelmät"
+
+msgid "Opt-in everywhere"
+msgstr "Salli kaikkialla"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "Salli kaikkialla (GDPR — turvallisin)"
+
+msgid "Opt-out everywhere"
+msgstr "Estä kaikkialla"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "Estä kaikkialla (CCPA-tyyli)"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr ""
+"Valinnainen CSS, joka lisätään bannerin tyylitiedostoon. Kohdista .lynbro-"
+"cc-valitsimiin."
+
+msgid "Other"
+msgstr "Muut"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"Korvaa kaikki bannerin tekstit tietylle kielelle. Jätä kenttä tyhjäksi, jos "
+"haluat käyttää mukana tulevaa käännöstä (tai englanninkielistä oletusta). "
+"Prioriteetti: oma korvaus → mukana tuleva käännös → oletus."
+
+msgid "Overview"
+msgstr "Yhteenveto"
+
+msgid "Period"
+msgstr "Jakso"
+
+msgid "Please choose a valid language code."
+msgstr "Valitse kelvollinen kielikoodi."
+
+msgid "Please enter a message before sending."
+msgstr "Kirjoita viesti ennen lähettämistä."
+
+msgid "Please upload a .json settings file."
+msgstr "Lataa .json-asetustiedosto."
+
+msgid "Plugin home page"
+msgstr "Lisäosan aloitussivu"
+
+msgid "Policy URL"
+msgstr "Käytäntö-URL"
+
+msgid "Policy version"
+msgstr "Käytännön versio"
+
+msgid "Position"
+msgstr "Sijainti"
+
+msgid "Preferences"
+msgstr "Asetukset"
+
+msgid "Privacy Policy & Terms"
+msgstr "Tietosuojaseloste ja käyttöehdot"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "Tietosuoja-/evästekäytännön URL"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"Yksityinen, evästeetön tilasto, joka tallennetaan vain omaan tietokantaasi. "
+"Se on täysin koottu — IP-osoitetta, kävijätunnistetta eikä mitään "
+"henkilötietoja tallenneta koskaan. Tämän vuoksi nämä tilastot eivät yksinään"
+" edellytä suostumusta."
+
+msgid "Read more"
+msgstr "Lue lisää"
+
+msgid "Recent consent records"
+msgstr "Viimeisimmät suostumusmerkinnät"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr ""
+"Tätä vanhemmat merkinnät poistetaan automaattisesti. Aseta arvoksi 0, jos "
+"haluat säilyttää merkinnät toistaiseksi."
+
+msgid "Region"
+msgstr "Alue"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"Alue tunnistetaan CDN-/edge-otsakkeista (esim. Cloudflare). Kun alue on "
+"tuntematon, käytetään turvallisinta sallimismallia. Ulkoista sijaintitieto-"
+"APIa ei kutsuta."
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"Rekisteröidy WP Consent API -lisäosan suostumuksen tarjoajaksi ja ilmoita "
+"muille lisäosille kävijän valinta (toiminnalliset, asetukset, tilastot, "
+"markkinointi)."
+
+msgid "Reject all"
+msgstr "Hylkää kaikki"
+
+msgid "Reject button"
+msgstr "Hylkää-painike"
+
+msgid "Report a bug"
+msgstr "Ilmoita bugista"
+
+msgid "Request a language"
+msgstr "Pyydä kieltä"
+
+msgid "Request this language"
+msgstr "Pyydä tämä kieli"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr ""
+"Välttämättömiä sivuston toiminnalle, eikä niitä voi poistaa käytöstä. Ne "
+"asetetaan yleensä vastauksena toimiin, joita teet, kuten tietosuoja-"
+"asetusten määrittämiseen tai kirjautumiseen."
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr ""
+"Lepotilan läpinäkyvyys (0.2–1.0). Painike muuttuu täysin peittäväksi, kun "
+"sen päälle viedään курсori tai se saa fokuksen. Oletusarvo on 0.55."
+
+msgid "Retention (days)"
+msgstr "Säilytysaika (päivää)"
+
+msgid "Round"
+msgstr "Pyöristä"
+
+msgid "Rounded"
+msgstr "Pyöristetty"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr ""
+"Bannerin, laatikon ja modaalin kulmien pyöristys. Aseta 0, jos haluat "
+"käyttää oletusta."
+
+msgid "Save language settings"
+msgstr "Tallenna kieliasetukset"
+
+msgid "Save preferences"
+msgstr "Tallenna asetukset"
+
+msgid "Save-preferences button"
+msgstr "Tallenna asetukset -painike"
+
+msgid "Send feedback"
+msgstr "Lähetä palautetta"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr ""
+"Lähettää Lynbro-portaaliin vain lisäosan nimen, version ja kielikoodin. "
+"Katso %s."
+
+msgid "Set"
+msgstr "Aseta"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"Asettaa kaikki suostumussignaalit oletuksena tilaan \"denied\" ennen "
+"suostumusta ja päivittää ne sitten kävijän valinnan mukaan (ad_storage, "
+"analytics_storage, ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+
+msgid "Settings"
+msgstr "Asetukset"
+
+msgid "Settings imported successfully."
+msgstr "Asetukset tuotu onnistuneesti."
+
+msgid "Shape"
+msgstr "Muoto"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"Jaa anonyymejä tilastoja lisäosan parantamiseksi — ja katso, miten "
+"hyväksymisprosenttisi vertautuu keskiarvoon. Pois käytöstä oletuksena. "
+"Lähettää Lynbro-portaaliin vain yhteenlasketut luvut ja sivustosi "
+"verkkotunnuksen (ei koskaan kävijöiden IP-osoitteita) kerran viikossa."
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr ""
+"Näytä \"Do Not Sell or Share My Personal Information\" -linkki "
+"kieltäytymistilassa."
+
+msgid "Show floating settings button on the site"
+msgstr "Näytä kelluva asetuspainike sivustolla"
+
+msgid "Show language switcher"
+msgstr "Näytä kielenvaihtaja"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr ""
+"Näytä evästeikoni (suositeltu). Kun asetus on pois päältä, sen sijaan "
+"näytetään saavutettava nimike pienenä tekstipainikkeena."
+
+msgid "Size (px)"
+msgstr "Koko (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr ""
+"Valitettavasti kyseistä kieltä ei voitu hakea juuri nyt. Yritä myöhemmin "
+"uudelleen."
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "Valitettavasti viestiä ei voitu lähettää. Yritä myöhemmin uudelleen."
+
+msgid "Square"
+msgstr "Neliö"
+
+msgid "Stacking (z-index base)"
+msgstr "Pinoaminen (z-index-perustaso)"
+
+msgid "Statistics"
+msgstr "Tilastot"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr ""
+"Tilastot ovat tällä hetkellä pois käytöstä. Ota \"Kerää anonyymejä "
+"tilastoja\" käyttöön Yleiset-välilehdellä aloittaaksesi koottujen lukujen "
+"keräämisen."
+
+msgid "Statistics are disabled."
+msgstr "Tilastot on poistettu käytöstä."
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"Tallenna tietosuojaa kunnioittava todiste suostumuksesta omaan "
+"tietokantaasi. Raakaa IP-osoitetta ei tallenneta — vain suolattu, "
+"anonymisoitu tiiviste päällekkäiskäsittelyä varten."
+
+msgid "Tablet"
+msgstr "Tabletti"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "Kerro meille, mitä mieltä olet, mitä puuttuu tai mikä meni pieleen…"
+
+msgid "Text color"
+msgstr "Tekstin väri"
+
+msgid "Thank you! Your message was sent."
+msgstr "Kiitos! Viestisi lähetettiin."
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr ""
+"Hyväksymisprosentin keskiarvo opt-in-sivustoilla on %s%%. Sinun lukemasi "
+"näkyy tässä, kun kävijät alkavat tehdä valintoja."
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"Bannerin kieli seuraa välimuistiturvallista ketjua: nykyisen sivun kieltä "
+"(Polylang/WPML/TranslatePress), sitten sivustosi kieltä ja sitten englantia."
+" Selaimen automaattinen tunnistus ja valinnainen bannerin sisäinen vaihdin "
+"toimivat kokonaan kävijän selaimessa, joten sivun välimuistiin ei koskaan "
+"vaikuteta."
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "Tiedosto ei sisällä kelvollisia Lynbro Cookie Consent -asetuksia."
+
+msgid "Theme"
+msgstr "Teema"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"Nämä ovat kielet, jotka on valmisteltu selaimen automaattista tunnistusta ja"
+" vaihdinta varten. Mukana toimitetun käännöksen sisältävät kielet näkyvät "
+"tässä automaattisesti. Sivustosi kieli sisällytetään aina."
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr ""
+"Tämä täydentää käsin tehtyä skriptien merkintää. Kaikki tunnistus tehdään "
+"paikallisesti; ulkoista pyyntöä ei tehdä."
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr ""
+"Tämä lisäosa auttaa evästeiden vaatimustenmukaisuudessa, mutta ei ole "
+"oikeudellinen neuvonta."
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"Vinkki: eväste- ja suostumustekstien sanamuodoilla voi olla oikeudellisia "
+"vaikutuksia. Pyydä juridiset osat mistä tahansa käännöksestä henkilön "
+"tarkistettavaksi, joka tuntee oman lainkäyttöalueesi."
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"Jos haluat nähdä tämän sisällön palvelusta %s, sinun täytyy hyväksyä "
+"asiaankuuluvat evästeet. Palveluntarjoaja voi asettaa evästeitä ja kerätä "
+"henkilötietoja."
+
+msgid "Today"
+msgstr "Tänään"
+
+msgid "Too many requests."
+msgstr "Liian monta pyyntöä."
+
+msgid "Tools"
+msgstr "Työkalut"
+
+msgid "Top bar"
+msgstr "Yläpalkki"
+
+msgid "Top left"
+msgstr "Vasen yläkulma"
+
+msgid "Top right"
+msgstr "Yläoikea"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "Tietueita yhteensä: %d (näytetään 50 uusinta)."
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"Jos tämä poistetaan valinnasta, kelluva painike piilotetaan kokonaan — "
+"kävijät eivät voi avata evästeasetuksia uudelleen (ellet lisää "
+"[lynbro_cookie_settings]-lyhytkoodia jonnekin)."
+
+msgid "Updates"
+msgstr "Päivitykset"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr ""
+"Päivitykset toimitetaan automaattisesti WordPress.orgin kautta — käytössä ei"
+" ole omaa päivitysmekanismia, eikä ilmainen versio koskaan soita kotiin."
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr ""
+"Käytetään työkaluvihjeenä ja ruudunlukijan tekstinä. Jätä tyhjäksi, jotta "
+"käytetään käännettyä oletusarvoa."
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "Käytetään vain, kun sijainti on \"Kelluva laatikko\"."
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr ""
+"Käytetään seuraamaan kävijöitä verkkosivustojen välillä relevantin mainonnan"
+" näyttämiseksi ja kampanjoiden tehokkuuden mittaamiseksi."
+
+msgid "Version & updates"
+msgstr "Versio ja päivitykset"
+
+msgid "Vertical"
+msgstr "Pystysuora"
+
+msgid "View changelog"
+msgstr "Näytä muutosloki"
+
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+msgid "Visit Lynbro"
+msgstr "Vieraile Lynbrossa"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr ""
+"Havaitsimme Global Privacy Control -signaalin ja estimme automaattisesti "
+"välttämättömät evästeet."
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Käytämme evästeitä parantaaksemme selauskokemustasi, tarjotaksemme "
+"personoitua sisältöä ja analysoidaksemme liikennettämme. Voit hyväksyä "
+"kaikki evästeet, hylätä välttämättömät evästeet tai hallita asetuksiasi."
+
+msgid "We value your privacy"
+msgstr "Arvostamme yksityisyyttäsi"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "Painikkeen leveys ja korkeus (24–96). Oletus on 40."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "Kirjoita arvostelu"
+
+msgid "Yesterday"
+msgstr "Eilen"
+
+msgid "You can still block your own scripts manually:"
+msgstr "Voit silti estää omat skriptisi manuaalisesti:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sinulla ei ole riittäviä oikeuksia tämän sivun käyttämiseen."
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr ""
+"Hyväksymisasteesi viimeisten 7 päivän aikana on %1$s%%. Opt-in-sivustojen "
+"keskiarvo on %2$s%%."
+
+msgid "Your consent banner is live"
+msgstr "Suostumusbannerisi on julkaistu"
+
+msgid "Your email (optional)"
+msgstr "Sähköpostisi (valinnainen)"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr ""
+"Viestisi, lisäosan versio ja sivustosi verkkotunnus lähetetään Lynbro-"
+"portaaliin. Katso meidän %s."
+
+msgid "\"Read more\" link"
+msgstr "\"Lue lisää\" -linkki"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "sivuston kieli"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr ""
+"Valmistellaan kieltäsi… Tämä voi kestää ensimmäisellä kerralla noin "
+"minuutin. Se lisätään automaattisesti — voit jatkaa työskentelyä."
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "Kieli valmis ja aktivoitu: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "Valmistelu ei onnistunut: %s. Yritä myöhemmin uudelleen."
+
+msgid "Accessibility"
+msgstr "Saavutettavuus"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr ""
+"Käytetäänkö tätä suunnittelun esiasetusta? Se korvaa nykyiset "
+"suunnitteluasetuksesi (voit silti tarkistaa ne ennen tallentamista)."
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "Rauhallinen, vähäkontrastinen paletti pyöristetyssä laatikossa."
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "Keskitetty valintaikkuna tummennetulla taustalla, tumma teema."
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "Värit täyttävät WCAG AA -saavutettavuusvaatimukset"
+
+msgid "Design presets"
+msgstr "Suunnittelun esiasetukset"
+
+msgid "Details"
+msgstr "Tiedot"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "Kokoleveä palkki alareunassa, vaalea ja neutraali."
+
+msgid "Hide details"
+msgstr "Piilota tiedot"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"Yhden klikkauksen aloituspisteitä. Esiasetuksen käyttäminen täyttää alla "
+"olevat suunnittelukentät ja päivittää live-esikatselun — tarkista se ja "
+"tallenna sitten muutokset, jos haluat säilyttää sen."
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr ""
+"Esiasetus käytetty. Tarkista esikatselu ja tallenna sitten muutokset, jos "
+"haluat säilyttää sen."
+
+msgid "Preview device width"
+msgstr "Esikatselun laitteen leveys"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "Kapea, neliömäinen palkki kiinnitettynä sivun yläreunaan."
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "Pehmeä kelluva kortti oikeassa alakulmassa."
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "Joidenkin värien kontrasti on heikko (%s) — katso tiedot."

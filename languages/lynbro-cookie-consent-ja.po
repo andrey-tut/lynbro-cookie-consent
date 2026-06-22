@@ -1,0 +1,1074 @@
+# Copyright (C) 2026 Lynbro
+# This file is distributed under the GPLv2 or later.
+# AUTO-GENERATED AI DRAFT. Legal/consent wording should be reviewed by a native speaker / legal counsel before relying on it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lynbro Cookie Consent 0.4.0\n"
+"Report-Msgid-Bugs-To: https://plugins-wp.lynbro.dk/lynbro-cookie-consent\n"
+"POT-Creation-Date: 2026-06-03T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-06-03 00:00+0000\n"
+"Last-Translator: Lynbro AI draft <noreply@lynbro.dk>\n"
+"Language-Team: Lynbro <support@lynbro.dk>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: lynbro-cookie-consent\n"
+
+#. translators: %s: number of seconds, e.g. 4.2.
+msgid "%s seconds (from banner shown to the visitor’s choice)."
+msgstr "%s 秒（バナーが表示されてから訪問者が選択するまで）。"
+
+msgid ""
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
+"preferences dialog is open."
+msgstr ""
+"訪問者が選択後に Cookie 設定を再度開ける、小さなアイコンのみのボタンです。バナーまたは設定ダイアログが開いている間は自動的に非表示になります。"
+
+msgid "About"
+msgstr "概要"
+
+msgid "About Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent について"
+
+msgid "Accept all"
+msgstr "すべて同意"
+
+msgid "Accept button"
+msgstr "同意ボタン"
+
+msgid "Accept rate"
+msgstr "同意率"
+
+msgid "Accessible label"
+msgstr "アクセシブルラベル"
+
+msgid "Add a custom language"
+msgstr "カスタム言語を追加"
+
+msgid ""
+"Add a small language dropdown to the banner so visitors can switch language "
+"manually (their choice is remembered)."
+msgstr "バナーに小さな言語ドロップダウンを追加し、訪問者が手動で言語を切り替えられるようにします（選択は記憶されます）。"
+
+msgid "Add your privacy policy link"
+msgstr "プライバシーポリシーへのリンクを追加"
+
+msgid "Additional CSS"
+msgstr "追加CSS"
+
+msgid ""
+"Allow the website to remember choices you make (such as language or region) "
+"to provide enhanced, personalized features."
+msgstr "言語や地域などの選択をサイトに記憶させ、より充実したパーソナライズ機能を提供します。"
+
+msgid "Already downloaded on demand:"
+msgstr "オンデマンドで既にダウンロード済み:"
+
+msgid "Always allow %s"
+msgstr "常に %s を許可"
+
+msgid "Always on"
+msgstr "常に有効"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "Anonymous statistics"
+msgstr "匿名統計"
+
+msgid "Auto (follow visitor’s system)"
+msgstr "自動（訪問者のシステムに従う）"
+
+msgid "Auto by region"
+msgstr "地域ごとに自動"
+
+msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
+msgstr "地域ごとに自動（EU はオプトイン、US はオプトアウト、それ以外は選択）"
+
+msgid ""
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
+msgstr "自動では、訪問者のデバイスがダーク配色を優先している場合はダークカラー、通常はライトカラーを使用します。"
+
+msgid "Auto-block trackers"
+msgstr "トラッカーを自動ブロック"
+
+msgid "Auto-detect visitor language"
+msgstr "訪問者の言語を自動検出"
+
+msgid "Automatic tracker blocking"
+msgstr "トラッカーの自動ブロック"
+
+msgid ""
+"Automatically block known third-party trackers (Google Analytics, GTM, Meta "
+"Pixel, Hotjar, Clarity, and more) until the matching category is granted."
+msgstr ""
+"一致するカテゴリの許可が与えられるまで、既知のサードパーティトラッカー（Google Analytics、GTM、Meta "
+"Pixel、Hotjar、Clarity など）を自動でブロックします。"
+
+msgid ""
+"Automatically show the banner in the visitor’s browser language when it is "
+"one of the offered languages."
+msgstr "提供されている言語のいずれかの場合、訪問者のブラウザ言語でバナーを自動表示します。"
+
+msgid "Average time to decision"
+msgstr "決定までの平均時間"
+
+msgid "Background color"
+msgstr "背景色"
+
+msgid "Banner background"
+msgstr "バナー背景"
+
+msgid "Banner description"
+msgstr "バナー説明"
+
+msgid "Banner max width (px)"
+msgstr "バナー最大幅（px）"
+
+msgid "Banner shown"
+msgstr "バナー表示数"
+
+msgid "Banner text on background"
+msgstr "背景上のバナーテキスト"
+
+msgid "Banner title"
+msgstr "バナータイトル"
+
+msgid ""
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
+"something it should not."
+msgstr ""
+"バナー、オーバーレイ、モーダル、フローティングボタンのベース z-index "
+"です。別の要素がバナーを覆っている場合は値を上げ、バナーが覆うべきでないものを覆っている場合は値を下げてください。"
+
+msgid ""
+"Basic HTML allowed: links, bold, italic, line breaks. Leave empty for the "
+"translated default."
+msgstr "基本HTMLのみ可: リンク、太字、斜体、改行。空欄にすると翻訳済みの既定値が使われます。"
+
+msgid "Benchmark sharing"
+msgstr "ベンチマーク共有"
+
+msgid ""
+"Benchmark sharing is on. Your first comparison will appear here after the "
+"weekly report has run."
+msgstr "ベンチマーク共有はオンです。最初の比較は、週次レポートの実行後にここに表示されます。"
+
+msgid ""
+"Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
+"reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
+"\"allow\" button."
+msgstr ""
+"同意が得られるまで、埋め込みコンテンツ（YouTube、Vimeo、Google Maps、SNS埋め込み、reCAPTCHA "
+"など）をブロックし、「許可」ボタン付きの見やすいプレースホルダーを表示します。"
+
+msgid "Blocking & Embeds"
+msgstr "ブロックと埋め込み"
+
+msgid "Bottom bar"
+msgstr "下部バー"
+
+msgid "Bottom left"
+msgstr "左下"
+
+msgid "Bottom right"
+msgstr "右下"
+
+msgid "Box corner"
+msgstr "ボックスの角"
+
+msgid "Browser languages"
+msgstr "ブラウザーの言語"
+
+msgid "Button icon"
+msgstr "ボタンのアイコン"
+
+msgid "Button text"
+msgstr "ボタンのテキスト"
+
+msgid "Button text on Accept button"
+msgstr "「同意する」ボタンのテキスト"
+
+msgid "Button text on Reject button"
+msgstr "「拒否する」ボタンのテキスト"
+
+msgid "CCPA / CPRA opt-out link"
+msgstr "CCPA / CPRA のオプトアウトリンク"
+
+msgid "Categories"
+msgstr "カテゴリ"
+
+msgid "Category"
+msgstr "カテゴリ"
+
+msgid "Category “%s” — description"
+msgstr "カテゴリ「%s」— 説明"
+
+msgid "Category “%s” — name"
+msgstr "カテゴリ「%s」— 名前"
+
+msgid "Center modal (with overlay)"
+msgstr "中央モーダル（オーバーレイ付き）"
+
+msgid "Choose language"
+msgstr "言語を選択"
+
+msgid ""
+"Collect anonymous statistics (how many visitors accept, reject or open "
+"preferences). Fully aggregated and cookieless — no IP address or personal "
+"data is stored. Shown in the Statistics tab."
+msgstr ""
+"匿名統計を収集します（訪問者が同意、拒否、または設定を開いた数）。完全に集計され、クッキーレスです — "
+"IPアドレスや個人データは保存されません。［統計］タブに表示されます。"
+
+msgid ""
+"Comma-separated page/post IDs where the banner should not be shown (e.g. "
+"landing pages)."
+msgstr "バナーを表示しないページ/投稿IDをカンマ区切りで指定してください（例: ランディングページ）。"
+
+msgid ""
+"Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This "
+"plugin helps with compliance but does not constitute legal advice."
+msgstr ""
+"GDPR/ePrivacy と Google Consent Mode v2 の Cookie "
+"バナーを設定します。このプラグインはコンプライアンスを支援しますが、法的助言を構成するものではありません。"
+
+msgid "Consent Log"
+msgstr "同意ログ"
+
+msgid "Consent Mode"
+msgstr "同意モード"
+
+msgid "Consent Mode v2"
+msgstr "同意モード v2"
+
+msgid "Consent logging is disabled."
+msgstr "同意ログは無効です。"
+
+msgid "Consent mode"
+msgstr "同意モード"
+
+msgid "Content from %s is blocked"
+msgstr "%s のコンテンツはブロックされています"
+
+msgid "Cookie Consent"
+msgstr "Cookie 同意"
+
+msgid "Cookie settings"
+msgstr "Cookie 設定"
+
+msgid "Corner radius (px)"
+msgstr "角丸（px）"
+
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+msgid "Dark"
+msgstr "ダーク"
+
+msgid "Dark colors"
+msgstr "ダークカラー"
+
+msgid "Date (UTC)"
+msgstr "日付（UTC）"
+
+msgid "Design"
+msgstr "デザイン"
+
+msgid "Desktop"
+msgstr "デスクトップ"
+
+msgid "Devices"
+msgstr "デバイス"
+
+msgid "Do Not Sell or Share My Personal Information"
+msgstr "個人情報を販売または共有しない"
+
+msgid "Download all settings as a JSON file to reuse on another site."
+msgstr "すべての設定をJSONファイルとしてダウンロードし、別のサイトで再利用できます。"
+
+msgid "Edge offset (px)"
+msgstr "端からのオフセット（px）"
+
+msgid "Edit texts per language"
+msgstr "言語ごとにテキストを編集"
+
+msgid "Embed consent category"
+msgstr "埋め込みの同意カテゴリ"
+
+msgid "Embed placeholders"
+msgstr "埋め込みのプレースホルダー"
+
+msgid ""
+"Embeds are unblocked when the visitor grants this category (or clicks "
+"\"allow\" on the placeholder)."
+msgstr "訪問者がこのカテゴリを許可する（またはプレースホルダーの「許可」をクリックする）と、埋め込みが解除されます。"
+
+msgid "Enable Google Consent Mode v2 signals"
+msgstr "Google Consent Mode v2 シグナルを有効化"
+
+msgid "Enable this category"
+msgstr "このカテゴリを有効化"
+
+msgid "Engagement (last 30 days)"
+msgstr "エンゲージメント（過去30日）"
+
+msgid ""
+"Enjoying Lynbro Cookie Consent? A short, honest review helps other site "
+"owners find it. No pressure — only if you have a minute."
+msgstr ""
+"Lynbro Cookie Consent を気に入っていただけましたか？ "
+"短い率直なレビューで、他のサイト運営者が見つけやすくなります。無理のない範囲で、もしお時間があればお願いします。"
+
+msgid ""
+"Enter a WordPress locale code (for example pt_PT or ca) to offer a language "
+"that is not bundled. After saving, fill in its texts below."
+msgstr ""
+"WordPress のロケールコード（例: pt_PT や ca）を入力して、同梱されていない言語を提供します。保存後、下にその文言を入力してください。"
+
+msgid "Exclude pages/posts"
+msgstr "ページ/投稿を除外"
+
+msgid "Export CSV"
+msgstr "CSVを書き出し"
+
+msgid "Export settings"
+msgstr "設定を書き出し"
+
+msgid "Export settings (JSON)"
+msgstr "設定を書き出し（JSON）"
+
+msgid "Feedback"
+msgstr "フィードバック"
+
+msgid "Feedback on this plugin"
+msgstr "このプラグインへのフィードバック"
+
+msgid "Floating box (corner)"
+msgstr "フローティング बॉックス（角）"
+
+msgid "Floating settings button"
+msgstr "フローティング設定ボタン"
+
+msgid "Gap from the screen edges for the floating box layout."
+msgstr "フローティング बॉックス配置の画面端からの余白。"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Get support"
+msgstr "サポートを受ける"
+
+msgid "Global Privacy Control (GPC)"
+msgstr "Global Privacy Control（GPC）"
+
+msgid "Good contrast (%s:1) — meets WCAG AA."
+msgstr "高コントラスト（%s:1）— WCAG AA を満たします。"
+
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+msgid ""
+"Have an idea, a problem or a request? Send it straight to the developers. "
+"This is entirely optional and only sent when you click Send."
+msgstr "アイデア、問題、または要望がありますか？ そのまま開発者に送信できます。これは完全に任意で、送信をクリックしたときのみ送信されます。"
+
+msgid ""
+"Help us understand how visitors interact with the website by collecting and "
+"reporting information anonymously."
+msgstr "訪問者がウェブサイトをどのように利用しているかを、匿名で収集・報告して把握します。"
+
+msgid ""
+"Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
+"visitors with GPC are automatically opted out and shown a visible "
+"confirmation (required by California from 2026)."
+msgstr ""
+"ブラウザーの Global Privacy Control シグナルを尊重します。オプトアウト（米国/CCPA）モードでは、GPC "
+"を有効にしている訪問者は自動的にオプトアウトされ、視認できる確認が表示されます（2026年以降、カリフォルニア州で必須）。"
+
+msgid "Horizontal"
+msgstr "横方向"
+
+msgid "How you compare"
+msgstr "比較"
+
+msgid "Icon"
+msgstr "アイコン"
+
+msgid "Icon color"
+msgstr "アイコンの色"
+
+msgid "Idea for a new feature or plugin"
+msgstr "新機能またはプラグインのアイデア"
+
+msgid "Import settings"
+msgstr "設定をインポート"
+
+msgid "Importing overwrites your current settings."
+msgstr "インポートすると現在の設定が上書きされます。"
+
+msgid ""
+"Increase this number whenever your cookie policy changes. Visitors will be "
+"asked to consent again."
+msgstr "Cookie ポリシーが変更されるたびに、この番号を増やしてください。訪問者には再度同意が求められます。"
+
+msgid "Installed version"
+msgstr "インストール済みバージョン"
+
+msgid "Invalid security token."
+msgstr "不正なセキュリティトークンです。"
+
+msgid ""
+"It works out of the box with GDPR-ready defaults — an equal Reject button "
+"and non-essential cookies blocked until consent."
+msgstr "GDPR 対応の既定値でそのまま使えます — 拒否ボタンは同等に用意され、同意するまで非必須 Cookie はブロックされます。"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Language downloaded and activated."
+msgstr "言語をダウンロードして有効化しました。"
+
+msgid "Language settings saved."
+msgstr "言語設定を保存しました。"
+
+msgid "Language switches"
+msgstr "言語切り替え"
+
+msgid "Languages"
+msgstr "言語"
+
+msgid "Last 30 days"
+msgstr "過去30日間"
+
+msgid "Last 365 days"
+msgstr "過去365日間"
+
+msgid "Last 7 days"
+msgstr "過去7日間"
+
+msgid "Leave a review"
+msgstr "レビューを投稿する"
+
+msgid "Leave empty to use the Accept button color."
+msgstr "Acceptボタンの色を使う場合は空欄のままにしてください。"
+
+msgid "Leave empty to use the Button text color."
+msgstr "ボタンの文字色を使う場合は空欄のままにしてください。"
+
+msgid "Leave empty to use the translated default."
+msgstr "翻訳済みのデフォルトを使う場合は空欄のままにしてください。"
+
+msgid "Legal mode"
+msgstr "法的モード"
+
+msgid "Light"
+msgstr "ライト"
+
+msgid "Light colors"
+msgstr "明るい配色"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Live preview (updates as you change Design and General settings):"
+msgstr "ライブプレビュー（デザインと一般設定を変更すると更新されます）："
+
+msgid "Load content from %s"
+msgstr "%s からコンテンツを読み込む"
+
+msgid "Local consent log"
+msgstr "ローカル同意ログ"
+
+msgid "Low contrast (%s:1). Aim for at least 4.5:1 to meet WCAG AA."
+msgstr "コントラストが低すぎます（%s:1）。WCAG AAに適合するには、少なくとも4.5:1を目指してください。"
+
+msgid ""
+"Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
+"the essentials, and no front-end tracking."
+msgstr ""
+"Lynbro Cookie "
+"Consentは、Lynbroが開発した無料のプライバシー最優先のCookieバナーです。私たちの目標は、美しく真に多言語対応で、GDPR/ePrivacyに準拠した、Rejectボタンも同等に備えたバナーです。ページビュー制限も、基本機能の有料化も、フロントエンド追跡もありません。"
+
+msgid "Manage opened"
+msgstr "管理を開く"
+
+msgid "Manage preferences"
+msgstr "設定を管理"
+
+msgid "Manage-preferences button"
+msgstr "設定管理ボタン"
+
+msgid "Marketing"
+msgstr "マーケティング"
+
+msgid ""
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
+msgstr "フローティングボックスと中央モーダルの最大幅。0にするとデフォルトを使用します。"
+
+msgid "Message"
+msgstr "メッセージ"
+
+msgid "Method"
+msgstr "方法"
+
+msgid "Mobile"
+msgstr "モバイル"
+
+msgid "Necessary"
+msgstr "必要"
+
+msgid ""
+"Necessary cookies are always active and cannot be disabled. Choose which "
+"optional categories visitors can control."
+msgstr "必須Cookieは常に有効で、無効にできません。訪問者が操作できる任意カテゴリを選択してください。"
+
+msgid ""
+"Need a language that is not bundled? Request it and we will generate it for "
+"your site. The translation file is stored in your uploads folder (never "
+"overwritten on update) and activated automatically."
+msgstr ""
+"バンドルされていない言語が必要ですか？ご依頼いただければ、サイト用に生成します。翻訳ファイルはアップロードフォルダに保存され（更新で上書きされません）、自動的に有効化されます。"
+
+msgid "No consent records yet."
+msgstr "同意記録はまだありません。"
+
+msgid "No data yet."
+msgstr "まだデータがありません。"
+
+msgid "No file was uploaded."
+msgstr "ファイルがアップロードされませんでした。"
+
+msgid "No thanks, don’t show this again"
+msgstr "いいえ、結構です。今後は表示しない"
+
+msgid "Notice only"
+msgstr "通知のみ"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "Offered languages"
+msgstr "提供言語"
+
+msgid "Offset from corner (px)"
+msgstr "角からのオフセット（px）"
+
+msgid "On"
+msgstr "オン"
+
+msgid "Once Weekly"
+msgstr "週1回"
+
+msgid "Only if you would like a reply. Leave empty to send anonymously."
+msgstr "返信が必要な場合のみ。空欄のままにすると匿名で送信されます。"
+
+msgid "Opacity"
+msgstr "不透明度"
+
+msgid "Operating systems"
+msgstr "オペレーティングシステム"
+
+msgid "Opt-in everywhere"
+msgstr "あらゆる場所でオプトイン"
+
+msgid "Opt-in everywhere (GDPR — safest)"
+msgstr "あらゆる場所でオプトイン（GDPR — 最も安全）"
+
+msgid "Opt-out everywhere"
+msgstr "あらゆる場所でオプトアウト"
+
+msgid "Opt-out everywhere (CCPA style)"
+msgstr "あらゆる場所でオプトアウト（CCPA 方式）"
+
+msgid ""
+"Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
+"selectors."
+msgstr "バナーのスタイルシートに追加する任意の CSS。 .lynbro-cc セレクターを対象にします。"
+
+msgid "Other"
+msgstr "その他"
+
+msgid ""
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
+msgstr ""
+"特定の言語のバナー文言を上書きします。フィールドを空欄にすると、同梱の翻訳（または英語の既定値）を使用します。優先順位: あなたの上書き → 同梱の翻訳"
+" → 既定値。"
+
+msgid "Overview"
+msgstr "概要"
+
+msgid "Period"
+msgstr "期間"
+
+msgid "Please choose a valid language code."
+msgstr "有効な言語コードを入力してください。"
+
+msgid "Please enter a message before sending."
+msgstr "送信する前にメッセージを入力してください。"
+
+msgid "Please upload a .json settings file."
+msgstr ".json 設定ファイルをアップロードしてください。"
+
+msgid "Plugin home page"
+msgstr "プラグインのホームページ"
+
+msgid "Policy URL"
+msgstr "ポリシー URL"
+
+msgid "Policy version"
+msgstr "ポリシーバージョン"
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Preferences"
+msgstr "設定"
+
+msgid "Privacy Policy & Terms"
+msgstr "プライバシーポリシーと利用規約"
+
+msgid "Privacy/Cookie policy URL"
+msgstr "プライバシー/Cookie ポリシー URL"
+
+msgid ""
+"Private, cookieless statistics stored only in your own database. They are "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
+"require consent."
+msgstr ""
+"自分のデータベースのみに保存される、プライベートな Cookie 不使用の統計です。完全に集計されており、IP "
+"アドレス、訪問者識別子、個人データは一切記録されません。そのため、これらの統計自体に同意は不要です。"
+
+msgid "Read more"
+msgstr "続きを読む"
+
+msgid "Recent consent records"
+msgstr "最近の同意記録"
+
+msgid ""
+"Records older than this are deleted automatically. Set to 0 to keep records "
+"indefinitely."
+msgstr "これより古い記録は自動的に削除されます。0 に設定すると、記録を無期限に保持します。"
+
+msgid "Region"
+msgstr "地域"
+
+msgid ""
+"Region is detected from CDN/edge headers (e.g. Cloudflare). When unknown, "
+"the safest opt-in model is used. No external geolocation API is called."
+msgstr ""
+"地域は CDN/エッジヘッダー（例: Cloudflare）から検出されます。不明な場合は、最も安全なオプトイン方式が使用されます。外部の位置情報 "
+"API は呼び出されません。"
+
+msgid ""
+"Register as the consent provider for the WP Consent API plugin and notify "
+"other plugins of the visitor’s choice (functional, preferences, statistics, "
+"marketing)."
+msgstr ""
+"WP Consent API プラグインの同意管理者として登録し、他のプラグインに訪問者の選択（機能、設定、統計、マーケティング）を通知します。"
+
+msgid "Reject all"
+msgstr "すべて拒否"
+
+msgid "Reject button"
+msgstr "拒否ボタン"
+
+msgid "Report a bug"
+msgstr "バグを報告"
+
+msgid "Request a language"
+msgstr "言語をリクエスト"
+
+msgid "Request this language"
+msgstr "この言語をリクエスト"
+
+msgid ""
+"Required for the website to function and cannot be switched off. They are "
+"usually set in response to actions you make, such as setting privacy "
+"preferences or logging in."
+msgstr "ウェブサイトの動作に必要で、無効にできません。通常、プライバシー設定の保存やログインなど、あなたの操作に応じて設定されます。"
+
+msgid ""
+"Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
+"focus. Default is 0.55."
+msgstr "待機時の透明度（0.2～1.0）。ボタンはホバーまたはフォーカス時に完全に不透明になります。既定値は 0.55 です。"
+
+msgid "Retention (days)"
+msgstr "保持期間（日）"
+
+msgid "Round"
+msgstr "角丸"
+
+msgid "Rounded"
+msgstr "角丸"
+
+msgid ""
+"Rounding of the banner, box and modal corners. Set 0 to use the default."
+msgstr "バナー、ボックス、モーダルの角の丸み。0 にすると既定値を使用します。"
+
+msgid "Save language settings"
+msgstr "言語設定を保存"
+
+msgid "Save preferences"
+msgstr "設定を保存"
+
+msgid "Save-preferences button"
+msgstr "保存設定ボタン"
+
+msgid "Send feedback"
+msgstr "フィードバックを送信"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Sends only the plugin name, version and language code to the Lynbro portal. "
+"See our %s."
+msgstr "プラグイン名、バージョン、言語コードのみを Lynbro ポータルに送信します。詳細は %s をご覧ください。"
+
+msgid "Set"
+msgstr "設定する"
+
+msgid ""
+"Sets all consent signals to \"denied\" by default before consent, then "
+"updates them based on the visitor’s choice (ad_storage, analytics_storage, "
+"ad_user_data, ad_personalization, functionality_storage, "
+"personalization_storage, security_storage)."
+msgstr ""
+"同意前にすべての同意シグナルを既定で「拒否」に設定し、その後訪問者の選択に基づいて更新します（ad_storage、analytics_storage、ad_user_data、ad_personalization、functionality_storage、personalization_storage、security_storage）。"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Settings imported successfully."
+msgstr "設定を正常にインポートしました。"
+
+msgid "Shape"
+msgstr "形状"
+
+msgid ""
+"Share anonymous statistics to help improve the plugin — and see how your "
+"accept rate compares to the average. Off by default. Sends only aggregated "
+"numbers and your site domain (never visitor IPs) to the Lynbro portal, once "
+"a week."
+msgstr ""
+"匿名の統計を共有してプラグインの改善にご協力ください。また、あなたの承諾率が平均と比べてどうかを確認できます。既定ではオフです。集計された数値とサイトのドメインのみを、週1回"
+" Lynbro ポータルに送信します（訪問者のIPは送信されません）。"
+
+msgid ""
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
+msgstr "オプトアウトモードで「私の個人情報を販売または共有しない」リンクを表示する"
+
+msgid "Show floating settings button on the site"
+msgstr "サイト上にフローティング設定ボタンを表示する"
+
+msgid "Show language switcher"
+msgstr "言語切り替えを表示する"
+
+msgid ""
+"Show the cookie icon (recommended). When off, the accessible label is shown "
+"as a small text button instead."
+msgstr "Cookieアイコンを表示する（推奨）。オフの場合は、代わりにアクセシブルなラベルが小さなテキストボタンとして表示されます。"
+
+msgid "Size (px)"
+msgstr "サイズ (px)"
+
+msgid ""
+"Sorry, that language could not be fetched right now. Please try again later."
+msgstr "申し訳ありませんが、現在その言語を取得できません。後でもう一度お試しください。"
+
+msgid "Sorry, the message could not be sent. Please try again later."
+msgstr "申し訳ありませんが、メッセージを送信できませんでした。後でもう一度お試しください。"
+
+msgid "Square"
+msgstr "正方形"
+
+msgid "Stacking (z-index base)"
+msgstr "重なり順（z-index ベース）"
+
+msgid "Statistics"
+msgstr "統計"
+
+msgid ""
+"Statistics are currently turned off. Enable “Collect anonymous statistics” "
+"in the General tab to start collecting aggregated numbers."
+msgstr "統計は現在オフです。集計数値の収集を開始するには、「一般」タブで「匿名統計を収集」を有効にしてください。"
+
+msgid "Statistics are disabled."
+msgstr "統計は無効です。"
+
+msgid ""
+"Store a privacy-respecting proof of consent in your own database. No raw IP "
+"address is stored — only a salted, anonymised hash for de-duplication."
+msgstr ""
+"自社データベースに、プライバシーに配慮した同意の証跡を保存します。生のIPアドレスは保存されず、重複排除のためのソルト付き匿名ハッシュのみが保存されます。"
+
+msgid "Tablet"
+msgstr "タブレット"
+
+msgid "Tell us what you think, what is missing, or what went wrong…"
+msgstr "ご意見、ご要望、または不具合があればお知らせください…"
+
+msgid "Text color"
+msgstr "テキストカラー"
+
+msgid "Thank you! Your message was sent."
+msgstr "ありがとうございます！メッセージを送信しました。"
+
+#. translators: %s: the average accept rate across opted-in sites.
+msgid ""
+"The average accept rate across opted-in sites is %s%%. Yours will show here "
+"once visitors start choosing."
+msgstr "オプトイン済みサイト全体の平均承諾率は %s%% です。訪問者が選択し始めると、ここに表示されます。"
+
+msgid ""
+"The banner language follows a cache-safe cascade: the current page language "
+"(Polylang/WPML/TranslatePress), then your site language, then English. "
+"Browser auto-detection and the optional in-banner switcher happen entirely "
+"in the visitor’s browser, so your page cache is never affected."
+msgstr ""
+"バナーの言語は、キャッシュに影響しない順序で決まります。まず現在のページ言語（Polylang/WPML/TranslatePress）、次にサイトの言語、最後に英語です。ブラウザの自動検出と、オプションのバナー内切り替えは訪問者のブラウザ内で完結するため、ページキャッシュには一切影響しません。"
+
+msgid "The file does not contain valid Lynbro Cookie Consent settings."
+msgstr "このファイルには有効な Lynbro Cookie Consent の設定が含まれていません。"
+
+msgid "Theme"
+msgstr "テーマ"
+
+msgid ""
+"These are the languages prepared for browser auto-detection and the "
+"switcher. Languages with a bundled translation appear here automatically. "
+"Your site language is always included."
+msgstr ""
+"これらは、ブラウザの自動検出と切り替え用に用意された言語です。組み込み翻訳のある言語は自動的にここに表示されます。サイトの言語は常に含まれます。"
+
+msgid ""
+"This complements manual script marking. All detection is local; no external "
+"request is made."
+msgstr "これは手動のスクリプト指定を補完するものです。検出はすべてローカルで行われ、外部リクエストは行われません。"
+
+msgid ""
+"This plugin helps with cookie compliance but does not constitute legal "
+"advice."
+msgstr "このプラグインはCookieコンプライアンスを支援しますが、法的助言を構成するものではありません。"
+
+msgid ""
+"Tip: cookie/consent wording can have legal implications. Have the legal "
+"parts of any translation reviewed by a person familiar with your "
+"jurisdiction."
+msgstr ""
+"ヒント: "
+"Cookie/同意に関する文言には法的な意味が生じる場合があります。翻訳の法的な部分は、お住まいの法域に精通した担当者による確認を受けてください。"
+
+msgid ""
+"To view this content from %s, you need to accept the relevant cookies. The "
+"provider may set cookies and collect personal data."
+msgstr ""
+"%s のコンテンツを表示するには、関連する Cookie に同意する必要があります。提供元が Cookie "
+"を設定し、個人データを収集する場合があります。"
+
+msgid "Today"
+msgstr "今日"
+
+msgid "Too many requests."
+msgstr "リクエストが多すぎます。"
+
+msgid "Tools"
+msgstr "ツール"
+
+msgid "Top bar"
+msgstr "トップバー"
+
+msgid "Top left"
+msgstr "左上"
+
+msgid "Top right"
+msgstr "右上"
+
+#. translators: %d: total number of consent records.
+msgid "Total records: %d (showing the 50 most recent)."
+msgstr "合計レコード: %d（最新50件を表示）。"
+
+msgid ""
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
+"[lynbro_cookie_settings] shortcode somewhere)."
+msgstr ""
+"これをオフにすると、フローティングボタンが完全に非表示になります。訪問者はCookie設定を再度開く方法を見つけられなくなります（[lynbro_cookie_settings]ショートコードをどこかに追加しない限り）。"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid ""
+"Updates are delivered automatically through WordPress.org — there is no "
+"custom updater and the free version never phones home."
+msgstr "更新はWordPress.org経由で自動配信されます。独自のアップデーターはなく、無料版が外部へ通信することもありません。"
+
+msgid ""
+"Used as the tooltip and screen-reader label. Leave empty for the translated "
+"default."
+msgstr "ツールチップとスクリーンリーダーのラベルとして使用されます。翻訳済みの既定値を使う場合は空欄のままにしてください。"
+
+msgid "Used only when Position is \"Floating box\"."
+msgstr "「フローティングボックス」の位置でのみ使用されます。"
+
+msgid ""
+"Used to track visitors across websites to display relevant advertising and "
+"measure campaign effectiveness."
+msgstr "関連性の高い広告を表示し、キャンペーン効果を測定するために、訪問者をサイト間で追跡するために使用されます。"
+
+msgid "Version & updates"
+msgstr "バージョンと更新"
+
+msgid "Vertical"
+msgstr "縦"
+
+msgid "View changelog"
+msgstr "変更履歴を表示"
+
+msgid "Visibility"
+msgstr "表示"
+
+msgid "Visit Lynbro"
+msgstr "Lynbroを訪問"
+
+msgid "WP Consent API"
+msgstr "WP Consent API"
+
+msgid ""
+"We detected a Global Privacy Control signal and automatically opted you out "
+"of non-essential cookies."
+msgstr "Global Privacy Controlシグナルを検出したため、必須でないCookieを自動的にオプトアウトしました。"
+
+msgid ""
+"We use cookies to enhance your browsing experience, serve personalized "
+"content and analyze our traffic. You can accept all cookies, reject non-"
+"essential ones, or manage your preferences."
+msgstr ""
+"Cookieを使用して閲覧体験を向上させ、パーソナライズされたコンテンツを提供し、アクセス状況を分析しています。すべてのCookieを許可するか、必須でないものを拒否するか、設定を管理できます。"
+
+msgid "We value your privacy"
+msgstr "私たちはあなたのプライバシーを大切にします"
+
+msgid "Width and height of the button (24–96). Default is 40."
+msgstr "ボタンの幅と高さ（24～96）。既定値は40です。"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Write a review"
+msgstr "レビューを書く"
+
+msgid "Yesterday"
+msgstr "昨日"
+
+msgid "You can still block your own scripts manually:"
+msgstr "自分のスクリプトは手動で引き続きブロックできます:"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+#. translators: 1: this site's accept rate, 2: the average accept rate across
+#. opted-in sites.
+msgid ""
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
+msgstr "過去7日間の許可率は %1$s%% です。オプトイン済みサイト全体の平均は %2$s%% です。"
+
+msgid "Your consent banner is live"
+msgstr "同意バナーは公開中です"
+
+msgid "Your email (optional)"
+msgstr "メールアドレス（任意）"
+
+#. translators: %s: link to the portal privacy/terms page.
+msgid ""
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
+msgstr "あなたのメッセージ、プラグインのバージョン、サイトのドメインがLynbroポータルに送信されます。詳しくは%sをご覧ください。"
+
+msgid "\"Read more\" link"
+msgstr "「続きを読む」リンク"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "site language"
+msgstr "サイトの言語"
+
+msgid ""
+"Preparing your language… This can take about a minute the first time. It "
+"will be added automatically — you can keep working."
+msgstr "言語を準備しています… 初回は1分ほどかかる場合があります。自動的に追加されるので、そのまま作業を続けられます。"
+
+#. %s: comma-separated list of language names.
+msgid "Language ready and activated: %s"
+msgstr "言語の準備が完了し、有効化されました: %s"
+
+#. %s: comma-separated list of language names.
+msgid "Could not prepare: %s. Please try again later."
+msgstr "準備できませんでした: %s。後でもう一度お試しください。"
+
+msgid "Accessibility"
+msgstr "アクセシビリティ"
+
+msgid ""
+"Apply this design preset? It will overwrite your current Design settings "
+"(you can still review before saving)."
+msgstr "このデザインプリセットを適用しますか？現在のデザイン設定は上書きされます（保存前に確認できます）。"
+
+msgid "Calm, low-contrast palette in a rounded corner box."
+msgstr "角丸のボックスに落ち着いた低コントラストの配色。"
+
+msgid "Centered dialog with a dimmed overlay, dark theme."
+msgstr "中央配置のダイアログに暗めのオーバーレイを重ねたダークテーマ。"
+
+msgid "Colours meet WCAG AA accessibility"
+msgstr "配色はWCAG AAのアクセシビリティ基準を満たしています"
+
+msgid "Design presets"
+msgstr "デザインプリセット"
+
+msgid "Details"
+msgstr "詳細"
+
+msgid "Full-width bar at the bottom, light and neutral."
+msgstr "下部に表示する全幅バー、明るくニュートラル。"
+
+msgid "Hide details"
+msgstr "詳細を隠す"
+
+msgid ""
+"One-click starting points. Applying a preset fills the Design fields below "
+"and updates the live preview — review it, then Save Changes to keep it."
+msgstr ""
+"ワンクリックで始められるプリセットです。適用すると下のデザイン項目が入力され、ライブプレビューも更新されます。確認してから「変更を保存」を押すと反映されます。"
+
+msgid "Preset applied. Review the preview, then Save Changes to keep it."
+msgstr "プリセットを適用しました。プレビューを確認してから、「変更を保存」を押すと反映されます。"
+
+msgid "Preview device width"
+msgstr "プレビューのデバイス幅"
+
+msgid "Slim, square bar pinned to the top of the page."
+msgstr "ページ上部に固定する、細身の角張ったバー。"
+
+msgid "Soft floating card in the bottom-right corner."
+msgstr "右下に表示する、やわらかなフローティングカード。"
+
+msgid "Some colours have low contrast (%s) — see details."
+msgstr "一部の色はコントラストが低くなっています（%s）— 詳細をご覧ください。"

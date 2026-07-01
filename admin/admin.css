@@ -489,6 +489,18 @@
 	margin: 8px 0 24px;
 }
 
+/* Wide data tables (statistics, consent log) scroll horizontally on small
+   screens instead of pushing the whole admin page wider than the viewport. */
+@media ( max-width: 782px ) {
+	.lynbro-cc-stat-table,
+	.lynbro-cc-log-table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+
 .lynbro-cc-stat-grid {
 	display: flex;
 	flex-wrap: wrap;

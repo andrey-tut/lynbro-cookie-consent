@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.4.5
+Stable tag: 0.4.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -256,6 +256,12 @@ providers — but only after the visitor grants the matching consent category. T
 plugin's role is to gate them, not to add them.
 
 == Changelog ==
+
+= 0.4.6 =
+* Translations: refreshed and quality-reviewed all 35 bundled languages for more
+  natural, glossary-consistent wording.
+* Fix: on mobile, the Statistics and Consent Log tables in the admin could push
+  the page wider than the screen; each table now scrolls horizontally on its own.
 
 = 0.4.5 =
 * Fix: on mobile, opening "Manage preferences" could make the dialog overflow

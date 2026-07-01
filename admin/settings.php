@@ -993,7 +993,7 @@ function lynbro_cookie_consent_render_log_viewer() {
 			<?php echo esc_html__( 'Export CSV', 'lynbro-cookie-consent' ); ?>
 		</a>
 	</p>
-	<table class="widefat striped">
+	<table class="widefat striped lynbro-cc-log-table">
 		<thead>
 			<tr>
 				<th><?php echo esc_html__( 'Date (UTC)', 'lynbro-cookie-consent' ); ?></th>

@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.4.4
+Stable tag: 0.4.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -256,6 +256,12 @@ providers — but only after the visitor grants the matching consent category. T
 plugin's role is to gate them, not to add them.
 
 == Changelog ==
+
+= 0.4.5 =
+* Fix: on mobile, opening "Manage preferences" could make the dialog overflow
+  horizontally (the categories view wrapped into a second column, forcing
+  sideways scrolling to reach the buttons). The dialog now stays a single column
+  and scrolls vertically instead.
 
 = 0.4.4 =
 * Fix: on mobile the bar layout could stretch to most of the screen height with a

@@ -351,6 +351,11 @@ body.lynbro-cc-modal-open {
 		padding: 14px 16px;
 		max-height: 85vh;
 		overflow-y: auto;
+		/* Must be nowrap: the base rule sets flex-wrap: wrap for the desktop row
+		   layout, but in this capped-height column that would wrap tall content
+		   (e.g. the preferences view) into a second column to the right, causing
+		   horizontal overflow. Keep one column and scroll vertically instead. */
+		flex-wrap: nowrap;
 	}
 
 	/* In a column layout the body's `flex: 1 1 380px` basis would otherwise

@@ -3,7 +3,7 @@
  * Plugin Name:       Lynbro Cookie Consent
  * Plugin URI:        https://plugins.lynbro.dk/lynbro-cookie-consent
  * Description:       Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy and Google Consent Mode v2 ready, with no pageview limits.
- * Version:           0.4.4
+ * Version:           0.4.5
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Lynbro
@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'LYNBRO_COOKIE_CONSENT_VERSION', '0.4.4' );
+define( 'LYNBRO_COOKIE_CONSENT_VERSION', '0.4.5' );
 define( 'LYNBRO_COOKIE_CONSENT_FILE', __FILE__ );
 define( 'LYNBRO_COOKIE_CONSENT_DIR', plugin_dir_path( __FILE__ ) );
 define( 'LYNBRO_COOKIE_CONSENT_URL', plugin_dir_url( __FILE__ ) );

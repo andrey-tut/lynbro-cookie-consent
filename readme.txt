@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.4.3
+Stable tag: 0.4.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,6 +19,9 @@ and no pageview or domain limits. Everything runs locally — no account, no clo
 no external requests on the front end.
 
 This plugin helps you with cookie compliance but does not constitute legal advice.
+
+Source code and issue tracker on GitHub:
+https://github.com/andrey-tut/lynbro-cookie-consent
 
 **Free features:**
 
@@ -253,6 +256,12 @@ providers — but only after the visitor grants the matching consent category. T
 plugin's role is to gate them, not to add them.
 
 == Changelog ==
+
+= 0.4.4 =
+* Fix: on mobile the bar layout could stretch to most of the screen height with a
+  large empty gap between the text and the buttons. The banner body now sizes to
+  its content, the content packs to the top, and the bar never exceeds 85% of the
+  viewport. Added slightly smaller mobile font sizes for the title and text.
 
 = 0.4.3 =
 * Compliance: tracker-blocking no longer emits literal script tags from PHP — the

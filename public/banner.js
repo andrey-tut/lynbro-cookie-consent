@@ -329,6 +329,8 @@
 	/* ---------- Script activation ---------- */
 
 	function activateScripts( categories ) {
+		// The gatekeeper in <head> reads this for tags added after the choice.
+		window.lynbroCcGranted = categories;
 		var nodes = document.querySelectorAll( 'script[type="text/plain"][data-lynbro-cc]' );
 		nodes.forEach( function ( node ) {
 			var cat = node.getAttribute( 'data-lynbro-cc' );

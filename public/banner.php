@@ -178,7 +178,7 @@ function lynbro_cookie_consent_enqueue_gcm_stub() {
 add_action( 'wp_enqueue_scripts', 'lynbro_cookie_consent_enqueue_gcm_stub', 0 );
 
 /**
- * Print the head-stub handle early in <head> (priority 1) so the Google Consent
+ * Print the head-stub handle at the top of <head> so the Google Consent
  * Mode defaults are set before any consent-aware tags execute.
  *
  * @return void
@@ -189,7 +189,9 @@ function lynbro_cookie_consent_print_gcm_stub() {
 	}
 	wp_print_scripts( 'lynbro-cookie-consent-gcm' );
 }
-add_action( 'wp_head', 'lynbro_cookie_consent_print_gcm_stub', 1 );
+// -9999: right after the gatekeeper (-10000) and before any tag another plugin or a
+// header-code snippet prints at 0 or 1, so Google tags start with the denied defaults.
+add_action( 'wp_head', 'lynbro_cookie_consent_print_gcm_stub', -9999 );
 
 /**
  * Enqueue front-end CSS/JS and pass configuration.

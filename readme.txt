@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.17
+Stable tag: 0.4.18
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,8 +45,11 @@ https://github.com/andrey-tut/lynbro-cookie-consent
   this service" choice). Zero layout shift — placeholders reserve the iframe size.
 * Automatic blocking of well-known trackers by a built-in catalog (Google
   Analytics/GA4, Google Tag Manager, Meta Pixel, Hotjar, Microsoft Clarity,
-  LinkedIn, TikTok and more) in addition to manual script marking. Extendable via
-  a filter.
+  LinkedIn, TikTok and more) in addition to manual script marking — whether the
+  tag is enqueued by a plugin or pasted into the page by a theme, a header-code
+  plugin or a page builder. Extendable via a filter. Tags hard-coded in a
+  theme's header.php above `wp_head()` run before any plugin can act; move them
+  into a header-code plugin and they are blocked too.
 * Global Privacy Control (GPC): honors the browser opt-out signal and, in
   opt-out mode, automatically applies it with a visible confirmation (California
   CPRA 2026).
@@ -278,6 +281,10 @@ screen makes.
 
 == Changelog ==
 
+= 0.4.18 =
+* Important: pasted tracking snippets now wait for consent. Automatic blocking only caught scripts a plugin added with wp_enqueue_script(); the usual Google Analytics (gtag) and Meta Pixel snippets — pasted in the theme, a header/footer code plugin or a page builder — ran before the visitor chose, sent a page view and set the _ga cookie. A small script at the very top of <head> now holds every tag from the tracker catalog (including those a snippet injects, like the Pixel loader and GTM) until its category is granted, and the banner starts them after "Accept". Rejecting keeps them out. The browser may still fetch the gtag file, but it does not run.
+* The Google Consent Mode defaults are printed at the very top of <head>, before tags other plugins print early.
+
 = 0.4.17 =
 * No emoji images from WordPress.org: WordPress swaps emoji for images from s.w.org in browsers without an emoji font, sending the visitor's IP address to WordPress.org before any consent. A new setting (Blocking tab, on by default) leaves emoji to the visitor's own font and drops any s.w.org resource hint. Admin, editor, feeds and e-mails are untouched. Filter `lynbro_cookie_consent_local_emoji`.
 
@@ -423,6 +430,9 @@ screen makes.
   Mode v2, geo-aware consent modes, shortcode, accessibility, English + Danish.
 
 == Upgrade Notice ==
+
+= 0.4.18 =
+Google Analytics and Meta Pixel snippets pasted into the page no longer run before consent. Update now.
 
 = 0.4.12 =
 Consent records from visitors who share one address (offices, mobile networks) are no longer refused at half the limit.

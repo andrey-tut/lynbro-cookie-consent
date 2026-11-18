@@ -535,7 +535,7 @@ if ( ! function_exists( 'lynbro_core_suite_strings' ) ) {
 				'name'    => __( 'Site Check', 'lynbro-cookie-consent' ),
 				'tagline' => __( 'A free website check for your visitors: HTTPS, headers, cookies before consent, accessibility, SPF/DKIM/DMARC — report on screen.', 'lynbro-cookie-consent' ),
 			),
-			'lynbro-seo' => array(
+			'lynbro-seo-schema' => array(
 				'name'    => __( 'SEO', 'lynbro-cookie-consent' ),
 				'tagline' => __( 'Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing phones home.', 'lynbro-cookie-consent' ),
 			),

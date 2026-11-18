@@ -1748,3 +1748,13 @@ msgstr ""
 "шрифт за емотикони, което изпраща IP адреса на посетителя до WordPress.org "
 "преди получаването на каквото и да е съгласие. Включено е по подразбиране; "
 "администраторът и редакторът не са засегнати."
+
+msgid "Remember the choice for (days)"
+msgstr "Запомняне на избора за (дни)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Приемането и отказът се запомнят за този период; след това банерът пита "
+"отново. От 1 до 365 дни, по подразбиране 365."

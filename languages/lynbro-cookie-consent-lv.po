@@ -1752,3 +1752,13 @@ msgstr ""
 "attēliem no WordPress.org, tādējādi apmeklētāja IP adrese tiek nosūtīta "
 "WordPress.org vēl pirms piekrišanas saņemšanas. Pēc noklusējuma ieslēgts; "
 "administratoru un redaktoru tas neietekmē."
+
+msgid "Remember the choice for (days)"
+msgstr "Atcerēties izvēli (dienas)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Gan piekrišana, gan noraidīšana tiek saglabāta tik ilgi; pēc tam baneris "
+"jautās vēlreiz. No 1 līdz 365 dienām, pēc noklusējuma — 365."

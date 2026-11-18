@@ -1504,3 +1504,11 @@ msgid ""
 msgstr ""
 "对于没有表情符号字体的浏览器，WordPress 会将表情符号替换为来自 WordPress.org 的图片，这会在访客作出任何同意之前将其 IP "
 "地址发送给 WordPress.org。默认启用；此设置不影响管理员和编辑者。"
+
+msgid "Remember the choice for (days)"
+msgstr "记住选择的时长（天）"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr "接受和拒绝的选择都会在此期限内保存；期限结束后，横幅会再次询问。可设置为 1 至 365 天，默认值为 365 天。"

@@ -1750,3 +1750,13 @@ msgstr ""
 "tidak memiliki font emoji. Hal ini mengirim alamat IP pengunjung ke "
 "WordPress.org sebelum mereka memberikan persetujuan. Aktif secara default; "
 "admin dan editor tidak terpengaruh."
+
+msgid "Remember the choice for (days)"
+msgstr "Ingat pilihan selama (hari)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Persetujuan dan penolakan sama-sama diingat selama jangka waktu ini; setelah"
+" itu, banner akan menanyakan kembali. 1 hingga 365 hari, default 365 hari."

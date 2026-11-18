@@ -1743,3 +1743,13 @@ msgstr ""
 "en emojiskrift, noe som sender besøkendes IP-adresse til WordPress.org før "
 "samtykke er gitt. Aktivert som standard; administratoren og "
 "redigeringsverktøyet påvirkes ikke."
+
+msgid "Remember the choice for (days)"
+msgstr "Husk valget i (dager)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Både godkjenning og avvisning huskes så lenge; deretter spør banneret på "
+"nytt. 1 til 365 dager, 365 som standard."

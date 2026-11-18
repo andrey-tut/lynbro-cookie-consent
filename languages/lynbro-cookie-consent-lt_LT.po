@@ -1751,3 +1751,13 @@ msgstr ""
 "paveikslėliais iš WordPress.org. Taip lankytojo IP adresas perduodamas "
 "WordPress.org dar negavus jokio sutikimo. Įjungta pagal numatytuosius "
 "nustatymus; administratoriui ir redaktoriui ši nuostata netaikoma."
+
+msgid "Remember the choice for (days)"
+msgstr "Įsiminti pasirinkimą (dienoms)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Tiek laiko įsimenamas ir sutikimas, ir atsisakymas; jam pasibaigus, sutikimo"
+" juosta paklaus dar kartą. Nuo 1 iki 365 dienų, numatytoji reikšmė – 365."

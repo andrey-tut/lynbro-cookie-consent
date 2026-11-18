@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the lynbro-cookie-consent 0.4.18 package.
+# This file is distributed under the same license as the lynbro-cookie-consent 0.4.20 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: lynbro-cookie-consent 0.4.18\n"
+"Project-Id-Version: lynbro-cookie-consent 0.4.20\n"
 "Report-Msgid-Bugs-To: https://soge.dk\n"
-"POT-Creation-Date: 2026-11-18 05:49+0100\n"
+"POT-Creation-Date: 2026-11-18 10:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,7 +204,7 @@ msgstr ""
 msgid "Already downloaded on demand:"
 msgstr ""
 
-#: admin/languages-tab.php:212 admin/settings.php:1031
+#: admin/languages-tab.php:212 admin/settings.php:1040
 msgid "Language"
 msgstr ""
 
@@ -225,16 +225,16 @@ msgid "Cookie Consent"
 msgstr ""
 
 #: admin/settings.php:104 admin/statistics-tab.php:119
-#: includes/languages.php:290 public/banner.php:501
+#: includes/languages.php:290 public/banner.php:529
 msgid "Accept all"
 msgstr ""
 
 #: admin/settings.php:105 admin/statistics-tab.php:120
-#: includes/languages.php:294 public/banner.php:492
+#: includes/languages.php:294 public/banner.php:520
 msgid "Reject all"
 msgstr ""
 
-#: admin/settings.php:106 includes/languages.php:298 public/banner.php:495
+#: admin/settings.php:106 includes/languages.php:298 public/banner.php:523
 msgid "Manage preferences"
 msgstr ""
 
@@ -310,7 +310,7 @@ msgstr ""
 #: admin/settings.php:242 includes/competitors.php:203
 #: includes/consent-log.php:405 includes/feedback.php:35
 #: includes/i18n-ondemand.php:90 includes/import-export.php:22
-#: includes/import-export.php:50 includes/languages.php:519
+#: includes/import-export.php:50 includes/languages.php:521
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
@@ -322,7 +322,7 @@ msgstr ""
 msgid "Design"
 msgstr ""
 
-#: admin/settings.php:251 admin/settings.php:1030
+#: admin/settings.php:251 admin/settings.php:1039
 msgid "Categories"
 msgstr ""
 
@@ -404,7 +404,7 @@ msgstr ""
 msgid "Opt-out everywhere (CCPA style)"
 msgstr ""
 
-#: admin/settings.php:352 admin/settings.php:958
+#: admin/settings.php:352 admin/settings.php:967
 msgid "Notice only"
 msgstr ""
 
@@ -436,7 +436,7 @@ msgid ""
 "translated default."
 msgstr ""
 
-#: admin/settings.php:391 admin/settings.php:1029
+#: admin/settings.php:391 admin/settings.php:1038
 msgid "Policy version"
 msgstr ""
 
@@ -734,7 +734,7 @@ msgid ""
 "optional categories visitors can control."
 msgstr ""
 
-#: admin/settings.php:731 includes/languages.php:310 public/banner.php:481
+#: admin/settings.php:731 includes/languages.php:310 public/banner.php:509
 msgid "Always on"
 msgstr ""
 
@@ -817,156 +817,166 @@ msgid ""
 msgstr ""
 
 #: admin/settings.php:820
+msgid "Remember the choice for (days)"
+msgstr ""
+
+#: admin/settings.php:825
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner "
+"asks again. 1 to 365 days, 365 by default."
+msgstr ""
+
+#: admin/settings.php:829
 msgid "Global Privacy Control (GPC)"
 msgstr ""
 
-#: admin/settings.php:824
+#: admin/settings.php:833
 msgid ""
 "Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
 "visitors with GPC are automatically opted out and shown a visible "
 "confirmation (required by California from 2026)."
 msgstr ""
 
-#: admin/settings.php:829
+#: admin/settings.php:838
 msgid "CCPA / CPRA opt-out link"
 msgstr ""
 
-#: admin/settings.php:833
+#: admin/settings.php:842
 msgid ""
 "Show a \"Do Not Sell or Share My Personal Information\" link in opt-out mode."
 msgstr ""
 
-#: admin/settings.php:838
+#: admin/settings.php:847
 msgid "WP Consent API"
 msgstr ""
 
-#: admin/settings.php:842
+#: admin/settings.php:851
 msgid ""
 "Register as the consent provider for the WP Consent API plugin and notify "
 "other plugins of the visitor’s choice (functional, preferences, statistics, "
 "marketing)."
 msgstr ""
 
-#: admin/settings.php:859
+#: admin/settings.php:868
 msgid "Local consent log"
 msgstr ""
 
-#: admin/settings.php:863
+#: admin/settings.php:872
 msgid ""
 "Store a privacy-respecting proof of consent in your own database. No raw IP "
 "address is stored — only a salted, anonymised hash for de-duplication."
 msgstr ""
 
-#: admin/settings.php:868
+#: admin/settings.php:877
 msgid "Retention (days)"
 msgstr ""
 
-#: admin/settings.php:873
+#: admin/settings.php:882
 msgid ""
 "Records older than this are deleted automatically. Set to 0 to keep records "
 "indefinitely."
 msgstr ""
 
-#: admin/settings.php:889
+#: admin/settings.php:898
 msgid "Export settings"
 msgstr ""
 
-#: admin/settings.php:890
+#: admin/settings.php:899
 msgid "Download all settings as a JSON file to reuse on another site."
 msgstr ""
 
-#: admin/settings.php:893 includes/lynbro-core/lynbro-core.php:1649
+#: admin/settings.php:902 includes/lynbro-core/lynbro-core.php:1649
 msgid "Export settings (JSON)"
 msgstr ""
 
-#: admin/settings.php:917 admin/settings.php:925
+#: admin/settings.php:926 admin/settings.php:934
 msgid "Import settings"
 msgstr ""
 
-#: admin/settings.php:924
+#: admin/settings.php:933
 msgid "Importing overwrites your current settings."
 msgstr ""
 
-#: admin/settings.php:955
+#: admin/settings.php:964
 msgid "Auto by region"
 msgstr ""
 
-#: admin/settings.php:956
+#: admin/settings.php:965
 msgid "Opt-in everywhere"
 msgstr ""
 
-#: admin/settings.php:957
+#: admin/settings.php:966
 msgid "Opt-out everywhere"
 msgstr ""
 
-#: admin/settings.php:970
+#: admin/settings.php:979
 msgid "Your consent banner is live"
 msgstr ""
 
-#: admin/settings.php:971
+#: admin/settings.php:980
 msgid ""
 "It works out of the box with GDPR-ready defaults — an equal Reject button "
 "and non-essential cookies blocked until consent."
 msgstr ""
 
-#: admin/settings.php:975
+#: admin/settings.php:984
 msgid "Legal mode"
 msgstr ""
 
-#: admin/settings.php:979
+#: admin/settings.php:988
 msgid "Consent Mode v2"
 msgstr ""
 
-#: admin/settings.php:980 admin/settings.php:984
+#: admin/settings.php:989 admin/settings.php:993
 msgid "On"
 msgstr ""
 
-#: admin/settings.php:980 admin/settings.php:984
+#: admin/settings.php:989 admin/settings.php:993
 msgid "Off"
 msgstr ""
 
-#: admin/settings.php:983
+#: admin/settings.php:992
 msgid "Auto-block trackers"
 msgstr ""
 
-#: admin/settings.php:987
+#: admin/settings.php:996
 msgid "Policy URL"
 msgstr ""
 
-#: admin/settings.php:989
+#: admin/settings.php:998
 msgid "Set"
 msgstr ""
 
-#: admin/settings.php:991
+#: admin/settings.php:1000
 msgid "Add your privacy policy link"
 msgstr ""
 
-#: admin/settings.php:1011
+#: admin/settings.php:1020
 msgid "Recent consent records"
 msgstr ""
 
-#: admin/settings.php:1016
+#: admin/settings.php:1025
 #, php-format
 msgid "Total records: %d (showing the 50 most recent)."
 msgstr ""
 
-#: admin/settings.php:1021
+#: admin/settings.php:1030
 msgid "Export CSV"
 msgstr ""
 
-#: admin/settings.php:1027
+#: admin/settings.php:1036
 msgid "Date (UTC)"
 msgstr ""
 
-#: admin/settings.php:1028
+#: admin/settings.php:1037
 msgid "Method"
 msgstr ""
 
-#: admin/settings.php:1032
+#: admin/settings.php:1041
 msgid "Region"
 msgstr ""
 
-#: admin/settings.php:1037
+#: admin/settings.php:1046
 msgid "No consent records yet."
 msgstr ""
 
@@ -1248,19 +1258,19 @@ msgstr ""
 msgid "Could not prepare: %s. Please try again later."
 msgstr ""
 
-#: includes/import-export.php:100
+#: includes/import-export.php:102
 msgid "Settings imported successfully."
 msgstr ""
 
-#: includes/import-export.php:101
+#: includes/import-export.php:103
 msgid "No file was uploaded."
 msgstr ""
 
-#: includes/import-export.php:102
+#: includes/import-export.php:104
 msgid "Please upload a .json settings file."
 msgstr ""
 
-#: includes/import-export.php:103
+#: includes/import-export.php:105
 msgid "The file does not contain valid Lynbro Cookie Consent settings."
 msgstr ""
 
@@ -1268,7 +1278,7 @@ msgstr ""
 msgid "Manage-preferences button"
 msgstr ""
 
-#: includes/languages.php:302 public/banner.php:498
+#: includes/languages.php:302 public/banner.php:526
 msgid "Save preferences"
 msgstr ""
 
@@ -1276,7 +1286,7 @@ msgstr ""
 msgid "Save-preferences button"
 msgstr ""
 
-#: includes/languages.php:306 public/banner.php:447
+#: includes/languages.php:306 public/banner.php:475
 msgid "Read more"
 msgstr ""
 
@@ -1298,7 +1308,7 @@ msgstr ""
 msgid "Category “%s” — description"
 msgstr ""
 
-#: includes/languages.php:575
+#: includes/languages.php:577
 msgid "Language settings saved."
 msgstr ""
 
@@ -1841,18 +1851,18 @@ msgid ""
 "measure campaign effectiveness."
 msgstr ""
 
-#: includes/options.php:252
+#: includes/options.php:253
 msgid "We value your privacy"
 msgstr ""
 
-#: includes/options.php:265
+#: includes/options.php:266
 msgid ""
 "We use cookies to enhance your browsing experience, serve personalized "
 "content and analyze our traffic. You can accept all cookies, reject non-"
 "essential ones, or manage your preferences."
 msgstr ""
 
-#: includes/options.php:500 includes/shortcode.php:32
+#: includes/options.php:502 includes/shortcode.php:32
 msgid "Cookie settings"
 msgstr ""
 
@@ -1870,11 +1880,11 @@ msgid ""
 "of non-essential cookies."
 msgstr ""
 
-#: public/banner.php:112 public/banner.php:437
+#: public/banner.php:112 public/banner.php:465
 msgid "Choose language"
 msgstr ""
 
-#: public/banner.php:458
+#: public/banner.php:486
 msgid "Do Not Sell or Share My Personal Information"
 msgstr ""
 

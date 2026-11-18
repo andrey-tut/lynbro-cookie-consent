@@ -1772,3 +1772,13 @@ msgstr ""
 "nach bhfuil cló emoji acu, rud a sheolann seoladh IP an chuairteora chuig "
 "WordPress.org sula dtugtar aon toiliú. Cumasaithe de réir réamhshocraithe; "
 "ní dhéantar difear don riarthóir ná don eagarthóir."
+
+msgid "Remember the choice for (days)"
+msgstr "Cuimhnigh ar an rogha ar feadh (laethanta)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Cuimhnítear ar ghlacadh agus ar dhiúltú ar feadh an tréimhse seo; ina "
+"dhiaidh sin, fiafróidh an meirge arís. 1 go 365 lá; 365 mar réamhshocrú."

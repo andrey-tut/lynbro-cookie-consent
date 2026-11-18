@@ -1736,3 +1736,13 @@ msgstr ""
 "emoji-typsnitt, vilket skickar besökarens IP-adress till WordPress.org innan"
 " något samtycke har lämnats. Aktiverat som standard; administratören och "
 "redigeraren påverkas inte."
+
+msgid "Remember the choice for (days)"
+msgstr "Kom ihåg valet i (dagar)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Både godkännande och avvisande sparas så länge; därefter visas bannern igen."
+" 1–365 dagar, 365 som standard."

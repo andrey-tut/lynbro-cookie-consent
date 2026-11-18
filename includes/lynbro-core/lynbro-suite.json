@@ -112,7 +112,7 @@
       "icon": "🔐",
       "tagline": "Move wp-login.php, limit failed sign-ins and add app-based two-factor — with three ways back in.",
       "menu_position": 32,
-      "wporg": false,
+      "wporg": true,
       "fits": [
         "accounts"
       ]

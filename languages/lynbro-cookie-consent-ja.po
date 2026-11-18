@@ -1549,3 +1549,11 @@ msgid ""
 msgstr ""
 "絵文字フォントがないブラウザーでは、WordPress は絵文字を WordPress.org の画像に置き換えます。そのため、同意を得る前に訪問者の "
 "IP アドレスが WordPress.org に送信されます。デフォルトで有効です。管理者とエディターには影響しません。"
+
+msgid "Remember the choice for (days)"
+msgstr "選択内容を記憶する期間（日）"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr "同意・拒否のどちらもこの期間記憶されます。期間終了後、バナーが再度表示されます。1～365日（初期設定は365日）。"

@@ -1717,3 +1717,13 @@ msgstr ""
 "WordPress swaps emoji for images from WordPress.org in browsers without an "
 "emoji font, which sends the visitor's IP address to WordPress.org before any"
 " consent. On by default; the admin and the editor are not affected."
+
+msgid "Remember the choice for (days)"
+msgstr "Remember the choice for (days)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."

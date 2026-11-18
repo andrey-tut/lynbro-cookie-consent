@@ -1759,3 +1759,13 @@ msgstr ""
 "fără un font emoji, ceea ce transmite adresa IP a vizitatorului către "
 "WordPress.org înainte de obținerea oricărui consimțământ. Activată în mod "
 "implicit; administratorul și editorul nu sunt afectați."
+
+msgid "Remember the choice for (days)"
+msgstr "Rețineți opțiunea timp de (zile)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Atât acceptarea, cât și respingerea sunt reținute pentru această perioadă; "
+"după aceea, bannerul întreabă din nou. Între 1 și 365 de zile, implicit 365."

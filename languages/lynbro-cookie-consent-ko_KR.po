@@ -1565,3 +1565,12 @@ msgstr ""
 "WordPress는 이모지 글꼴이 없는 브라우저에서 이모지를 WordPress.org의 이미지로 대체합니다. 이 경우 동의가 이루어지기 "
 "전에 방문자의 IP 주소가 WordPress.org로 전송됩니다. 기본적으로 활성화되어 있으며, 관리자와 편집기에는 영향을 주지 "
 "않습니다."
+
+msgid "Remember the choice for (days)"
+msgstr "선택 사항을 기억할 기간(일)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"수락 및 거부 선택은 모두 이 기간 동안 기억되며, 기간이 지나면 배너가 다시 표시됩니다. 1~365일, 기본값은 365일입니다."

@@ -71,8 +71,8 @@ function lynbro_cookie_consent_frontend_config() {
 		'mode'            => $mode, // opt-in|opt-out|notice.
 		'enableGcm'       => ! empty( $options['enable_gcm'] ),
 		'categorySignals' => $cat_signals,
-		// One year cookie lifetime in days.
-		'cookieDays'      => 365,
+		// How long the choice is remembered, in days (setting, 1-365).
+		'cookieDays'      => min( 365, max( 1, (int) ( $options['consent_days'] ?? 365 ) ) ),
 		// GPC (Global Privacy Control).
 		'honorGpc'        => ! empty( $options['honor_gpc'] ),
 		// Embeds.

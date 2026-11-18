@@ -1744,3 +1744,13 @@ msgstr ""
 "spletnega mesta WordPress.org, kar pomeni, da se naslov IP obiskovalca "
 "pošlje spletnemu mestu WordPress.org še pred pridobitvijo privolitve. "
 "Privzeto vklopljeno; na skrbnika in urejevalnik ne vpliva."
+
+msgid "Remember the choice for (days)"
+msgstr "Zapomni si izbiro za (dni)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Toliko časa se shranjujeta tako sprejem kot zavrnitev; po tem pasica znova "
+"vpraša. Od 1 do 365 dni, privzeto 365."

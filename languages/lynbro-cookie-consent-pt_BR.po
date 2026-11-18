@@ -1752,3 +1752,13 @@ msgstr ""
 "sem uma fonte de emoji, o que envia o endereço IP do visitante ao "
 "WordPress.org antes de qualquer consentimento. Ativado por padrão; isso não "
 "afeta o administrador nem o editor."
+
+msgid "Remember the choice for (days)"
+msgstr "Lembrar a escolha por (dias)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"As aceitações e rejeições são lembradas por esse período; depois disso, o "
+"banner perguntará novamente. De 1 a 365 dias, com 365 como padrão."

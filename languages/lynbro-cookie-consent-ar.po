@@ -1710,3 +1710,13 @@ msgstr ""
 " تحتوي على خط للرموز التعبيرية، ما يؤدي إلى إرسال عنوان IP الخاص بالزائر إلى"
 " WordPress.org قبل الحصول على أي موافقة. هذا الخيار مفعّل افتراضيًا؛ ولا "
 "يؤثر في المسؤول والمحرر."
+
+msgid "Remember the choice for (days)"
+msgstr "تذكّر الاختيار لمدة (أيام)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"يُحتفَظ بكلٍّ من القبول والرفض لهذه المدة؛ وبعدها يظهر الشريط مجددًا لطلب "
+"الاختيار. من يوم إلى 365 يومًا، والمدة الافتراضية 365 يومًا."

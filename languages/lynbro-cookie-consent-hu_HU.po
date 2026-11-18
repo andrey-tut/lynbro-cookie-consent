@@ -1761,3 +1761,13 @@ msgstr ""
 "származó képekre cseréli az emojikat, így a látogató IP-címe már a "
 "hozzájárulás megadása előtt eljut a WordPress.org-hoz. Alapértelmezés "
 "szerint be van kapcsolva; a rendszergazdát és a szerkesztőt nem érinti."
+
+msgid "Remember the choice for (days)"
+msgstr "Választás megjegyzése (nap)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Az elfogadási és elutasítási döntést is ennyi ideig jegyzi meg; ezután a "
+"hozzájárulási banner ismét rákérdez. 1–365 nap, alapértelmezés szerint 365."

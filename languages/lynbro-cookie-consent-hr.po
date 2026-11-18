@@ -1747,3 +1747,13 @@ msgstr ""
 "nemaju emoji font, čime se IP adresa posjetitelja šalje WordPress.orgu prije"
 " davanja privole. Uključeno prema zadanim postavkama; ne utječe na "
 "administratora ni uređivač."
+
+msgid "Remember the choice for (days)"
+msgstr "Zapamti odabir na (broj dana)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Prihvaćanje i odbijanje pamte se jednako dugo; nakon toga banner ponovno "
+"traži odabir. Od 1 do 365 dana, zadano 365 dana."

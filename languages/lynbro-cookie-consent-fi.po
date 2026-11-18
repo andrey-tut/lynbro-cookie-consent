@@ -1753,3 +1753,13 @@ msgstr ""
 "joissa ei ole emojifonttia. Tällöin kävijän IP-osoite lähetetään "
 "WordPress.orgille ennen suostumuksen antamista. Käytössä oletusarvoisesti; "
 "ei vaikuta ylläpitäjään eikä editoriin."
+
+msgid "Remember the choice for (days)"
+msgstr "Muista valinta (päivää)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Hyväksyminen ja hylkääminen muistetaan tämän ajan; sen jälkeen banneri kysyy"
+" uudelleen. 1–365 päivää, oletusarvo 365."

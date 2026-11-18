@@ -181,6 +181,7 @@ function lynbro_cookie_consent_default_options() {
 
 		// GPC (Global Privacy Control).
 		'honor_gpc'       => 1,
+		'consent_days'    => 365, // How long a choice is remembered (1-365 days), then the banner asks again.
 
 		// CCPA / CPRA "Do Not Sell or Share" link in opt-out mode.
 		'ccpa_link'       => 1,
@@ -392,6 +393,7 @@ function lynbro_cookie_consent_sanitize_options( $input ) {
 
 	// GPC.
 	$clean['honor_gpc'] = empty( $input['honor_gpc'] ) ? 0 : 1;
+	$clean['consent_days'] = isset( $input['consent_days'] ) ? min( 365, max( 1, absint( $input['consent_days'] ) ) ) : $defaults['consent_days'];
 
 	// CCPA link.
 	$clean['ccpa_link'] = empty( $input['ccpa_link'] ) ? 0 : 1;

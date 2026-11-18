@@ -1758,3 +1758,13 @@ msgstr ""
 "WordPress.org, из-за чего IP-адрес посетителя передаётся WordPress.org до "
 "получения согласия. Включено по умолчанию; на администратора и редактора не "
 "влияет."
+
+msgid "Remember the choice for (days)"
+msgstr "Запоминать выбор (дней)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Выбор о принятии или отклонении запоминается на этот срок, после чего баннер"
+" появится снова. От 1 до 365 дней, по умолчанию — 365."

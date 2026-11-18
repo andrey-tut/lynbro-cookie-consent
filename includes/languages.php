@@ -487,7 +487,9 @@ function lynbro_cookie_consent_sanitize_overrides( $raw ) {
 		}
 		$entry = array();
 		foreach ( $fields as $key => $value ) {
-			$key = sanitize_key( $key );
+			// Keys are camelCase (readMore, alwaysOn): sanitize_key() would lowercase
+			// them and every override of those strings was silently dropped.
+			$key = preg_replace( '/[^A-Za-z0-9_\-]/', '', (string) $key );
 			if ( ! isset( $catalog[ $key ] ) ) {
 				continue;
 			}

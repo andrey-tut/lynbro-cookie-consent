@@ -1774,3 +1774,13 @@ msgstr ""
 "WordPress.org. Dadurch wird die IP-Adresse des Besuchers bereits vor einer "
 "Einwilligung an WordPress.org übermittelt. Standardmäßig aktiviert; "
 "Administratoren und der Editor sind davon nicht betroffen."
+
+msgid "Remember the choice for (days)"
+msgstr "Auswahl speichern für (Tage)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Zustimmungen und Ablehnungen werden für diesen Zeitraum gespeichert; danach "
+"wird das Banner erneut angezeigt. 1 bis 365 Tage, Standardwert: 365."

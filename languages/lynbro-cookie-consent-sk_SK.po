@@ -1740,3 +1740,13 @@ msgstr ""
 "písma s emotikonmi, čím ešte pred udelením súhlasu odošle IP adresu "
 "návštevníka na WordPress.org. Predvolene zapnuté; správcov ani editorov sa "
 "to netýka."
+
+msgid "Remember the choice for (days)"
+msgstr "Zapamätať si voľbu na (dni)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Prijatie aj odmietnutie sa zapamätajú na takýto čas; potom sa banner opýta "
+"znova. 1 až 365 dní, predvolene 365."

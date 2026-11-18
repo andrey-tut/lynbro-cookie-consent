@@ -1686,3 +1686,13 @@ msgstr ""
 "‏WordPress מחליפה אימוג׳י בתמונות מ־WordPress.org בדפדפנים שאין בהם גופן "
 "אימוג׳י, וכך כתובת ה־IP של המבקר נשלחת ל־WordPress.org לפני שניתנה הסכמה "
 "כלשהי. האפשרות מופעלת כברירת מחדל; היא אינה משפיעה על מנהל האתר ועל העורך."
+
+msgid "Remember the choice for (days)"
+msgstr "שמירת הבחירה למשך (ימים)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"הבחירה לקבל או לדחות נשמרת למשך זמן זה; לאחר מכן הבאנר שואל שוב. 1 עד 365 "
+"ימים, ברירת המחדל היא 365."

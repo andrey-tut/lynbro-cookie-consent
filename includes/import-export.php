@@ -63,8 +63,10 @@ function lynbro_cookie_consent_import_settings() {
 
 	// Validate the uploaded file type.
 	$file = $_FILES['lynbro_cc_import_file']; // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized -- individual members sanitized below.
-	$check = wp_check_filetype( sanitize_file_name( wp_unslash( $file['name'] ) ) );
-	if ( 'json' !== $check['ext'] ) {
+	// Extension only: wp_check_filetype() knows no .json (it is not an allowed upload
+	// type), so it refused every export file. The content is validated below.
+	$name = sanitize_file_name( wp_unslash( $file['name'] ) );
+	if ( 'json' !== strtolower( (string) pathinfo( $name, PATHINFO_EXTENSION ) ) ) {
 		wp_safe_redirect( add_query_arg( 'lynbro_cc_import', 'badtype', $redirect ) );
 		exit;
 	}

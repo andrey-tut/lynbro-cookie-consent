@@ -817,6 +817,15 @@ function lynbro_cookie_consent_render_settings_page() {
 						</td>
 					</tr>
 					<tr>
+						<th scope="row"><label for="lynbro-cc-consent-days"><?php echo esc_html__( 'Remember the choice for (days)', 'lynbro-cookie-consent' ); ?></label></th>
+						<td>
+							<input type="number" min="1" max="365" step="1" class="small-text" id="lynbro-cc-consent-days"
+								name="<?php echo esc_attr( $opt ); ?>[consent_days]"
+								value="<?php echo esc_attr( (int) ( $options['consent_days'] ?? 365 ) ); ?>" />
+							<p class="description"><?php echo esc_html__( 'Accepting and rejecting are both remembered this long; after that the banner asks again. 1 to 365 days, 365 by default.', 'lynbro-cookie-consent' ); ?></p>
+						</td>
+					</tr>
+					<tr>
 						<th scope="row"><?php echo esc_html__( 'Global Privacy Control (GPC)', 'lynbro-cookie-consent' ); ?></th>
 						<td>
 							<label>

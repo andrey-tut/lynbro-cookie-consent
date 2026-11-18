@@ -24,14 +24,15 @@ msgstr "Om Lynbro Cookie Consent"
 #: admin/about-tab.php:30
 msgid ""
 "Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
-"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready "
-"banner with an equal Reject button — and no pageview limits, no paywall on "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
 "the essentials, and no front-end tracking."
 msgstr ""
 "Lynbro Cookie Consent er et gratis cookiebanner med fokus på privatliv, "
 "udviklet af Lynbro. Vores mål er et smukt, reelt flersproget banner, der er "
 "klar til GDPR/ePrivacy, med en ligeværdig Afvis-knap – og uden grænser for "
-"sidevisninger, uden betalingsmur for det væsentlige og uden frontend-sporing."
+"sidevisninger, uden betalingsmur for det væsentlige og uden frontend-"
+"sporing."
 
 #: admin/about-tab.php:35 includes/lynbro-core/lynbro-core.php:856
 msgid "Visit Lynbro"
@@ -117,13 +118,14 @@ msgstr ""
 #: admin/feedback-tab.php:68
 #, php-format
 msgid ""
-"Your message, the plugin version and your site domain are sent to the Lynbro "
-"portal. See our %s."
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
 msgstr ""
 "Din besked, plugin-versionen og dit websteds domæne sendes til Lynbro-"
 "portalen. Se vores %s."
 
-#: admin/feedback-tab.php:69 admin/languages-tab.php:224 admin/settings.php:433
+#: admin/feedback-tab.php:69 admin/languages-tab.php:224
+#: admin/settings.php:433
 msgid "Privacy Policy & Terms"
 msgstr "Privatlivspolitik og vilkår"
 
@@ -201,9 +203,9 @@ msgstr "Rediger tekster pr. sprog"
 
 #: admin/languages-tab.php:96
 msgid ""
-"Override any banner text for a specific language. Leave a field empty to use "
-"the bundled translation (or the English default). Priority: your override → "
-"bundled translation → default."
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
 msgstr ""
 "Tilsidesæt al bannertekst for et bestemt sprog. Lad et felt stå tomt for at "
 "bruge den medfølgende oversættelse (eller den engelske standardtekst). "
@@ -216,8 +218,8 @@ msgid ""
 "jurisdiction."
 msgstr ""
 "Tip: Formuleringer om cookies og samtykke kan have juridiske konsekvenser. "
-"Få de juridiske dele af eventuelle oversættelser gennemgået af en person med "
-"kendskab til dit retsområde."
+"Få de juridiske dele af eventuelle oversættelser gennemgået af en person med"
+" kendskab til dit retsområde."
 
 #: admin/languages-tab.php:150
 msgid "Save language settings"
@@ -233,8 +235,8 @@ msgid ""
 "your site. The translation file is stored in your uploads folder (never "
 "overwritten on update) and activated automatically."
 msgstr ""
-"Har du brug for et sprog, der ikke følger med? Anmod om det, så genererer vi "
-"det til dit websted. Oversættelsesfilen gemmes i din uploads-mappe "
+"Har du brug for et sprog, der ikke følger med? Anmod om det, så genererer vi"
+" det til dit websted. Oversættelsesfilen gemmes i din uploads-mappe "
 "(overskrives aldrig ved opdatering) og aktiveres automatisk."
 
 #: admin/languages-tab.php:196
@@ -443,7 +445,8 @@ msgstr "Samtykketilstand"
 
 #: admin/settings.php:349
 msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
-msgstr "Automatisk efter region (EU: tilvalg, USA: fravalg, resten efter valg)"
+msgstr ""
+"Automatisk efter region (EU: tilvalg, USA: fravalg, resten efter valg)"
 
 #: admin/settings.php:350
 msgid "Opt-in everywhere (GDPR — safest)"
@@ -524,9 +527,9 @@ msgid ""
 "preferences). Fully aggregated and cookieless — no IP address or personal "
 "data is stored. Shown in the Statistics tab."
 msgstr ""
-"Indsaml anonym statistik (hvor mange besøgende der accepterer, afviser eller "
-"åbner præferencer). Helt aggregeret og uden cookies – ingen IP-adresse eller "
-"personoplysninger gemmes. Vises under fanen Statistik."
+"Indsaml anonym statistik (hvor mange besøgende der accepterer, afviser eller"
+" åbner præferencer). Helt aggregeret og uden cookies – ingen IP-adresse "
+"eller personoplysninger gemmes. Vises under fanen Statistik."
 
 #: admin/settings.php:425
 msgid "Benchmark sharing"
@@ -619,8 +622,8 @@ msgstr "Automatisk (følger den besøgendes system)"
 
 #: admin/settings.php:506
 msgid ""
-"Auto uses the light colors by default and the dark colors when the visitor’s "
-"device prefers a dark color scheme."
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
 msgstr ""
 "Automatisk bruger som standard de lyse farver og skifter til de mørke "
 "farver, når den besøgendes enhed foretrækker et mørkt farveskema."
@@ -631,10 +634,11 @@ msgstr "Bannerets maksimale bredde (px)"
 
 #: admin/settings.php:515
 msgid ""
-"Maximum width of the floating box and center modal. Set 0 to use the default."
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
 msgstr ""
-"Maksimal bredde på den flydende boks og den centrerede modal. Angiv 0 for at "
-"bruge standardværdien."
+"Maksimal bredde på den flydende boks og den centrerede modal. Angiv 0 for at"
+" bruge standardværdien."
 
 #: admin/settings.php:519
 msgid "Corner radius (px)"
@@ -661,8 +665,8 @@ msgstr "Lagdeling (basis for z-index)"
 
 #: admin/settings.php:542
 msgid ""
-"Base z-index for the banner, overlay, modal and floating button. Increase it "
-"if another element covers the banner; lower it if the banner covers "
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
 "something it should not."
 msgstr ""
 "Basis-z-index for banneret, overlayet, modalvinduet og den flydende knap. "
@@ -703,8 +707,8 @@ msgstr "Flydende indstillingsknap"
 
 #: admin/settings.php:598
 msgid ""
-"A small icon-only button that lets visitors reopen the cookie settings after "
-"they have made a choice. It is automatically hidden while the banner or "
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
 "preferences dialog is open."
 msgstr ""
 "En lille knap kun med ikon, som besøgende kan bruge til at åbne "
@@ -721,8 +725,8 @@ msgstr "Vis en flydende indstillingsknap på webstedet"
 
 #: admin/settings.php:607
 msgid ""
-"Unchecking this hides the floating button completely — visitors will not see "
-"a way to reopen their cookie settings (unless you add the "
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
 "[lynbro_cookie_settings] shortcode somewhere)."
 msgstr ""
 "Hvis du fjerner markeringen, skjules den flydende knap helt – besøgende vil "
@@ -860,17 +864,17 @@ msgstr "Emoji-billeder fra WordPress.org"
 
 #: admin/settings.php:767
 msgid ""
-"Do not load emoji images from WordPress.org; visitors see emoji in their own "
-"device font."
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
 msgstr ""
 "Indlæs ikke emoji-billeder fra WordPress.org; besøgende ser emoji i "
 "skrifttypen på deres egen enhed."
 
 #: admin/settings.php:769
 msgid ""
-"WordPress swaps emoji for images hosted on WordPress.org in browsers without "
-"an emoji font, which sends the visitor's IP address to WordPress.org before "
-"any consent. On by default; the admin and the editor are not affected."
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
 msgstr ""
 "WordPress erstatter emoji med billeder fra WordPress.org i browsere uden en "
 "emoji-skrifttype, hvilket sender den besøgendes IP-adresse til "
@@ -888,8 +892,8 @@ msgid ""
 "\"allow\" button."
 msgstr ""
 "Blokér indlejret indhold (YouTube, Vimeo, Google Maps, indlejringer fra "
-"sociale medier, reCAPTCHA m.m.), indtil der er givet samtykke, og vis en pæn "
-"pladsholder med en \"Tillad\"-knap."
+"sociale medier, reCAPTCHA m.m.), indtil der er givet samtykke, og vis en pæn"
+" pladsholder med en \"Tillad\"-knap."
 
 #: admin/settings.php:782
 msgid "Embed consent category"
@@ -937,9 +941,9 @@ msgid ""
 "visitors with GPC are automatically opted out and shown a visible "
 "confirmation (required by California from 2026)."
 msgstr ""
-"Respekter browserens Global Privacy Control-signal. I opt-out-tilstand (US/"
-"CCPA) bliver besøgende med GPC automatisk frameldt og får vist en synlig "
-"bekræftelse (krævet af Californien fra 2026)."
+"Respekter browserens Global Privacy Control-signal. I opt-out-tilstand "
+"(US/CCPA) bliver besøgende med GPC automatisk frameldt og får vist en synlig"
+" bekræftelse (krævet af Californien fra 2026)."
 
 #: admin/settings.php:829
 msgid "CCPA / CPRA opt-out link"
@@ -947,7 +951,8 @@ msgstr "CCPA-/CPRA-fravalgslink"
 
 #: admin/settings.php:833
 msgid ""
-"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out mode."
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
 msgstr ""
 "Vis et link til \"Sælg eller del ikke mine personoplysninger\" i "
 "fravalgstilstand."
@@ -988,8 +993,8 @@ msgid ""
 "Records older than this are deleted automatically. Set to 0 to keep records "
 "indefinitely."
 msgstr ""
-"Registreringer, der er ældre end dette, slettes automatisk. Sæt til 0 for at "
-"gemme registreringer på ubestemt tid."
+"Registreringer, der er ældre end dette, slettes automatisk. Sæt til 0 for at"
+" gemme registreringer på ubestemt tid."
 
 #: admin/settings.php:889
 msgid "Export settings"
@@ -1149,8 +1154,8 @@ msgstr "Andet"
 #: admin/statistics-tab.php:83
 msgid ""
 "Private, cookieless statistics stored only in your own database. They are "
-"fully aggregated — no IP address, no visitor identifier and no personal data "
-"is ever recorded. Because of that, these statistics do not by themselves "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
 "require consent."
 msgstr ""
 "Private, cookieløse statistikker, der kun gemmes i din egen database. De er "
@@ -1230,11 +1235,11 @@ msgstr "Sådan ligger du i forhold til andre"
 #: admin/statistics-tab.php:244
 #, php-format
 msgid ""
-"Your accept rate over the last 7 days is %1$s%%. The average across opted-in "
-"sites is %2$s%%."
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
 msgstr ""
-"Din acceptprocent for de seneste 7 dage er %1$s%%. Gennemsnittet på tværs af "
-"deltagende websteder er %2$s%%."
+"Din acceptprocent for de seneste 7 dage er %1$s%%. Gennemsnittet på tværs af"
+" deltagende websteder er %2$s%%."
 
 #: admin/statistics-tab.php:253
 #, php-format
@@ -1263,8 +1268,8 @@ msgid ""
 "the Languages tab."
 msgstr ""
 "Borlabs Cookie gemmer sine indstillinger i sit eget format, som ikke læses. "
-"Kategorierne svarer til Præferencer, Statistik og Markedsføring. Tilpas dine "
-"tekster under fanen Sprog."
+"Kategorierne svarer til Præferencer, Statistik og Markedsføring. Tilpas dine"
+" tekster under fanen Sprog."
 
 #: includes/competitors.php:249
 #, php-format
@@ -1276,8 +1281,8 @@ msgid ""
 "Visitors see one banner, not two: ours is not shown, blocks no scripts and "
 "keeps no consent records while the other plugin is active."
 msgstr ""
-"Besøgende ser ét banner, ikke to: Vores vises ikke, blokerer ikke scripts og "
-"gemmer ingen samtykkeregistreringer, mens det andet plugin er aktivt."
+"Besøgende ser ét banner, ikke to: Vores vises ikke, blokerer ikke scripts og"
+" gemmer ingen samtykkeregistreringer, mens det andet plugin er aktivt."
 
 #: includes/competitors.php:254
 msgid "See what can be brought over"
@@ -1418,7 +1423,8 @@ msgstr "Upload en indstillingsfil i .json-format."
 
 #: includes/import-export.php:103
 msgid "The file does not contain valid Lynbro Cookie Consent settings."
-msgstr "Filen indeholder ikke gyldige indstillinger for Lynbro Cookie Consent."
+msgstr ""
+"Filen indeholder ikke gyldige indstillinger for Lynbro Cookie Consent."
 
 #: includes/languages.php:299
 msgid "Manage-preferences button"
@@ -1481,8 +1487,8 @@ msgstr "AI Studio"
 
 #: includes/lynbro-core/lynbro-core.php:472
 msgid ""
-"Write and illustrate posts with AI on your own OpenAI key — at cost, with no "
-"credits in between."
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
 msgstr ""
 "Skriv og illustrér indlæg med AI på din egen OpenAI-nøgle – til kostpris, "
 "uden mellemliggende credits."
@@ -1520,8 +1526,8 @@ msgid ""
 "Forms with entries saved for free and no cap, conditional logic checked "
 "server-side, and signed webhooks."
 msgstr ""
-"Formularer med gratis og ubegrænset gemte indsendelser, server-side betinget "
-"logik og signerede webhooks."
+"Formularer med gratis og ubegrænset gemte indsendelser, server-side betinget"
+" logik og signerede webhooks."
 
 #: includes/lynbro-core/lynbro-core.php:487
 msgid "Verify"
@@ -1529,8 +1535,8 @@ msgstr "Verificér"
 
 #: includes/lynbro-core/lynbro-core.php:488
 msgid ""
-"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a "
-"one-time code by e-mail or SMS."
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
 msgstr ""
 "Fang fejlindtastede e-maildomæner og forkerte telefonnumre, og bekræft dem "
 "med en engangskode via e-mail eller SMS."
@@ -1589,8 +1595,8 @@ msgstr "Skjold"
 
 #: includes/lynbro-core/lynbro-core.php:508
 msgid ""
-"Security headers, HTTPS with HSTS, a small firewall against injection probes "
-"and the hardening switches every site needs."
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
 msgstr ""
 "Sikkerheds-headere, HTTPS med HSTS, en lille firewall mod injektionsforsøg "
 "og de hærdningsindstillinger, alle sites har brug for."
@@ -1613,16 +1619,16 @@ msgstr "Loginbeskyttelse"
 
 #: includes/lynbro-core/lynbro-core.php:516
 msgid ""
-"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with "
-"three ways back in."
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
 msgstr ""
-"Flyt wp-login.php, begræns mislykkede logins og tilføj app-baseret to-faktor "
-"– med tre måder at komme ind igen."
+"Flyt wp-login.php, begræns mislykkede logins og tilføj app-baseret to-faktor"
+" – med tre måder at komme ind igen."
 
 #: includes/lynbro-core/lynbro-core.php:520
 msgid ""
-"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject "
-"button and 35 languages."
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
 msgstr ""
 "Et GDPR- og ePrivacy-banner med Consent Mode v2, en lige så fremtrædende "
 "Afvis-knap og 35 sprog."
@@ -1645,8 +1651,8 @@ msgstr "Databeholdning"
 
 #: includes/lynbro-core/lynbro-core.php:528
 msgid ""
-"Find where personal data actually sits in your database, then delete it on a "
-"schedule — with a dry run before every deletion."
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
 msgstr ""
 "Find hvor persondata faktisk ligger i din database, og slet det efter en "
 "tidsplan – med prøvekørsel før hver sletning."
@@ -1701,12 +1707,12 @@ msgstr "Nyhedsbrev"
 
 #: includes/lynbro-core/lynbro-core.php:548
 msgid ""
-"Self-hosted newsletters with safe sending: consent records, a test after the "
-"last edit and approval by typing the exact recipient count."
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
 msgstr ""
 "Selvhostede nyhedsbreve med sikker udsendelse: samtykkeregistreringer, en "
-"test efter den seneste redigering og godkendelse ved at indtaste det præcise "
-"antal modtagere."
+"test efter den seneste redigering og godkendelse ved at indtaste det præcise"
+" antal modtagere."
 
 #: includes/lynbro-core/lynbro-core.php:551
 msgid "Social Feed"
@@ -1767,8 +1773,8 @@ msgstr "CVR Checkout"
 
 #: includes/lynbro-core/lynbro-core.php:572
 msgid ""
-"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES) "
-"validation and an EAN/GLN field."
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
 msgstr ""
 "Dansk B2B-checkout til WooCommerce: CVR-virksomhedsautoudfyldning, CVR/EU-"
 "moms (VIES) validering og et EAN/GLN-felt."
@@ -1794,8 +1800,8 @@ msgid ""
 "JSON Web Tokens for the REST API that you can actually revoke, with scopes "
 "and a journal of refusals."
 msgstr ""
-"JSON Web Tokens til REST API, som du faktisk kan tilbagekalde, med scopes og "
-"log over afvisninger."
+"JSON Web Tokens til REST API, som du faktisk kan tilbagekalde, med scopes og"
+" log over afvisninger."
 
 #: includes/lynbro-core/lynbro-core.php:780
 #: includes/lynbro-core/lynbro-core.php:1550
@@ -1810,11 +1816,11 @@ msgstr "Lynbro plugins"
 
 #: includes/lynbro-core/lynbro-core.php:792
 msgid ""
-"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no "
-"credits, your data stays on your site."
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
 msgstr ""
-"Generøse, privacy-first WordPress-plugins – bygget i Danmark. Gratis kerner, "
-"ingen credits, dine data bliver på dit websted."
+"Generøse, privacy-first WordPress-plugins – bygget i Danmark. Gratis kerner,"
+" ingen credits, dine data bliver på dit websted."
 
 #: includes/lynbro-core/lynbro-core.php:799
 msgid "More from Lynbro"
@@ -1892,11 +1898,11 @@ msgstr ""
 #: includes/lynbro-core/lynbro-core.php:885
 #, php-format
 msgid ""
-"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on "
-"this site)."
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
 msgstr ""
-"Delte Lynbro-komponenter v%1$s, leveret af %2$s (nyeste af %3$d versioner på "
-"dette site)."
+"Delte Lynbro-komponenter v%1$s, leveret af %2$s (nyeste af %3$d versioner på"
+" dette site)."
 
 #: includes/lynbro-core/lynbro-core.php:1350
 #, php-format
@@ -1919,8 +1925,8 @@ msgid ""
 "something is missing — tell us on our public roadmap. That is how we decide "
 "what to build next."
 msgstr ""
-"Du har brugt det i et par uger nu. Fortæl os på vores offentlige roadmap, om "
-"det virker for dig – eller om noget mangler. Det er sådan, vi beslutter, "
+"Du har brugt det i et par uger nu. Fortæl os på vores offentlige roadmap, om"
+" det virker for dig – eller om noget mangler. Det er sådan, vi beslutter, "
 "hvad vi bygger næste gang."
 
 #: includes/lynbro-core/lynbro-core.php:1361 includes/onboarding.php:114
@@ -2002,11 +2008,11 @@ msgstr "Alle Lynbro-plugins"
 
 #: includes/lynbro-core/lynbro-core.php:1523
 msgid ""
-"Picked from what this site already uses — read on this site, nothing is sent "
-"anywhere."
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
 msgstr ""
-"Udvalgt ud fra det, webstedet allerede bruger – læst her på webstedet, intet "
-"sendes nogen steder hen."
+"Udvalgt ud fra det, webstedet allerede bruger – læst her på webstedet, intet"
+" sendes nogen steder hen."
 
 #: includes/lynbro-core/lynbro-core.php:1643
 msgid ""
@@ -2064,8 +2070,8 @@ msgid ""
 "Allow the website to remember choices you make (such as language or region) "
 "to provide enhanced, personalized features."
 msgstr ""
-"Tillad webstedet at huske de valg, du foretager (f.eks. sprog eller region), "
-"for at kunne tilbyde forbedrede, personligt tilpassede funktioner."
+"Tillad webstedet at huske de valg, du foretager (f.eks. sprog eller region),"
+" for at kunne tilbyde forbedrede, personligt tilpassede funktioner."
 
 #: includes/options.php:73
 msgid ""
@@ -2142,8 +2148,8 @@ msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
 #. Description of the plugin
 #: lynbro-cookie-consent.php
 msgid ""
-"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy "
-"and Google Consent Mode v2 ready, with no pageview limits."
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
 msgstr ""
 "Gratis, flersproget og fuldt konfigurerbar cookie-samtykkebanner – klar til "
 "GDPR/ePrivacy og Google Consent Mode v2, uden sidevisningsbegrænsninger."
@@ -2158,8 +2164,18 @@ msgstr "Lynbro"
 msgid "https://lynbro.dk"
 msgstr "https://lynbro.dk"
 
+msgid "Remember the choice for (days)"
+msgstr "Husk valget i (dage)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Både accept og afvisning huskes i denne periode. Derefter spørger banneret "
+"igen. 1 til 365 dage, 365 som standard."
+
 #~ msgid "Additional CSS"
-#~ msgstr "Ekstra CSS"
+#~ msgstr "Yderligere CSS"
 
 #~ msgid "Button icon"
 #~ msgstr "Knapikon"
@@ -2171,5 +2187,5 @@ msgstr "https://lynbro.dk"
 #~ "Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
 #~ "selectors."
 #~ msgstr ""
-#~ "Valgfri CSS-kode, der tilføjes bannerets stylesheet. Målret CSS'en mod "
-#~ "selektorer med .lynbro-cc."
+#~ "Valgfri CSS, der tilføjes til bannerets stylesheet. Målret .lynbro-cc-"
+#~ "selektorerne."

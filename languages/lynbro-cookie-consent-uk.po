@@ -14,8 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Domain: lynbro-cookie-consent\n"
 
 #: admin/about-tab.php:28
@@ -25,13 +24,13 @@ msgstr "Про Lynbro Cookie Consent"
 #: admin/about-tab.php:30
 msgid ""
 "Lynbro Cookie Consent is a free, privacy-first cookie banner built by "
-"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready "
-"banner with an equal Reject button — and no pageview limits, no paywall on "
+"Lynbro. Our goal is a beautiful, genuinely multilingual, GDPR/ePrivacy-ready"
+" banner with an equal Reject button — and no pageview limits, no paywall on "
 "the essentials, and no front-end tracking."
 msgstr ""
 "Lynbro Cookie Consent — це безкоштовний банер згоди на використання файлів "
-"cookie, орієнтований насамперед на приватність і створений Lynbro. Наша мета "
-"— гарний, справді багатомовний банер, готовий до вимог GDPR/ePrivacy, із "
+"cookie, орієнтований насамперед на приватність і створений Lynbro. Наша мета"
+" — гарний, справді багатомовний банер, готовий до вимог GDPR/ePrivacy, із "
 "рівноцінною кнопкою «Відхилити» — без обмежень на перегляди сторінок, без "
 "платного доступу до основних функцій і без відстеження на фронтенді."
 
@@ -94,7 +93,8 @@ msgid ""
 "This is entirely optional and only sent when you click Send."
 msgstr ""
 "Маєте ідею, проблему або запит? Надішліть це безпосередньо розробникам. Це "
-"цілком необов’язково і надсилається лише після натискання кнопки «Надіслати»."
+"цілком необов’язково і надсилається лише після натискання кнопки "
+"«Надіслати»."
 
 #: admin/feedback-tab.php:37
 msgid "Category"
@@ -121,13 +121,14 @@ msgstr ""
 #: admin/feedback-tab.php:68
 #, php-format
 msgid ""
-"Your message, the plugin version and your site domain are sent to the Lynbro "
-"portal. See our %s."
+"Your message, the plugin version and your site domain are sent to the Lynbro"
+" portal. See our %s."
 msgstr ""
 "Ваше повідомлення, версія плагіна та домен вашого сайту надсилаються на "
 "портал Lynbro. Перегляньте нашу %s."
 
-#: admin/feedback-tab.php:69 admin/languages-tab.php:224 admin/settings.php:433
+#: admin/feedback-tab.php:69 admin/languages-tab.php:224
+#: admin/settings.php:433
 msgid "Privacy Policy & Terms"
 msgstr "Політика конфіденційності та умови"
 
@@ -204,14 +205,14 @@ msgstr "Редагувати тексти для кожної мови"
 
 #: admin/languages-tab.php:96
 msgid ""
-"Override any banner text for a specific language. Leave a field empty to use "
-"the bundled translation (or the English default). Priority: your override → "
-"bundled translation → default."
+"Override any banner text for a specific language. Leave a field empty to use"
+" the bundled translation (or the English default). Priority: your override →"
+" bundled translation → default."
 msgstr ""
 "Перевизначте будь-який текст банера для певної мови. Залиште поле порожнім, "
 "щоб використати вбудований переклад (або англійський текст за "
-"замовчуванням). Пріоритет: ваше перевизначення → вбудований переклад → текст "
-"за замовчуванням."
+"замовчуванням). Пріоритет: ваше перевизначення → вбудований переклад → текст"
+" за замовчуванням."
 
 #: admin/languages-tab.php:147
 msgid ""
@@ -220,8 +221,8 @@ msgid ""
 "jurisdiction."
 msgstr ""
 "Порада: формулювання про файли cookie та згоду можуть мати юридичні "
-"наслідки. Попросіть людину, обізнану у вашій юрисдикції, перевірити юридичну "
-"складову будь-якого перекладу."
+"наслідки. Попросіть людину, обізнану у вашій юрисдикції, перевірити юридичну"
+" складову будь-якого перекладу."
 
 #: admin/languages-tab.php:150
 msgid "Save language settings"
@@ -450,8 +451,8 @@ msgstr "Режим згоди"
 #: admin/settings.php:349
 msgid "Auto by region (EU opt-in, US opt-out, rest by choice)"
 msgstr ""
-"Автоматично за регіоном (ЄС — за згодою, США — з можливістю відмови, решта — "
-"за вибором)"
+"Автоматично за регіоном (ЄС — за згодою, США — з можливістю відмови, решта —"
+" за вибором)"
 
 #: admin/settings.php:350
 msgid "Opt-in everywhere (GDPR — safest)"
@@ -564,8 +565,8 @@ msgid ""
 "One-click starting points. Applying a preset fills the Design fields below "
 "and updates the live preview — review it, then Save Changes to keep it."
 msgstr ""
-"Початкові варіанти в один клік. Застосування шаблону заповнює наведені нижче "
-"поля розділу «Дизайн» і оновлює попередній перегляд у реальному часі — "
+"Початкові варіанти в один клік. Застосування шаблону заповнює наведені нижче"
+" поля розділу «Дизайн» і оновлює попередній перегляд у реальному часі — "
 "перегляньте його, а потім натисніть «Зберегти зміни», щоб зберегти "
 "застосовані налаштування."
 
@@ -633,8 +634,8 @@ msgstr "Авто (за системними налаштуваннями від�
 
 #: admin/settings.php:506
 msgid ""
-"Auto uses the light colors by default and the dark colors when the visitor’s "
-"device prefers a dark color scheme."
+"Auto uses the light colors by default and the dark colors when the visitor’s"
+" device prefers a dark color scheme."
 msgstr ""
 "Автоматичний режим використовує світлі кольори за замовчуванням і темні, "
 "якщо на пристрої відвідувача вибрано темну колірну схему."
@@ -645,7 +646,8 @@ msgstr "Максимальна ширина банера (px)"
 
 #: admin/settings.php:515
 msgid ""
-"Maximum width of the floating box and center modal. Set 0 to use the default."
+"Maximum width of the floating box and center modal. Set 0 to use the "
+"default."
 msgstr ""
 "Максимальна ширина плаваючого блоку та центрованого модального вікна. "
 "Укажіть 0, щоб використовувати значення за замовчуванням."
@@ -675,8 +677,8 @@ msgstr "Порядок накладання (базовий z-index)"
 
 #: admin/settings.php:542
 msgid ""
-"Base z-index for the banner, overlay, modal and floating button. Increase it "
-"if another element covers the banner; lower it if the banner covers "
+"Base z-index for the banner, overlay, modal and floating button. Increase it"
+" if another element covers the banner; lower it if the banner covers "
 "something it should not."
 msgstr ""
 "Базовий z-index для банера, накладення, модального вікна та плаваючої "
@@ -717,12 +719,12 @@ msgstr "Плаваюча кнопка налаштувань"
 
 #: admin/settings.php:598
 msgid ""
-"A small icon-only button that lets visitors reopen the cookie settings after "
-"they have made a choice. It is automatically hidden while the banner or "
+"A small icon-only button that lets visitors reopen the cookie settings after"
+" they have made a choice. It is automatically hidden while the banner or "
 "preferences dialog is open."
 msgstr ""
-"Невелика кнопка лише з піктограмою, що дає відвідувачам змогу знову відкрити "
-"налаштування файлів cookie після того, як вони зробили вибір. Вона "
+"Невелика кнопка лише з піктограмою, що дає відвідувачам змогу знову відкрити"
+" налаштування файлів cookie після того, як вони зробили вибір. Вона "
 "автоматично приховується, коли відкрито банер або діалогове вікно "
 "налаштувань."
 
@@ -736,8 +738,8 @@ msgstr "Показувати плаваючу кнопку налаштуван�
 
 #: admin/settings.php:607
 msgid ""
-"Unchecking this hides the floating button completely — visitors will not see "
-"a way to reopen their cookie settings (unless you add the "
+"Unchecking this hides the floating button completely — visitors will not see"
+" a way to reopen their cookie settings (unless you add the "
 "[lynbro_cookie_settings] shortcode somewhere)."
 msgstr ""
 "Якщо зняти цей прапорець, плаваючу кнопку буде повністю приховано — "
@@ -876,20 +878,20 @@ msgstr "Зображення емодзі з WordPress.org"
 
 #: admin/settings.php:767
 msgid ""
-"Do not load emoji images from WordPress.org; visitors see emoji in their own "
-"device font."
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
 msgstr ""
 "Не завантажувати зображення емодзі з WordPress.org; відвідувачі бачитимуть "
 "емодзі у шрифті свого пристрою."
 
 #: admin/settings.php:769
 msgid ""
-"WordPress swaps emoji for images hosted on WordPress.org in browsers without "
-"an emoji font, which sends the visitor's IP address to WordPress.org before "
-"any consent. On by default; the admin and the editor are not affected."
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
 msgstr ""
-"WordPress замінює емодзі зображеннями з WordPress.org у браузерах без шрифту "
-"емодзі, надсилаючи IP-адресу відвідувача до WordPress.org ще до отримання "
+"WordPress замінює емодзі зображеннями з WordPress.org у браузерах без шрифту"
+" емодзі, надсилаючи IP-адресу відвідувача до WordPress.org ще до отримання "
 "згоди. Увімкнено за замовчуванням; адмінпанель і редактор це не зачіпає."
 
 #: admin/settings.php:773
@@ -962,10 +964,11 @@ msgstr "Посилання для відмови за CCPA / CPRA"
 
 #: admin/settings.php:833
 msgid ""
-"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out mode."
+"Show a \"Do Not Sell or Share My Personal Information\" link in opt-out "
+"mode."
 msgstr ""
-"Показувати посилання «Не продавайте й не передавайте мої персональні дані» в "
-"режимі відмови."
+"Показувати посилання «Не продавайте й не передавайте мої персональні дані» в"
+" режимі відмови."
 
 #: admin/settings.php:838
 msgid "WP Consent API"
@@ -1165,8 +1168,8 @@ msgstr "Інше"
 #: admin/statistics-tab.php:83
 msgid ""
 "Private, cookieless statistics stored only in your own database. They are "
-"fully aggregated — no IP address, no visitor identifier and no personal data "
-"is ever recorded. Because of that, these statistics do not by themselves "
+"fully aggregated — no IP address, no visitor identifier and no personal data"
+" is ever recorded. Because of that, these statistics do not by themselves "
 "require consent."
 msgstr ""
 "Конфіденційна статистика без файлів cookie, що зберігається лише у вашій "
@@ -1246,11 +1249,11 @@ msgstr "Порівняння з іншими"
 #: admin/statistics-tab.php:244
 #, php-format
 msgid ""
-"Your accept rate over the last 7 days is %1$s%%. The average across opted-in "
-"sites is %2$s%%."
+"Your accept rate over the last 7 days is %1$s%%. The average across opted-in"
+" sites is %2$s%%."
 msgstr ""
-"Ваш показник прийняття за останні 7 днів становить %1$s%%. Середній показник "
-"серед сайтів, що дали згоду на участь, — %2$s%%."
+"Ваш показник прийняття за останні 7 днів становить %1$s%%. Середній показник"
+" серед сайтів, що дали згоду на участь, — %2$s%%."
 
 #: admin/statistics-tab.php:253
 #, php-format
@@ -1277,8 +1280,8 @@ msgid ""
 "categories map to Preferences, Statistics and Marketing; set your texts on "
 "the Languages tab."
 msgstr ""
-"Borlabs Cookie зберігає налаштування у власному форматі, який не зчитується. "
-"Його категорії відповідають категоріям «Налаштування», «Статистика» та "
+"Borlabs Cookie зберігає налаштування у власному форматі, який не зчитується."
+" Його категорії відповідають категоріям «Налаштування», «Статистика» та "
 "«Маркетинг»; задайте тексти на вкладці «Мови»."
 
 #: includes/competitors.php:249
@@ -1291,8 +1294,8 @@ msgid ""
 "Visitors see one banner, not two: ours is not shown, blocks no scripts and "
 "keeps no consent records while the other plugin is active."
 msgstr ""
-"Відвідувачі бачать один банер, а не два: наш банер не показується, не блокує "
-"скрипти й не зберігає записи про згоду, поки активний інший плагін."
+"Відвідувачі бачать один банер, а не два: наш банер не показується, не блокує"
+" скрипти й не зберігає записи про згоду, поки активний інший плагін."
 
 #: includes/competitors.php:254
 msgid "See what can be brought over"
@@ -1498,8 +1501,8 @@ msgstr "AI Studio"
 
 #: includes/lynbro-core/lynbro-core.php:472
 msgid ""
-"Write and illustrate posts with AI on your own OpenAI key — at cost, with no "
-"credits in between."
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
 msgstr ""
 "Створюйте та ілюструйте публікації за допомогою AI на власному ключі OpenAI "
 "— без переплат і посередників."
@@ -1546,8 +1549,8 @@ msgstr "Верифікація"
 
 #: includes/lynbro-core/lynbro-core.php:488
 msgid ""
-"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a "
-"one-time code by e-mail or SMS."
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
 msgstr ""
 "Виявлення помилок у доменах e-mail і номерах телефонів, підтвердження кодом "
 "через e-mail або SMS."
@@ -1606,8 +1609,8 @@ msgstr "Захист"
 
 #: includes/lynbro-core/lynbro-core.php:508
 msgid ""
-"Security headers, HTTPS with HSTS, a small firewall against injection probes "
-"and the hardening switches every site needs."
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
 msgstr ""
 "Заголовки безпеки, HTTPS з HSTS, невеликий фаєрвол від атак та необхідні "
 "налаштування захисту."
@@ -1621,8 +1624,8 @@ msgid ""
 "Spam checks that run on your own server. No account, no subscription, every "
 "block says why — and a held message is never lost."
 msgstr ""
-"Перевірка спаму на вашому сервері. Без акаунтів і підписок, кожне блокування "
-"з поясненням — жодне повідомлення не втрачається."
+"Перевірка спаму на вашому сервері. Без акаунтів і підписок, кожне блокування"
+" з поясненням — жодне повідомлення не втрачається."
 
 #: includes/lynbro-core/lynbro-core.php:515
 msgid "Login Guard"
@@ -1630,19 +1633,19 @@ msgstr "Захист входу"
 
 #: includes/lynbro-core/lynbro-core.php:516
 msgid ""
-"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with "
-"three ways back in."
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
 msgstr ""
 "Перенесення wp-login.php, обмеження невдалих входів і двофакторна "
 "автентифікація через додаток — з трьома способами відновлення."
 
 #: includes/lynbro-core/lynbro-core.php:520
 msgid ""
-"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject "
-"button and 35 languages."
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
 msgstr ""
-"Банер відповідності GDPR та ePrivacy з Consent Mode v2, рівнозначною кнопкою "
-"Відхилити та 35 мовами."
+"Банер відповідності GDPR та ePrivacy з Consent Mode v2, рівнозначною кнопкою"
+" Відхилити та 35 мовами."
 
 #: includes/lynbro-core/lynbro-core.php:523
 msgid "Activity Log"
@@ -1662,8 +1665,8 @@ msgstr "Зберігання даних"
 
 #: includes/lynbro-core/lynbro-core.php:528
 msgid ""
-"Find where personal data actually sits in your database, then delete it on a "
-"schedule — with a dry run before every deletion."
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
 msgstr ""
 "Знаходьте, де персональні дані зберігаються у вашій базі, і видаляйте їх за "
 "розкладом — з пробним запуском перед кожним видаленням."
@@ -1709,8 +1712,8 @@ msgid ""
 "WordPress email through your own SMTP server — with an email log, resend, a "
 "backup connection and failure alerts."
 msgstr ""
-"Відправка e-mail WordPress через власний SMTP-сервер — з журналом, повторною "
-"відправкою, резервним з'єднанням і сповіщеннями про збої."
+"Відправка e-mail WordPress через власний SMTP-сервер — з журналом, повторною"
+" відправкою, резервним з'єднанням і сповіщеннями про збої."
 
 #: includes/lynbro-core/lynbro-core.php:547
 msgid "Newsletter"
@@ -1718,8 +1721,8 @@ msgstr "Розсилка"
 
 #: includes/lynbro-core/lynbro-core.php:548
 msgid ""
-"Self-hosted newsletters with safe sending: consent records, a test after the "
-"last edit and approval by typing the exact recipient count."
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
 msgstr ""
 "Розсилки на власному сервері з безпечним надсиланням: записи про згоду, "
 "повторна перевірка після останнього редагування та підтвердження введенням "
@@ -1785,8 +1788,8 @@ msgstr "CVR Checkout"
 
 #: includes/lynbro-core/lynbro-core.php:572
 msgid ""
-"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES) "
-"validation and an EAN/GLN field."
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
 msgstr ""
 "Данська B2B оплата для WooCommerce: автозаповнення компанії за CVR, "
 "перевірка CVR/EU-VAT (VIES) та поле EAN/GLN."
@@ -1828,8 +1831,8 @@ msgstr "Плагіни Lynbro"
 
 #: includes/lynbro-core/lynbro-core.php:792
 msgid ""
-"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no "
-"credits, your data stays on your site."
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
 msgstr ""
 "Щедрі, орієнтовані на приватність плагіни WordPress — розроблені в Данії. "
 "Безкоштовна основа, без кредитів, ваші дані залишаються на вашому сайті."
@@ -1910,8 +1913,8 @@ msgstr ""
 #: includes/lynbro-core/lynbro-core.php:885
 #, php-format
 msgid ""
-"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on "
-"this site)."
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
 msgstr ""
 "Спільні компоненти Lynbro v%1$s, надано %2$s (найновіша з %3$d версій на "
 "цьому сайті)."
@@ -2020,8 +2023,8 @@ msgstr "Усі плагіни Lynbro"
 
 #: includes/lynbro-core/lynbro-core.php:1523
 msgid ""
-"Picked from what this site already uses — read on this site, nothing is sent "
-"anywhere."
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
 msgstr ""
 "Вибрано з того, що вже використовується на цьому сайті — читається на цьому "
 "сайті, нічого не надсилається."
@@ -2161,8 +2164,8 @@ msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
 #. Description of the plugin
 #: lynbro-cookie-consent.php
 msgid ""
-"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy "
-"and Google Consent Mode v2 ready, with no pageview limits."
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
 msgstr ""
 "Безкоштовний, багатомовний, повністю налаштовуваний банер згоди на "
 "використання файлів cookie — відповідає вимогам GDPR/ePrivacy та Google "
@@ -2178,6 +2181,16 @@ msgstr "Lynbro"
 msgid "https://lynbro.dk"
 msgstr "https://lynbro.dk"
 
+msgid "Remember the choice for (days)"
+msgstr "Запам’ятовувати вибір (днів)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Вибір прийняти або відхилити зберігається на цей строк; після його "
+"завершення банер з’явиться знову. Від 1 до 365 днів, за замовчуванням — 365."
+
 #~ msgid "Additional CSS"
 #~ msgstr "Додатковий CSS"
 
@@ -2191,5 +2204,5 @@ msgstr "https://lynbro.dk"
 #~ "Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
 #~ "selectors."
 #~ msgstr ""
-#~ "Додатковий CSS, що додається до таблиці стилів банера. Застосовуйте його "
-#~ "до селекторів .lynbro-cc."
+#~ "Необов’язковий CSS, що додається до таблиці стилів банера. Використовуйте "
+#~ "селектори .lynbro-cc."

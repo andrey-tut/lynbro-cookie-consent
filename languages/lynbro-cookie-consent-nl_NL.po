@@ -1752,3 +1752,13 @@ msgstr ""
 "zonder emoji-lettertype. Hierdoor wordt het IP-adres van de bezoeker naar "
 "WordPress.org verzonden voordat er toestemming is gegeven. Standaard "
 "ingeschakeld; de beheerder en de editor worden niet beïnvloed."
+
+msgid "Remember the choice for (days)"
+msgstr "Keuze onthouden gedurende (dagen)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Accepteren en weigeren worden beide zo lang onthouden; daarna vraagt de "
+"banner het opnieuw. 1 tot 365 dagen, standaard 365 dagen."

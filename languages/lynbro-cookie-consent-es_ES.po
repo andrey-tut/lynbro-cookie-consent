@@ -1767,3 +1767,13 @@ msgstr ""
 "navegadores que no tienen una fuente de emoji, lo que envía la dirección IP "
 "del visitante a WordPress.org antes de obtener su consentimiento. Activado "
 "de forma predeterminada; no afecta al administrador ni al editor."
+
+msgid "Remember the choice for (days)"
+msgstr "Recordar la elección durante (días)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"La aceptación y el rechazo se recuerdan durante este período; después, el "
+"banner volverá a preguntar. De 1 a 365 días, 365 de forma predeterminada."

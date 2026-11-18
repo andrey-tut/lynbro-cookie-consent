@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.19
+Stable tag: 0.4.20
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -280,6 +280,11 @@ screen makes.
   [Privacy Policy](https://wordpress.org/about/privacy/)
 
 == Changelog ==
+
+= 0.4.20 =
+* Fix: importing a settings file always failed with "Please upload a .json settings file" — WordPress does not list .json as an upload type, so every exported file was refused. The file is now checked by its .json name and its content, as before.
+* Fix: on the Languages tab, the "Read more" link and the "Always on" badge could not be translated — the text was dropped on save in every language, so the banner kept the English words.
+* New: "Remember the choice for (days)" on the Consent Mode tab — how long accepting or rejecting is remembered before the banner asks again (1 to 365 days, 365 by default).
 
 = 0.4.19 =
 * The Google Consent Mode defaults really are the first thing in <head> now. 0.4.18 moved them up, but they still came out after tags another plugin or a header snippet prints early, so Google tags could start before the "denied" defaults were set.

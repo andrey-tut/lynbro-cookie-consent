@@ -1745,3 +1745,13 @@ msgstr ""
 "WordPress.org'dan alınan görsellerle değiştirir. Bu işlem, herhangi bir onay"
 " alınmadan önce ziyaretçinin IP adresini WordPress.org'a gönderir. "
 "Varsayılan olarak açıktır; yöneticiyi ve düzenleyiciyi etkilemez."
+
+msgid "Remember the choice for (days)"
+msgstr "Seçimi şu süre boyunca hatırla (gün)"
+
+msgid ""
+"Accepting and rejecting are both remembered this long; after that the banner"
+" asks again. 1 to 365 days, 365 by default."
+msgstr ""
+"Kabul ve ret tercihleri bu süre boyunca hatırlanır; süre dolduktan sonra "
+"banner yeniden sorar. 1 ila 365 gün, varsayılan 365 gün."

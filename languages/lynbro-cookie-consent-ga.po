@@ -1222,3 +1222,553 @@ msgstr "Cárta bog ar snámh sa chúinne íochtarach ar dheis."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Tá codarsnacht íseal ag roinnt dathanna (%s) — féach na sonraí."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "Suaitheantas \"I gcónaí ar siúl\" ar fhianáin riachtanacha"
+
+msgid "Our plugins"
+msgstr "Ár mbreiseáin"
+
+msgid "Insufficient permissions."
+msgstr "Níl ceadanna leordhóthanacha agat."
+
+msgid "Lynbro plugins"
+msgstr "Breiseáin Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Breiseáin WordPress flaithiúla, príobháideacht ar dtús — tógtha sa "
+"Danmhairg. Croí-shamhlacha saor in aisce, gan creidiúintí, fanann do shonraí"
+" ar do shuíomh."
+
+msgid "More from Lynbro"
+msgstr "Tuilleadh ó Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"An chuid eile den tsraith. Tá marc ar a bhfuil cheana ar an suíomh seo; ní "
+"shuiteáiltear tada gan do chead."
+
+msgid "Active"
+msgstr "Gníomhach"
+
+msgid "Installed"
+msgstr "Suiteáilte"
+
+msgid "On WordPress.org"
+msgstr "Ar WordPress.org"
+
+msgid "Coming soon"
+msgstr "Ag teacht go luath"
+
+msgid "Activate"
+msgstr "Gníomhachtaigh"
+
+msgid "Install now"
+msgstr "Suiteáil anois"
+
+msgid "View on WordPress.org"
+msgstr "Féach ar WordPress.org"
+
+msgid "Learn more"
+msgstr "Tuilleadh eolais"
+
+msgid "About Lynbro"
+msgstr "Maidir le Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Tógann Lynbro breiseáin WordPress fíor-saor, príobháideacht ar dtús le croí-"
+"shamhlacha flaithiúla — gan creidiúintí, gan ballaí pá ar na bunrudaí, do "
+"shonraí ar do shuíomh féin. Déanta sa Danmhairg."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Mol gné nó tuairiscigh fabht"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Osclaíonn aiseolas ár mbóthar poiblí ar plugins.lynbro.dk i gcluaisín nua — "
+"ní sheoltar tada ó do shuíomh."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Comhpháirteanna roinnte Lynbro v%1$s, soláthraithe ag %2$s (is nuaí de %3$d "
+"leagan ar an suíomh seo)."
+
+msgid "Is %s doing its job?"
+msgstr "An bhfuil %s ag déanamh a chuid oibre?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Tá sé in úsáid agat le cúpla seachtain anois. Má oibríonn sé duit, "
+"cabhraíonn léirmheas gairid ar WordPress.org le húinéirí eile é a aimsiú — "
+"fiú léirmheasanna macánta, criticiúla."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Tá sé in úsáid agat le cúpla seachtain anois. Má oibríonn sé duit — nó má tá"
+" rud éigin ar iarraidh — inis dúinn ar ár mbóthar poiblí. Sin mar a "
+"roghnaímid cad a thógfaimid ina dhiaidh seo."
+
+msgid "(opens in a new tab)"
+msgstr "(osclaíonn i gcluaisín nua)"
+
+msgid "Share feedback"
+msgstr "Roinn aiseolas"
+
+msgid "Maybe later"
+msgstr "B'fhéidir níos déanaí"
+
+msgid "Don't ask again"
+msgstr "Ná fiafraigh arís"
+
+msgid "Something not working? Ask for help"
+msgstr "Rud éigin nach bhfuil ag obair? Iarr cabhair"
+
+msgid "WooCommerce is active"
+msgstr "Tá WooCommerce gníomhach"
+
+msgid "a form plugin is active"
+msgstr "tá breiseán foirme gníomhach"
+
+msgid "the site is set up for Denmark"
+msgstr "tá an suíomh socraithe don Danmhairg"
+
+msgid "comments are open"
+msgstr "tá tuairimí oscailte"
+
+msgid "tracking tags are active"
+msgstr "tá clibeanna rianaithe gníomhach"
+
+msgid "visitors can create accounts"
+msgstr "is féidir le cuairteoirí cuntais a chruthú"
+
+msgid "Suggested because %l."
+msgstr "Moladh mar gheall ar %l."
+
+msgid "Suggested for this site"
+msgstr "Moladh don suíomh seo"
+
+msgid "Hide suggestions"
+msgstr "Folaigh moltaí"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Breiseáin eile Lynbro a oireann don méid a úsáideann an suíomh seo. Ní "
+"shuiteáiltear tada mura gcliceálann tú."
+
+msgid "All Lynbro plugins"
+msgstr "Gach breiseán Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Roghnaithe as an méid atá in úsáid cheana ar an suíomh seo — léite ar an "
+"suíomh seo, ní sheoltar tada áit ar bith eile."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Easpórtáil socruithe an bhreiseáin seo mar chúltaca JSON, nó athshocraigh "
+"iad go réamhshocruithe. 100% logánta — ní fhágann aon sonraí do shuíomh."
+
+msgid "Reset all settings to defaults?"
+msgstr "Athshocrú gach socrú go réamhshocruithe?"
+
+msgid "Reset to defaults"
+msgstr "Athshocraigh go réamhshocruithe"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Meirge toilithe fianán saor in aisce, ilteangach, go hiomlán inúsáidte — "
+"réidh do GDPR/ePrivacy agus Google Consent Mode v2, gan teorainn ar amharc "
+"leathanaigh."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Optamú Íomhá"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Tiontaigh go WebP agus AVIF, athraigh íomhánna ró-mhóra agus luchtú "
+"leisciúil — go léir ar do fhreastalaí féin."
+
+msgid "AI Studio"
+msgstr "Stiúideo AI"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Scríobh agus maisigh poist le AI ar do eochair OpenAI féin — ar chostas, gan"
+" aon chreidmheasanna idir eatarthu."
+
+msgid "Analytics"
+msgstr "Anailísíocht"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Anailísíocht féin-óstáilte, gan fianáin, le tonnadóirí. Ní fhágann sonraí "
+"cuairteoirí do bhunachar sonraí riamh."
+
+msgid "Tags"
+msgstr "Clibeanna"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel agus níos mó gan cód — fanann gach "
+"clib le toiliú."
+
+msgid "Forms"
+msgstr "Foirmeacha"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Foirm le hiontrálacha sábháilte saor in aisce gan teorainn, loighic "
+"choinníollach ar an bhfreastalaí, agus webhooks sínithe."
+
+msgid "Verify"
+msgstr "Fíoraigh"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Gabh fearainn ríomhphoist mílitrithe agus uimhreacha gutháin míchearta, agus"
+" deimhnigh le cód aon-uaire trí ríomhphost nó SMS."
+
+msgid "Cache"
+msgstr "Taisce"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Glanadh iontaofa do thaisce nginx FastCGI agus taisce réada Redis, le gach "
+"glanadh fíoraithe i gcoinne na taisce féin."
+
+msgid "Translate"
+msgstr "Aistrigh"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Rith do shuíomh i roinnt teangacha, le haistriúchán meaisín ar do eochair "
+"OpenAI féin — gan méadracht, gan díol focal."
+
+msgid "Shield"
+msgstr "Sciath"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Ceanntásca slándála, HTTPS le HSTS, balla dóiteáin beag i gcoinne ionsaithe "
+"agus na lasca cruaite atá riachtanach do gach suíomh."
+
+msgid "Anti-Spam"
+msgstr "Frith-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Seiceálacha spam ar do fhreastalaí féin. Gan cuntas, gan síntiús, míníonn "
+"gach bloc cén fáth — agus ní chailltear teachtaireacht ar bith atá "
+"coinnithe."
+
+msgid "Login Guard"
+msgstr "Garda Logála Isteach"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Bog wp-login.php, teorainnigh logálacha isteach teipthe agus cuir dhá-"
+"fhachtóir bunaithe ar aip leis — le trí bhealach isteach ar ais."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Meirge GDPR agus ePrivacy le Consent Mode v2, cnaipe Diúltaigh chomh "
+"feiceálach céanna agus 35 teanga."
+
+msgid "Activity Log"
+msgstr "Log Gníomhaíochta"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Cé a rinne cad, cathain agus ó cá háit — scríofa ar do fhreastalaí féin, in-"
+"innéanta, in-easpórtáilte, agus scriosta de réir do sceidil."
+
+msgid "Data Retention"
+msgstr "Coinneáil Sonraí"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Aimsigh cá bhfuil sonraí pearsanta i do bhunachar sonraí, ansin scrios de "
+"réir sceidil — le rith tirim roimh gach scriosadh."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Scanáil gach leathanach i gcoinne WCAG 2.2 AA agus ceartaigh cad is féidir a"
+" cheartú go sábháilte. Gan forleagan, gan teorainn leathanach."
+
+msgid "SEO"
+msgstr "Sinsearach"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Sinsearach éadrom le scéimre LocalBusiness saor in aisce, léarscáileanna "
+"suímh agus cártaí sóisialta. Ní sheoltar sonraí abhaile."
+
+msgid "SMTP Mailer"
+msgstr "Seoltóir SMTP"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Ríomhphost WordPress trí do fhreastalaí SMTP féin — le log r-phoist, "
+"athsheoladh, nasc cúltaca agus foláirimh teipe."
+
+msgid "Social Feed"
+msgstr "Fotha Sóisialta"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Fotha Instagram ar do shuíomh gan aon chomhartha Meta stóráilte i WordPress."
+
+msgid "Reviews Cache"
+msgstr "Taisce Léirmheasanna"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Taispeáin do léirmheasanna Google gan eochair API a chur i WordPress."
+
+msgid "Links"
+msgstr "Naisc"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Aimsigh naisc bhriste agus bainistigh atreoruithe ar do fhreastalaí féin, le"
+" cúis gach cinneadh."
+
+msgid "Danadresse Autofill"
+msgstr "Uathlíonadh Danadresse"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Uathchomhlánú agus bailíochtú seoltaí Danmhairge do WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable agus EDD."
+
+msgid "Soge Lookup"
+msgstr "Cuardach Soge"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Cuardaigh feithiclí Danmhargacha (DMR) agus cuideachtaí (CVR) de réir uimhir"
+" chláraithe, VIN nó CVR."
+
+msgid "CVR Checkout"
+msgstr "Seiceáil CVR"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Seiceáil B2B Danmhargach do WooCommerce: réamhlíonadh cuideachta CVR, "
+"bailíochtú CVR/EU-VAT (VIES) agus réimse EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Loingseoireacht Danmhargach"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Roghnú pointe bailithe saor in aisce do PostNord agus GLS Denmark ag an "
+"tseiceáil amach WooCommerce, móide modhanna loingseoireachta glana."
+
+msgid "API Auth"
+msgstr "Fíordheimhniú API"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"Tóicinn Gréasáin JSON don REST API is féidir leat a chur ar ceal i ndáiríre,"
+" le scóip agus dialann diúltaithe."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Coinníonn Cookiebot téacsanna a bhrataí i do chuntas Cookiebot, mar sin ní "
+"féidir ach na catagóirí a aistriú. Tosaíonn na téacsanna brataí anseo ó na "
+"réamhshocruithe aistrithe féin de chuid Lynbro."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Coinníonn Borlabs Cookie a shocruithe ina fhormáid féin, nach léitear. "
+"Freagraíonn a chatagóirí do Roghanna, Staitisticí agus Margaíocht; socraigh "
+"do théacsanna sa chluaisín Teangacha."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "Tá %s gníomhach, mar sin fanann Lynbro Cookie Consent ina thost."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Ní fheiceann cuairteoirí ach bratach amháin, ní dhá cheann: ní thaispeántar "
+"ár gceann féin, ní bhacann sé aon scripteanna agus ní choinníonn sé taifid "
+"toilithe fad atá an breiseán eile gníomhach."
+
+msgid "See what can be brought over"
+msgstr "Féach cad is féidir a aistriú"
+
+msgid "Banner texts in: %s"
+msgstr "Téacsanna brataí in: %s"
+
+msgid "Categories: %s"
+msgstr "Catagóirí: %s"
+
+msgid "Policy link: %s"
+msgstr "Nasc chuig an mbeartas: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Aistrigh na téacsanna agus na catagóirí ó %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Ní athraítear aon rud sa bhreiseán eile. Tar éis duit iad a aistriú, "
+"seiceáil an toradh anseo, ansin díghníomhachtaigh an breiseán eile: "
+"glacfaidh ár mbratach seilbh air ón bpointe sin."
+
+msgid "Booking"
+msgstr "Áirithintí"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Áirithintí coinne do ghnólacht amháin ar do fhreastalaí féin: seirbhísí, "
+"foireann, sceidil, meabhrúcháin agus aistriú aon chliceáil ó Amelia."
+
+msgid "Contact Buttons"
+msgstr "Cnaipí Teagmhála"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, teileafón agus comhrá beo in aon chnaipe tapa amháin — "
+"ní lódáiltear scripteanna comhrá go dtí go n-iarrann cuairteoir iad."
+
+msgid "Site Check"
+msgstr "Seiceáil Suímh"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Seiceáil láithreáin ghréasáin saor in aisce do do chuairteoirí: HTTPS, "
+"ceanntásca, fianáin roimh thoiliú, inrochtaineacht, SPF/DKIM/DMARC — "
+"tuairisc ar an scáileán."
+
+msgid "Newsletter"
+msgstr "Nuachtlitir"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Nuachtlitreacha féinóstáilte le seoladh slán: taifid toilithe, tástáil tar "
+"éis na heagarthóireachta deireanaí agus ceadú tríd an líon cruinn "
+"faighteoirí a chlóscríobh."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Íomhánna emoji ó WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Ná lódáil íomhánna emoji ó WordPress.org; feicfidh cuairteoirí emoji i gcló "
+"a ngléis féin."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"Cuireann WordPress íomhánna ó WordPress.org in ionad emoji i mbrabhsálaithe "
+"nach bhfuil cló emoji acu, rud a sheolann seoladh IP an chuairteora chuig "
+"WordPress.org sula dtugtar aon toiliú. Cumasaithe de réir réamhshocraithe; "
+"ní dhéantar difear don riarthóir ná don eagarthóir."

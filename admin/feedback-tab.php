@@ -66,7 +66,7 @@ function lynbro_cookie_consent_render_feedback_tab() {
 				printf(
 					/* translators: %s: link to the portal privacy/terms page. */
 					esc_html__( 'Your message, the plugin version and your site domain are sent to the Lynbro portal. See our %s.', 'lynbro-cookie-consent' ),
-					'<a href="https://plugins.lynbro.dk" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Privacy Policy & Terms', 'lynbro-cookie-consent' ) . '</a>'
+					'<a href="https://plugins.lynbro.dk/privacy" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Privacy Policy & Terms', 'lynbro-cookie-consent' ) . '</a>'
 				);
 				?>
 			</p>

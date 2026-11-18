@@ -1209,3 +1209,552 @@ msgstr "Riquadro flottante dai toni morbidi nell’angolo in basso a destra."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Alcuni colori hanno un contrasto basso (%s) — consulta i dettagli."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "Badge \"Sempre attivo\" sui cookie necessari"
+
+msgid "Our plugins"
+msgstr "I nostri plugin"
+
+msgid "Insufficient permissions."
+msgstr "Permessi insufficienti."
+
+msgid "Lynbro plugins"
+msgstr "Plugin Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Plugin WordPress generosi e privacy-first — sviluppati in Danimarca. Core "
+"gratuiti, nessun credito, i tuoi dati restano sul tuo sito."
+
+msgid "More from Lynbro"
+msgstr "Altri da Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Il resto della suite. Quelli già presenti su questo sito sono "
+"contrassegnati; nulla viene installato senza la tua richiesta."
+
+msgid "Active"
+msgstr "Attivo"
+
+msgid "Installed"
+msgstr "Installato"
+
+msgid "On WordPress.org"
+msgstr "Su WordPress.org"
+
+msgid "Coming soon"
+msgstr "Prossimamente"
+
+msgid "Activate"
+msgstr "Attiva"
+
+msgid "Install now"
+msgstr "Installa ora"
+
+msgid "View on WordPress.org"
+msgstr "Vedi su WordPress.org"
+
+msgid "Learn more"
+msgstr "Scopri di più"
+
+msgid "About Lynbro"
+msgstr "Informazioni su Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro crea plugin WordPress davvero gratuiti e privacy-first con core "
+"generosi — nessun credito, nessun paywall sulle funzioni essenziali, i tuoi "
+"dati restano sul tuo sito. Realizzato in Danimarca."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Suggerisci una funzione o segnala un bug"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Il feedback apre la nostra roadmap pubblica su plugins.lynbro.dk in una "
+"nuova scheda — nulla viene inviato dal tuo sito."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Componenti Lynbro condivisi v%1$s, forniti da %2$s (più recente di %3$d "
+"versioni su questo sito)."
+
+msgid "Is %s doing its job?"
+msgstr "%s sta facendo il suo lavoro?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Lo usi da un paio di settimane. Se funziona per te, una breve recensione su "
+"WordPress.org aiuta altri proprietari di siti a trovarlo — anche quelle "
+"oneste e critiche."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Lo usi da un paio di settimane. Se funziona per te — o se manca qualcosa — "
+"diccelo sulla nostra roadmap pubblica. Così decidiamo cosa sviluppare dopo."
+
+msgid "(opens in a new tab)"
+msgstr "(si apre in una nuova scheda)"
+
+msgid "Share feedback"
+msgstr "Invia feedback"
+
+msgid "Maybe later"
+msgstr "Magari dopo"
+
+msgid "Don't ask again"
+msgstr "Non chiedere più"
+
+msgid "Something not working? Ask for help"
+msgstr "Qualcosa non funziona? Chiedi aiuto"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce è attivo"
+
+msgid "a form plugin is active"
+msgstr "un plugin per moduli è attivo"
+
+msgid "the site is set up for Denmark"
+msgstr "il sito è configurato per la Danimarca"
+
+msgid "comments are open"
+msgstr "i commenti sono aperti"
+
+msgid "tracking tags are active"
+msgstr "i tag di tracciamento sono attivi"
+
+msgid "visitors can create accounts"
+msgstr "i visitatori possono creare account"
+
+msgid "Suggested because %l."
+msgstr "Suggerito perché %l."
+
+msgid "Suggested for this site"
+msgstr "Suggerito per questo sito"
+
+msgid "Hide suggestions"
+msgstr "Nascondi suggerimenti"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Altri plugin Lynbro adatti a ciò che usa questo sito. Nulla viene installato"
+" se non clicchi."
+
+msgid "All Lynbro plugins"
+msgstr "Tutti i plugin Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Selezionati da ciò che questo sito già utilizza — letto su questo sito, "
+"nulla viene inviato altrove."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Esporta le impostazioni di questo plugin come backup JSON o ripristinale ai "
+"valori predefiniti. 100% locale — nessun dato lascia il tuo sito."
+
+msgid "Reset all settings to defaults?"
+msgstr "Ripristinare tutte le impostazioni ai valori predefiniti?"
+
+msgid "Reset to defaults"
+msgstr "Ripristina ai valori predefiniti"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Banner di consenso cookie gratuito, multilingue e completamente "
+"configurabile — conforme a GDPR/ePrivacy e Google Consent Mode v2, senza "
+"limiti di visualizzazioni."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Ottimizzatore Immagini"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Converti in WebP e AVIF, ridimensiona le immagini troppo grandi e caricale "
+"in modo differito — tutto sul tuo server."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Scrivi e illustra post con l’AI usando la tua chiave OpenAI — al costo, "
+"senza crediti intermedi."
+
+msgid "Analytics"
+msgstr "Analitica"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Analitica senza cookie, auto-ospitata, con funnel. I dati dei visitatori "
+"restano sempre nel tuo database."
+
+msgid "Tags"
+msgstr "Tag"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel e altro senza codice — ogni tag "
+"attende il consenso."
+
+msgid "Forms"
+msgstr "Moduli"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Moduli con invii salvati gratis e senza limiti, logica condizionale lato "
+"server e webhook firmati."
+
+msgid "Verify"
+msgstr "Verifica"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Individua domini email errati e numeri di telefono non validi, confermali "
+"con un codice una tantum via email o SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Svuotamento affidabile per cache nginx FastCGI e cache oggetti Redis, con "
+"ogni svuotamento verificato sulla cache stessa."
+
+msgid "Translate"
+msgstr "Traduci"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Gestisci il sito in più lingue, con traduzione automatica tramite la tua "
+"chiave OpenAI — senza limiti, senza costi a parola."
+
+msgid "Shield"
+msgstr "Shield"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Header di sicurezza, HTTPS con HSTS, piccolo firewall contro tentativi di "
+"injection e le impostazioni di sicurezza essenziali."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Controlli antispam eseguiti sul tuo server. Nessun account, nessun "
+"abbonamento, ogni blocco spiega il motivo — e nessun messaggio trattenuto va"
+" perso."
+
+msgid "Login Guard"
+msgstr "Login Guard"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Sposta wp-login.php, limita i tentativi falliti e aggiungi l’autenticazione "
+"a due fattori tramite app — con tre modi per recuperare l’accesso."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner GDPR e ePrivacy con Consent Mode v2, pulsante Rifiuta altrettanto "
+"visibile e 35 lingue."
+
+msgid "Activity Log"
+msgstr "Registro Attività"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Chi ha fatto cosa, quando e da dove — tutto registrato sul tuo server, "
+"ricercabile, esportabile e cancellabile secondo la tua pianificazione."
+
+msgid "Data Retention"
+msgstr "Conservazione Dati"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Trova dove sono i dati personali nel database, poi eliminali secondo una "
+"pianificazione — con simulazione prima di ogni cancellazione."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Analizza ogni pagina secondo WCAG 2.2 AA e correggi ciò che è sicuro. "
+"Nessuna sovrapposizione, nessun limite di pagine."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO essenziale con schema LocalBusiness gratuito, sitemap e social card. "
+"Nessun dato inviato all’esterno."
+
+msgid "SMTP Mailer"
+msgstr "Mailer SMTP"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Email WordPress tramite il tuo server SMTP — con registro email, reinvio, "
+"connessione di backup e avvisi di errore."
+
+msgid "Social Feed"
+msgstr "Feed Social"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Feed Instagram sul tuo sito senza token Meta memorizzato in WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache Recensioni"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+"Mostra le tue recensioni Google senza inserire una chiave API in WordPress."
+
+msgid "Links"
+msgstr "Link"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Trova link non funzionanti e gestisci i reindirizzamenti sul tuo server, con"
+" la motivazione di ogni esito."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofill"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Completamento e validazione indirizzi danesi per WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable ed EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge Lookup"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Cerca veicoli danesi (DMR) e aziende (CVR) per targa, VIN o numero CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Checkout B2B danese per WooCommerce: compilazione automatica azienda CVR, "
+"validazione CVR/IVA UE (VIES) e campo EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Spedizione Danese"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Selezione punto di ritiro gratuita per PostNord e GLS Danimarca al checkout "
+"WooCommerce, oltre a metodi di spedizione semplificati."
+
+msgid "API Auth"
+msgstr "API Auth"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens per la REST API revocabili, con ambiti e registro dei "
+"rifiuti."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot conserva i testi del banner nel tuo account Cookiebot, quindi è "
+"possibile trasferire solo le categorie. I testi del banner qui partono dalle"
+" traduzioni predefinite di Lynbro."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie conserva le impostazioni in un formato proprietario, che non "
+"viene letto. Le sue categorie corrispondono a Preferenze, Statistiche e "
+"Marketing; imposta i testi nella scheda Lingue."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s è attivo, quindi Lynbro Cookie Consent non interviene."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"I visitatori vedono un solo banner, non due: il nostro non viene mostrato, "
+"non blocca gli script e non conserva registrazioni del consenso mentre "
+"l'altro plugin è attivo."
+
+msgid "See what can be brought over"
+msgstr "Scopri cosa è possibile trasferire"
+
+msgid "Banner texts in: %s"
+msgstr "Testi del banner in: %s"
+
+msgid "Categories: %s"
+msgstr "Categorie: %s"
+
+msgid "Policy link: %s"
+msgstr "Link all'informativa: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Trasferisci i testi e le categorie da %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"L'altro plugin non viene modificato. Dopo il trasferimento, controlla qui il"
+" risultato, poi disattiva l'altro plugin: da quel momento subentra il nostro"
+" banner."
+
+msgid "Booking"
+msgstr "Prenotazioni"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Gestione degli appuntamenti per un'attività sul tuo server: servizi, "
+"personale, orari, promemoria e trasferimento da Amelia con un clic."
+
+msgid "Contact Buttons"
+msgstr "Pulsanti di contatto"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telefono e chat dal vivo in un unico pulsante rapido: "
+"gli script della chat vengono caricati solo quando il visitatore lo "
+"richiede."
+
+msgid "Site Check"
+msgstr "Controllo del sito"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Un controllo gratuito del sito web per i tuoi visitatori: HTTPS, "
+"intestazioni, cookie prima del consenso, accessibilità, SPF/DKIM/DMARC — "
+"rapporto visualizzato sullo schermo."
+
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Newsletter ospitate sul tuo server e inviate in sicurezza: registrazioni del"
+" consenso, un test dopo l'ultima modifica e approvazione inserendo il numero"
+" esatto di destinatari."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Immagini emoji da WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Non caricare immagini emoji da WordPress.org; i visitatori vedranno le emoji"
+" nel font del proprio dispositivo."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"WordPress sostituisce le emoji con immagini da WordPress.org nei browser che"
+" non dispongono di un font per emoji, inviando l’indirizzo IP del visitatore"
+" a WordPress.org prima che venga fornito qualsiasi consenso. Attivo per "
+"impostazione predefinita; non influisce sull’amministratore né sull’editor."

@@ -1,0 +1,282 @@
+{
+  "_comment": "The Lynbro suite. Canonical source: plugins/_shared/lynbro-core/lynbro-suite.json, copied verbatim into every plugin by tools/sync_lynbro_core.py. Data, not code: the shell reads it for the 'Our plugins' cards and for the order of the shared menu, and corrects 'wporg' against the live wordpress.org listing at runtime. Refresh the flags with: python tools/sync_lynbro_core.py --refresh 'shell': false marks a suite plugin that does not load the shared shell yet (no copy is written into it; it still appears among the cards). 'fits' lists when the plugin is suggested to a site that does not have it yet: each rule is a signal name, or several joined with '+' that must all hold. Signals (computed locally by Lynbro_Core_Feedback::site_signals): woocommerce, forms, danish, comments, tracking, accounts.",
+  "version": 1,
+  "plugins": [
+    {
+      "slug": "lynbro-image-optimizer",
+      "name": "Image Optimizer",
+      "icon": "🖼️",
+      "tagline": "Convert to WebP and AVIF, right-size oversized images and lazy-load them — all on your own server.",
+      "menu_position": 10,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-ai-studio",
+      "name": "AI Studio",
+      "icon": "🤖",
+      "tagline": "Write and illustrate posts with AI on your own OpenAI key — at cost, with no credits in between.",
+      "menu_position": 12,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-analytics",
+      "name": "Analytics",
+      "icon": "📊",
+      "tagline": "Self-hosted, cookieless analytics with funnels. Visitor data never leaves your database.",
+      "menu_position": 14,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-tags",
+      "name": "Tags",
+      "icon": "🏷️",
+      "tagline": "GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag waits for consent.",
+      "menu_position": 15,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-forms",
+      "name": "Forms",
+      "icon": "📝",
+      "tagline": "Forms with entries saved for free and no cap, conditional logic checked server-side, and signed webhooks.",
+      "menu_position": 16,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-verify",
+      "name": "Verify",
+      "icon": "✅",
+      "tagline": "Catch mistyped e-mail domains and bad phone numbers, and confirm them with a one-time code by e-mail or SMS.",
+      "menu_position": 17,
+      "wporg": false,
+      "fits": [
+        "forms",
+        "woocommerce"
+      ]
+    },
+    {
+      "slug": "lynbro-cache",
+      "name": "Cache",
+      "icon": "⚡",
+      "tagline": "Reliable purging for an nginx FastCGI cache and a Redis object cache, with every purge verified against the cache itself.",
+      "menu_position": 18,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-booking",
+      "name": "Booking",
+      "icon": "📅",
+      "tagline": "Appointment booking for one business on your own server: services, staff, schedules, reminders and a one-click move from Amelia.",
+      "menu_position": 19,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-translate",
+      "name": "Translate",
+      "icon": "🌍",
+      "tagline": "Run your site in several languages, with machine translation on your own OpenAI key — nothing metered, nothing sold by the word.",
+      "menu_position": 20,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-floating-buttons",
+      "name": "Contact Buttons",
+      "icon": "💬",
+      "tagline": "WhatsApp, Messenger, phone and live chat in one fast button — chat scripts load only when a visitor asks.",
+      "menu_position": 21,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-shield",
+      "name": "Shield",
+      "icon": "🛡️",
+      "tagline": "Security headers, HTTPS with HSTS, a small firewall against injection probes and the hardening switches every site needs.",
+      "menu_position": 28,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-antispam-guard",
+      "name": "Anti-Spam",
+      "icon": "🛡️",
+      "tagline": "Spam checks that run on your own server. No account, no subscription, every block says why — and a held message is never lost.",
+      "menu_position": 30,
+      "wporg": false,
+      "fits": [
+        "forms",
+        "comments"
+      ]
+    },
+    {
+      "slug": "lynbro-login-guard",
+      "name": "Login Guard",
+      "icon": "🔐",
+      "tagline": "Move wp-login.php, limit failed sign-ins and add app-based two-factor — with three ways back in.",
+      "menu_position": 32,
+      "wporg": false,
+      "fits": [
+        "accounts"
+      ]
+    },
+    {
+      "slug": "lynbro-cookie-consent",
+      "name": "Cookie Consent",
+      "icon": "🍪",
+      "tagline": "A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject button and 35 languages.",
+      "menu_position": 34,
+      "wporg": true,
+      "fits": [
+        "tracking",
+        "danish"
+      ]
+    },
+    {
+      "slug": "lynbro-activity-log",
+      "name": "Activity Log",
+      "icon": "📋",
+      "tagline": "Who did what, when and from where — written down on your own server, searchable, exportable, and deleted on your schedule.",
+      "menu_position": 36,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-data-retention",
+      "name": "Data Retention",
+      "icon": "🗄️",
+      "tagline": "Find where personal data actually sits in your database, then delete it on a schedule — with a dry run before every deletion.",
+      "menu_position": 38,
+      "wporg": false,
+      "fits": [
+        "woocommerce"
+      ]
+    },
+    {
+      "slug": "lynbro-accessibility-checker",
+      "name": "Accessibility",
+      "icon": "♿",
+      "tagline": "Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No overlay, no page limit.",
+      "menu_position": 40,
+      "wporg": false,
+      "fits": [
+        "woocommerce"
+      ]
+    },
+    {
+      "slug": "lynbro-site-check",
+      "name": "Site Check",
+      "icon": "🔎",
+      "tagline": "A free website check for your visitors: HTTPS, headers, cookies before consent, accessibility, SPF/DKIM/DMARC — report on screen.",
+      "menu_position": 41,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-seo",
+      "name": "SEO",
+      "icon": "🔎",
+      "tagline": "Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing phones home.",
+      "menu_position": 50,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-smtp-mailer",
+      "name": "SMTP Mailer",
+      "icon": "✉️",
+      "tagline": "WordPress email through your own SMTP server — with an email log, resend, a backup connection and failure alerts.",
+      "menu_position": 52,
+      "wporg": true,
+      "fits": [
+        "forms",
+        "woocommerce"
+      ]
+    },
+    {
+      "slug": "lynbro-newsletter",
+      "name": "Newsletter",
+      "icon": "📨",
+      "tagline": "Self-hosted newsletters with safe sending: consent records, a test after the last edit and approval by typing the exact recipient count.",
+      "menu_position": 53,
+      "wporg": false,
+      "fits": [
+        "woocommerce",
+        "accounts"
+      ]
+    },
+    {
+      "slug": "lynbro-social-feed",
+      "name": "Social Feed",
+      "icon": "📸",
+      "tagline": "An Instagram feed on your site without a Meta token stored in WordPress.",
+      "menu_position": 54,
+      "wporg": false,
+      "menu_slug": "lynbro-instagram"
+    },
+    {
+      "slug": "lynbro-reviews-cache",
+      "name": "Reviews Cache",
+      "icon": "⭐",
+      "tagline": "Show your Google reviews without putting an API key in WordPress.",
+      "menu_position": 56,
+      "wporg": false,
+      "menu_slug": "lynbro-reviews"
+    },
+    {
+      "slug": "lynbro-links",
+      "name": "Links",
+      "icon": "🔗",
+      "tagline": "Find broken links and manage redirects on your own server, with the reason for every verdict.",
+      "menu_position": 58,
+      "wporg": false
+    },
+    {
+      "slug": "lynbro-danadresse",
+      "name": "Danadresse Autofill",
+      "icon": "📍",
+      "tagline": "Danish address autocomplete and validation for WooCommerce, WPForms, Gravity, Fluent, Formidable and EDD.",
+      "menu_position": 60,
+      "wporg": true,
+      "fits": [
+        "woocommerce+danish",
+        "forms+danish"
+      ]
+    },
+    {
+      "slug": "lynbro-soge-lookup",
+      "name": "Soge Lookup",
+      "icon": "🚗",
+      "tagline": "Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR number.",
+      "menu_position": 62,
+      "wporg": true,
+      "menu_slug": "soge-lookup"
+    },
+    {
+      "slug": "dk-accounting",
+      "name": "CVR Checkout",
+      "icon": "🏢",
+      "tagline": "Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES) validation and an EAN/GLN field.",
+      "menu_position": 64,
+      "wporg": false,
+      "shell": false,
+      "fits": [
+        "woocommerce+danish"
+      ]
+    },
+    {
+      "slug": "dk-shipping",
+      "name": "Danish Shipping",
+      "icon": "📦",
+      "tagline": "Free pickup point selection for PostNord and GLS Denmark at the WooCommerce checkout, plus clean shipping methods.",
+      "menu_position": 66,
+      "wporg": false,
+      "shell": false,
+      "fits": [
+        "woocommerce+danish"
+      ]
+    },
+    {
+      "slug": "lynbro-api-auth",
+      "name": "API Auth",
+      "icon": "🔑",
+      "tagline": "JSON Web Tokens for the REST API that you can actually revoke, with scopes and a journal of refusals.",
+      "menu_position": 70,
+      "wporg": false
+    }
+  ]
+}

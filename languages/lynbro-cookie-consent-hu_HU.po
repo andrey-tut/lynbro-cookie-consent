@@ -1210,3 +1210,554 @@ msgstr "Finom, lebegő kártya a jobb alsó sarokban."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Egyes színek kontrasztja alacsony (%s) — tekintse meg a részleteket."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "\"Mindig bekapcsolva\" jelvény a szükséges sütiken"
+
+msgid "Our plugins"
+msgstr "Bővítményeink"
+
+msgid "Insufficient permissions."
+msgstr "Nincs elegendő jogosultság."
+
+msgid "Lynbro plugins"
+msgstr "Lynbro bővítmények"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Nagyvonalú, adatvédelmet előtérbe helyező WordPress bővítmények — Dániában "
+"készültek. Ingyenes alap, nincs kreditzés, az adataid a saját oldaladon "
+"maradnak."
+
+msgid "More from Lynbro"
+msgstr "Továbbiak a Lynbro-tól"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"A teljes csomag. Ami már telepítve van ezen az oldalon, az jelölve van; "
+"semmi sem települ automatikusan."
+
+msgid "Active"
+msgstr "Aktív"
+
+msgid "Installed"
+msgstr "Telepítve"
+
+msgid "On WordPress.org"
+msgstr "A WordPress.org-on"
+
+msgid "Coming soon"
+msgstr "Hamarosan"
+
+msgid "Activate"
+msgstr "Aktiválás"
+
+msgid "Install now"
+msgstr "Telepítés most"
+
+msgid "View on WordPress.org"
+msgstr "Megtekintés a WordPress.org-on"
+
+msgid "Learn more"
+msgstr "Tudj meg többet"
+
+msgid "About Lynbro"
+msgstr "A Lynbro-ról"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"A Lynbro valóban ingyenes, adatvédelmet előtérbe helyező WordPress "
+"bővítményeket készít nagylelkű ingyenes alappal — nincs kreditzés, nincsenek"
+" fizetős alapfunkciók, az adataid a saját oldaladon maradnak. Dániában "
+"készült."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Javasolj funkciót vagy jelents hibát"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"A visszajelzés a nyilvános ütemtervünket nyitja meg a plugins.lynbro.dk "
+"oldalon egy új lapon — semmilyen adat nem kerül elküldésre az oldaladról."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Megosztott Lynbro komponensek v%1$s, szolgáltató: %2$s (a(z) %3$d verzió "
+"közül a legújabb ezen az oldalon)."
+
+msgid "Is %s doing its job?"
+msgstr "A(z) %s jól végzi a dolgát?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Már néhány hete használod. Ha bevált, egy rövid értékelés a WordPress.org-on"
+" segít más oldal-tulajdonosoknak is — őszinte, akár kritikus véleményeket is"
+" várunk."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Már néhány hete használod. Ha bevált — vagy ha hiányzik valami — írd meg a "
+"nyilvános ütemtervünkön. Így döntjük el, mit fejlesztünk legközelebb."
+
+msgid "(opens in a new tab)"
+msgstr "(új lapon nyílik meg)"
+
+msgid "Share feedback"
+msgstr "Visszajelzés küldése"
+
+msgid "Maybe later"
+msgstr "Talán később"
+
+msgid "Don't ask again"
+msgstr "Ne kérdezd újra"
+
+msgid "Something not working? Ask for help"
+msgstr "Valami nem működik? Kérj segítséget"
+
+msgid "WooCommerce is active"
+msgstr "A WooCommerce aktív"
+
+msgid "a form plugin is active"
+msgstr "Egy űrlap bővítmény aktív"
+
+msgid "the site is set up for Denmark"
+msgstr "Az oldal Dánia szerint van beállítva"
+
+msgid "comments are open"
+msgstr "A hozzászólások nyitva vannak"
+
+msgid "tracking tags are active"
+msgstr "Követőkódok aktívak"
+
+msgid "visitors can create accounts"
+msgstr "A látogatók fiókot hozhatnak létre"
+
+msgid "Suggested because %l."
+msgstr "Ajánlott, mert %l."
+
+msgid "Suggested for this site"
+msgstr "Ajánlott ehhez az oldalhoz"
+
+msgid "Hide suggestions"
+msgstr "Ajánlások elrejtése"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Más Lynbro bővítmények, amelyek illenek ehhez az oldalhoz. Semmi sem "
+"települ, amíg nem kattintasz."
+
+msgid "All Lynbro plugins"
+msgstr "Összes Lynbro bővítmény"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Az oldal által már használt bővítményekből válogatva — helyben olvasva, "
+"semmi sem kerül elküldésre."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Exportálja a plugin beállításait JSON biztonsági mentésként, vagy állítsa "
+"vissza az alapértelmezett értékekre. 100% helyi — semmi nem hagyja el az "
+"oldalát."
+
+msgid "Reset all settings to defaults?"
+msgstr "Minden beállítás visszaállítása alapértelmezettre?"
+
+msgid "Reset to defaults"
+msgstr "Visszaállítás alapértelmezettre"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Ingyenes, többnyelvű, teljesen testreszabható sütihozzájárulási banner — "
+"GDPR/ePrivacy és Google Consent Mode v2 kompatibilis, oldalmegtekintési "
+"korlát nélkül."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Képoptimalizáló"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"WebP és AVIF konvertálás, túlméretezett képek átméretezése és lustított "
+"betöltés — mindezt saját szerveren."
+
+msgid "AI Studio"
+msgstr "AI Stúdió"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Írj és illusztrálj bejegyzéseket AI segítségével, saját OpenAI kulcsoddal — "
+"közvetlen költségen, kreditek nélkül."
+
+msgid "Analytics"
+msgstr "Analitika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Saját szerveren futó, sütimentes analitika tölcsérekkel. A látogatói adatok "
+"nem hagyják el az adatbázisodat."
+
+msgid "Tags"
+msgstr "Címkék"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel és további címkék kód nélkül — "
+"mindegyik csak hozzájárulás után töltődik be."
+
+msgid "Forms"
+msgstr "Űrlapok"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Űrlapok ingyenes, korlátlan mentéssel, szerveroldali feltételes logikával és"
+" aláírt webhookokkal."
+
+msgid "Verify"
+msgstr "Ellenőrzés"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Elgépelések és hibás telefonszámok kiszűrése, majd egyszer használatos "
+"kóddal való megerősítés e-mailben vagy SMS-ben."
+
+msgid "Cache"
+msgstr "Gyorsítótár"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Megbízható ürítés nginx FastCGI és Redis objektum cache-hez, minden ürítés "
+"visszaellenőrizve magán a cache-en."
+
+msgid "Translate"
+msgstr "Fordítás"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Többnyelvű oldal, gépi fordítással saját OpenAI kulccsal — nincs mérés, "
+"nincs szavankénti díj."
+
+msgid "Shield"
+msgstr "Védelem"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Biztonsági fejlécek, HTTPS HSTS-sel, kis tűzfal az injekciós próbálkozások "
+"ellen és a szükséges megerősítő kapcsolók."
+
+msgid "Anti-Spam"
+msgstr "Spam elleni védelem"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Spam szűrés saját szerveren. Nincs fiók, nincs előfizetés, minden blokkolás "
+"indokolt — és egyetlen visszatartott üzenet sem vész el."
+
+msgid "Login Guard"
+msgstr "Bejelentkezés védelem"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"A wp-login.php áthelyezése, hibás bejelentkezések korlátozása és "
+"alkalmazásalapú kétlépcsős azonosítás — három visszaállítási lehetőséggel."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR- és ePrivacy-banner Consent Mode v2-vel, ugyanolyan feltűnő Elutasítás "
+"gombbal és 35 nyelven."
+
+msgid "Activity Log"
+msgstr "Tevékenységnapló"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Ki, mit, mikor és honnan — mindez saját szerveren naplózva, kereshetően, "
+"exportálhatóan, és az ütemezésed szerint törölve."
+
+msgid "Data Retention"
+msgstr "Adatmegőrzés"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Keresd meg, hol találhatóak a személyes adatok az adatbázisban, majd töröld "
+"őket ütemezetten — minden törlés előtt próbaüzemmel."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Minden oldalt ellenőrizhetsz WCAG 2.2 AA szerint, és biztonságosan "
+"javíthatod, ami javítható. Nincs átfedő réteg, nincs oldalszám-korlát."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Egyszerű SEO ingyenes LocalBusiness sémával, webhelytérképpel és közösségi "
+"kártyákkal. Semmi nem küld adatot haza."
+
+msgid "SMTP Mailer"
+msgstr "SMTP levelező"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress e-mail saját SMTP szerveren keresztül — e-mail naplóval, "
+"újraküldéssel, tartalék kapcsolattal és hibajelzésekkel."
+
+msgid "Social Feed"
+msgstr "Közösségi hírfolyam"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Instagram hírfolyam az oldalon Meta token tárolása nélkül a WordPressben."
+
+msgid "Reviews Cache"
+msgstr "Vélemények gyorsítótára"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Google vélemények megjelenítése API kulcs nélkül a WordPressben."
+
+msgid "Links"
+msgstr "Linkek"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Hibás linkek keresése és átirányítások kezelése saját szerveren, minden "
+"döntés indoklásával."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse automatikus kitöltés"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Dán címek automatikus kiegészítése és ellenőrzése WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable és EDD számára."
+
+msgid "Soge Lookup"
+msgstr "Soge lekérdezés"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Dán járművek (DMR) és cégek (CVR) lekérdezése rendszám, alvázszám vagy CVR "
+"szám alapján."
+
+msgid "CVR Checkout"
+msgstr "CVR fizetés"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Dán B2B fizetés WooCommerce-hez: CVR cégadat-kitöltés, CVR/EU-ÁFA (VIES) "
+"ellenőrzés és EAN/GLN mező."
+
+msgid "Danish Shipping"
+msgstr "Dán szállítás"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Ingyenes átvételi pont választás PostNord és GLS Denmark számára a "
+"WooCommerce fizetésnél, valamint átlátható szállítási módok."
+
+msgid "API Auth"
+msgstr "API hitelesítés"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokenek a REST API-hoz, amelyek ténylegesen visszavonhatók, "
+"jogosultságokkal és elutasítási naplóval."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"A Cookiebot a szalaghirdetés szövegeit a Cookiebot-fiókjában tárolja, ezért "
+"csak a kategóriáit lehet átvenni. Az itt megjelenő szövegek a Lynbro saját, "
+"lefordított alapértelmezett szövegeivel indulnak."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"A Borlabs Cookie a saját formátumában tárolja a beállításait, amelyet a "
+"rendszer nem olvas be. Kategóriái a Beállítások, a Statisztika és a "
+"Marketing kategóriának felelnek meg; a szövegeket a Nyelvek lapon állíthatja"
+" be."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "A(z) %s aktív, ezért a Lynbro Cookie Consent nem jelenik meg."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"A látogatók egy szalaghirdetést látnak, nem kettőt: a miénk nem jelenik meg,"
+" nem blokkol szkripteket, és nem tárol hozzájárulási adatokat, amíg a másik "
+"bővítmény aktív."
+
+msgid "See what can be brought over"
+msgstr "Nézze meg, mi vehető át"
+
+msgid "Banner texts in: %s"
+msgstr "Szalaghirdetés szövegei itt: %s"
+
+msgid "Categories: %s"
+msgstr "Kategóriák: %s"
+
+msgid "Policy link: %s"
+msgstr "Adatvédelmi tájékoztató hivatkozása: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "A szövegek és kategóriák átvétele innen: %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"A másik bővítményben semmi sem változik. Az átvétel után ellenőrizze itt az "
+"eredményt, majd kapcsolja ki a másik bővítményt: ettől kezdve a mi "
+"szalaghirdetésünk veszi át a helyét."
+
+msgid "Booking"
+msgstr "Foglalás"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Időpontfoglalás egy vállalkozás számára, saját szerveren: szolgáltatások, "
+"munkatársak, időbeosztások, emlékeztetők és egykattintásos átállás az "
+"Ameliáról."
+
+msgid "Contact Buttons"
+msgstr "Kapcsolatfelvételi gombok"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telefon és élő chat egy gyors gombban — a "
+"csevegőszkriptek csak akkor töltődnek be, ha a látogató kéri."
+
+msgid "Site Check"
+msgstr "Webhely-ellenőrzés"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Ingyenes webhely-ellenőrzés látogatóinak: HTTPS, fejlécek, hozzájárulás "
+"előtti sütik, akadálymentesség, SPF/DKIM/DMARC — jelentés a képernyőn."
+
+msgid "Newsletter"
+msgstr "Hírlevél"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Saját tárhelyen működő hírlevelek biztonságos küldéssel: hozzájárulási "
+"nyilvántartások, teszt az utolsó módosítás után, valamint jóváhagyás a "
+"címzettek pontos számának beírásával."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Emojiképek a WordPress.org-ról"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Ne töltsön be emojiképeket a WordPress.org-ról; a látogatók az eszközük "
+"saját betűkészletében látják az emojikat."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"Az emoji-betűkészlet nélküli böngészőkben a WordPress az WordPress.org-ról "
+"származó képekre cseréli az emojikat, így a látogató IP-címe már a "
+"hozzájárulás megadása előtt eljut a WordPress.org-hoz. Alapértelmezés "
+"szerint be van kapcsolva; a rendszergazdát és a szerkesztőt nem érinti."

@@ -1201,3 +1201,553 @@ msgstr "Švelni slankioji kortelė apatiniame dešiniajame kampe."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Kai kurių spalvų kontrastas mažas (%s) — žr. išsamią informaciją."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "\"Visada įjungta\" žyma prie būtinų slapukų"
+
+msgid "Our plugins"
+msgstr "Mūsų įskiepiai"
+
+msgid "Insufficient permissions."
+msgstr "Nepakanka teisių."
+
+msgid "Lynbro plugins"
+msgstr "Lynbro įskiepiai"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Dosnūs, privatumo principus atitinkantys WordPress įskiepiai — sukurta "
+"Danijoje. Nemokama pagrindinė dalis, be kreditų, jūsų duomenys lieka jūsų "
+"svetainėje."
+
+msgid "More from Lynbro"
+msgstr "Daugiau iš Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Visa likusi rinkinys. Kas jau yra šioje svetainėje, pažymėta; niekas "
+"neįdiegiama be jūsų sutikimo."
+
+msgid "Active"
+msgstr "Aktyvus"
+
+msgid "Installed"
+msgstr "Įdiegtas"
+
+msgid "On WordPress.org"
+msgstr "WordPress.org svetainėje"
+
+msgid "Coming soon"
+msgstr "Netrukus"
+
+msgid "Activate"
+msgstr "Aktyvuoti"
+
+msgid "Install now"
+msgstr "Įdiegti dabar"
+
+msgid "View on WordPress.org"
+msgstr "Peržiūrėti WordPress.org"
+
+msgid "Learn more"
+msgstr "Sužinoti daugiau"
+
+msgid "About Lynbro"
+msgstr "Apie Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro kuria tikrai nemokamus, privatumo principus atitinkančius WordPress "
+"įskiepius su dosnia nemokama pagrindine dalimi — be kreditų, be mokamų "
+"pagrindinių funkcijų, jūsų duomenys lieka jūsų svetainėje. Sukurta Danijoje."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Pasiūlykite funkciją arba praneškite apie klaidą"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Atsiliepimų forma atidarys viešą veiksmų planą plugins.lynbro.dk naujame "
+"lange — niekas iš jūsų svetainės nebus siunčiama."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Bendri Lynbro komponentai v%1$s, pateikė %2$s (naujausia iš %3$d versijų "
+"šioje svetainėje)."
+
+msgid "Is %s doing its job?"
+msgstr "Ar %s atlieka savo darbą?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Jau naudojate jį kelias savaites. Jei viskas veikia, trumpa apžvalga "
+"WordPress.org padės kitiems svetainių savininkams jį rasti — tinka ir "
+"kritiški atsiliepimai."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Jau naudojate jį kelias savaites. Jei viskas veikia — arba kažko trūksta — "
+"parašykite mums viešame veiksmų plane. Taip nusprendžiame, ką kurti toliau."
+
+msgid "(opens in a new tab)"
+msgstr "(atidaro naujame lange)"
+
+msgid "Share feedback"
+msgstr "Siųsti atsiliepimą"
+
+msgid "Maybe later"
+msgstr "Gal vėliau"
+
+msgid "Don't ask again"
+msgstr "Daugiau neklausti"
+
+msgid "Something not working? Ask for help"
+msgstr "Kažkas neveikia? Paprašykite pagalbos"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce aktyvus"
+
+msgid "a form plugin is active"
+msgstr "aktyvus formų įskiepis"
+
+msgid "the site is set up for Denmark"
+msgstr "svetainė nustatyta Danijai"
+
+msgid "comments are open"
+msgstr "komentarai atidaryti"
+
+msgid "tracking tags are active"
+msgstr "aktyvūs stebėjimo žymos"
+
+msgid "visitors can create accounts"
+msgstr "lankytojai gali susikurti paskyras"
+
+msgid "Suggested because %l."
+msgstr "Pasiūlyta, nes %l."
+
+msgid "Suggested for this site"
+msgstr "Pasiūlyta šiai svetainei"
+
+msgid "Hide suggestions"
+msgstr "Slėpti pasiūlymus"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Kiti Lynbro įskiepiai, tinkantys šios svetainės naudojimui. Nieko "
+"neįdiegiama be jūsų veiksmo."
+
+msgid "All Lynbro plugins"
+msgstr "Visi Lynbro įskiepiai"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Parinkta pagal tai, ką ši svetainė jau naudoja — skaitoma tik šioje "
+"svetainėje, niekas niekur nesiunčiama."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Eksportuokite šio įskiepio nustatymus kaip JSON atsarginę kopiją arba "
+"atstatykite juos į numatytuosius. 100% vietinis — niekas neiškeliauja iš "
+"jūsų svetainės."
+
+msgid "Reset all settings to defaults?"
+msgstr "Atstatyti visus nustatymus į numatytuosius?"
+
+msgid "Reset to defaults"
+msgstr "Atstatyti į numatytuosius"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro slapukų sutikimas"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Nemokamas, daugiakalbis, visiškai pritaikomas slapukų sutikimo pranešimas — "
+"paruoštas GDPR/ePrivacy ir Google Consent Mode v2, be puslapių peržiūrų "
+"apribojimų."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Vaizdų optimizavimas"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Konvertuokite į WebP ir AVIF, sumažinkite per didelius vaizdus ir įjunkite "
+"tingųjį įkėlimą – visa tai jūsų serveryje."
+
+msgid "AI Studio"
+msgstr "AI studija"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Rašykite ir iliustruokite įrašus su AI naudodami savo OpenAI raktą – be "
+"tarpininkų, be papildomų mokesčių."
+
+msgid "Analytics"
+msgstr "Analitika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Savitarnos, be slapukų analitika su piltuvėliais. Lankytojų duomenys niekada"
+" neišeina iš jūsų duomenų bazės."
+
+msgid "Tags"
+msgstr "Žymos"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel ir daugiau be kodo – kiekviena žyma"
+" laukia sutikimo."
+
+msgid "Forms"
+msgstr "Formos"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formos su įrašų saugojimu nemokamai ir be apribojimų, sąlyginė logika "
+"tikrinama serveryje, pasirašyti webhook'ai."
+
+msgid "Verify"
+msgstr "Patvirtinti"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Sugaukite neteisingus el. pašto domenus ir blogus telefono numerius, "
+"patvirtinkite juos vienkartiniu kodu el. paštu arba SMS."
+
+msgid "Cache"
+msgstr "Podėlis"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Patikimas nginx FastCGI ir Redis objektų podėlio valymas, kiekvieną kartą "
+"patikrinant prieš patį podėlį."
+
+msgid "Translate"
+msgstr "Vertimas"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Valdykite svetainę keliomis kalbomis, su mašininiu vertimu per savo OpenAI "
+"raktą – be apribojimų, be žodžių mokesčių."
+
+msgid "Shield"
+msgstr "Apsauga"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Saugumo antraštės, HTTPS su HSTS, nedidelis ugniasienės sluoksnis nuo atakų "
+"ir būtini saugumo nustatymai kiekvienai svetainei."
+
+msgid "Anti-Spam"
+msgstr "Apsauga nuo šlamšto"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Šlamšto tikrinimas jūsų serveryje. Nereikia paskyros ar prenumeratos, "
+"kiekvienas blokavimas paaiškinamas – ir nei vienas sulaikytas pranešimas "
+"neprarandamas."
+
+msgid "Login Guard"
+msgstr "Prisijungimo apsauga"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Perkelkite wp-login.php, ribokite nesėkmingus prisijungimus ir pridėkite "
+"dviejų veiksnių autentifikavimą – su trimis būdais grįžti."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR ir ePrivacy juosta su Consent Mode v2, vienodai matomu Atmesti mygtuku "
+"ir 35 kalbomis."
+
+msgid "Activity Log"
+msgstr "Veiklos žurnalas"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Kas, ką, kada ir iš kur – užfiksuota jūsų serveryje, galima ieškoti, "
+"eksportuoti ir ištrinti pagal jūsų nustatytą laiką."
+
+msgid "Data Retention"
+msgstr "Duomenų saugojimas"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Raskite, kur asmens duomenys saugomi jūsų duomenų bazėje, tada ištrinkite "
+"juos pagal tvarkaraštį – prieš kiekvieną ištrynimą atliekama bandomoji "
+"peržiūra."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Patikrinkite kiekvieną puslapį pagal WCAG 2.2 AA ir saugiai pataisykite, ką "
+"galima. Be perdangų, be puslapių limito."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Lengvas SEO su nemokama LocalBusiness schema, svetainės žemėlapiais ir "
+"socialiniais kortelėmis. Nieko nesiunčiama į išorę."
+
+msgid "SMTP Mailer"
+msgstr "SMTP siuntėjas"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress el. paštas per jūsų SMTP serverį – su el. pašto žurnalu, "
+"persiuntimu, atsarginiu ryšiu ir klaidų pranešimais."
+
+msgid "Social Feed"
+msgstr "Socialinis srautas"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Instagram srautas jūsų svetainėje be Meta žetono saugojimo WordPress."
+
+msgid "Reviews Cache"
+msgstr "Atsiliepimų podėlis"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Rodykite savo Google atsiliepimus be API rakto WordPress sistemoje."
+
+msgid "Links"
+msgstr "Nuorodos"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Raskite neveikiančias nuorodas ir valdykite peradresavimus savo serveryje, "
+"su paaiškinimu dėl kiekvieno sprendimo."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse automatinis užpildymas"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Danijos adresų automatinis užpildymas ir tikrinimas WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable ir EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge paieška"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Ieškokite Danijos transporto priemonių (DMR) ir įmonių (CVR) pagal numerį, "
+"VIN arba CVR numerį."
+
+msgid "CVR Checkout"
+msgstr "CVR atsiskaitymas"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Danijos B2B atsiskaitymas WooCommerce: automatinis CVR įmonės užpildymas, "
+"CVR/EU-PVM (VIES) tikrinimas ir EAN/GLN laukas."
+
+msgid "Danish Shipping"
+msgstr "Danijos pristatymas"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Nemokamas atsiėmimo punktų pasirinkimas PostNord ir GLS Denmark WooCommerce "
+"atsiskaityme, taip pat aiškūs pristatymo būdai."
+
+msgid "API Auth"
+msgstr "API autentifikacija"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON žiniatinklio raktai REST API, kuriuos galite atšaukti, su sritimis ir "
+"atsisakymų žurnalu."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot saugo reklamjuostės tekstus jūsų Cookiebot paskyroje, todėl galima"
+" perkelti tik kategorijas. Čia naudojami Lynbro numatytieji tekstai, "
+"išversti į jūsų kalbą."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie saugo nustatymus savo formatu, kurio sistema nenuskaito. Jo "
+"kategorijos atitinka „Nuostatos“, „Statistika“ ir „Rinkodara“; tekstus "
+"nustatykite skirtuke „Kalbos“."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "Aktyvus „%s“, todėl „Lynbro Cookie Consent“ nerodomas."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Lankytojai mato vieną reklamjuostę, o ne dvi: kol aktyvus kitas įskiepis, "
+"mūsų reklamjuostė nerodoma, scenarijai neblokuojami ir sutikimai "
+"nefiksuojami."
+
+msgid "See what can be brought over"
+msgstr "Sužinokite, ką galima perkelti"
+
+msgid "Banner texts in: %s"
+msgstr "Reklamjuostės tekstai: %s"
+
+msgid "Categories: %s"
+msgstr "Kategorijos: %s"
+
+msgid "Policy link: %s"
+msgstr "Privatumo politikos nuoroda: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Perkelti tekstus ir kategorijas iš %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Kito įskiepio nustatymai nekeičiami. Perkėlę patikrinkite rezultatą čia, "
+"tada išjunkite kitą įskiepį: nuo tada bus rodoma mūsų reklamjuostė."
+
+msgid "Booking"
+msgstr "Registracija"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Susitikimų registravimo sistema vienai įmonei jūsų serveryje: paslaugos, "
+"darbuotojai, tvarkaraščiai, priminimai ir perkėlimas iš „Amelia“ vienu "
+"spustelėjimu."
+
+msgid "Contact Buttons"
+msgstr "Kontaktų mygtukai"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"„WhatsApp“, „Messenger“, telefonas ir tiesioginis pokalbis viename greitai "
+"veikiančiame mygtuke — pokalbių scenarijai įkeliami tik lankytojui "
+"paprašius."
+
+msgid "Site Check"
+msgstr "Svetainės patikra"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Nemokama svetainės patikra jūsų lankytojams: HTTPS, antraštės, slapukai iki "
+"sutikimo, prieinamumas, SPF/DKIM/DMARC — ataskaita rodoma ekrane."
+
+msgid "Newsletter"
+msgstr "Naujienlaiškis"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Savarankiškai talpinami naujienlaiškiai su saugiu siuntimu: sutikimų įrašai,"
+" patikra po paskutinio pakeitimo ir patvirtinimas įvedant tikslų gavėjų "
+"skaičių."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Jaustukų paveikslėliai iš WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Nekrauti jaustukų paveikslėlių iš WordPress.org; lankytojai matys jaustukus "
+"savo įrenginio šriftu."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"Naršyklėse, kuriose nėra jaustukų šrifto, „WordPress“ pakeičia jaustukus "
+"paveikslėliais iš WordPress.org. Taip lankytojo IP adresas perduodamas "
+"WordPress.org dar negavus jokio sutikimo. Įjungta pagal numatytuosius "
+"nustatymus; administratoriui ir redaktoriui ši nuostata netaikoma."

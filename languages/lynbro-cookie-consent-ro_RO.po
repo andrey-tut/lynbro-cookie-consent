@@ -1209,3 +1209,553 @@ msgstr "Card plutitor discret, în colțul din dreapta jos."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Unele culori au contrast scăzut (%s) — vedeți detaliile."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "Insignă „Mereu activ” pe cookie-urile necesare"
+
+msgid "Our plugins"
+msgstr "Pluginurile noastre"
+
+msgid "Insufficient permissions."
+msgstr "Permisiuni insuficiente."
+
+msgid "Lynbro plugins"
+msgstr "Pluginuri Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Pluginuri WordPress generoase, cu prioritate pentru confidențialitate — "
+"dezvoltate în Danemarca. Nucleu gratuit, fără credite, datele tale rămân pe "
+"site."
+
+msgid "More from Lynbro"
+msgstr "Mai multe de la Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Restul suitei. Ce este deja pe acest site este marcat; nimic nu se "
+"instalează fără acordul tău."
+
+msgid "Active"
+msgstr "Activ"
+
+msgid "Installed"
+msgstr "Instalat"
+
+msgid "On WordPress.org"
+msgstr "Pe WordPress.org"
+
+msgid "Coming soon"
+msgstr "În curând"
+
+msgid "Activate"
+msgstr "Activează"
+
+msgid "Install now"
+msgstr "Instalează acum"
+
+msgid "View on WordPress.org"
+msgstr "Vezi pe WordPress.org"
+
+msgid "Learn more"
+msgstr "Află mai mult"
+
+msgid "About Lynbro"
+msgstr "Despre Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro creează pluginuri WordPress cu adevărat gratuite, cu prioritate "
+"pentru confidențialitate și nucleu generos — fără credite, fără restricții "
+"pe funcțiile esențiale, datele tale rămân pe site-ul tău. Fabricat în "
+"Danemarca."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Sugerează o funcție sau raportează o problemă"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Feedback-ul deschide foaia noastră de parcurs publică pe plugins.lynbro.dk "
+"într-o filă nouă — nimic nu este trimis de pe site-ul tău."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Componente Lynbro partajate v%1$s, oferite de %2$s (cea mai nouă din %3$d "
+"versiuni pe acest site)."
+
+msgid "Is %s doing its job?"
+msgstr "Își face %s treaba?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Folosești deja de câteva săptămâni. Dacă funcționează pentru tine, o "
+"recenzie scurtă pe WordPress.org ajută alți proprietari de site-uri să-l "
+"găsească — inclusiv cele critice sau oneste."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Folosești deja de câteva săptămâni. Dacă funcționează pentru tine — sau dacă"
+" lipsește ceva — spune-ne pe foaia noastră de parcurs publică. Așa decidem "
+"ce dezvoltăm în continuare."
+
+msgid "(opens in a new tab)"
+msgstr "(se deschide într-o filă nouă)"
+
+msgid "Share feedback"
+msgstr "Trimite feedback"
+
+msgid "Maybe later"
+msgstr "Poate mai târziu"
+
+msgid "Don't ask again"
+msgstr "Nu mai întreba"
+
+msgid "Something not working? Ask for help"
+msgstr "Ceva nu funcționează? Cere ajutor"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce este activ"
+
+msgid "a form plugin is active"
+msgstr "un plugin de formulare este activ"
+
+msgid "the site is set up for Denmark"
+msgstr "site-ul este configurat pentru Danemarca"
+
+msgid "comments are open"
+msgstr "comentariile sunt deschise"
+
+msgid "tracking tags are active"
+msgstr "etichetele de tracking sunt active"
+
+msgid "visitors can create accounts"
+msgstr "vizitatorii pot crea conturi"
+
+msgid "Suggested because %l."
+msgstr "Sugerat deoarece %l."
+
+msgid "Suggested for this site"
+msgstr "Sugerat pentru acest site"
+
+msgid "Hide suggestions"
+msgstr "Ascunde sugestiile"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Alte pluginuri Lynbro potrivite pentru ce folosește acest site. Nimic nu se "
+"instalează decât dacă dai click."
+
+msgid "All Lynbro plugins"
+msgstr "Toate pluginurile Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Selectate din ce folosește deja acest site — citit local, nimic nu este "
+"trimis nicăieri."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Exportă setările acestui plugin ca backup JSON sau resetează-le la valorile "
+"implicite. 100% local — nimic nu părăsește site-ul tău."
+
+msgid "Reset all settings to defaults?"
+msgstr "Resetezi toate setările la valorile implicite?"
+
+msgid "Reset to defaults"
+msgstr "Resetează la valorile implicite"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Banner gratuit, multilingv, complet configurabil pentru consimțământ cookie "
+"— compatibil GDPR/ePrivacy și Google Consent Mode v2, fără limită de "
+"afișări."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Optimizator de imagini"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Conversie în WebP și AVIF, redimensionare automată a imaginilor prea mari și"
+" încărcare întârziată — totul pe propriul server."
+
+msgid "AI Studio"
+msgstr "Studio AI"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Scrie și ilustrează articole cu AI folosind propria cheie OpenAI — la cost, "
+"fără credite intermediare."
+
+msgid "Analytics"
+msgstr "Analitice"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Analitice găzduite local, fără cookie-uri, cu funnel-uri. Datele "
+"vizitatorilor nu părăsesc baza ta de date."
+
+msgid "Tags"
+msgstr "Etichete"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel și altele fără cod — fiecare "
+"etichetă așteaptă consimțământul."
+
+msgid "Forms"
+msgstr "Formulare"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formulare cu răspunsuri salvate gratuit și fără limită, logică condițională "
+"verificată pe server și webhook-uri semnate."
+
+msgid "Verify"
+msgstr "Verificare"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Detectează domenii de e-mail greșite și numere de telefon invalide și "
+"confirmă-le cu un cod unic prin e-mail sau SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Golire fiabilă pentru cache nginx FastCGI și cache Redis, cu fiecare golire "
+"verificată direct în cache."
+
+msgid "Translate"
+msgstr "Traducere"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Rulează site-ul în mai multe limbi, cu traducere automată pe propria cheie "
+"OpenAI — fără tarifare la cuvânt."
+
+msgid "Shield"
+msgstr "Protecție"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Header-e de securitate, HTTPS cu HSTS, firewall ușor împotriva atacurilor de"
+" injectare și setările esențiale de securitate."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Verificări anti-spam pe propriul server. Fără cont, fără abonament, fiecare "
+"blocare explicată — iar mesajele reținute nu se pierd."
+
+msgid "Login Guard"
+msgstr "Protecție autentificare"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Mută wp-login.php, limitează autentificările eșuate și adaugă autentificare "
+"cu doi factori — cu trei metode de recuperare."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner GDPR și ePrivacy cu Consent Mode v2, buton Refuz la fel de vizibil și"
+" 35 de limbi."
+
+msgid "Activity Log"
+msgstr "Jurnal activitate"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Cine, ce, când și de unde — salvat pe propriul server, căutabil, exportabil "
+"și șters conform programării tale."
+
+msgid "Data Retention"
+msgstr "Păstrare date"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Găsește unde sunt datele personale în baza ta de date și șterge-le programat"
+" — cu simulare înainte de fiecare ștergere."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Scanează fiecare pagină conform WCAG 2.2 AA și repară ce se poate în "
+"siguranță. Fără overlay, fără limită de pagini."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO simplu cu schema LocalBusiness gratuită, sitemap-uri și carduri sociale."
+" Fără transmitere de date."
+
+msgid "SMTP Mailer"
+msgstr "Mailer SMTP"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"E-mail WordPress prin propriul server SMTP — cu jurnal e-mail, retrimitere, "
+"conexiune de rezervă și alerte la eșec."
+
+msgid "Social Feed"
+msgstr "Feed social"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Feed Instagram pe site fără token Meta salvat în WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache recenzii"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Afișează recenziile Google fără să pui cheia API în WordPress."
+
+msgid "Links"
+msgstr "Linkuri"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Găsește linkuri nefuncționale și gestionează redirecționările pe propriul "
+"server, cu motivul pentru fiecare decizie."
+
+msgid "Danadresse Autofill"
+msgstr "Completare automată Danadresse"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Completare și validare automată a adreselor daneze pentru WooCommerce, "
+"WPForms, Gravity, Fluent, Formidable și EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge Lookup"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Caută vehicule daneze (DMR) și companii (CVR) după număr de înmatriculare, "
+"VIN sau număr CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Checkout B2B danez pentru WooCommerce: completare automată date firmă CVR, "
+"validare CVR/EU-VAT (VIES) și câmp EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Danish Shipping"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Selectare gratuită punct de ridicare pentru PostNord și GLS Danemarca la "
+"checkout WooCommerce, plus metode de livrare simplificate."
+
+msgid "API Auth"
+msgstr "API Auth"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens pentru REST API, revocabile, cu scope-uri și jurnal al "
+"refuzurilor."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot păstrează textele bannerului în contul dvs. Cookiebot, așa că pot "
+"fi preluate doar categoriile. Textele bannerului de aici pornesc de la "
+"textele implicite proprii Lynbro, traduse."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie își păstrează setările într-un format propriu, care nu poate "
+"fi citit. Categoriile sale corespund categoriilor Preferințe, Statistică și "
+"Marketing; configurați textele în fila Limbi."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s este activ, așa că Lynbro Cookie Consent nu afișează nimic."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Vizitatorii văd un singur banner, nu două: bannerul nostru nu este afișat, "
+"nu blochează scripturi și nu păstrează înregistrări ale consimțământului cât"
+" timp celălalt plugin este activ."
+
+msgid "See what can be brought over"
+msgstr "Vedeți ce poate fi preluat"
+
+msgid "Banner texts in: %s"
+msgstr "Textele bannerului în: %s"
+
+msgid "Categories: %s"
+msgstr "Categorii: %s"
+
+msgid "Policy link: %s"
+msgstr "Link către politica de confidențialitate: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Preluați textele și categoriile din %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Nu se modifică nimic în celălalt plugin. După preluare, verificați "
+"rezultatul aici, apoi dezactivați celălalt plugin: din acel moment, bannerul"
+" nostru preia controlul."
+
+msgid "Booking"
+msgstr "Programări"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Programări online pentru o singură afacere, găzduite pe propriul server: "
+"servicii, personal, programe, mementouri și transfer cu un singur clic din "
+"Amelia."
+
+msgid "Contact Buttons"
+msgstr "Butoane de contact"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telefon și chat live într-un singur buton rapid — "
+"scripturile de chat se încarcă doar când un vizitator le solicită."
+
+msgid "Site Check"
+msgstr "Verificarea site-ului"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Verificare gratuită a site-ului pentru vizitatorii dvs.: HTTPS, antete, "
+"cookie-uri înainte de consimțământ, accesibilitate, SPF/DKIM/DMARC — raport "
+"afișat pe ecran."
+
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Newslettere găzduite pe propriul server, cu trimitere sigură: înregistrări "
+"ale consimțământului, test după ultima modificare și aprobare prin "
+"introducerea numărului exact de destinatari."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Imagini emoji de la WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Nu încărca imagini emoji de la WordPress.org; vizitatorii văd emoji în "
+"fontul de pe propriul dispozitiv."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"WordPress înlocuiește emoji cu imagini de la WordPress.org în browserele "
+"fără un font emoji, ceea ce transmite adresa IP a vizitatorului către "
+"WordPress.org înainte de obținerea oricărui consimțământ. Activată în mod "
+"implicit; administratorul și editorul nu sunt afectați."

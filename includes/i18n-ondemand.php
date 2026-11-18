@@ -93,7 +93,7 @@ function lynbro_cookie_consent_i18n_request() {
 
 	$redirect = add_query_arg(
 		array( 'page' => 'lynbro-cookie-consent' ),
-		admin_url( 'options-general.php' )
+		admin_url( 'admin.php' )
 	);
 
 	$locale = isset( $_POST['lynbro_cc_request_locale'] )
@@ -157,7 +157,7 @@ function lynbro_cookie_consent_i18n_schedule_poll( $delay ) {
  * Background poll handler: finish any pending language generations.
  *
  * Reschedules itself while work remains; records completed locales in a
- * transient so an admin notice can confirm them.
+ * transient so our settings page can confirm them.
  *
  * @return void
  */
@@ -357,7 +357,7 @@ function lynbro_cookie_consent_i18n_flush_js_cache() {
 }
 
 /**
- * Show an admin notice after a language request.
+ * Show a message on our settings page after a language request.
  *
  * @return void
  */
@@ -381,7 +381,7 @@ function lynbro_cookie_consent_i18n_notice() {
 		esc_html( $messages[ $status ][1] )
 	);
 }
-add_action( 'admin_notices', 'lynbro_cookie_consent_i18n_notice' );
+add_action( 'lynbro_cookie_consent_page_notices', 'lynbro_cookie_consent_i18n_notice' );
 
 /**
  * Announce languages whose background generation just finished.
@@ -433,4 +433,4 @@ function lynbro_cookie_consent_i18n_done_notice() {
 		);
 	}
 }
-add_action( 'admin_notices', 'lynbro_cookie_consent_i18n_done_notice' );
+add_action( 'lynbro_cookie_consent_page_notices', 'lynbro_cookie_consent_i18n_done_notice' );

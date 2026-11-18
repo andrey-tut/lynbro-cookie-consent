@@ -1,0 +1,111 @@
+/**
+ * Lynbro shared admin styling — brand "candy" shell.
+ * Canonical source: plugins/_shared/lynbro-core/. Vendored into each plugin so
+ * that a plugin is self-sufficient, yet the whole suite looks identical. Scoped to Lynbro admin
+ * screens via the body[class*="lynbro"] / .lynbro-wrap selectors so it never
+ * touches the rest of wp-admin.
+ */
+
+:root {
+	--lynbro-green: #1a7f5a;
+	--lynbro-green-d: #14694a;
+	--lynbro-ink: #16271f;
+	--lynbro-muted: #5b6b63;
+	--lynbro-soft: #f3f8f5;
+	--lynbro-line: #e2ebe6;
+	--lynbro-accent: #c8102e;
+}
+
+/* ---- brand the standard WP controls on any Lynbro admin screen ---- */
+body[class*="lynbro"] .wrap h1,
+body[class*="lynbro"] .wrap h2 { color: var(--lynbro-ink); }
+
+body[class*="lynbro"] .button-primary,
+.lynbro-wrap .button-primary {
+	background: var(--lynbro-green);
+	border-color: var(--lynbro-green-d);
+	box-shadow: 0 1px 0 var(--lynbro-green-d);
+	text-shadow: none;
+}
+body[class*="lynbro"] .button-primary:hover,
+.lynbro-wrap .button-primary:hover {
+	background: var(--lynbro-green-d);
+	border-color: var(--lynbro-green-d);
+}
+/* Links in the darker green: the brand green on core's #f0f0f1 page background
+   is 4.36:1, under WCAG AA's 4.5 (axe, social-feed screens); #14694a is 5.9:1. */
+body[class*="lynbro"] a,
+.lynbro-wrap a { color: var(--lynbro-green-d); }
+body[class*="lynbro"] input:focus,
+body[class*="lynbro"] select:focus,
+body[class*="lynbro"] textarea:focus {
+	border-color: var(--lynbro-green);
+	box-shadow: 0 0 0 1px var(--lynbro-green);
+}
+/* Tabs keep core's dark text: the brand green on core's grey tab background
+   is 3.6:1, below WCAG AA (found by axe on the social-feed screens). The
+   active tab is marked by the green bar instead. */
+body[class*="lynbro"] .nav-tab,
+body[class*="lynbro"] .nav-tab:focus { color: #1d2327; }
+body[class*="lynbro"] .nav-tab-active,
+body[class*="lynbro"] .nav-tab-active:focus {
+	border-bottom-color: var(--lynbro-soft);
+	box-shadow: inset 0 3px 0 var(--lynbro-green);
+}
+
+/* ---- Lynbro components (suite home, modules, tools, cards) ---- */
+.lynbro-wrap { max-width: 1080px; }
+.lynbro-hero {
+	display: flex; align-items: center; gap: 16px;
+	background: linear-gradient(180deg, var(--lynbro-soft), #fff);
+	border: 1px solid var(--lynbro-line); border-radius: 14px;
+	padding: 22px 24px; margin: 16px 0 24px;
+}
+.lynbro-hero .lynbro-logo { width: 48px; height: 48px; border-radius: 11px; flex: 0 0 auto; }
+.lynbro-hero h1 { margin: 0 0 4px; font-size: 24px; }
+.lynbro-hero p { margin: 0; color: var(--lynbro-muted); }
+
+.lynbro-grid {
+	display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 16px; margin: 8px 0 24px;
+}
+.lynbro-card {
+	background: #fff; border: 1px solid var(--lynbro-line); border-radius: 14px;
+	padding: 18px 20px; display: flex; flex-direction: column;
+}
+.lynbro-card .head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.lynbro-card .ic { width: 40px; height: 40px; border-radius: 10px; background: var(--lynbro-soft);
+	display: flex; align-items: center; justify-content: center; font-size: 22px; flex: 0 0 auto; }
+.lynbro-card h3 { margin: 0; font-size: 16px; color: var(--lynbro-ink); }
+.lynbro-card p { margin: 0 0 14px; color: var(--lynbro-muted); font-size: 13.5px; flex: 1 1 auto; }
+.lynbro-card .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.lynbro-badge {
+	display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 9px;
+	border-radius: 999px; background: var(--lynbro-soft); color: var(--lynbro-green-d);
+}
+.lynbro-badge.installed { background: #e6f4ec; color: var(--lynbro-green-d); }
+.lynbro-badge.soon { background: #eef1f0; color: var(--lynbro-muted); }
+
+.lynbro-section {
+	background: #fff; border: 1px solid var(--lynbro-line); border-radius: 14px;
+	padding: 20px 22px; margin: 0 0 20px;
+}
+.lynbro-section h2 { margin: 0 0 6px; font-size: 18px; }
+.lynbro-section p.desc { color: var(--lynbro-muted); margin: 0 0 14px; }
+.lynbro-muted { color: var(--lynbro-muted); }
+.lynbro-tools-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+
+/* One line of provenance on the suite home: which copy of the shell is live. */
+.lynbro-provenance { font-size: 12px; margin-top: 14px; }
+
+/* ---- review request and suggestions (Lynbro_Core_Feedback) ---- */
+.lynbro-review .lynbro-prompt-actions { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+.lynbro-review .lynbro-prompt-help { margin-left: auto; }
+.lynbro-suggest-wrap { margin-top: 24px; }
+.lynbro-suggest-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.lynbro-suggestion p.lynbro-why { flex: 0 0 auto; font-size: 12.5px; color: var(--lynbro-green-d); }
+@media screen and (max-width: 782px) {
+	.lynbro-review .lynbro-prompt-help { margin-left: 0; flex-basis: 100%; }
+	.lynbro-grid { grid-template-columns: 1fr; }
+}

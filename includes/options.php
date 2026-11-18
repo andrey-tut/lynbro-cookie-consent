@@ -176,6 +176,9 @@ function lynbro_cookie_consent_default_options() {
 		// Automatic tracker blocking by built-in catalog.
 		'auto_block'      => 1,
 
+		// No emoji images from WordPress.org (s.w.org) on the front end.
+		'local_emoji'     => 1,
+
 		// GPC (Global Privacy Control).
 		'honor_gpc'       => 1,
 
@@ -383,6 +386,9 @@ function lynbro_cookie_consent_sanitize_options( $input ) {
 
 	// Automatic tracker blocking.
 	$clean['auto_block'] = empty( $input['auto_block'] ) ? 0 : 1;
+
+	// Emoji images from WordPress.org.
+	$clean['local_emoji'] = empty( $input['local_emoji'] ) ? 0 : 1;
 
 	// GPC.
 	$clean['honor_gpc'] = empty( $input['honor_gpc'] ) ? 0 : 1;

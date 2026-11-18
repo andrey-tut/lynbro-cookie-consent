@@ -151,6 +151,12 @@ body.lynbro-cc-modal-open {
 	box-shadow: 0 4px 24px rgba( 0, 0, 0, 0.22 );
 }
 
+/* The box is always a column: the body's 380px flex basis (meant for the bar's
+   row layout) would become a 380px height with an empty gap above the buttons. */
+.lynbro-cc--box .lynbro-cc__body {
+	flex: 0 1 auto;
+}
+
 .lynbro-cc--top .lynbro-cc__dialog {
 	box-shadow: 0 2px 16px rgba( 0, 0, 0, 0.18 );
 }
@@ -209,7 +215,7 @@ body.lynbro-cc-modal-open {
 }
 
 .lynbro-cc__lang-select:focus-visible {
-	outline: 3px solid #2563eb;
+	outline: 3px solid var(--lynbro-cc-focus, #2563eb);
 	outline-offset: 2px;
 }
 
@@ -267,6 +273,9 @@ body.lynbro-cc-modal-open {
 	flex-wrap: wrap;
 	gap: 10px;
 	flex: 0 0 auto;
+	/* Without a cap the row is as wide as all buttons side by side: long labels
+	   (Ukrainian preferences view at 768 px) pushed the last one off-screen. */
+	max-width: 100%;
 	align-items: center;
 }
 
@@ -318,7 +327,7 @@ body.lynbro-cc-modal-open {
 .lynbro-cc__btn:focus-visible,
 .lynbro-cc__toggle:focus-visible,
 .lynbro-cc__desc a:focus-visible {
-	outline: 3px solid #2563eb;
+	outline: 3px solid var(--lynbro-cc-focus, #2563eb);
 	outline-offset: 2px;
 }
 
@@ -334,7 +343,7 @@ body.lynbro-cc-modal-open {
 }
 
 .lynbro-cc-settings-btn:focus-visible {
-	outline: 3px solid #2563eb;
+	outline: 3px solid var(--lynbro-cc-focus, #2563eb);
 	outline-offset: 2px;
 }
 
@@ -415,7 +424,7 @@ body.lynbro-cc-modal-open {
 }
 
 .lynbro-cc__link:focus-visible {
-	outline: 3px solid #2563eb;
+	outline: 3px solid var(--lynbro-cc-focus, #2563eb);
 	outline-offset: 2px;
 }
 
@@ -536,7 +545,7 @@ body.lynbro-cc-modal-open {
 }
 
 .lynbro-cc-float:focus-visible {
-	outline: 3px solid #2563eb;
+	outline: 3px solid var(--lynbro-cc-focus, #2563eb);
 	outline-offset: 2px;
 }
 
@@ -557,6 +566,8 @@ body.lynbro-cc-modal-open {
 	padding: 20px;
 	text-align: center;
 	max-width: 460px;
+	/* Page builders zero the embed wrapper's line-height (Elementor Google Maps). */
+	line-height: 1.5;
 }
 
 .lynbro-cc-embed__title {
@@ -596,7 +607,7 @@ body.lynbro-cc-modal-open {
 
 .lynbro-cc-embed__btn:focus-visible,
 .lynbro-cc-embed__always input:focus-visible {
-	outline: 3px solid #2563eb;
+	outline: 3px solid var(--lynbro-cc-focus, #2563eb);
 	outline-offset: 2px;
 }
 

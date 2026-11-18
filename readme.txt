@@ -2,9 +2,9 @@
 Contributors: lynbro
 Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.6
+Stable tag: 0.4.17
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -216,7 +216,9 @@ Autoptimize and Cloudflare Rocket Loader.
 
 == External Services ==
 
-By default this plugin runs locally. The banner, script blocking, automatic
+By default this plugin runs locally, and it also stops WordPress itself from
+loading emoji images from WordPress.org (s.w.org) on the front end (setting
+"Emoji images from WordPress.org", on by default). The banner, script blocking, automatic
 tracker detection, embed placeholders, Google Consent Mode v2 signalling,
 geo-aware consent mode, Global Privacy Control handling, the local consent log
 and the local statistics all work on your own server and in the visitor's
@@ -255,7 +257,81 @@ Google Analytics, Meta Pixel or a YouTube video) continue to contact their own
 providers — but only after the visitor grants the matching consent category. This
 plugin's role is to gate them, not to add them.
 
+**WordPress.org plugin directory (the shared Lynbro "Our plugins" screen).**
+Apart from the above, one request goes to WordPress.org, from every Lynbro plugin
+alike: when an administrator who may install plugins opens Lynbro → Our plugins,
+the screen asks the WordPress.org Plugin Directory API
+(https://api.wordpress.org/plugins/info/1.2/) which Lynbro plugins are listed,
+through WordPress core's own `plugins_api()` — the same call the Plugins → Add New
+screen makes.
+
+* **What is sent:** the query (plugins by the author "lynbro"), plus what WordPress
+  core adds to every request to WordPress.org: your WordPress version, the admin
+  language and, in the User-Agent, your site address. Nothing about your visitors,
+  users or content.
+* **When:** only on that screen, at most once a day (the answer is cached for a day;
+  after a failed request, an hour). No other screen and no visitor request triggers it.
+* Installing a suggested plugin uses WordPress core's own installer, which downloads
+  the plugin from downloads.wordpress.org — only when you click "Install now".
+* WordPress.org [Terms of Service](https://wordpress.org/about/terms-of-service/) ·
+  [Privacy Policy](https://wordpress.org/about/privacy/)
+
 == Changelog ==
+
+= 0.4.17 =
+* No emoji images from WordPress.org: WordPress swaps emoji for images from s.w.org in browsers without an emoji font, sending the visitor's IP address to WordPress.org before any consent. A new setting (Blocking tab, on by default) leaves emoji to the visitor's own font and drops any s.w.org resource hint. Admin, editor, feeds and e-mails are untouched. Filter `lynbro_cookie_consent_local_emoji`.
+
+= 0.4.16 =
+* Never two banners: when Complianz, CookieYes, Cookiebot or Borlabs Cookie is active, this plugin stays silent on the front end — no banner, no script blocking, no Consent Mode defaults, no consent records, not registered with WP Consent API. Its settings screen names the active plugin and offers to bring over its banner texts (every language CookieYes has), categories and policy link; the dashboard and Plugins screen point there. Deactivate the other plugin and our banner takes over.
+* The banner announces its height through the Lynbro bottom-inset contract (rank 30), so the floating chat button and other bottom bars sit above it instead of on top of it — on show, when the preferences open, on resize, and 0 once it is closed.
+
+= 0.4.15 =
+* On a multilingual site (Polylang, WPML, TranslatePress, Lynbro Translate) the banner now speaks the page's language. Before, an English browser or an earlier choice in the banner's language menu won, so a Ukrainian page could show an English banner. Single-language sites keep the old order: remembered choice, then the browser, then the site language.
+* WPML: the banner used the site's default language instead of the current page's.
+* Preferences view at tablet width: with long button labels (Ukrainian, German) the last button ran off the screen; the buttons now wrap.
+* Settings screen: the device switch above the live preview is reachable by screen readers again (only the preview itself is hidden from them), and the grey language codes meet WCAG AA contrast.
+
+= 0.4.14 =
+* Readme: External Services now names the one WordPress.org request the shared "Our plugins" screen makes — what is sent, when, and the WordPress.org terms and privacy policy.
+* The plugin names and descriptions on "Our plugins" and in the suggestions are translatable.
+* Links on Lynbro screens use the darker brand green, which meets WCAG AA contrast on the admin background.
+
+= 0.4.13 =
+* Shared Lynbro admin 1.1.0: after two weeks of use and a first success (for example settings saved), this plugin's own screen asks once, politely and without stars, whether it is doing its job. Answers are per user: "Maybe later" or "Don't ask again", and only one Lynbro plugin asks in any 30 days.
+* A small "Suggested for this site" block under the plugin's main screen lists Lynbro plugins that fit what the site already uses (WooCommerce, forms, a Danish setup …), with the reason. It can be hidden; nothing installs on its own and nothing is sent anywhere.
+* Tab labels on Lynbro screens meet WCAG AA contrast.
+* Lynbro admin screens now read the plugin's bundled translations (languages/) when WordPress has no language pack for it, so a Danish admin sees Danish instead of English.
+
+= 0.4.12 =
+* Fix: every consent record was counted twice against the per-visitor limit (WordPress asks the permission check again while building the Allow header), so after 15 decisions a minute from one address – an office, a school, a mobile network – further records were refused instead of after 30.
+
+= 0.4.11 =
+* Blocked embeds without width/height attributes (e.g. the Elementor Google Maps widget) get a 300px placeholder instead of a 16:9 box that pushed the page content far below the fold.
+* Placeholder text no longer overlaps when a page builder sets line-height 0 on the embed wrapper.
+* Width/height inside an embed's URL are no longer mistaken for its size.
+
+= 0.4.10 =
+* Banner statistics over the per-visitor limit are dropped quietly (204) instead of a 429 that showed as a console error.
+
+= 0.4.9 =
+* Fix: in the box layout the banner had an empty gap above the buttons on wide screens.
+* The keyboard focus ring follows the banner colours instead of a fixed blue.
+* Fix: the "Always on" badge now switches language with the rest of the banner.
+
+= 0.4.8 =
+* Fix: the banner could switch to English on a non-English site when the
+  translations came from WordPress.org language packs instead of files inside
+  the plugin folder. Language packs and downloaded translations are now used
+  for the banner text too.
+
+= 0.4.7 =
+* Fix: on sites with a page cache, consent records and banner statistics from
+  visitors could be silently rejected once the cached page was older than a day
+  (the security token embedded in the page had expired). Anonymous visitors no
+  longer need that token; the endpoints stay rate-limited and validate every
+  field. Logged-in users are checked as before.
+* Fix: pages already cached with an expired token record consent again right
+  after the update, without waiting for the cache to clear.
 
 = 0.4.6 =
 * Translations: refreshed and quality-reviewed all 35 bundled languages for more
@@ -347,6 +423,13 @@ plugin's role is to gate them, not to add them.
   Mode v2, geo-aware consent modes, shortcode, accessibility, English + Danish.
 
 == Upgrade Notice ==
+
+= 0.4.12 =
+Consent records from visitors who share one address (offices, mobile networks) are no longer refused at half the limit.
+
+= 0.4.7 =
+Consent records were lost on cached pages older than a day. Update to keep the
+consent log complete.
 
 = 0.4.3 =
 Compliance update for the WordPress.org review: tracker blocking no longer emits

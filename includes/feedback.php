@@ -38,7 +38,7 @@ function lynbro_cookie_consent_feedback_submit() {
 
 	$redirect = add_query_arg(
 		array( 'page' => 'lynbro-cookie-consent' ),
-		admin_url( 'options-general.php' )
+		admin_url( 'admin.php' )
 	);
 
 	$categories = lynbro_cookie_consent_feedback_categories();
@@ -111,7 +111,7 @@ function lynbro_cookie_consent_feedback_submit() {
 add_action( 'admin_post_lynbro_cookie_consent_feedback', 'lynbro_cookie_consent_feedback_submit' );
 
 /**
- * Show an admin notice after a feedback submission attempt.
+ * Show a message on our settings page after a feedback submission attempt.
  *
  * @return void
  */
@@ -134,4 +134,4 @@ function lynbro_cookie_consent_feedback_notice() {
 		esc_html( $messages[ $status ][1] )
 	);
 }
-add_action( 'admin_notices', 'lynbro_cookie_consent_feedback_notice' );
+add_action( 'lynbro_cookie_consent_page_notices', 'lynbro_cookie_consent_feedback_notice' );

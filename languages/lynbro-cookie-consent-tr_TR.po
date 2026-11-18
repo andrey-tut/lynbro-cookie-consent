@@ -1199,3 +1199,549 @@ msgstr "Sağ alt köşede, yumuşak görünümlü yüzen kart."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Bazı renklerin kontrastı düşük (%s) — ayrıntılara bakın."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "\"Her zaman açık\" rozeti gerekli çerezlerde"
+
+msgid "Our plugins"
+msgstr "Eklentilerimiz"
+
+msgid "Insufficient permissions."
+msgstr "Yetersiz yetki."
+
+msgid "Lynbro plugins"
+msgstr "Lynbro eklentileri"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Cömert, gizlilik odaklı WordPress eklentileri — Danimarka'da geliştirildi. "
+"Ücretsiz çekirdekler, kredi yok, verileriniz sitenizde kalır."
+
+msgid "More from Lynbro"
+msgstr "Lynbro'dan daha fazlası"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Paketteki diğerleri. Bu sitede zaten olanlar işaretli; siz istemeden hiçbir "
+"şey yüklenmez."
+
+msgid "Active"
+msgstr "Aktif"
+
+msgid "Installed"
+msgstr "Yüklü"
+
+msgid "On WordPress.org"
+msgstr "WordPress.org'da"
+
+msgid "Coming soon"
+msgstr "Çok yakında"
+
+msgid "Activate"
+msgstr "Etkinleştir"
+
+msgid "Install now"
+msgstr "Şimdi yükle"
+
+msgid "View on WordPress.org"
+msgstr "WordPress.org'da görüntüle"
+
+msgid "Learn more"
+msgstr "Daha fazla bilgi"
+
+msgid "About Lynbro"
+msgstr "Lynbro hakkında"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro, gerçekten ücretsiz, gizlilik odaklı WordPress eklentileri geliştirir"
+" — cömert ücretsiz çekirdekler, kredi yok, temel özelliklerde ödeme duvarı "
+"yok, verileriniz kendi sitenizde kalır. Danimarka'da üretilmiştir."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Özellik önerin veya hata bildirin"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Geri bildirim, plugins.lynbro.dk adresindeki herkese açık yol haritamızı "
+"yeni bir sekmede açar — sitenizden hiçbir şey gönderilmez."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Paylaşılan Lynbro bileşenleri v%1$s, %2$s tarafından sağlanıyor (bu sitedeki"
+" %3$d sürümün en yenisi)."
+
+msgid "Is %s doing its job?"
+msgstr "%s işini yapıyor mu?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Bir süredir kullanıyorsunuz. İşinize yarıyorsa, WordPress.org'da kısa bir "
+"değerlendirme diğer site sahiplerinin bulmasına yardımcı olur — dürüst ve "
+"eleştirel olanlar dahil."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Bir süredir kullanıyorsunuz. İşinize yarıyorsa — ya da bir eksik varsa — "
+"herkese açık yol haritamızdan bize iletebilirsiniz. Sonraki geliştirmeleri "
+"buna göre belirliyoruz."
+
+msgid "(opens in a new tab)"
+msgstr "(yeni bir sekmede açılır)"
+
+msgid "Share feedback"
+msgstr "Geri bildirim paylaş"
+
+msgid "Maybe later"
+msgstr "Belki sonra"
+
+msgid "Don't ask again"
+msgstr "Bir daha sorma"
+
+msgid "Something not working? Ask for help"
+msgstr "Bir sorun mu var? Yardım isteyin"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce aktif"
+
+msgid "a form plugin is active"
+msgstr "bir form eklentisi aktif"
+
+msgid "the site is set up for Denmark"
+msgstr "site Danimarka için ayarlandı"
+
+msgid "comments are open"
+msgstr "yorumlar açık"
+
+msgid "tracking tags are active"
+msgstr "izleme etiketleri aktif"
+
+msgid "visitors can create accounts"
+msgstr "ziyaretçiler hesap oluşturabiliyor"
+
+msgid "Suggested because %l."
+msgstr "%l nedeniyle önerildi."
+
+msgid "Suggested for this site"
+msgstr "Bu site için önerildi"
+
+msgid "Hide suggestions"
+msgstr "Önerileri gizle"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Bu sitenin kullandıklarına uygun diğer Lynbro eklentileri. Siz tıklamadan "
+"hiçbir şey yüklenmez."
+
+msgid "All Lynbro plugins"
+msgstr "Tüm Lynbro eklentileri"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Bu sitenin zaten kullandıklarından seçildi — bu siteden okunur, hiçbir veri "
+"başka yere gönderilmez."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Bu eklentinin ayarlarını JSON yedeği olarak dışa aktarın veya varsayılanlara"
+" sıfırlayın. %100 yerel — hiçbir veri sitenizden çıkmaz."
+
+msgid "Reset all settings to defaults?"
+msgstr "Tüm ayarları varsayılanlara sıfırlansın mı?"
+
+msgid "Reset to defaults"
+msgstr "Varsayılanlara sıfırla"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Çerez Onayı"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Ücretsiz, çok dilli, tamamen özelleştirilebilir çerez onay banner'ı — "
+"GDPR/ePrivacy ve Google Consent Mode v2 uyumlu, sayfa görüntüleme sınırı "
+"yok."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Görsel Optimizasyonu"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"WebP ve AVIF'e dönüştürün, büyük görselleri yeniden boyutlandırın ve tembel "
+"yükleme yapın — hepsi kendi sunucunuzda."
+
+msgid "AI Studio"
+msgstr "Yapay Zeka Stüdyosu"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Kendi OpenAI anahtarınızla, doğrudan maliyetine, arada kredi olmadan yazı ve"
+" görsel oluşturun."
+
+msgid "Analytics"
+msgstr "Analitik"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Kendi sunucunuzda, çerezsiz analiz ve huniler. Ziyaretçi verileri "
+"veritabanınızdan çıkmaz."
+
+msgid "Tags"
+msgstr "Etiketler"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel ve daha fazlası kodsuz — her etiket"
+" için onay beklenir."
+
+msgid "Forms"
+msgstr "Formlar"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Kayıtlar ücretsiz ve sınırsız saklanır, koşullu mantık sunucu tarafında "
+"kontrol edilir, imzalı webhook'lar ile."
+
+msgid "Verify"
+msgstr "Doğrulama"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Yanlış yazılmış e-posta alanlarını ve hatalı telefon numaralarını yakalayın,"
+" e-posta veya SMS ile tek kullanımlık kodla doğrulayın."
+
+msgid "Cache"
+msgstr "Önbellek"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"nginx FastCGI ve Redis nesne önbelleği için güvenilir temizleme, her "
+"temizlik önbelleğe karşı doğrulanır."
+
+msgid "Translate"
+msgstr "Çeviri"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Sitenizi birden fazla dilde çalıştırın, kendi OpenAI anahtarınızla makine "
+"çevirisi — kota yok, kelime başı ücret yok."
+
+msgid "Shield"
+msgstr "Kalkan"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Güvenlik başlıkları, HSTS ile HTTPS, enjeksiyon denemelerine karşı küçük bir"
+" güvenlik duvarı ve her site için gerekli güçlendirme ayarları."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Spam kontrolleri kendi sunucunuzda çalışır. Hesap yok, abonelik yok, her "
+"engelleme sebebiyle açıklanır — bekletilen mesaj asla kaybolmaz."
+
+msgid "Login Guard"
+msgstr "Giriş Koruması"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"wp-login.php'yi taşıyın, başarısız girişleri sınırlayın ve uygulama tabanlı "
+"iki faktör ekleyin — üç farklı geri dönüş yolu ile."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR ve ePrivacy banner'ı, Consent Mode v2, eşit derecede belirgin Reddet "
+"butonu ve 35 dil."
+
+msgid "Activity Log"
+msgstr "Etkinlik Günlüğü"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Kim, ne yaptı, ne zaman ve nereden — kendi sunucunuzda kaydedilir, "
+"aranabilir, dışa aktarılabilir ve kendi takviminize göre silinir."
+
+msgid "Data Retention"
+msgstr "Veri Saklama"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Kişisel verinin veritabanınızda tam olarak nerede olduğunu bulun, ardından "
+"planlı olarak silin — her silmeden önce deneme yapılır."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Her sayfayı WCAG 2.2 AA'ya göre tarayın ve güvenli şekilde "
+"düzeltilebilenleri düzeltin. Katman yok, sayfa sınırı yok."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Hafif SEO, ücretsiz LocalBusiness şeması, site haritaları ve sosyal kartlar."
+" Hiçbir veri dışarıya gönderilmez."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress e-postaları kendi SMTP sunucunuzdan gönderilir — e-posta günlüğü, "
+"tekrar gönderme, yedek bağlantı ve hata uyarıları ile."
+
+msgid "Social Feed"
+msgstr "Sosyal Akış"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "WordPress'te Meta anahtarı saklanmadan sitenizde Instagram akışı."
+
+msgid "Reviews Cache"
+msgstr "Yorumlar Önbelleği"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "WordPress'e API anahtarı eklemeden Google yorumlarınızı gösterin."
+
+msgid "Links"
+msgstr "Bağlantılar"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Kırık bağlantıları bulun ve yönlendirmeleri kendi sunucunuzda yönetin, her "
+"kararın sebebiyle birlikte."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Otomatik Doldurma"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"WooCommerce, WPForms, Gravity, Fluent, Formidable ve EDD için Danimarka "
+"adres otomatik tamamlama ve doğrulama."
+
+msgid "Soge Lookup"
+msgstr "Soge Sorgulama"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Danimarka araçlarını (DMR) ve şirketlerini (CVR) plaka, şasi numarası veya "
+"CVR numarası ile sorgulayın."
+
+msgid "CVR Checkout"
+msgstr "CVR Ödeme"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"WooCommerce için Danimarka B2B ödeme: CVR şirket otomatik doldurma, CVR/AB-"
+"KDV (VIES) doğrulama ve EAN/GLN alanı."
+
+msgid "Danish Shipping"
+msgstr "Danimarka Kargo"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"WooCommerce ödeme sayfasında PostNord ve GLS Danimarka için ücretsiz "
+"teslimat noktası seçimi ve sade kargo yöntemleri."
+
+msgid "API Auth"
+msgstr "API Kimlik Doğrulama"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"Gerçekten iptal edilebilen, kapsamlı ve reddedilenlerin günlüğü olan REST "
+"API için JSON Web Token'lar."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot, banner metinlerini Cookiebot hesabınızda saklar; bu nedenle "
+"yalnızca kategorileri aktarılabilir. Buradaki banner metinleri, Lynbro'nun "
+"kendi çevrilmiş varsayılan metinleriyle başlar."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie, ayarlarını kendi biçiminde saklar ve bu biçim okunamaz. "
+"Kategorileri Tercihler, İstatistikler ve Pazarlama ile eşleştirilir; "
+"metinlerinizi Diller sekmesinde ayarlayın."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s etkin olduğundan Lynbro Cookie Consent sessiz kalır."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Ziyaretçiler iki banner değil, tek bir banner görür: diğer eklenti etkin "
+"olduğu sürece bizim banner'ımız gösterilmez, hiçbir betiği engellemez ve "
+"onay kaydı tutmaz."
+
+msgid "See what can be brought over"
+msgstr "Nelerin aktarılabileceğini görün"
+
+msgid "Banner texts in: %s"
+msgstr "Banner metinlerinin bulunduğu yer: %s"
+
+msgid "Categories: %s"
+msgstr "Kategoriler: %s"
+
+msgid "Policy link: %s"
+msgstr "Politika bağlantısı: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "%s eklentisindeki metinleri ve kategorileri aktar"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Diğer eklentide hiçbir şey değiştirilmez. Aktardıktan sonra sonucu buradan "
+"kontrol edin, ardından diğer eklentiyi devre dışı bırakın: o andan itibaren "
+"banner'ımız devreye girer."
+
+msgid "Booking"
+msgstr "Rezervasyon"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Kendi sunucunuzda tek bir işletme için randevu rezervasyonu: hizmetler, "
+"personel, programlar, hatırlatmalar ve Amelia'dan tek tıkla geçiş."
+
+msgid "Contact Buttons"
+msgstr "İletişim Düğmeleri"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telefon ve canlı sohbet tek bir hızlı düğmede — sohbet "
+"betikleri yalnızca ziyaretçi isteğinde yüklenir."
+
+msgid "Site Check"
+msgstr "Site Kontrolü"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Ziyaretçileriniz için ücretsiz web sitesi kontrolü: HTTPS, başlıklar, onay "
+"öncesi çerezler, erişilebilirlik, SPF/DKIM/DMARC — rapor ekranda."
+
+msgid "Newsletter"
+msgstr "Bülten"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Güvenli gönderim sağlayan, kendi sunucunuzda barındırılan bültenler: onay "
+"kayıtları, son düzenlemeden sonra test ve alıcı sayısını tam olarak yazarak "
+"onaylama."
+
+msgid "Emoji images from WordPress.org"
+msgstr "WordPress.org'dan emoji görselleri"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Emoji görsellerini WordPress.org'dan yükleme; ziyaretçiler emojileri kendi "
+"cihazlarının yazı tipinde görür."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"WordPress, emoji yazı tipi bulunmayan tarayıcılarda emojileri "
+"WordPress.org'dan alınan görsellerle değiştirir. Bu işlem, herhangi bir onay"
+" alınmadan önce ziyaretçinin IP adresini WordPress.org'a gönderir. "
+"Varsayılan olarak açıktır; yöneticiyi ve düzenleyiciyi etkilemez."

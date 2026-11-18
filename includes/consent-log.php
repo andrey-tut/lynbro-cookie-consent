@@ -137,18 +137,74 @@ function lynbro_cookie_consent_log_register_rest() {
 add_action( 'rest_api_init', 'lynbro_cookie_consent_log_register_rest' );
 
 /**
- * Permission callback: verify the front-end nonce. Visitors are anonymous, so
- * we rely on a nonce (CSRF protection) rather than capability checks.
+ * Let anonymous requests to this plugin's public endpoints through when they
+ * carry an expired REST nonce.
+ *
+ * Pages cached before 0.4.7 still embed the nonce and send it; WordPress
+ * rejects an invalid nonce with rest_cookie_invalid_nonce before the
+ * permission callbacks run, so those visitors' records were lost until the
+ * page cache expired. Applies only to the consent log and stats routes, and
+ * only when nobody is logged in: the request then runs as user 0 either way.
+ *
+ * @param WP_Error|null|true $result Authentication result so far.
+ * @return WP_Error|null|true
+ */
+function lynbro_cookie_consent_rest_stale_nonce( $result ) {
+	if ( ! is_wp_error( $result ) || 'rest_cookie_invalid_nonce' !== $result->get_error_code() || is_user_logged_in() ) {
+		return $result;
+	}
+	$route = isset( $GLOBALS['wp']->query_vars['rest_route'] ) ? (string) $GLOBALS['wp']->query_vars['rest_route'] : '';
+	if ( 0 === strpos( $route, '/lynbro-cookie-consent/v1/consent' ) || 0 === strpos( $route, '/lynbro-cc/v1/stat' ) ) {
+		return null;
+	}
+	return $result;
+}
+add_filter( 'rest_authentication_errors', 'lynbro_cookie_consent_rest_stale_nonce', 110 );
+
+/**
+ * Permission callback. Anonymous visitors need no nonce: theirs is identical
+ * for everyone and public in the page HTML, so it protects nothing, and once a
+ * page cache serves it past its lifetime every record was rejected. Logged-in
+ * users still send and verify one. The rate limit and strict validation of
+ * the body guard the endpoint for everyone.
  *
  * @param WP_REST_Request $request Request.
  * @return bool|WP_Error
  */
 function lynbro_cookie_consent_log_rest_permission( $request ) {
+	// WordPress runs the permission callback a second time for the same request
+	// while building the Allow header (rest_send_allow_header). Counting on both
+	// calls charged every record twice, so a visitor (or a whole office behind one
+	// address) lost records after 15 a minute instead of 30. One verdict per request;
+	// The request object is kept with its verdict, so its id cannot be reused
+	// by a later request in the same process (tests, batch dispatch).
+	static $verdicts = array();
+	if ( ! is_object( $request ) ) {
+		return lynbro_cookie_consent_log_rest_verdict( $request );
+	}
+	$id = spl_object_hash( $request );
+	if ( isset( $verdicts[ $id ] ) && $verdicts[ $id ][0] === $request ) {
+		return $verdicts[ $id ][1];
+	}
+	if ( count( $verdicts ) > 50 ) {
+		$verdicts = array();
+	}
+	$verdicts[ $id ] = array( $request, lynbro_cookie_consent_log_rest_verdict( $request ) );
+	return $verdicts[ $id ][1];
+}
+
+/**
+ * The permission decision itself (logging on, nonce for logged-in users, rate).
+ *
+ * @param WP_REST_Request $request Request.
+ * @return bool|WP_Error
+ */
+function lynbro_cookie_consent_log_rest_verdict( $request ) {
 	if ( empty( lynbro_cookie_consent_get_option( 'consent_log', 1 ) ) ) {
 		return new WP_Error( 'lynbro_cc_log_disabled', __( 'Consent logging is disabled.', 'lynbro-cookie-consent' ), array( 'status' => 403 ) );
 	}
 	$nonce = $request->get_header( 'X-WP-Nonce' );
-	if ( ! $nonce || ! wp_verify_nonce( $nonce, 'wp_rest' ) ) {
+	if ( is_user_logged_in() && ( ! $nonce || ! wp_verify_nonce( $nonce, 'wp_rest' ) ) ) {
 		return new WP_Error( 'lynbro_cc_bad_nonce', __( 'Invalid security token.', 'lynbro-cookie-consent' ), array( 'status' => 403 ) );
 	}
 	if ( ! lynbro_cookie_consent_log_rate_ok() ) {
@@ -187,6 +243,11 @@ function lynbro_cookie_consent_log_rate_ok() {
  */
 function lynbro_cookie_consent_log_rest_record( $request ) {
 	global $wpdb;
+
+	// Another consent plugin is in charge: its records are the ones that count.
+	if ( function_exists( 'lynbro_cookie_consent_active_competitor' ) && '' !== lynbro_cookie_consent_active_competitor() ) {
+		return new WP_REST_Response( null, 204 );
+	}
 
 	$consent_id = sanitize_text_field( (string) $request->get_param( 'consent_id' ) );
 	// Accept only UUID-shaped ids; otherwise generate one server-side.

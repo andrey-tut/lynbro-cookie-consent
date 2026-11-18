@@ -13,7 +13,7 @@
  * The front-end JS (banner.js) swaps the placeholder back to a live iframe once
  * the category is granted or the visitor clicks "allow". Everything is local —
  * no external request is made to detect or block embeds. Zero CLS: placeholders
- * reserve the iframe's exact aspect ratio.
+ * reserve the iframe's aspect ratio or height (see embed_box_style).
  *
  * @package LynbroCookieConsent
  */
@@ -126,18 +126,52 @@ function lynbro_cookie_consent_maybe_wrap_iframe( $iframe, $catalog ) {
 	$service_name = isset( $catalog[ $slug ]['name'] ) ? $catalog[ $slug ]['name'] : ucfirst( $slug );
 	$category     = lynbro_cookie_consent_embed_category();
 
-	// Try to read width/height for an exact aspect-ratio reservation (zero CLS).
+	$box_style = lynbro_cookie_consent_embed_box_style( $iframe );
+
+	return lynbro_cookie_consent_embed_placeholder_html( $iframe, $slug, $service_name, $category, $box_style );
+}
+
+/**
+ * Inline style that reserves the blocked iframe's space (zero CLS).
+ *
+ * - width + height attributes: exact aspect ratio.
+ * - only a pixel height (attribute or inline style): that fixed height.
+ * - nothing usable (e.g. page builders that size the iframe from a stylesheet,
+ *   like Elementor's Google Maps widget): a modest minimum height instead of a
+ *   16:9 box, which on a wide column would be far taller than the real map.
+ *
+ * Only real attributes are read: values inside the src URL (e.g. "&width=600")
+ * are ignored.
+ *
+ * @param string $iframe The full <iframe ...></iframe> markup.
+ * @return string CSS declarations for the placeholder's style attribute.
+ */
+function lynbro_cookie_consent_embed_box_style( $iframe ) {
+	$tag = preg_match( '#<iframe\b[^>]*>#i', $iframe, $tm ) ? $tm[0] : $iframe;
+	// Drop quoted attribute values of src so query strings can't pose as attributes.
+	$tag = preg_replace( '#\ssrc\s*=\s*(["\'])[^"\']*\1#i', ' ', $tag );
+
 	$width  = 0;
 	$height = 0;
-	if ( preg_match( '#\bwidth\s*=\s*(["\'])?(\d+)#i', $iframe, $wm ) ) {
-		$width = (int) $wm[2];
+	if ( preg_match( '#\swidth\s*=\s*["\']?\s*(\d+)(?:px)?\s*["\'\s/>]#i', $tag, $wm ) ) {
+		$width = (int) $wm[1];
 	}
-	if ( preg_match( '#\bheight\s*=\s*(["\'])?(\d+)#i', $iframe, $hm ) ) {
-		$height = (int) $hm[2];
+	if ( preg_match( '#\sheight\s*=\s*["\']?\s*(\d+)(?:px)?\s*["\'\s/>]#i', $tag, $hm ) ) {
+		$height = (int) $hm[1];
 	}
-	$ratio = ( $width > 0 && $height > 0 ) ? ( $width . ' / ' . $height ) : '16 / 9';
+	if ( $width > 0 && $height > 0 ) {
+		return 'aspect-ratio: ' . $width . ' / ' . $height . ';';
+	}
 
-	return lynbro_cookie_consent_embed_placeholder_html( $iframe, $slug, $service_name, $category, $ratio );
+	if ( 0 === $height && preg_match( '#\sstyle\s*=\s*(["\'])(.*?)\1#is', $tag, $sm )
+		&& preg_match( '#(?:^|;)\s*height\s*:\s*(\d+)px#i', $sm[2], $shm ) ) {
+		$height = (int) $shm[1];
+	}
+	if ( $height > 0 ) {
+		return 'height: ' . min( $height, 2000 ) . 'px;';
+	}
+
+	return 'min-height: 300px;';
 }
 
 /**
@@ -152,10 +186,10 @@ function lynbro_cookie_consent_maybe_wrap_iframe( $iframe, $catalog ) {
  * @param string $slug         Provider slug.
  * @param string $service_name Provider display name.
  * @param string $category     Consent category.
- * @param string $ratio        CSS aspect-ratio value (e.g. "16 / 9").
+ * @param string $box_style    CSS declarations reserving the iframe's space.
  * @return string
  */
-function lynbro_cookie_consent_embed_placeholder_html( $iframe, $slug, $service_name, $category, $ratio ) {
+function lynbro_cookie_consent_embed_placeholder_html( $iframe, $slug, $service_name, $category, $box_style ) {
 	/* translators: %s: name of the embedded service, e.g. YouTube. */
 	$heading = sprintf( __( 'Content from %s is blocked', 'lynbro-cookie-consent' ), $service_name );
 	/* translators: %s: name of the embedded service, e.g. YouTube. */
@@ -189,7 +223,7 @@ function lynbro_cookie_consent_embed_placeholder_html( $iframe, $slug, $service_
 	<div class="lynbro-cc-embed"
 		data-lynbro-cc-embed="<?php echo esc_attr( $slug ); ?>"
 		data-lynbro-cc-category="<?php echo esc_attr( $category ); ?>"
-		style="aspect-ratio: <?php echo esc_attr( $ratio ); ?>;">
+		style="<?php echo esc_attr( $box_style ); ?>">
 		<template class="lynbro-cc-embed__frame"><?php echo wp_kses( $iframe, $allowed_iframe ); ?></template>
 		<div class="lynbro-cc-embed__inner">
 			<p class="lynbro-cc-embed__title"><?php echo esc_html( $heading ); ?></p>

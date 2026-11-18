@@ -1225,3 +1225,559 @@ msgstr "Απαλή αιωρούμενη κάρτα στην κάτω δεξιά 
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Ορισμένα χρώματα έχουν χαμηλή αντίθεση (%s) — δείτε λεπτομέρειες."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "Σήμανση \"Πάντα ενεργό\" στα απαραίτητα cookies"
+
+msgid "Our plugins"
+msgstr "Τα πρόσθετά μας"
+
+msgid "Insufficient permissions."
+msgstr "Ανεπαρκή δικαιώματα."
+
+msgid "Lynbro plugins"
+msgstr "Lynbro plugins"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Γενναιόδωρα, με προτεραιότητα το απόρρητο, WordPress πρόσθετα — φτιαγμένα "
+"στη Δανία. Δωρεάν βασικές λειτουργίες, χωρίς credits, τα δεδομένα σας "
+"παραμένουν στον ιστότοπό σας."
+
+msgid "More from Lynbro"
+msgstr "Περισσότερα από Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Η υπόλοιπη σουίτα. Ό,τι υπάρχει ήδη σε αυτόν τον ιστότοπο είναι σημειωμένο· "
+"τίποτα δεν εγκαθίσταται χωρίς τη συγκατάθεσή σας."
+
+msgid "Active"
+msgstr "Ενεργό"
+
+msgid "Installed"
+msgstr "Εγκατεστημένο"
+
+msgid "On WordPress.org"
+msgstr "Στο WordPress.org"
+
+msgid "Coming soon"
+msgstr "Έρχεται σύντομα"
+
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+msgid "Install now"
+msgstr "Εγκατάσταση τώρα"
+
+msgid "View on WordPress.org"
+msgstr "Δείτε στο WordPress.org"
+
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+msgid "About Lynbro"
+msgstr "Σχετικά με τη Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Η Lynbro δημιουργεί πραγματικά δωρεάν, με προτεραιότητα το απόρρητο, "
+"WordPress πρόσθετα με γενναιόδωρες βασικές λειτουργίες — χωρίς credits, "
+"χωρίς paywalls στα βασικά, τα δεδομένα σας στον δικό σας ιστότοπο. "
+"Κατασκευασμένα στη Δανία."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Προτείνετε μια λειτουργία ή αναφέρετε σφάλμα"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Η ανατροφοδότηση ανοίγει τον δημόσιο οδικό χάρτη μας στο plugins.lynbro.dk "
+"σε νέα καρτέλα — τίποτα δεν αποστέλλεται από τον ιστότοπό σας."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Κοινά στοιχεία Lynbro v%1$s, από %2$s (νεότερη από %3$d εκδόσεις σε αυτόν "
+"τον ιστότοπο)."
+
+msgid "Is %s doing its job?"
+msgstr "Κάνει το %s τη δουλειά του;"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Το χρησιμοποιείτε εδώ και μερικές εβδομάδες. Αν λειτουργεί για εσάς, μια "
+"σύντομη αξιολόγηση στο WordPress.org βοηθά άλλους διαχειριστές να το βρουν —"
+" και οι ειλικρινείς, ακόμα και οι κριτικές, μετράνε."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Το χρησιμοποιείτε εδώ και μερικές εβδομάδες. Αν σας εξυπηρετεί — ή αν κάτι "
+"λείπει — πείτε μας στον δημόσιο οδικό χάρτη μας. Έτσι αποφασίζουμε τι θα "
+"αναπτύξουμε στη συνέχεια."
+
+msgid "(opens in a new tab)"
+msgstr "(ανοίγει σε νέα καρτέλα)"
+
+msgid "Share feedback"
+msgstr "Κοινοποιήστε σχόλια"
+
+msgid "Maybe later"
+msgstr "Ίσως αργότερα"
+
+msgid "Don't ask again"
+msgstr "Να μην ερωτηθώ ξανά"
+
+msgid "Something not working? Ask for help"
+msgstr "Κάτι δεν λειτουργεί; Ζητήστε βοήθεια"
+
+msgid "WooCommerce is active"
+msgstr "Το WooCommerce είναι ενεργό"
+
+msgid "a form plugin is active"
+msgstr "Ένα πρόσθετο φόρμας είναι ενεργό"
+
+msgid "the site is set up for Denmark"
+msgstr "Ο ιστότοπος έχει ρυθμιστεί για τη Δανία"
+
+msgid "comments are open"
+msgstr "Τα σχόλια είναι ανοιχτά"
+
+msgid "tracking tags are active"
+msgstr "Οι ετικέτες παρακολούθησης είναι ενεργές"
+
+msgid "visitors can create accounts"
+msgstr "Οι επισκέπτες μπορούν να δημιουργήσουν λογαριασμούς"
+
+msgid "Suggested because %l."
+msgstr "Προτείνεται επειδή %l."
+
+msgid "Suggested for this site"
+msgstr "Προτείνεται για αυτόν τον ιστότοπο"
+
+msgid "Hide suggestions"
+msgstr "Απόκρυψη προτάσεων"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Άλλα Lynbro plugins που ταιριάζουν με ό,τι χρησιμοποιεί αυτός ο ιστότοπος. "
+"Τίποτα δεν εγκαθίσταται αν δεν κάνετε κλικ."
+
+msgid "All Lynbro plugins"
+msgstr "Όλα τα Lynbro plugins"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Επιλεγμένα από ό,τι ήδη χρησιμοποιεί αυτός ο ιστότοπος — διαβάζονται τοπικά,"
+" τίποτα δεν αποστέλλεται αλλού."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Εξαγωγή των ρυθμίσεων αυτού του plugin ως αντίγραφο ασφαλείας JSON ή "
+"επαναφορά στις προεπιλογές. 100% τοπικά — τίποτα δεν φεύγει από τον ιστότοπό"
+" σας."
+
+msgid "Reset all settings to defaults?"
+msgstr "Επαναφορά όλων των ρυθμίσεων στις προεπιλογές;"
+
+msgid "Reset to defaults"
+msgstr "Επαναφορά στις προεπιλογές"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Δωρεάν, πολύγλωσσο, πλήρως παραμετροποιήσιμο banner συγκατάθεσης cookies — "
+"συμβατό με GDPR/ePrivacy και Google Consent Mode v2, χωρίς όριο προβολών "
+"σελίδας."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Βελτιστοποιητής Εικόνων"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Μετατροπή σε WebP και AVIF, αυτόματη προσαρμογή μεγάλων εικόνων και lazy-"
+"load — όλα στον δικό σας διακομιστή."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Γράψτε και εικονογραφήστε άρθρα με AI χρησιμοποιώντας το δικό σας OpenAI "
+"κλειδί — χωρίς μεσάζοντες, χωρίς credits."
+
+msgid "Analytics"
+msgstr "Αναλυτικά Στοιχεία"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Αναλυτικά στοιχεία χωρίς cookies, φιλοξενούμενα τοπικά, με funnels. Τα "
+"δεδομένα επισκεπτών δεν φεύγουν ποτέ από τη βάση σας."
+
+msgid "Tags"
+msgstr "Ετικέτες"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel και άλλα χωρίς κώδικα — κάθε "
+"ετικέτα περιμένει συγκατάθεση."
+
+msgid "Forms"
+msgstr "Φόρμες"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Φόρμες με δωρεάν αποθήκευση καταχωρήσεων χωρίς όριο, έλεγχο λογικής στον "
+"διακομιστή και υπογεγραμμένα webhooks."
+
+msgid "Verify"
+msgstr "Επαλήθευση"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Εντοπίστε λάθος email domains και λανθασμένους αριθμούς, και επιβεβαιώστε με"
+" κωδικό μιας χρήσης μέσω email ή SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Αξιόπιστη εκκαθάριση για nginx FastCGI cache και Redis object cache, με κάθε"
+" εκκαθάριση να επαληθεύεται."
+
+msgid "Translate"
+msgstr "Μετάφραση"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Λειτουργήστε το site σας σε πολλές γλώσσες, με αυτόματη μετάφραση μέσω του "
+"δικού σας OpenAI κλειδιού — χωρίς χρεώσεις ανά λέξη."
+
+msgid "Shield"
+msgstr "Ασπίδα"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Κεφαλίδες ασφαλείας, HTTPS με HSTS, μικρό firewall κατά των επιθέσεων και "
+"βασικές ρυθμίσεις ενίσχυσης ασφαλείας."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Έλεγχοι spam που εκτελούνται στον δικό σας διακομιστή. Χωρίς λογαριασμό, "
+"χωρίς συνδρομή, κάθε μπλοκάρισμα εξηγείται — και κανένα μήνυμα δεν χάνεται."
+
+msgid "Login Guard"
+msgstr "Φύλακας Σύνδεσης"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Μετακινήστε το wp-login.php, περιορίστε αποτυχημένες συνδέσεις και προσθέστε"
+" two-factor μέσω εφαρμογής — με τρεις τρόπους επαναφοράς."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner GDPR και ePrivacy με Consent Mode v2, εξίσου εμφανές κουμπί Απόρριψη "
+"και 35 γλώσσες."
+
+msgid "Activity Log"
+msgstr "Καταγραφή Δραστηριότητας"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Ποιος έκανε τι, πότε και από πού — καταγράφεται στον δικό σας διακομιστή, με"
+" δυνατότητα αναζήτησης, εξαγωγής και διαγραφής με το πρόγραμμά σας."
+
+msgid "Data Retention"
+msgstr "Διατήρηση Δεδομένων"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Βρείτε πού βρίσκονται τα προσωπικά δεδομένα στη βάση σας και διαγράψτε τα "
+"προγραμματισμένα — με δοκιμαστική διαγραφή πριν από κάθε ενέργεια."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Σαρώστε κάθε σελίδα για WCAG 2.2 AA και διορθώστε ό,τι μπορεί να διορθωθεί "
+"με ασφάλεια. Χωρίς overlay, χωρίς όριο σελίδων."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Απλό SEO με δωρεάν schema LocalBusiness, sitemaps και social cards. Τίποτα "
+"δεν στέλνεται εκτός."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Αποστολή email WordPress μέσω του δικού σας SMTP server — με αρχείο email, "
+"επαναποστολή, εφεδρική σύνδεση και ειδοποιήσεις αποτυχίας."
+
+msgid "Social Feed"
+msgstr "Social Feed"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Instagram feed στο site σας χωρίς αποθήκευση Meta token στο WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache Κριτικών"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+"Εμφανίστε τις κριτικές Google χωρίς να αποθηκεύετε API key στο WordPress."
+
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Βρείτε χαλασμένους συνδέσμους και διαχειριστείτε ανακατευθύνσεις στον δικό "
+"σας διακομιστή, με αιτιολόγηση για κάθε αποτέλεσμα."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofill"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Αυτόματη συμπλήρωση και επαλήθευση δανέζικης διεύθυνσης για WooCommerce, "
+"WPForms, Gravity, Fluent, Formidable και EDD."
+
+msgid "Soge Lookup"
+msgstr "Αναζήτηση Soge"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Αναζήτηση δανέζικων οχημάτων (DMR) και εταιρειών (CVR) με αριθμό πινακίδας, "
+"VIN ή CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Δανέζικο B2B checkout για WooCommerce: αυτόματη συμπλήρωση εταιρείας CVR, "
+"επαλήθευση CVR/EU-VAT (VIES) και πεδίο EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Δανέζικη Αποστολή"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Δωρεάν επιλογή σημείου παραλαβής για PostNord και GLS Δανίας στο checkout "
+"του WooCommerce, συν καθαρές μεθόδους αποστολής."
+
+msgid "API Auth"
+msgstr "API Auth"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens για το REST API που μπορείτε να ανακαλέσετε, με scopes και "
+"αρχείο απορρίψεων."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Το Cookiebot διατηρεί τα κείμενα του banner στον λογαριασμό σας στο "
+"Cookiebot, επομένως μπορούν να μεταφερθούν μόνο οι κατηγορίες του. Τα "
+"κείμενα του banner εδώ βασίζονται στις προεπιλεγμένες μεταφράσεις της "
+"Lynbro."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Το Borlabs Cookie διατηρεί τις ρυθμίσεις του σε δική του μορφή, η οποία δεν "
+"μπορεί να διαβαστεί. Οι κατηγορίες του αντιστοιχούν στις κατηγορίες "
+"Προτιμήσεις, Στατιστικά και Μάρκετινγκ· ορίστε τα κείμενά σας στην καρτέλα "
+"Γλώσσες."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr ""
+"Το %s είναι ενεργό, επομένως το Lynbro Cookie Consent παραμένει ανενεργό."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Οι επισκέπτες βλέπουν ένα banner, όχι δύο: το δικό μας δεν εμφανίζεται, δεν "
+"αποκλείει σενάρια και δεν αποθηκεύει αρχεία συγκατάθεσης όσο είναι ενεργό το"
+" άλλο πρόσθετο."
+
+msgid "See what can be brought over"
+msgstr "Δείτε τι μπορεί να μεταφερθεί"
+
+msgid "Banner texts in: %s"
+msgstr "Κείμενα banner στο: %s"
+
+msgid "Categories: %s"
+msgstr "Κατηγορίες: %s"
+
+msgid "Policy link: %s"
+msgstr "Σύνδεσμος πολιτικής: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Μεταφορά των κειμένων και των κατηγοριών από το %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Δεν αλλάζει τίποτα στο άλλο πρόσθετο. Μετά τη μεταφορά, ελέγξτε το "
+"αποτέλεσμα εδώ και, στη συνέχεια, απενεργοποιήστε το άλλο πρόσθετο: από "
+"εκείνη τη στιγμή αναλαμβάνει το δικό μας banner."
+
+msgid "Booking"
+msgstr "Κρατήσεις"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Κρατήσεις ραντεβού για μία επιχείρηση στον δικό σας διακομιστή: υπηρεσίες, "
+"προσωπικό, ωράρια, υπενθυμίσεις και μεταφορά με ένα κλικ από το Amelia."
+
+msgid "Contact Buttons"
+msgstr "Κουμπιά επικοινωνίας"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, τηλέφωνο και ζωντανή συνομιλία σε ένα γρήγορο κουμπί — "
+"τα σενάρια συνομιλίας φορτώνονται μόνο όταν το ζητήσει ο επισκέπτης."
+
+msgid "Site Check"
+msgstr "Έλεγχος ιστότοπου"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Δωρεάν έλεγχος ιστότοπου για τους επισκέπτες σας: HTTPS, κεφαλίδες, cookies "
+"πριν από τη συγκατάθεση, προσβασιμότητα, SPF/DKIM/DMARC — αναφορά στην "
+"οθόνη."
+
+msgid "Newsletter"
+msgstr "Ενημερωτικό δελτίο"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Ενημερωτικά δελτία με αυτοφιλοξενία και ασφαλή αποστολή: αρχεία "
+"συγκατάθεσης, δοκιμή μετά την τελευταία επεξεργασία και έγκριση με "
+"πληκτρολόγηση του ακριβούς αριθμού παραληπτών."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Εικόνες emoji από το WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Να μη φορτώνονται εικόνες emoji από το WordPress.org· οι επισκέπτες βλέπουν "
+"τα emoji με τη γραμματοσειρά της συσκευής τους."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"Το WordPress αντικαθιστά τα emoji με εικόνες από το WordPress.org σε "
+"προγράμματα περιήγησης χωρίς γραμματοσειρά emoji, με αποτέλεσμα να "
+"αποστέλλεται η διεύθυνση IP του επισκέπτη στο WordPress.org πριν από "
+"οποιαδήποτε συγκατάθεση. Ενεργό από προεπιλογή· δεν επηρεάζονται ο "
+"διαχειριστής και ο επεξεργαστής."

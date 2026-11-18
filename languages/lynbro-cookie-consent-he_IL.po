@@ -1164,3 +1164,525 @@ msgstr "כרטיס צף עדין בפינה הימנית התחתונה."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "לחלק מהצבעים יש ניגודיות נמוכה (%s) — ראו פרטים."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "תגית \"תמיד פעיל\" על עוגיות הכרחיות"
+
+msgid "Our plugins"
+msgstr "התוספים שלנו"
+
+msgid "Insufficient permissions."
+msgstr "אין הרשאות מתאימות."
+
+msgid "Lynbro plugins"
+msgstr "תוספי Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"תוספי וורדפרס נדיבים עם פרטיות תחילה — פותח בדנמרק. ליבה חינמית, ללא "
+"קרדיטים, הנתונים נשארים באתר שלך."
+
+msgid "More from Lynbro"
+msgstr "עוד מ-Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr "שאר החבילה. מה שכבר מותקן מסומן; שום דבר לא מותקן בלי שתבקש."
+
+msgid "Active"
+msgstr "פעיל"
+
+msgid "Installed"
+msgstr "מותקן"
+
+msgid "On WordPress.org"
+msgstr "ב-WordPress.org"
+
+msgid "Coming soon"
+msgstr "בקרוב"
+
+msgid "Activate"
+msgstr "הפעל"
+
+msgid "Install now"
+msgstr "התקן עכשיו"
+
+msgid "View on WordPress.org"
+msgstr "צפה ב-WordPress.org"
+
+msgid "Learn more"
+msgstr "למידע נוסף"
+
+msgid "About Lynbro"
+msgstr "אודות Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro מפתחת תוספי וורדפרס חינמיים באמת, עם פרטיות תחילה וליבה נדיבה — ללא "
+"קרדיטים, ללא חומות תשלום על העיקר, והנתונים נשארים אצלך. פותח בדנמרק."
+
+msgid "Suggest a feature or report a bug"
+msgstr "הצע פיצ'ר או דווח על באג"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"המשוב פותח את מפת הדרכים הציבורית שלנו ב-plugins.lynbro.dk בלשונית חדשה — "
+"שום דבר לא נשלח מהאתר שלך."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"רכיבי Lynbro משותפים גרסה %1$s, מסופק על ידי %2$s (החדשה מתוך %3$d גרסאות "
+"באתר זה)."
+
+msgid "Is %s doing its job?"
+msgstr "האם %s עושה את עבודתו?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"אתה משתמש בו כבר כמה שבועות. אם הוא עובד עבורך, סקירה קצרה ב-WordPress.org "
+"עוזרת לבעלי אתרים אחרים למצוא אותו — גם ביקורות כנות וביקורתיות."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"אתה משתמש בו כבר כמה שבועות. אם הוא עובד עבורך — או אם משהו חסר — ספר לנו "
+"במפת הדרכים הציבורית שלנו. כך אנו מחליטים מה לפתח בהמשך."
+
+msgid "(opens in a new tab)"
+msgstr "(נפתח בלשונית חדשה)"
+
+msgid "Share feedback"
+msgstr "שלח משוב"
+
+msgid "Maybe later"
+msgstr "אולי מאוחר יותר"
+
+msgid "Don't ask again"
+msgstr "אל תשאל שוב"
+
+msgid "Something not working? Ask for help"
+msgstr "משהו לא עובד? בקש עזרה"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce פעיל"
+
+msgid "a form plugin is active"
+msgstr "תוסף טפסים פעיל"
+
+msgid "the site is set up for Denmark"
+msgstr "האתר מוגדר לדנמרק"
+
+msgid "comments are open"
+msgstr "תגובות פתוחות"
+
+msgid "tracking tags are active"
+msgstr "תגי מעקב פעילים"
+
+msgid "visitors can create accounts"
+msgstr "מבקרים יכולים ליצור חשבונות"
+
+msgid "Suggested because %l."
+msgstr "הוצע בגלל %l."
+
+msgid "Suggested for this site"
+msgstr "הצעה לאתר זה"
+
+msgid "Hide suggestions"
+msgstr "הסתר הצעות"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"תוספי Lynbro נוספים שמתאימים למה שהאתר הזה משתמש בו. שום דבר לא מותקן אלא אם"
+" תלחץ."
+
+msgid "All Lynbro plugins"
+msgstr "כל תוספי Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr "נבחר לפי מה שכבר בשימוש באתר — נקרא מהאתר, שום דבר לא נשלח החוצה."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"ייצא את הגדרות התוסף כגיבוי JSON, או אפס לברירת מחדל. 100% מקומי — שום דבר "
+"לא עוזב את האתר שלך."
+
+msgid "Reset all settings to defaults?"
+msgstr "לאפס את כל ההגדרות לברירת מחדל?"
+
+msgid "Reset to defaults"
+msgstr "איפוס לברירת מחדל"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"באנר הסכמה לעוגיות חינמי, רב-לשוני, ניתן להתאמה מלאה — תואם GDPR/ePrivacy "
+"ומצב הסכמה של Google v2, ללא הגבלת צפיות."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "אופטימיזציית תמונות"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"המרה ל-WebP ו-AVIF, התאמת גודל תמונות גדולות וטעינה עצלה — הכל על השרת שלך."
+
+msgid "AI Studio"
+msgstr "סטודיו AI"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"כתיבה ואיור פוסטים עם AI באמצעות מפתח OpenAI שלך — בעלות עצמית, ללא קרדיטים."
+
+msgid "Analytics"
+msgstr "אנליטיקה"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"אנליטיקה ללא קבצי עוגיות, מאוחסנת בשרת שלך עם משפכים. נתוני המבקרים לא "
+"עוזבים את בסיס הנתונים שלך."
+
+msgid "Tags"
+msgstr "תגיות"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr "GA4, Tag Manager, Google Ads, Meta Pixel ועוד — כל תגית מחכה להסכמה."
+
+msgid "Forms"
+msgstr "טפסים"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"טפסים עם שמירת נתונים ללא הגבלה, לוגיקה מותנית בצד השרת ו-webhooks חתומים."
+
+msgid "Verify"
+msgstr "אימות"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"זיהוי דומיינים שגויים של אימייל ומספרי טלפון לא תקינים, ואישור עם קוד חד-"
+"פעמי בדוא\"ל או SMS."
+
+msgid "Cache"
+msgstr "מטמון"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"ניקוי אמין למטמון nginx FastCGI ולמטמון Redis, עם אימות של כל ניקוי מול "
+"המטמון עצמו."
+
+msgid "Translate"
+msgstr "תרגום"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"הפעלת האתר במספר שפות, עם תרגום אוטומטי דרך מפתח OpenAI שלך — ללא הגבלה, ללא"
+" תשלום לפי מילה."
+
+msgid "Shield"
+msgstr "מגן"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"כותרות אבטחה, HTTPS עם HSTS, חומת אש קטנה נגד ניסיונות הזרקה ומתגי הקשחה שכל"
+" אתר צריך."
+
+msgid "Anti-Spam"
+msgstr "אנטי-ספאם"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"בדיקות ספאם שרצות על השרת שלך. ללא חשבון, ללא מנוי, כל חסימה עם הסבר — "
+"והודעה מושהית לעולם לא הולכת לאיבוד."
+
+msgid "Login Guard"
+msgstr "שומר כניסה"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"העברת wp-login.php, הגבלת ניסיונות כניסה כושלים והוספת אימות דו-שלבי "
+"באפליקציה — עם שלוש דרכי שחזור."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"באנר GDPR ו-ePrivacy עם Consent Mode v2, כפתור דחייה בולט באותה מידה ו-35 "
+"שפות."
+
+msgid "Activity Log"
+msgstr "יומן פעילות"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"מי עשה מה, מתי ומהיכן — נרשם בשרת שלך, ניתן לחיפוש, ייצוא ומחיקה לפי לוח "
+"זמנים שלך."
+
+msgid "Data Retention"
+msgstr "שמירת נתונים"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"מציאת מיקומי נתונים אישיים בבסיס הנתונים ומחיקתם לפי לוח זמנים — עם הרצה "
+"יבשה לפני כל מחיקה."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"סריקת כל עמוד לפי WCAG 2.2 AA ותיקון בטוח של מה שניתן. ללא שכבת-על, ללא "
+"הגבלת עמודים."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO רזה עם סכמת LocalBusiness חינמית, מפת אתר וכרטיסי רשתות חברתיות. ללא "
+"שליחת נתונים החוצה."
+
+msgid "SMTP Mailer"
+msgstr "שליחת דוא\"ל SMTP"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"שליחת דוא\"ל וורדפרס דרך שרת SMTP שלך — עם יומן דוא\"ל, שליחה מחדש, חיבור "
+"גיבוי והתראות כשל."
+
+msgid "Social Feed"
+msgstr "פיד חברתי"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "פיד אינסטגרם באתר שלך ללא שמירת אסימון Meta בוורדפרס."
+
+msgid "Reviews Cache"
+msgstr "מטמון ביקורות"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "הצגת ביקורות Google שלך ללא הכנסת מפתח API לוורדפרס."
+
+msgid "Links"
+msgstr "קישורים"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr "איתור קישורים שבורים וניהול הפניות בשרת שלך, עם הסבר לכל החלטה."
+
+msgid "Danadresse Autofill"
+msgstr "השלמת כתובת Danadresse"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"השלמה ואימות כתובת דנית ל-WooCommerce, WPForms, Gravity, Fluent, Formidable "
+"ו-EDD."
+
+msgid "Soge Lookup"
+msgstr "חיפוש Soge"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr "חיפוש רכבים דניים (DMR) וחברות (CVR) לפי מספר רישוי, VIN או מספר CVR."
+
+msgid "CVR Checkout"
+msgstr "צ'קאאוט CVR"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"צ'קאאוט B2B דני ל-WooCommerce: מילוי אוטומטי של פרטי חברה לפי CVR, אימות "
+"CVR/EU-VAT (VIES) ושדה EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "משלוח דני"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"בחירת נקודת איסוף חינמית ל-PostNord ו-GLS דנמרק בצ'קאאוט של WooCommerce, "
+"כולל שיטות משלוח נקיות."
+
+msgid "API Auth"
+msgstr "אימות API"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr "JSON Web Tokens ל-REST API שניתן לבטל בפועל, עם הרשאות ויומן סירובים."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot שומר את טקסטי הבאנר בחשבון Cookiebot שלך, ולכן ניתן להעביר רק את "
+"הקטגוריות שלו. טקסטי הבאנר כאן מתחילים מנוסחי ברירת המחדל של Lynbro, שתורגמו"
+" על ידינו."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie שומר את ההגדרות בפורמט משלו, שאינו נקרא כאן. הקטגוריות שלו "
+"ממופות להעדפות, סטטיסטיקה ושיווק; אפשר להגדיר את הטקסטים בכרטיסייה „שפות”."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s פעיל, ולכן Lynbro Cookie Consent לא מציג הודעות."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"המבקרים רואים באנר אחד, לא שניים: הבאנר שלנו לא מוצג, לא חוסם סקריפטים ולא "
+"שומר רשומות הסכמה בזמן שהתוסף האחר פעיל."
+
+msgid "See what can be brought over"
+msgstr "לצפייה במה שניתן להעביר"
+
+msgid "Banner texts in: %s"
+msgstr "טקסטי באנר ב: %s"
+
+msgid "Categories: %s"
+msgstr "קטגוריות: %s"
+
+msgid "Policy link: %s"
+msgstr "קישור למדיניות: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "העברת הטקסטים והקטגוריות מ־%s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"שום דבר בתוסף האחר לא משתנה. לאחר ההעברה, בדקו כאן את התוצאה ואז השביתו את "
+"התוסף האחר: הבאנר שלנו יחליף אותו מרגע זה."
+
+msgid "Booking"
+msgstr "הזמנות"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"הזמנת תורים לעסק אחד בשרת שלכם: שירותים, צוות, לוחות זמנים, תזכורות והעברה "
+"בלחיצה אחת מ־Amelia."
+
+msgid "Contact Buttons"
+msgstr "כפתורי יצירת קשר"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, טלפון וצ׳אט חי בכפתור מהיר אחד — סקריפטים של הצ׳אט "
+"נטענים רק כשהמבקר מבקש זאת."
+
+msgid "Site Check"
+msgstr "בדיקת אתר"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"בדיקת אתר בחינם למבקרים שלכם: HTTPS, כותרות, עוגיות לפני הסכמה, נגישות, "
+"SPF/DKIM/DMARC — הדוח מוצג על המסך."
+
+msgid "Newsletter"
+msgstr "ניוזלטר"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"ניוזלטרים באירוח עצמי עם שליחה בטוחה: תיעוד הסכמה, בדיקה אחרי העריכה האחרונה"
+" ואישור באמצעות הקלדת מספר הנמענים המדויק."
+
+msgid "Emoji images from WordPress.org"
+msgstr "תמונות אימוג׳י מ־WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"אל תטענו תמונות אימוג׳י מ־WordPress.org ‏; המבקרים יראו אימוג׳י בגופן המכשיר"
+" שלהם."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"‏WordPress מחליפה אימוג׳י בתמונות מ־WordPress.org בדפדפנים שאין בהם גופן "
+"אימוג׳י, וכך כתובת ה־IP של המבקר נשלחת ל־WordPress.org לפני שניתנה הסכמה "
+"כלשהי. האפשרות מופעלת כברירת מחדל; היא אינה משפיעה על מנהל האתר ועל העורך."

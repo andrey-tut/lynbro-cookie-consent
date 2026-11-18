@@ -3,7 +3,7 @@
  * Plugin Name:       Lynbro Cookie Consent
  * Plugin URI:        https://plugins.lynbro.dk/lynbro-cookie-consent
  * Description:       Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy and Google Consent Mode v2 ready, with no pageview limits.
- * Version:           0.4.6
+ * Version:           0.4.17
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Lynbro
@@ -18,11 +18,16 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'LYNBRO_COOKIE_CONSENT_VERSION', '0.4.6' );
+define( 'LYNBRO_COOKIE_CONSENT_VERSION', '0.4.17' );
 define( 'LYNBRO_COOKIE_CONSENT_FILE', __FILE__ );
 define( 'LYNBRO_COOKIE_CONSENT_DIR', plugin_dir_path( __FILE__ ) );
 define( 'LYNBRO_COOKIE_CONSENT_URL', plugin_dir_url( __FILE__ ) );
 define( 'LYNBRO_COOKIE_CONSENT_SLUG', 'lynbro-cookie-consent' );
+
+// The shared Lynbro admin shell. Required at file scope, not inside the
+// bootstrap below: every vendored copy has to announce itself before
+// plugins_loaded priority 1, which is where the newest one is chosen.
+require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/lynbro-core/lynbro-shell.php';
 
 /**
  * Cache-busting version for an asset: the plugin version plus the file's
@@ -71,7 +76,7 @@ function lynbro_cookie_consent_activate( $network_wide = false ) {
 	lynbro_cookie_consent_log_install();
 	lynbro_cookie_consent_stats_install();
 
-	// Set the one-time settings redirect flag (skips bulk / network activation).
+	// Remember the first activation time (delays the review request).
 	lynbro_cookie_consent_onboarding_activate( $network_wide );
 }
 register_activation_hook( __FILE__, 'lynbro_cookie_consent_activate' );
@@ -114,6 +119,7 @@ function lynbro_cookie_consent_init() {
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/consent-log.php';
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/wp-consent-api.php';
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/import-export.php';
+	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/competitors.php';
 
 	// Aggregated, cookieless statistics + opt-in portal features (Wave D).
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/stats.php';
@@ -124,6 +130,7 @@ function lynbro_cookie_consent_init() {
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'public/banner.php';
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/auto-block.php';
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/embeds.php';
+	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/emoji.php';
 
 	// Admin settings + engagement (loaded after front-end so admin can reuse helpers).
 	if ( is_admin() ) {

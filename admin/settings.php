@@ -43,20 +43,25 @@ function lynbro_cookie_consent_register_settings() {
 add_action( 'admin_init', 'lynbro_cookie_consent_register_settings' );
 
 /**
- * Add the settings page under the Settings menu.
+ * Add the settings page under the shared "Lynbro" menu.
+ *
+ * This used to be add_options_page(), which put the most-installed plugin of
+ * the suite in the one place the rest of the suite is not. Settings → is the
+ * right home for a plugin that stands alone; it is the wrong home for one of a
+ * dozen siblings a site owner has to find twice a week.
  *
  * @return void
  */
 function lynbro_cookie_consent_add_settings_page() {
-	$hook = add_options_page(
-		__( 'Cookie Consent', 'lynbro-cookie-consent' ),
-		__( 'Cookie Consent', 'lynbro-cookie-consent' ),
-		'manage_options',
-		'lynbro-cookie-consent',
-		'lynbro_cookie_consent_render_settings_page'
+	$GLOBALS['lynbro_cookie_consent_settings_hook'] = Lynbro_Admin_Menu::add(
+		array(
+			'slug'       => 'lynbro-cookie-consent',
+			'page_title' => __( 'Cookie Consent', 'lynbro-cookie-consent' ),
+			'menu_title' => __( 'Cookie Consent', 'lynbro-cookie-consent' ),
+			'capability' => 'manage_options',
+			'callback'   => 'lynbro_cookie_consent_render_settings_page',
+		)
 	);
-
-	$GLOBALS['lynbro_cookie_consent_settings_hook'] = $hook;
 }
 add_action( 'admin_menu', 'lynbro_cookie_consent_add_settings_page' );
 
@@ -257,6 +262,15 @@ function lynbro_cookie_consent_render_settings_page() {
 	<div class="wrap lynbro-cc-settings">
 		<h1><?php echo esc_html__( 'Cookie Consent', 'lynbro-cookie-consent' ); ?></h1>
 
+		<?php
+		/**
+		 * Messages that belong to this page only: results of imports, language
+		 * requests, feedback and the occasional review request. Printed here,
+		 * inside our own screen, instead of through admin notices.
+		 */
+		do_action( 'lynbro_cookie_consent_page_notices' );
+		?>
+
 		<p class="description">
 			<?php echo esc_html__( 'Configure your GDPR/ePrivacy and Google Consent Mode v2 cookie banner. This plugin helps with compliance but does not constitute legal advice.', 'lynbro-cookie-consent' ); ?>
 		</p>
@@ -274,7 +288,7 @@ function lynbro_cookie_consent_render_settings_page() {
 		</h2>
 
 		<?php /* Live preview — updated instantly by admin.js as fields change. */ ?>
-		<div id="lynbro-cc-preview" class="lynbro-cc-preview" aria-hidden="true">
+		<div id="lynbro-cc-preview" class="lynbro-cc-preview">
 			<div class="lynbro-cc-preview__bar">
 				<p class="lynbro-cc-preview__hint"><?php echo esc_html__( 'Live preview (updates as you change Design and General settings):', 'lynbro-cookie-consent' ); ?></p>
 				<?php /* Device width switcher (Desktop / Tablet / Mobile). */ ?>
@@ -293,16 +307,16 @@ function lynbro_cookie_consent_render_settings_page() {
 					</button>
 				</div>
 			</div>
-			<div class="lynbro-cc-preview__viewport">
+			<div class="lynbro-cc-preview__viewport" aria-hidden="true" inert>
 				<div class="lynbro-cc-preview__stage" data-lynbro-cc-position="bottom-bar">
 					<div class="lynbro-cc-preview__overlay" aria-hidden="true"></div>
 					<div class="lynbro-cc-preview__banner">
 						<h3 class="lynbro-cc-preview__title"></h3>
 						<p class="lynbro-cc-preview__desc"></p>
 						<div class="lynbro-cc-preview__actions">
-							<button type="button" class="lynbro-cc-preview__btn lynbro-cc-preview__btn--reject"></button>
-							<button type="button" class="lynbro-cc-preview__btn lynbro-cc-preview__btn--prefs"></button>
-							<button type="button" class="lynbro-cc-preview__btn lynbro-cc-preview__btn--accept"></button>
+							<button type="button" tabindex="-1" class="lynbro-cc-preview__btn lynbro-cc-preview__btn--reject"></button>
+							<button type="button" tabindex="-1" class="lynbro-cc-preview__btn lynbro-cc-preview__btn--prefs"></button>
+							<button type="button" tabindex="-1" class="lynbro-cc-preview__btn lynbro-cc-preview__btn--accept"></button>
 						</div>
 					</div>
 					<span id="lynbro-cc-float-preview" class="lynbro-cc-float-preview" aria-hidden="true">
@@ -416,7 +430,7 @@ function lynbro_cookie_consent_render_settings_page() {
 								<?php echo esc_html__( 'Share anonymous statistics to help improve the plugin — and see how your accept rate compares to the average. Off by default. Sends only aggregated numbers and your site domain (never visitor IPs) to the Lynbro portal, once a week.', 'lynbro-cookie-consent' ); ?>
 							</label>
 							<p class="description">
-								<a href="https://plugins.lynbro.dk" target="_blank" rel="noopener noreferrer"><?php echo esc_html__( 'Privacy Policy & Terms', 'lynbro-cookie-consent' ); ?></a>
+								<a href="https://plugins.lynbro.dk/privacy" target="_blank" rel="noopener noreferrer"><?php echo esc_html__( 'Privacy Policy & Terms', 'lynbro-cookie-consent' ); ?></a>
 							</p>
 						</td>
 					</tr>
@@ -746,6 +760,16 @@ function lynbro_cookie_consent_render_settings_page() {
 						</td>
 					</tr>
 					<tr>
+						<th scope="row"><?php echo esc_html__( 'Emoji images from WordPress.org', 'lynbro-cookie-consent' ); ?></th>
+						<td>
+							<label>
+								<input type="checkbox" name="<?php echo esc_attr( $opt ); ?>[local_emoji]" value="1" <?php checked( ! empty( $options['local_emoji'] ) ); ?> />
+								<?php echo esc_html__( 'Do not load emoji images from WordPress.org; visitors see emoji in their own device font.', 'lynbro-cookie-consent' ); ?>
+							</label>
+							<p class="description"><?php echo esc_html__( 'WordPress swaps emoji for images hosted on WordPress.org in browsers without an emoji font, which sends the visitor\'s IP address to WordPress.org before any consent. On by default; the admin and the editor are not affected.', 'lynbro-cookie-consent' ); ?></p>
+						</td>
+					</tr>
+					<tr>
 						<th scope="row"><?php echo esc_html__( 'Embed placeholders', 'lynbro-cookie-consent' ); ?></th>
 						<td>
 							<label>
@@ -935,6 +959,10 @@ function lynbro_cookie_consent_render_status_block( $options ) {
 	);
 	$mode    = isset( $options['consent_mode'] ) ? $options['consent_mode'] : 'geo';
 	$has_url = ! empty( $options['policy_url'] );
+	// Another consent plugin is active: the notice above says so; "your banner is live" would be untrue.
+	if ( function_exists( 'lynbro_cookie_consent_active_competitor' ) && '' !== lynbro_cookie_consent_active_competitor() ) {
+		return;
+	}
 	?>
 	<div class="lynbro-cc-status">
 		<p class="lynbro-cc-status__headline">

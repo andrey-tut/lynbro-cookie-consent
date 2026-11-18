@@ -1190,3 +1190,551 @@ msgstr "Mahe ujuv kaart paremas allnurgas."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Mõne värvi kontrastsus on väike (%s) — vaadake üksikasju."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "\"Alati sees\" märgis vajalikul küpsisel"
+
+msgid "Our plugins"
+msgstr "Meie pluginad"
+
+msgid "Insufficient permissions."
+msgstr "Ebapiisavad õigused."
+
+msgid "Lynbro plugins"
+msgstr "Lynbro pluginad"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Helded, privaatsust esikohale seadvad WordPressi pluginad — loodud Taanis. "
+"Tasuta põhifunktsioonid, pole krediite, sinu andmed jäävad sinu saidile."
+
+msgid "More from Lynbro"
+msgstr "Rohkem Lynbrost"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Ülejäänud komplekt. Juba olemasolevad on märgitud; midagi ei paigaldata ilma"
+" sinu loata."
+
+msgid "Active"
+msgstr "Aktiivne"
+
+msgid "Installed"
+msgstr "Paigaldatud"
+
+msgid "On WordPress.org"
+msgstr "WordPress.org-is"
+
+msgid "Coming soon"
+msgstr "Varsti saadaval"
+
+msgid "Activate"
+msgstr "Aktiveeri"
+
+msgid "Install now"
+msgstr "Paigalda kohe"
+
+msgid "View on WordPress.org"
+msgstr "Vaata WordPress.org-is"
+
+msgid "Learn more"
+msgstr "Loe lähemalt"
+
+msgid "About Lynbro"
+msgstr "Lynbrost"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro loob tõeliselt tasuta, privaatsust esikohale seadvaid WordPressi "
+"pluginaid helde tasuta põhiga — pole krediite, pole oluliste funktsioonide "
+"tasuseinu, sinu andmed sinu saidil. Valmistatud Taanis."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Paku funktsiooni või anna veast teada"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Tagasiside avab meie avaliku teekaardi aadressil plugins.lynbro.dk uues "
+"vahekaardis — sinu saidilt midagi ei saadeta."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Jagatud Lynbro komponendid v%1$s, pakub %2$s (uusim %3$d versioonist sellel "
+"saidil)."
+
+msgid "Is %s doing its job?"
+msgstr "Kas %s teeb oma tööd?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Oled seda kasutanud juba paar nädalat. Kui see töötab sinu jaoks, aitab "
+"lühike arvustus WordPress.org-is ka teistel saidiomanikel seda leida — ausad"
+" ja kriitilised arvustused on oodatud."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Oled seda kasutanud juba paar nädalat. Kui see töötab sinu jaoks — või kui "
+"midagi on puudu — anna teada meie avalikul teekaardil. Nii otsustame, mida "
+"järgmisena arendada."
+
+msgid "(opens in a new tab)"
+msgstr "(avaneb uues vahekaardis)"
+
+msgid "Share feedback"
+msgstr "Jaga tagasisidet"
+
+msgid "Maybe later"
+msgstr "Võib-olla hiljem"
+
+msgid "Don't ask again"
+msgstr "Ära küsi enam"
+
+msgid "Something not working? Ask for help"
+msgstr "Midagi ei tööta? Küsi abi"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce on aktiivne"
+
+msgid "a form plugin is active"
+msgstr "vormiplugin on aktiivne"
+
+msgid "the site is set up for Denmark"
+msgstr "sait on seadistatud Taani jaoks"
+
+msgid "comments are open"
+msgstr "kommentaarid on avatud"
+
+msgid "tracking tags are active"
+msgstr "jälgimissildid on aktiivsed"
+
+msgid "visitors can create accounts"
+msgstr "külastajad saavad luua kontosid"
+
+msgid "Suggested because %l."
+msgstr "Soovitatud, sest %l."
+
+msgid "Suggested for this site"
+msgstr "Soovitatud sellele saidile"
+
+msgid "Hide suggestions"
+msgstr "Peida soovitused"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Teised Lynbro pluginad, mis sobivad selle saidi kasutusega. Midagi ei "
+"paigaldata enne, kui klõpsad."
+
+msgid "All Lynbro plugins"
+msgstr "Kõik Lynbro pluginad"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Valitud selle saidi juba kasutatavate põhjal — loetakse ainult sellel "
+"saidil, midagi ei saadeta mujale."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Ekspordi selle plugina seaded JSON-varukoopiana või taasta vaikeseaded. 100%"
+" kohalik — midagi ei lahku sinu saidilt."
+
+msgid "Reset all settings to defaults?"
+msgstr "Kas lähtestada kõik seaded vaikeseadeteks?"
+
+msgid "Reset to defaults"
+msgstr "Lähtesta vaikeseadetele"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro küpsiste nõusolek"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Tasuta, mitmekeelne ja täielikult seadistatav küpsiste nõusoleku bänner — "
+"vastab GDPR/ePrivaatsuse ja Google Consent Mode v2 nõuetele, ilma "
+"lehevaatamiste piiranguta."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Pildi optimeerija"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Konverteeri WebP ja AVIF vormingusse, kohanda liiga suuri pilte ning lae "
+"need laisalt — kõik sinu enda serveris."
+
+msgid "AI Studio"
+msgstr "AI Stuudio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Kirjuta ja illustreeri postitusi tehisintellektiga, kasutades oma OpenAI "
+"võtit — otsehinnaga, ilma vahendustasudeta."
+
+msgid "Analytics"
+msgstr "Analüütika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Isehostitud, küpsisteta analüütika koos lehtritega. Külaliste andmed ei "
+"lahku kunagi sinu andmebaasist."
+
+msgid "Tags"
+msgstr "Sildid"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel ja palju muud ilma koodita — iga "
+"silt ootab nõusolekut."
+
+msgid "Forms"
+msgstr "Vormid"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Vormid, mille sisestused salvestatakse tasuta ja piiranguteta, "
+"tingimusloogika kontroll serveris ning allkirjastatud veebikonksud."
+
+msgid "Verify"
+msgstr "Kinnita"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Tuvasta valesti sisestatud e-posti domeenid ja vigased telefoninumbrid ning "
+"kinnita need ühekordse koodiga e-posti või SMS-i teel."
+
+msgid "Cache"
+msgstr "Vahemälu"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Usaldusväärne puhastamine nginx FastCGI vahemälule ja Redis "
+"objektivahemälule, iga puhastus kontrollitakse vahemälu enda vastu."
+
+msgid "Translate"
+msgstr "Tõlgi"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Halda oma saiti mitmes keeles, masintõlge sinu enda OpenAI võtmega — midagi "
+"ei mõõdeta, midagi ei müüda sõna kaupa."
+
+msgid "Shield"
+msgstr "Kaitse"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Turbepealkirjad, HTTPS koos HSTS-iga, väike tulemüür süstimisproovide vastu "
+"ja vajalikud turvalülitid igale saidile."
+
+msgid "Anti-Spam"
+msgstr "Rämpsposti tõrje"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Rämpsposti kontrollid töötavad sinu enda serveris. Pole kontot, pole "
+"tellimust, iga blokeering põhjendatud — ja hoitud sõnum ei lähe kunagi "
+"kaduma."
+
+msgid "Login Guard"
+msgstr "Sisselogimise kaitse"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Liiguta wp-login.php, piira ebaõnnestunud sisselogimisi ja lisa "
+"rakendusepõhine kaheastmeline autentimine — kolm võimalust tagasi pääseda."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR-i ja ePrivaatsuse bänner koos Consent Mode v2-ga, võrdselt nähtav "
+"Keeldu nupp ja 35 keelt."
+
+msgid "Activity Log"
+msgstr "Tegevuslogi"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Kes tegi mida, millal ja kust — salvestatud sinu enda serverisse, otsitav, "
+"eksporditav ja kustutatav sinu ajakava järgi."
+
+msgid "Data Retention"
+msgstr "Andmete säilitamine"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Leia, kus isikuandmed tegelikult sinu andmebaasis asuvad, ja kustuta need "
+"ajakava alusel — iga kustutamise eel eelvaade."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Kontrolli iga lehte WCAG 2.2 AA nõuete vastu ja paranda, mis on ohutult "
+"parandatav. Pole ülekatet ega lehepiirangut."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Kerge SEO koos tasuta LocalBusiness skeema, saidikaartide ja "
+"sotsiaalkaartidega. Midagi ei saadeta välja."
+
+msgid "SMTP Mailer"
+msgstr "SMTP saatja"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPressi e-post sinu enda SMTP serveri kaudu — koos e-posti logi, "
+"kordussaadetise, varuühenduse ja tõrgeteavitustega."
+
+msgid "Social Feed"
+msgstr "Sotsiaalvoog"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Instagrami voog sinu saidil ilma Meta märgita, mis oleks WordPressis "
+"salvestatud."
+
+msgid "Reviews Cache"
+msgstr "Arvustuste vahemälu"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Näita oma Google'i arvustusi ilma API võtit WordPressi salvestamata."
+
+msgid "Links"
+msgstr "Lingid"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Leia katkised lingid ja halda ümbersuunamisi oma serveris, iga otsuse põhjus"
+" on näha."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse automaattäitmine"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Taani aadresside automaattäide ja kontroll WooCommerce'i, WPFormsi, Gravity,"
+" Fluenti, Formidable'i ja EDD jaoks."
+
+msgid "Soge Lookup"
+msgstr "Soge otsing"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Otsi Taani sõidukeid (DMR) ja ettevõtteid (CVR) numbri, VIN-i või CVR numbri"
+" järgi."
+
+msgid "CVR Checkout"
+msgstr "CVR kassasüsteem"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Taani B2B kassasüsteem WooCommerce jaoks: CVR ettevõtte automaattäitmine, "
+"CVR/EU-KM (VIES) kontroll ja EAN/GLN väli."
+
+msgid "Danish Shipping"
+msgstr "Taani saatmine"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Tasuta pakiautomaadi valik PostNord ja GLS Denmark jaoks WooCommerce kassas,"
+" lisaks puhtad tarneviisid."
+
+msgid "API Auth"
+msgstr "API autentimine"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON-veebimärgid REST API jaoks, mida saab tegelikult tühistada, koos "
+"õiguste ja keeldumiste logiga."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot hoiab bänneri tekstid teie Cookieboti kontol, seega saab üle tuua "
+"ainult kategooriad. Siinsed bänneritekstid põhinevad Lynbro enda tõlgitud "
+"vaiketekstidel."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie hoiab seadeid oma vormingus, mida ei loeta. Selle kategooriad"
+" vastavad kategooriatele „Eelistused“, „Statistika“ ja „Turundus“; määrake "
+"oma tekstid vahekaardil „Keeled“."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s on aktiivne, seega Lynbro Cookie Consent ei kuva midagi."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Külastajad näevad ühte bännerit, mitte kahte: meie oma ei kuvata, see ei "
+"blokeeri skripte ega salvesta nõusolekuid, kuni teine plugin on aktiivne."
+
+msgid "See what can be brought over"
+msgstr "Vaadake, mida saab üle tuua"
+
+msgid "Banner texts in: %s"
+msgstr "Bänneritekstid asuvad: %s"
+
+msgid "Categories: %s"
+msgstr "Kategooriad: %s"
+
+msgid "Policy link: %s"
+msgstr "Privaatsuspoliitika link: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Tooge %s tekstid ja kategooriad üle"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Teise plugina seadeid ei muudeta. Pärast ület toomist kontrollige tulemust "
+"siin ja seejärel inaktiveerige teine plugin: meie bänner võtab siis üle."
+
+msgid "Booking"
+msgstr "Broneerimine"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Ühe ettevõtte kohtumiste broneerimine teie enda serveris: teenused, "
+"töötajad, ajakavad, meeldetuletused ja ühe klõpsuga üleminek Ameliast."
+
+msgid "Contact Buttons"
+msgstr "Kontaktinupud"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telefon ja reaalajas vestlus ühes kiires nupus — "
+"vestlusskriptid laaditakse ainult siis, kui külastaja seda soovib."
+
+msgid "Site Check"
+msgstr "Veebisaidi kontroll"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Tasuta veebisaidi kontroll teie külastajatele: HTTPS, päised, küpsised enne "
+"nõusoleku andmist, ligipääsetavus, SPF/DKIM/DMARC — aruanne kuvatakse "
+"ekraanil."
+
+msgid "Newsletter"
+msgstr "Uudiskiri"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Isehostitavad uudiskirjad turvalise saatmisega: nõusolekute kirjed, pärast "
+"viimast muudatust tehtav test ja kinnitamine täpse saajate arvu "
+"sisestamisega."
+
+msgid "Emoji images from WordPress.org"
+msgstr "WordPress.org-i emotikonipildid"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Ära laadi emotikonipilte WordPress.org-ist; külastajad näevad emotikone oma "
+"seadme kirjatüübis."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"WordPress asendab emotikonid WordPress.org-ist pärit piltidega brauserites, "
+"kus emotikonikirjatüüp puudub. See saadab külastaja IP-aadressi "
+"WordPress.org-ile enne mis tahes nõusoleku küsimist. Vaikimisi sisse "
+"lülitatud; administraatorit ja redaktorit see ei mõjuta."

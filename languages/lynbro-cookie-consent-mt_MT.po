@@ -1200,3 +1200,557 @@ msgstr "Kard flottanti b’dehra ratba fir-rokna t’isfel tal-lemin."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Xi kuluri għandhom kuntrast baxx (%s) — ara d-dettalji."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "Badge \"Dejjem attiv\" fuq cookies meħtieġa"
+
+msgid "Our plugins"
+msgstr "Il-plugins tagħna"
+
+msgid "Insufficient permissions."
+msgstr "Permessi insuffiċjenti."
+
+msgid "Lynbro plugins"
+msgstr "Plugins Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Plugins WordPress ġenerużi, b'priżorità għall-privatezza — mibnija fid-"
+"Danimarka. Cores b’xejn, l-ebda credits, id-dejta tiegħek tibqa’ fuq is-sit "
+"tiegħek."
+
+msgid "More from Lynbro"
+msgstr "Aktar minn Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Il-bqija tas-suite. Dak li diġà hemm fuq dan is-sit huwa mmarkat; xejn ma "
+"jiġi installat mingħajr il-permess tiegħek."
+
+msgid "Active"
+msgstr "Attiv"
+
+msgid "Installed"
+msgstr "Installat"
+
+msgid "On WordPress.org"
+msgstr "Fuq WordPress.org"
+
+msgid "Coming soon"
+msgstr "Dalwaqt"
+
+msgid "Activate"
+msgstr "Attiva"
+
+msgid "Install now"
+msgstr "Installa issa"
+
+msgid "View on WordPress.org"
+msgstr "Ara fuq WordPress.org"
+
+msgid "Learn more"
+msgstr "Aktar tagħrif"
+
+msgid "About Lynbro"
+msgstr "Dwar Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro jibni plugins WordPress tassew b’xejn, b’priżorità għall-privatezza u"
+" cores ġenerużi — l-ebda credits, l-ebda paywalls fuq l-essenzjali, id-dejta"
+" tiegħek fuq is-sit tiegħek. Magħmul fid-Danimarka."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Issuġġerixxi funzjoni jew irrapporta bug"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Il-feedback jiftaħ ir-roadmap pubbliku tagħna fuq plugins.lynbro.dk f'tab "
+"ġdid — xejn ma jintbagħat mis-sit tiegħek."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Komponenti Lynbro maqsuma v%1$s, ipprovduti minn %2$s (l-aktar ġdida minn "
+"%3$d verżjonijiet fuq dan is-sit)."
+
+msgid "Is %s doing its job?"
+msgstr "Qiegħed %s jagħmel xogħlu?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Użajtu għal ftit ġimgħat issa. Jekk qed jaħdem għalik, reviżjoni qasira fuq "
+"WordPress.org tgħin lil sidien oħra jsibuh — anke dawk onesti u kritiċi."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Użajtu għal ftit ġimgħat issa. Jekk qed jaħdem għalik — jew jekk hemm xi "
+"ħaġa nieqsa — għidilna fuq ir-roadmap pubbliku tagħna. Hekk niddeċiedu x’se "
+"nibnu li jmiss."
+
+msgid "(opens in a new tab)"
+msgstr "(jiftaħ f'tab ġdid)"
+
+msgid "Share feedback"
+msgstr "Ibgħat feedback"
+
+msgid "Maybe later"
+msgstr "Forsi aktar tard"
+
+msgid "Don't ask again"
+msgstr "Tgħidilix aktar"
+
+msgid "Something not working? Ask for help"
+msgstr "Xi ħaġa mhux qed taħdem? Staqsi għall-għajnuna"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce attiv"
+
+msgid "a form plugin is active"
+msgstr "plugin tal-formola attiv"
+
+msgid "the site is set up for Denmark"
+msgstr "is-sit issettjat għad-Danimarka"
+
+msgid "comments are open"
+msgstr "kummenti miftuħa"
+
+msgid "tracking tags are active"
+msgstr "tags tat-traċċar attivi"
+
+msgid "visitors can create accounts"
+msgstr "viżitaturi jistgħu joħolqu kontijiet"
+
+msgid "Suggested because %l."
+msgstr "Issuġġerit għax %l."
+
+msgid "Suggested for this site"
+msgstr "Issuġġerit għal dan is-sit"
+
+msgid "Hide suggestions"
+msgstr "Aħbi s-suġġerimenti"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Plugins Lynbro oħra li jaqblu ma’ dak li juża dan is-sit. Xejn ma jiġi "
+"installat sakemm ma tikklikkjax."
+
+msgid "All Lynbro plugins"
+msgstr "Il-plugins kollha ta’ Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Magħżula minn dak li diġà juża dan is-sit — moqrija fuq dan is-sit, xejn ma "
+"jintbagħat imkien ieħor."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Esporta s-settings ta’ dan il-plugin bħala backup JSON, jew irrestjahom "
+"għall-defaults. 100% lokali — xejn ma jitlaq mis-sit tiegħek."
+
+msgid "Reset all settings to defaults?"
+msgstr "Irrestja s-settings kollha għall-defaults?"
+
+msgid "Reset to defaults"
+msgstr "Irrestja għall-defaults"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Banner tal-kunsens tal-cookies b’xejn, multilingwi u kompletament "
+"konfigurabbli — lest għall-GDPR/ePrivacy u Google Consent Mode v2, mingħajr "
+"limiti ta’ pageviews."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Ottimizzatur tal-Immaġini"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Aqleb għal WebP u AVIF, daħħal immaġini kbar fid-daqs korrett u uża lazy-"
+"load — kollox fuq is-server tiegħek."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Ikteb u illustra postijiet bl-AI fuq OpenAI key tiegħek — bi prezz kost, "
+"mingħajr credits bejn."
+
+msgid "Analytics"
+msgstr "Analitiċi"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Analitiċi self-hosted mingħajr cookies u b'funnels. Id-dejta tal-viżitaturi "
+"qatt ma titlaq mid-database tiegħek."
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel u aktar mingħajr kodiċi — kull tag "
+"jistenna l-kunsens."
+
+msgid "Forms"
+msgstr "Formoli"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formoli b'entrati salvati b'xejn u mingħajr limitu, loġika kondizzjonali "
+"vverifikata fuq is-server, u webhooks iffirmati."
+
+msgid "Verify"
+msgstr "Ivverifika"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Aqbad dominji ta' email żbaljati u numri ta' telefon ħżiena, u ivverifikahom"
+" b'kodiku wieħed permezz ta' email jew SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Tindif affidabbli għal nginx FastCGI cache u Redis object cache, b'kull "
+"tindif ivverifikat kontra l-cache innifsu."
+
+msgid "Translate"
+msgstr "Ittraduċi"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Iċċaqlaq is-sit tiegħek f'diversi lingwi, b'traduzzjoni awtomatika fuq "
+"OpenAI key tiegħek — xejn imkejjel, xejn mibjugħ bil-kelma."
+
+msgid "Shield"
+msgstr "Shield"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Headers ta' sigurtà, HTTPS b'HSTS, firewall żgħir kontra probes ta' "
+"injection u swiċċijiet ta' hardening li kull sit jeħtieġ."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Kontrolli ta' spam li jaħdmu fuq is-server tiegħek. L-ebda kont, l-ebda "
+"abbonament, kull blokk jispjega għaliex — u messaġġ miżmum qatt ma jintilef."
+
+msgid "Login Guard"
+msgstr "Login Guard"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Mexxi wp-login.php, illimita tentattivi falluti u żid two-factor ibbażat fuq"
+" app — b'tliet modi kif terġa' tidħol."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner tal-GDPR u ePrivacy b'Consent Mode v2, buttuna Reject prominenti daqs"
+" l-oħra u 35 lingwa."
+
+msgid "Activity Log"
+msgstr "Reġistru tal-Attività"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Min għamel xiex, meta u minn fejn — miktub fuq is-server tiegħek, jista' "
+"jiġi mfittxet, esportat, u mħassar skont l-iskeda tiegħek."
+
+msgid "Data Retention"
+msgstr "Żamma tad-Dejta"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Sib fejn id-dejta personali tinsab fil-fatt fid-database tiegħek, imbagħad "
+"ħassarha skont skeda — b'prova niexfa qabel kull tħassir."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Iċċekkja kull paġna kontra WCAG 2.2 AA u issewwi dak li jista' jiġi rranġat "
+"b'mod sigur. L-ebda overlay, l-ebda limitu ta' paġni."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO ħafif b'schema LocalBusiness b'xejn, sitemaps u social cards. Xejn ma "
+"jibgħat dejta lura."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Emails ta' WordPress permezz tas-server SMTP tiegħek — b'reġistru tal-"
+"emails, tibgħat mill-ġdid, konnessjoni ta' backup u twissijiet ta' "
+"falliment."
+
+msgid "Social Feed"
+msgstr "Social Feed"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Feed ta' Instagram fuq is-sit tiegħek mingħajr Meta token maħżun "
+"f'WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache tar-Reviżjonijiet"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+"Uri r-reviżjonijiet tiegħek ta' Google mingħajr ma ddaħħal API key "
+"f'WordPress."
+
+msgid "Links"
+msgstr "Links"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Sib links miksura u immaniġġja redirects fuq is-server tiegħek, bir-raġuni "
+"għal kull deċiżjoni."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofill"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Autocomplete u validazzjoni ta' indirizzi Daniżi għal WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable u EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge Lookup"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Fittex vetturi Daniżi (DMR) u kumpaniji (CVR) b'numru tal-pjanċa, VIN jew "
+"numru CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Checkout B2B Daniż għal WooCommerce: awto-mili CVR tal-kumpanija, "
+"validazzjoni CVR/EU-VAT (VIES) u kamp EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Tbaħħir Daniż"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Għażla ta' pickup point b'xejn għal PostNord u GLS Denmark fil-checkout ta' "
+"WooCommerce, flimkien ma' metodi ta' tbaħħir nodfa."
+
+msgid "API Auth"
+msgstr "API Auth"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens għall-REST API li tista' tħassar verament, b'skopi u ġurnal "
+"ta' rifjuti."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot iżomm it-testi tal-banner fil-kont Cookiebot tiegħek, għalhekk "
+"jistgħu jiġu importati biss il-kategoriji tiegħu. It-testi tal-banner hawn "
+"jibdew mill-verżjonijiet awtomatiċi ta’ Lynbro, tradotti."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie iżomm is-settings fil-format tiegħu stess, li ma jinqara "
+"xejn. Il-kategoriji tiegħu jikkorrispondu għal Preferenzi, Statistika u "
+"Marketing; issettja t-testi tiegħek fit-tab Lingwi."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s huwa attiv, għalhekk Lynbro Cookie Consent jibqa’ sieket."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Il-viżitaturi jaraw banner wieħed, mhux tnejn: tagħna ma jintweriex, ma "
+"jimblokka l-ebda skript u ma jżomm l-ebda rekord tal-kunsens waqt li "
+"l-plugin l-ieħor ikun attiv."
+
+msgid "See what can be brought over"
+msgstr "Ara x’jista’ jiġi importat"
+
+msgid "Banner texts in: %s"
+msgstr "Testi tal-banner f’: %s"
+
+msgid "Categories: %s"
+msgstr "Kategoriji: %s"
+
+msgid "Policy link: %s"
+msgstr "Link għall-politika: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Importa t-testi u l-kategoriji minn %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Ma tinbidel xejn fil-plugin l-ieħor. Wara li timportahom, iċċekkja "
+"r-riżultat hawn, imbagħad iddiżattiva l-plugin l-ieħor: minn dak il-mument, "
+"il-banner tagħna jieħu postu."
+
+msgid "Booking"
+msgstr "Prenotazzjonijiet"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Prenotazzjoni ta’ appuntamenti għal negozju wieħed fuq is-server tiegħek "
+"stess: servizzi, staff, skedi, tfakkiriet u trasferiment b’klikk waħda minn "
+"Amelia."
+
+msgid "Contact Buttons"
+msgstr "Buttuni ta’ Kuntatt"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telefon u chat dirett f’buttuna waħda veloċi — "
+"l-iskripts taċ-chat jitgħabbew biss meta viżitatur jitlobhom."
+
+msgid "Site Check"
+msgstr "Iċċekkjar tas-Sit"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Iċċekkjar b’xejn tal-websajt għall-viżitaturi tiegħek: HTTPS, headers, "
+"cookies qabel il-kunsens, aċċessibbiltà, SPF/DKIM/DMARC — rapport fuq "
+"l-iskrin."
+
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Newsletters ospitati fuq is-server tiegħek b’kunsinna sigura: rekords tal-"
+"kunsens, test wara l-aħħar editjar u approvazzjoni billi ddaħħal in-numru "
+"eżatt tar-riċevituri."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Immaġnijiet tal-emoji minn WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Tgħabbix immaġnijiet tal-emoji minn WordPress.org; il-viżitaturi jaraw "
+"l-emoji bil-font tat-tagħmir tagħhom."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"WordPress jissostitwixxi l-emoji b’immaġnijiet minn WordPress.org f’brawżers"
+" li ma għandhomx font tal-emoji, u b’hekk jibgħat l-indirizz IP tal-"
+"viżitatur lil WordPress.org qabel ma jagħti kwalunkwe kunsens. Din l-għażla "
+"hija attivata awtomatikament; ma taffettwax lill-amministratur u lill-"
+"editur."

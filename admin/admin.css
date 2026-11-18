@@ -432,7 +432,7 @@
 }
 
 .lynbro-cc-locale code {
-	opacity: 0.7;
+	color: #50575e; /* muted, 7:1 on the code background — opacity fell below AA */
 }
 
 .lynbro-cc-locale__badge {
@@ -460,7 +460,7 @@
 
 .lynbro-cc-lang-group > summary code {
 	margin-left: 6px;
-	opacity: 0.7;
+	color: #50575e; /* muted without opacity, which fell below WCAG AA */
 }
 
 .lynbro-cc-lang-group .form-table {

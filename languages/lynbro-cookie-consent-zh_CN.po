@@ -1051,3 +1051,456 @@ msgstr "右下角的柔和浮动卡片。"
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "部分颜色对比度较低（%s）——请查看详情。"
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "必要 Cookie 上的“始终启用”标识"
+
+msgid "Our plugins"
+msgstr "我们的插件"
+
+msgid "Insufficient permissions."
+msgstr "权限不足。"
+
+msgid "Lynbro plugins"
+msgstr "Lynbro 插件"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr "慷慨、隐私优先的 WordPress 插件——丹麦制造。核心免费，无署名，数据仅存于您的网站。"
+
+msgid "More from Lynbro"
+msgstr "更多来自 Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr "其余套件。已在本站安装的已标记；不会在您同意前自动安装。"
+
+msgid "Active"
+msgstr "已启用"
+
+msgid "Installed"
+msgstr "已安装"
+
+msgid "On WordPress.org"
+msgstr "在 WordPress.org 上"
+
+msgid "Coming soon"
+msgstr "即将推出"
+
+msgid "Activate"
+msgstr "启用"
+
+msgid "Install now"
+msgstr "立即安装"
+
+msgid "View on WordPress.org"
+msgstr "在 WordPress.org 查看"
+
+msgid "Learn more"
+msgstr "了解更多"
+
+msgid "About Lynbro"
+msgstr "关于 Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro 提供真正免费的隐私优先 WordPress 插件，核心功能免费——无署名，无基础功能付费墙，数据仅存于您自己的网站。丹麦制造。"
+
+msgid "Suggest a feature or report a bug"
+msgstr "建议功能或报告问题"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr "反馈将在新标签页打开我们的公共路线图（plugins.lynbro.dk）——不会从您的网站发送任何信息。"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr "共享 Lynbro 组件 v%1$s，由 %2$s 提供（本站共 %3$d 个版本中最新）。"
+
+msgid "Is %s doing its job?"
+msgstr "%s 正常工作吗？"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr "您已使用了几周。如果觉得好用，请在 WordPress.org 留下简短评价，帮助其他站长发现它——无论好坏都欢迎。"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr "您已使用了几周。如果觉得好用，或有缺失功能，请在我们的公共路线图上告诉我们。我们据此决定下步开发。"
+
+msgid "(opens in a new tab)"
+msgstr "（在新标签页打开）"
+
+msgid "Share feedback"
+msgstr "提交反馈"
+
+msgid "Maybe later"
+msgstr "稍后再说"
+
+msgid "Don't ask again"
+msgstr "不再提示"
+
+msgid "Something not working? Ask for help"
+msgstr "有问题？寻求帮助"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce 已启用"
+
+msgid "a form plugin is active"
+msgstr "表单插件已启用"
+
+msgid "the site is set up for Denmark"
+msgstr "网站已设置为丹麦"
+
+msgid "comments are open"
+msgstr "评论已开放"
+
+msgid "tracking tags are active"
+msgstr "跟踪标签已启用"
+
+msgid "visitors can create accounts"
+msgstr "访客可创建账户"
+
+msgid "Suggested because %l."
+msgstr "因 %l 推荐。"
+
+msgid "Suggested for this site"
+msgstr "为本网站推荐"
+
+msgid "Hide suggestions"
+msgstr "隐藏推荐"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr "其他适合本站的 Lynbro 插件。仅在您点击后才会安装。"
+
+msgid "All Lynbro plugins"
+msgstr "全部 Lynbro 插件"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr "根据本站已用插件推荐——仅在本站读取，不会发送任何信息。"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr "将此插件的设置导出为 JSON 备份，或重置为默认值。100% 本地处理 — 数据不会离开您的网站。"
+
+msgid "Reset all settings to defaults?"
+msgstr "确定要将所有设置重置为默认值？"
+
+msgid "Reset to defaults"
+msgstr "重置为默认值"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"免费、多语言、完全可配置的 Cookie 同意横幅 — 支持 GDPR/ePrivacy 及 Google Consent Mode "
+"v2，无页面浏览量限制。"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "图片优化器"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr "在您自己的服务器上将图片转换为 WebP 和 AVIF，自动调整过大图片尺寸并延迟加载。"
+
+msgid "AI Studio"
+msgstr "AI 工作室"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr "使用您自己的 OpenAI 密钥，通过 AI 撰写和插图文章——按成本计费，无中间积分。"
+
+msgid "Analytics"
+msgstr "分析"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr "自托管、无 Cookie 的分析及转化漏斗。访客数据始终保留在您的数据库中。"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr "无需代码集成 GA4、Tag Manager、Google Ads、Meta Pixel 等——每个标签都在获得同意后加载。"
+
+msgid "Forms"
+msgstr "表单"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr "免费保存表单数据，无数量限制，服务器端条件逻辑校验，支持签名 Webhook。"
+
+msgid "Verify"
+msgstr "验证"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr "检测错误的邮箱域名和无效手机号，并通过一次性验证码（邮件或短信）确认。"
+
+msgid "Cache"
+msgstr "缓存"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr "支持 nginx FastCGI 缓存和 Redis 对象缓存的可靠清理，每次清理均自检验证。"
+
+msgid "Translate"
+msgstr "翻译"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr "多语言站点，使用您自己的 OpenAI 密钥进行机器翻译——无计量，无按字计费。"
+
+msgid "Shield"
+msgstr "防护"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr "安全头、HTTPS（含 HSTS）、轻量级防火墙防注入探测，以及站点必备加固开关。"
+
+msgid "Anti-Spam"
+msgstr "反垃圾"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr "垃圾信息检测在您自己的服务器上运行。无需账号，无订阅，每次拦截均有原因说明——被拦截信息绝不丢失。"
+
+msgid "Login Guard"
+msgstr "登录防护"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr "移动 wp-login.php，限制登录失败次数，添加基于应用的双重验证——提供三种找回方式。"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr "GDPR 及 ePrivacy 横幅，支持 Consent Mode v2，显眼的拒绝按钮，支持 35 种语言。"
+
+msgid "Activity Log"
+msgstr "活动日志"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr "谁在何时何地做了什么——全部记录在您自己的服务器，可搜索、导出，并按计划删除。"
+
+msgid "Data Retention"
+msgstr "数据保留"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr "查找个人数据实际存储位置，并按计划删除——每次删除前可进行模拟演练。"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr "检测每个页面是否符合 WCAG 2.2 AA 标准，并安全修复可修复项。无覆盖层，无页面数量限制。"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr "精简 SEO，免费 LocalBusiness schema、站点地图和社交卡片。绝不回传数据。"
+
+msgid "SMTP Mailer"
+msgstr "SMTP 邮件"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr "通过您自己的 SMTP 服务器发送 WordPress 邮件——含邮件日志、重发、备用连接及失败提醒。"
+
+msgid "Social Feed"
+msgstr "社交动态"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "在您的网站展示 Instagram 动态，无需在 WordPress 中存储 Meta 令牌。"
+
+msgid "Reviews Cache"
+msgstr "评论缓存"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "无需在 WordPress 中放置 API 密钥即可展示您的 Google 评论。"
+
+msgid "Links"
+msgstr "链接"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr "在您自己的服务器上查找失效链接并管理重定向，每个结果均有原因说明。"
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse 自动填充"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr "为 WooCommerce、WPForms、Gravity、Fluent、Formidable 和 EDD 提供丹麦地址自动补全与校验。"
+
+msgid "Soge Lookup"
+msgstr "Soge 查询"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr "通过车牌、VIN 或 CVR 号码查询丹麦车辆（DMR）和公司（CVR）。"
+
+msgid "CVR Checkout"
+msgstr "CVR 结账"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr "WooCommerce 丹麦 B2B 结账：CVR 公司自动填写、CVR/EU-VAT (VIES) 验证及 EAN/GLN 字段。"
+
+msgid "Danish Shipping"
+msgstr "丹麦配送"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr "WooCommerce 结账页支持 PostNord 和 GLS 丹麦自提点免费选择，并简化配送方式。"
+
+msgid "API Auth"
+msgstr "API 认证"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr "REST API 的 JSON Web Token，可撤销，支持权限范围及拒绝日志。"
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot 将横幅文案保存在您的 Cookiebot 账户中，因此只能导入其分类。此处的横幅文案使用 Lynbro 自带的翻译默认文案。"
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr "Borlabs Cookie 以自己的格式保存设置，本插件不会读取。其分类对应“偏好设置”“统计”和“营销”；请在“语言”标签页设置文案。"
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s 已启用，因此 Lynbro Cookie Consent 将不会显示。"
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr "访客只会看到一个横幅，而不是两个：其他插件启用期间，我们的横幅不会显示、不会阻止脚本，也不会保存同意记录。"
+
+msgid "See what can be brought over"
+msgstr "查看可导入的内容"
+
+msgid "Banner texts in: %s"
+msgstr "横幅文案来源：%s"
+
+msgid "Categories: %s"
+msgstr "分类：%s"
+
+msgid "Policy link: %s"
+msgstr "政策链接：%s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "从 %s 导入文案和分类"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr "不会更改其他插件的任何内容。导入后，请在此处检查结果，然后停用其他插件：从那一刻起，我们的横幅将接管。"
+
+msgid "Booking"
+msgstr "预约"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr "在您自己的服务器上为单个企业提供预约服务：管理服务项目、员工、日程和提醒，并可一键从 Amelia 迁移。"
+
+msgid "Contact Buttons"
+msgstr "联系按钮"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr "通过一个轻巧快速的按钮提供 WhatsApp、Messenger、电话和在线聊天——只有访客主动点击时才会加载聊天脚本。"
+
+msgid "Site Check"
+msgstr "网站检查"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr "为访客免费检查网站：HTTPS、响应头、同意前的 Cookie、无障碍访问、SPF/DKIM/DMARC——报告直接显示在屏幕上。"
+
+msgid "Newsletter"
+msgstr "新闻邮件"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr "自托管新闻邮件，安全发送：保存同意记录、最后一次编辑后进行测试，并通过输入准确的收件人数进行审批。"
+
+msgid "Emoji images from WordPress.org"
+msgstr "来自 WordPress.org 的表情符号图片"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr "不要从 WordPress.org 加载表情符号图片；访客将使用自己设备上的字体显示表情符号。"
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"对于没有表情符号字体的浏览器，WordPress 会将表情符号替换为来自 WordPress.org 的图片，这会在访客作出任何同意之前将其 IP "
+"地址发送给 WordPress.org。默认启用；此设置不影响管理员和编辑者。"

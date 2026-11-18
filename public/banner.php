@@ -78,11 +78,14 @@ function lynbro_cookie_consent_frontend_config() {
 		// Embeds.
 		'embeds'          => ! empty( $options['embeds_enabled'] ),
 		'embedCategory'   => sanitize_key( $options['embed_category'] ),
-		// Consent log REST endpoint (nonce-protected).
+		// Consent log REST endpoint. The REST nonce is only issued to logged-in
+		// users: an anonymous nonce is the same for every visitor, so it adds no
+		// CSRF protection, and a page cache that serves it after it expires
+		// (12-24 h) would make every request fail with 403.
 		'log'             => ! empty( $options['consent_log'] ),
 		'restUrl'         => esc_url_raw( rest_url( 'lynbro-cookie-consent/v1/consent' ) ),
-		'restNonce'       => wp_create_nonce( 'wp_rest' ),
-		// Aggregated, cookieless statistics beacon (nonce-protected, opt-out option).
+		'restNonce'       => is_user_logged_in() ? wp_create_nonce( 'wp_rest' ) : '',
+		// Aggregated, cookieless statistics beacon (rate-limited, opt-out option).
 		'stats'           => ! empty( $options['stats_enabled'] ),
 		'statUrl'         => esc_url_raw( rest_url( 'lynbro-cc/v1/stat' ) ),
 		// WP Consent API bridge.
@@ -90,6 +93,9 @@ function lynbro_cookie_consent_frontend_config() {
 		'wpcaMap'         => function_exists( 'lynbro_cookie_consent_wpca_category_map' ) ? lynbro_cookie_consent_wpca_category_map() : array(),
 		// Page language (cache-safe: tied to the URL via get_locale / multilingual plugins).
 		'lang'            => function_exists( 'lynbro_cookie_consent_current_locale' ) ? lynbro_cookie_consent_current_locale() : ( function_exists( 'determine_locale' ) ? determine_locale() : get_locale() ),
+		// The page language comes from a multilingual plugin (URL): it wins over the
+		// browser and a remembered banner choice (multilingual standard, 2026-11-11).
+		'langFromUrl'     => function_exists( 'lynbro_cookie_consent_page_locale' ) && '' !== lynbro_cookie_consent_page_locale(),
 		// Browser language auto-detection (client-side only — cache-safe).
 		'autoDetectLang'  => ! empty( $options['lang_auto_detect'] ),
 		// In-banner manual language switcher.
@@ -230,7 +236,7 @@ function lynbro_cookie_consent_build_inline_css() {
 	$options = lynbro_cookie_consent_get_options();
 
 	$light = sprintf(
-		'--lynbro-cc-bg:%1$s;--lynbro-cc-text:%2$s;--lynbro-cc-accept:%3$s;--lynbro-cc-reject:%4$s;--lynbro-cc-btn-text:%5$s;',
+		'--lynbro-cc-bg:%1$s;--lynbro-cc-text:%2$s;--lynbro-cc-accept:%3$s;--lynbro-cc-reject:%4$s;--lynbro-cc-btn-text:%5$s;--lynbro-cc-focus:%3$s;',
 		esc_attr( $options['color_bg'] ),
 		esc_attr( $options['color_text'] ),
 		esc_attr( $options['color_accept'] ),
@@ -239,7 +245,7 @@ function lynbro_cookie_consent_build_inline_css() {
 	);
 
 	$dark = sprintf(
-		'--lynbro-cc-bg:%1$s;--lynbro-cc-text:%2$s;--lynbro-cc-accept:%3$s;--lynbro-cc-reject:%4$s;--lynbro-cc-btn-text:%5$s;',
+		'--lynbro-cc-bg:%1$s;--lynbro-cc-text:%2$s;--lynbro-cc-accept:%3$s;--lynbro-cc-reject:%4$s;--lynbro-cc-btn-text:%5$s;--lynbro-cc-focus:%3$s;',
 		esc_attr( $options['color_bg_dark'] ),
 		esc_attr( $options['color_text_dark'] ),
 		esc_attr( $options['color_accept_dark'] ),
@@ -470,7 +476,7 @@ function lynbro_cookie_consent_render_banner() {
 									<?php echo $is_locked ? 'checked disabled' : ''; ?> />
 								<span class="lynbro-cc__category-name" data-lynbro-cc-text="cat_<?php echo esc_attr( $cat_key ); ?>_label"><?php echo esc_html( $cat['label'] ); ?></span>
 								<?php if ( $is_locked ) : ?>
-									<span class="lynbro-cc__badge"><?php echo esc_html__( 'Always on', 'lynbro-cookie-consent' ); ?></span>
+									<span class="lynbro-cc__badge" data-lynbro-cc-text="alwaysOn"><?php echo esc_html__( 'Always on', 'lynbro-cookie-consent' ); ?></span>
 								<?php endif; ?>
 							</label>
 							<p class="lynbro-cc__category-desc" data-lynbro-cc-text="cat_<?php echo esc_attr( $cat_key ); ?>_desc"><?php echo esc_html( $cat['description'] ); ?></p>

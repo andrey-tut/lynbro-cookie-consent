@@ -138,9 +138,10 @@ function lynbro_cookie_consent_stats_register_rest() {
 add_action( 'rest_api_init', 'lynbro_cookie_consent_stats_register_rest' );
 
 /**
- * Permission callback for the beacon: public (visitors are anonymous) but
- * protected by a light nonce (CSRF) and a per-window rate limit. Only allowed
- * when statistics are enabled.
+ * Permission callback for the beacon: public (visitors are anonymous) and
+ * protected by a per-window rate limit. Logged-in users also send a nonce;
+ * anonymous visitors do not (see lynbro_cookie_consent_log_rest_permission()).
+ * Only allowed when statistics are enabled.
  *
  * @param WP_REST_Request $request Request.
  * @return bool|WP_Error
@@ -156,12 +157,8 @@ function lynbro_cookie_consent_stats_rest_permission( $request ) {
 	if ( ! $nonce ) {
 		$nonce = sanitize_text_field( (string) $request->get_param( '_wpnonce' ) );
 	}
-	if ( ! $nonce || ! wp_verify_nonce( $nonce, 'wp_rest' ) ) {
+	if ( is_user_logged_in() && ( ! $nonce || ! wp_verify_nonce( $nonce, 'wp_rest' ) ) ) {
 		return new WP_Error( 'lynbro_cc_stats_bad_nonce', __( 'Invalid security token.', 'lynbro-cookie-consent' ), array( 'status' => 403 ) );
-	}
-
-	if ( ! lynbro_cookie_consent_stats_rate_ok() ) {
-		return new WP_Error( 'lynbro_cc_stats_rate', __( 'Too many requests.', 'lynbro-cookie-consent' ), array( 'status' => 429 ) );
 	}
 
 	return true;
@@ -196,6 +193,15 @@ function lynbro_cookie_consent_stats_rate_ok() {
  * @return WP_REST_Response
  */
 function lynbro_cookie_consent_stats_rest_record( $request ) {
+	if ( function_exists( 'lynbro_cookie_consent_active_competitor' ) && '' !== lynbro_cookie_consent_active_competitor() ) {
+		return new WP_REST_Response( null, 204 ); // Our banner is not shown; nothing to count.
+	}
+	// Over the per-IP limit: drop the beacon quietly. A 429 here would show up as a red
+	// error in the visitor's console (an office behind one IP, a monitoring tool) for a
+	// count nobody is waiting on.
+	if ( ! lynbro_cookie_consent_stats_rate_ok() ) {
+		return new WP_REST_Response( null, 204 );
+	}
 	$event = sanitize_key( (string) $request->get_param( 'event' ) );
 	if ( ! in_array( $event, lynbro_cookie_consent_stats_event_keys(), true ) ) {
 		return new WP_REST_Response( array( 'ok' => false ), 200 );

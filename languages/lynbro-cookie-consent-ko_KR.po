@@ -1088,3 +1088,480 @@ msgstr "오른쪽 하단 모서리에 부드럽게 떠 있는 카드입니다."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "일부 색상은 대비가 낮습니다(%s) — 세부 정보를 확인하세요."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "필수 쿠키에 \"항상 활성화\" 배지 표시"
+
+msgid "Our plugins"
+msgstr "우리 플러그인"
+
+msgid "Insufficient permissions."
+msgstr "권한이 부족합니다."
+
+msgid "Lynbro plugins"
+msgstr "Lynbro 플러그인"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"관대한 개인정보 보호 중심의 워드프레스 플러그인 — 덴마크에서 제작. 무료 코어, 크레딧 없음, 데이터는 사이트에만 저장됩니다."
+
+msgid "More from Lynbro"
+msgstr "Lynbro의 더 많은 플러그인"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr "나머지 제품군입니다. 이미 설치된 것은 표시되며, 직접 요청하지 않으면 아무것도 설치되지 않습니다."
+
+msgid "Active"
+msgstr "활성화됨"
+
+msgid "Installed"
+msgstr "설치됨"
+
+msgid "On WordPress.org"
+msgstr "WordPress.org에서"
+
+msgid "Coming soon"
+msgstr "곧 출시"
+
+msgid "Activate"
+msgstr "활성화"
+
+msgid "Install now"
+msgstr "지금 설치"
+
+msgid "View on WordPress.org"
+msgstr "WordPress.org에서 보기"
+
+msgid "Learn more"
+msgstr "자세히 알아보기"
+
+msgid "About Lynbro"
+msgstr "Lynbro 소개"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro는 진정한 무료, 개인정보 보호 중심의 워드프레스 플러그인을 제공합니다 — 무료 코어, 크레딧 없음, 필수 기능에 페이월 "
+"없음, 데이터는 사이트에만 저장. 덴마크 제작."
+
+msgid "Suggest a feature or report a bug"
+msgstr "기능 제안 또는 버그 신고"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr "피드백은 plugins.lynbro.dk의 공개 로드맵을 새 탭에서 엽니다 — 사이트에서 아무것도 전송되지 않습니다."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr "공유 Lynbro 컴포넌트 v%1$s, %2$s 제공 (%3$d개 버전 중 최신)."
+
+msgid "Is %s doing its job?"
+msgstr "%s이(가) 제대로 작동하나요?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"몇 주간 사용하셨네요. 잘 작동한다면 WordPress.org에 짧은 후기가 다른 사이트 운영자에게 도움이 됩니다 — 솔직한 비판도 "
+"환영합니다."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"몇 주간 사용하셨네요. 잘 작동하거나 부족한 점이 있다면 공개 로드맵에 의견을 남겨주세요. 그 의견으로 다음 개발 방향을 정합니다."
+
+msgid "(opens in a new tab)"
+msgstr "(새 탭에서 열림)"
+
+msgid "Share feedback"
+msgstr "피드백 보내기"
+
+msgid "Maybe later"
+msgstr "나중에"
+
+msgid "Don't ask again"
+msgstr "다시 묻지 않기"
+
+msgid "Something not working? Ask for help"
+msgstr "문제가 있나요? 도움 요청하기"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce가 활성화됨"
+
+msgid "a form plugin is active"
+msgstr "폼 플러그인이 활성화됨"
+
+msgid "the site is set up for Denmark"
+msgstr "사이트가 덴마크로 설정됨"
+
+msgid "comments are open"
+msgstr "댓글이 열려 있음"
+
+msgid "tracking tags are active"
+msgstr "추적 태그가 활성화됨"
+
+msgid "visitors can create accounts"
+msgstr "방문자가 계정 생성 가능"
+
+msgid "Suggested because %l."
+msgstr "%l 때문에 추천됨."
+
+msgid "Suggested for this site"
+msgstr "이 사이트에 추천"
+
+msgid "Hide suggestions"
+msgstr "추천 숨기기"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr "이 사이트에 맞는 다른 Lynbro 플러그인입니다. 클릭하지 않으면 설치되지 않습니다."
+
+msgid "All Lynbro plugins"
+msgstr "모든 Lynbro 플러그인"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr "이 사이트에서 이미 사용하는 것에서 선택됨 — 사이트에서만 읽으며, 외부로 전송되지 않습니다."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"이 플러그인의 설정을 JSON 백업으로 내보내거나 기본값으로 재설정하세요. 100% 로컬 — 사이트 밖으로 데이터가 전송되지 않습니다."
+
+msgid "Reset all settings to defaults?"
+msgstr "모든 설정을 기본값으로 재설정하시겠습니까?"
+
+msgid "Reset to defaults"
+msgstr "기본값으로 재설정"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro 쿠키 동의"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"무료, 다국어 지원, 완전한 설정 가능 쿠키 동의 배너 — GDPR/ePrivacy 및 Google Consent Mode v2 지원, "
+"페이지뷰 제한 없음."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "이미지 최적화"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr "WebP 및 AVIF로 변환하고, 큰 이미지는 자동으로 크기 조정하며, 서버에서 직접 지연 로딩합니다."
+
+msgid "AI Studio"
+msgstr "AI 스튜디오"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr "자신의 OpenAI 키로 AI를 활용해 게시글을 작성하고 그림을 그립니다 — 중간 수수료 없이 실비로 이용하세요."
+
+msgid "Analytics"
+msgstr "분석"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr "퍼널 기능이 포함된 자체 호스팅, 쿠키 없는 분석. 방문자 데이터는 데이터베이스를 벗어나지 않습니다."
+
+msgid "Tags"
+msgstr "태그"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr "GA4, 태그 관리자, Google Ads, Meta 픽셀 등 코딩 없이 — 각 태그는 동의 후 실행됩니다."
+
+msgid "Forms"
+msgstr "폼"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr "입력값 저장 무료, 무제한. 조건부 논리는 서버에서 검증, 서명된 웹훅 지원."
+
+msgid "Verify"
+msgstr "검증"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr "오타가 있는 이메일 도메인과 잘못된 전화번호를 잡아내고, 이메일 또는 SMS로 일회용 코드로 확인합니다."
+
+msgid "Cache"
+msgstr "캐시"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr "nginx FastCGI 캐시와 Redis 오브젝트 캐시를 신뢰성 있게 비우고, 모든 삭제는 캐시에서 직접 검증됩니다."
+
+msgid "Translate"
+msgstr "번역"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr "여러 언어로 사이트 운영, 자신의 OpenAI 키로 기계 번역 — 단어당 과금이나 제한 없음."
+
+msgid "Shield"
+msgstr "보호"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr "보안 헤더, HSTS 포함 HTTPS, 인젝션 탐지용 소형 방화벽과 필수 보안 스위치 제공."
+
+msgid "Anti-Spam"
+msgstr "스팸 방지"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr "스팸 검사는 자체 서버에서 실행. 계정, 구독 불필요, 차단 사유 표시 — 보류 메시지는 절대 유실되지 않습니다."
+
+msgid "Login Guard"
+msgstr "로그인 가드"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr "wp-login.php 이동, 로그인 실패 제한, 앱 기반 2단계 인증 — 복구 방법 3가지 제공."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr "GDPR 및 ePrivacy 배너, Consent Mode v2, 동등하게 눈에 띄는 거부 버튼, 35개 언어 지원."
+
+msgid "Activity Log"
+msgstr "활동 로그"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr "누가 언제 어디서 무엇을 했는지 — 서버에 기록, 검색 및 내보내기 가능, 예약 삭제 지원."
+
+msgid "Data Retention"
+msgstr "데이터 보관 기간"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr "개인정보가 실제로 저장된 위치를 찾아 예약 삭제 — 삭제 전 미리보기 제공."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"모든 페이지를 WCAG 2.2 AA 기준으로 검사하고, 안전하게 수정 가능한 부분만 자동 수정. 오버레이나 페이지 제한 없음."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr "가벼운 SEO, 무료 LocalBusiness 스키마, 사이트맵, 소셜 카드 제공. 외부 전송 없음."
+
+msgid "SMTP Mailer"
+msgstr "SMTP 메일러"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr "자체 SMTP 서버를 통한 워드프레스 이메일 — 이메일 로그, 재전송, 백업 연결, 실패 알림 포함."
+
+msgid "Social Feed"
+msgstr "소셜 피드"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "WordPress에 Meta 토큰 저장 없이 사이트에 인스타그램 피드 표시."
+
+msgid "Reviews Cache"
+msgstr "리뷰 캐시"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "API 키를 WordPress에 저장하지 않고 Google 리뷰 표시."
+
+msgid "Links"
+msgstr "링크"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr "서버에서 직접 끊어진 링크를 찾고 리디렉션 관리, 모든 판정 사유 제공."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse 자동완성"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"WooCommerce, WPForms, Gravity, Fluent, Formidable, EDD용 덴마크 주소 자동완성 및 검증."
+
+msgid "Soge Lookup"
+msgstr "Soge 조회"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr "덴마크 차량(DMR) 및 기업(CVR)을 번호판, VIN 또는 CVR 번호로 조회하세요."
+
+msgid "CVR Checkout"
+msgstr "CVR 결제"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"WooCommerce용 덴마크 B2B 결제: CVR 기업 자동 입력, CVR/EU-VAT(VIES) 검증 및 EAN/GLN 필드 제공."
+
+msgid "Danish Shipping"
+msgstr "덴마크 배송"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr "WooCommerce 결제 시 PostNord 및 GLS Denmark의 무료 픽업 포인트 선택, 간편한 배송 방법 제공."
+
+msgid "API Auth"
+msgstr "API 인증"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr "실제로 취소할 수 있는 REST API용 JSON Web Token, 범위 및 거부 이력 포함."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot은 배너 문구를 Cookiebot 계정에 저장하므로 카테고리만 가져올 수 있습니다. 여기의 배너 문구는 Lynbro의 "
+"기본 번역 문구를 사용합니다."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie는 자체 형식으로 설정을 저장하며, 해당 설정은 읽을 수 없습니다. 카테고리는 환경설정, 통계, 마케팅에 "
+"대응합니다. 문구는 언어 탭에서 설정하세요."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s이(가) 활성화되어 있어 Lynbro Cookie Consent는 표시되지 않습니다."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"방문자에게는 배너가 하나만 표시됩니다. 다른 플러그인이 활성화된 동안에는 저희 배너가 표시되지 않고, 스크립트를 차단하거나 동의 기록을 "
+"저장하지 않습니다."
+
+msgid "See what can be brought over"
+msgstr "가져올 수 있는 항목 보기"
+
+msgid "Banner texts in: %s"
+msgstr "배너 문구 위치: %s"
+
+msgid "Categories: %s"
+msgstr "카테고리: %s"
+
+msgid "Policy link: %s"
+msgstr "정책 링크: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "%s의 문구와 카테고리 가져오기"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"다른 플러그인의 설정은 변경되지 않습니다. 가져온 후 여기에서 결과를 확인한 다음 다른 플러그인을 비활성화하세요. 그 시점부터 저희 "
+"배너가 대신 표시됩니다."
+
+msgid "Booking"
+msgstr "예약"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"자체 서버에서 한 사업체의 예약을 관리하세요. 서비스, 직원, 일정, 알림을 제공하며 Amelia에서 클릭 한 번으로 이전할 수 "
+"있습니다."
+
+msgid "Contact Buttons"
+msgstr "연락처 버튼"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, 전화, 실시간 채팅을 빠른 버튼 하나로 제공하세요. 방문자가 요청할 때만 채팅 스크립트가 "
+"로드됩니다."
+
+msgid "Site Check"
+msgstr "사이트 점검"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"방문자를 위한 무료 웹사이트 점검: HTTPS, 헤더, 동의 전 쿠키, 접근성, SPF/DKIM/DMARC를 화면에서 보고서로 "
+"확인하세요."
+
+msgid "Newsletter"
+msgstr "뉴스레터"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"안전한 발송을 지원하는 자체 호스팅 뉴스레터: 동의 기록, 마지막 수정 후 테스트, 정확한 수신자 수를 입력하는 승인 절차를 제공합니다."
+
+msgid "Emoji images from WordPress.org"
+msgstr "WordPress.org의 이모지 이미지"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr "WordPress.org에서 이모지 이미지를 불러오지 않습니다. 방문자는 기기의 글꼴로 이모지를 표시합니다."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"WordPress는 이모지 글꼴이 없는 브라우저에서 이모지를 WordPress.org의 이미지로 대체합니다. 이 경우 동의가 이루어지기 "
+"전에 방문자의 IP 주소가 WordPress.org로 전송됩니다. 기본적으로 활성화되어 있으며, 관리자와 편집기에는 영향을 주지 "
+"않습니다."

@@ -1200,3 +1200,553 @@ msgstr "Kartu mengambang bernuansa lembut di sudut kanan bawah."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Beberapa warna memiliki kontras rendah (%s) — lihat detail."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "Lencana \"Selalu aktif\" pada cookie yang diperlukan"
+
+msgid "Our plugins"
+msgstr "Plugin kami"
+
+msgid "Insufficient permissions."
+msgstr "Izin tidak cukup."
+
+msgid "Lynbro plugins"
+msgstr "Plugin Lynbro"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Plugin WordPress yang dermawan dan mengutamakan privasi — dibuat di Denmark."
+" Inti gratis, tanpa kredit, data Anda tetap di situs Anda."
+
+msgid "More from Lynbro"
+msgstr "Lainnya dari Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Sisa paket. Yang sudah ada di situs ini ditandai; tidak ada yang terpasang "
+"tanpa persetujuan Anda."
+
+msgid "Active"
+msgstr "Aktif"
+
+msgid "Installed"
+msgstr "Terpasang"
+
+msgid "On WordPress.org"
+msgstr "Di WordPress.org"
+
+msgid "Coming soon"
+msgstr "Segera hadir"
+
+msgid "Activate"
+msgstr "Aktifkan"
+
+msgid "Install now"
+msgstr "Pasang sekarang"
+
+msgid "View on WordPress.org"
+msgstr "Lihat di WordPress.org"
+
+msgid "Learn more"
+msgstr "Pelajari lebih lanjut"
+
+msgid "About Lynbro"
+msgstr "Tentang Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro membuat plugin WordPress gratis yang benar-benar mengutamakan privasi"
+" dengan inti gratis yang dermawan — tanpa kredit, tanpa pembatasan fitur "
+"penting, data Anda di situs Anda sendiri. Dibuat di Denmark."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Usulkan fitur atau laporkan bug"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Masukan akan membuka roadmap publik kami di plugins.lynbro.dk pada tab baru "
+"— tidak ada data yang dikirim dari situs Anda."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Komponen Lynbro bersama v%1$s, disediakan oleh %2$s (terbaru dari %3$d versi"
+" di situs ini)."
+
+msgid "Is %s doing its job?"
+msgstr "Apakah %s berfungsi dengan baik?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Anda telah menggunakannya selama beberapa minggu. Jika bermanfaat, ulasan "
+"singkat di WordPress.org akan membantu pemilik situs lain menemukannya — "
+"ulasan jujur, termasuk yang kritis."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Anda telah menggunakannya selama beberapa minggu. Jika bermanfaat — atau ada"
+" yang kurang — beri tahu kami di roadmap publik. Itu yang menentukan apa "
+"yang kami kembangkan selanjutnya."
+
+msgid "(opens in a new tab)"
+msgstr "(terbuka di tab baru)"
+
+msgid "Share feedback"
+msgstr "Bagikan masukan"
+
+msgid "Maybe later"
+msgstr "Nanti saja"
+
+msgid "Don't ask again"
+msgstr "Jangan tanya lagi"
+
+msgid "Something not working? Ask for help"
+msgstr "Ada masalah? Minta bantuan"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce aktif"
+
+msgid "a form plugin is active"
+msgstr "plugin formulir aktif"
+
+msgid "the site is set up for Denmark"
+msgstr "situs diatur untuk Denmark"
+
+msgid "comments are open"
+msgstr "komentar terbuka"
+
+msgid "tracking tags are active"
+msgstr "tag pelacakan aktif"
+
+msgid "visitors can create accounts"
+msgstr "pengunjung dapat membuat akun"
+
+msgid "Suggested because %l."
+msgstr "Disarankan karena %l."
+
+msgid "Suggested for this site"
+msgstr "Disarankan untuk situs ini"
+
+msgid "Hide suggestions"
+msgstr "Sembunyikan saran"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Plugin Lynbro lain yang sesuai dengan penggunaan situs ini. Tidak ada yang "
+"terpasang kecuali Anda klik."
+
+msgid "All Lynbro plugins"
+msgstr "Semua plugin Lynbro"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Dipilih dari apa yang sudah digunakan situs ini — dibaca di situs ini, tidak"
+" ada data yang dikirim ke mana pun."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Ekspor pengaturan plugin ini sebagai cadangan JSON, atau atur ulang ke "
+"default. 100% lokal — tidak ada data yang keluar dari situs Anda."
+
+msgid "Reset all settings to defaults?"
+msgstr "Atur ulang semua pengaturan ke default?"
+
+msgid "Reset to defaults"
+msgstr "Atur ulang ke default"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Banner persetujuan cookie gratis, multibahasa, dan sepenuhnya dapat "
+"dikonfigurasi — siap untuk GDPR/ePrivacy dan Google Consent Mode v2, tanpa "
+"batas tampilan halaman."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Pengoptimal Gambar"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Konversi ke WebP dan AVIF, sesuaikan ukuran gambar yang terlalu besar, dan "
+"aktifkan pemuatan lambat — semuanya di server Anda sendiri."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Tulis dan ilustrasikan postingan dengan AI menggunakan kunci OpenAI Anda "
+"sendiri — langsung, tanpa kredit perantara."
+
+msgid "Analytics"
+msgstr "Analitik"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Analitik tanpa cookie yang dihosting sendiri dengan funnel. Data pengunjung "
+"tetap di database Anda."
+
+msgid "Tags"
+msgstr "Tag"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel dan lainnya tanpa kode — setiap tag"
+" menunggu persetujuan."
+
+msgid "Forms"
+msgstr "Formulir"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Formulir dengan entri tersimpan gratis tanpa batas, logika kondisional dicek"
+" di server, dan webhook bertanda tangan."
+
+msgid "Verify"
+msgstr "Verifikasi"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Deteksi domain email salah ketik dan nomor telepon tidak valid, lalu "
+"konfirmasi dengan kode sekali pakai via email atau SMS."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Pembersihan andal untuk cache nginx FastCGI dan cache objek Redis, dengan "
+"setiap pembersihan diverifikasi langsung ke cache."
+
+msgid "Translate"
+msgstr "Terjemahkan"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Jalankan situs Anda dalam beberapa bahasa, dengan terjemahan mesin memakai "
+"kunci OpenAI Anda sendiri — tanpa batasan, tanpa biaya per kata."
+
+msgid "Shield"
+msgstr "Perisai"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Header keamanan, HTTPS dengan HSTS, firewall kecil untuk mencegah injeksi, "
+"dan pengaturan pengamanan penting untuk setiap situs."
+
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Pemeriksaan spam berjalan di server Anda sendiri. Tanpa akun, tanpa "
+"langganan, setiap blokir dijelaskan — dan pesan yang ditahan tidak pernah "
+"hilang."
+
+msgid "Login Guard"
+msgstr "Login Guard"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Pindahkan wp-login.php, batasi percobaan login gagal, dan tambahkan "
+"autentikasi dua faktor berbasis aplikasi — dengan tiga cara pemulihan."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"Banner GDPR dan ePrivacy dengan Consent Mode v2, tombol Tolak yang sama "
+"mencolok, dan 35 bahasa."
+
+msgid "Activity Log"
+msgstr "Log Aktivitas"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Siapa melakukan apa, kapan, dan dari mana — dicatat di server Anda sendiri, "
+"dapat dicari, diekspor, dan dihapus sesuai jadwal Anda."
+
+msgid "Data Retention"
+msgstr "Retensi Data"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Temukan lokasi data pribadi di database Anda, lalu hapus sesuai jadwal — "
+"dengan simulasi sebelum setiap penghapusan."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Pindai setiap halaman sesuai WCAG 2.2 AA dan perbaiki yang bisa diperbaiki "
+"dengan aman. Tanpa overlay, tanpa batas halaman."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"SEO ringan dengan schema LocalBusiness gratis, sitemap, dan kartu sosial. "
+"Tidak ada data yang dikirim keluar."
+
+msgid "SMTP Mailer"
+msgstr "SMTP Mailer"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"Email WordPress melalui server SMTP Anda sendiri — dengan log email, kirim "
+"ulang, koneksi cadangan, dan peringatan kegagalan."
+
+msgid "Social Feed"
+msgstr "Feed Sosial"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+"Tampilkan feed Instagram di situs Anda tanpa token Meta yang disimpan di "
+"WordPress."
+
+msgid "Reviews Cache"
+msgstr "Cache Ulasan"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Tampilkan ulasan Google Anda tanpa menaruh API key di WordPress."
+
+msgid "Links"
+msgstr "Tautan"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Temukan tautan rusak dan kelola pengalihan di server Anda sendiri, dengan "
+"alasan untuk setiap hasil."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse Autofill"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Otomatis isi dan validasi alamat Denmark untuk WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable, dan EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge Lookup"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Cari kendaraan Denmark (DMR) dan perusahaan (CVR) berdasarkan plat, VIN, "
+"atau nomor CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR Checkout"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Checkout B2B Denmark untuk WooCommerce: pengisian otomatis data perusahaan "
+"CVR, validasi CVR/EU-VAT (VIES), dan kolom EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Pengiriman Denmark"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Pilih titik pengambilan gratis untuk PostNord dan GLS Denmark di checkout "
+"WooCommerce, serta metode pengiriman yang bersih."
+
+msgid "API Auth"
+msgstr "API Auth"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON Web Tokens untuk REST API yang dapat Anda cabut, dengan scope dan "
+"jurnal penolakan."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot menyimpan teks bannernya di akun Cookiebot Anda, jadi hanya "
+"kategorinya yang dapat diimpor. Teks banner di sini menggunakan teks bawaan "
+"Lynbro yang telah diterjemahkan."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie menyimpan pengaturannya dalam formatnya sendiri yang tidak "
+"dapat dibaca. Kategorinya dipetakan ke Preferensi, Statistik, dan Pemasaran;"
+" atur teks Anda di tab Bahasa."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s aktif, jadi Lynbro Cookie Consent tidak menampilkan apa pun."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Pengunjung hanya melihat satu banner, bukan dua: banner kami tidak "
+"ditampilkan, tidak memblokir skrip, dan tidak menyimpan catatan persetujuan "
+"selama plugin lain aktif."
+
+msgid "See what can be brought over"
+msgstr "Lihat yang dapat diimpor"
+
+msgid "Banner texts in: %s"
+msgstr "Teks banner di: %s"
+
+msgid "Categories: %s"
+msgstr "Kategori: %s"
+
+msgid "Policy link: %s"
+msgstr "Tautan kebijakan: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Impor teks dan kategori dari %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Tidak ada pengaturan plugin lain yang diubah. Setelah mengimpornya, periksa "
+"hasilnya di sini, lalu nonaktifkan plugin lain: banner kami akan mengambil "
+"alih sejak saat itu."
+
+msgid "Booking"
+msgstr "Pemesanan"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Pemesanan janji temu untuk satu bisnis di server Anda sendiri: layanan, "
+"staf, jadwal, pengingat, dan pemindahan dari Amelia dengan sekali klik."
+
+msgid "Contact Buttons"
+msgstr "Tombol Kontak"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telepon, dan obrolan langsung dalam satu tombol yang "
+"cepat — skrip obrolan hanya dimuat saat pengunjung memintanya."
+
+msgid "Site Check"
+msgstr "Pemeriksaan Situs"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Pemeriksaan situs web gratis untuk pengunjung Anda: HTTPS, header, cookie "
+"sebelum persetujuan, aksesibilitas, SPF/DKIM/DMARC — laporan ditampilkan di "
+"layar."
+
+msgid "Newsletter"
+msgstr "Buletin"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"Buletin yang dihosting sendiri dengan pengiriman aman: catatan persetujuan, "
+"pengujian setelah perubahan terakhir, dan persetujuan dengan mengetik jumlah"
+" penerima yang tepat."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Gambar emoji dari WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Jangan muat gambar emoji dari WordPress.org; pengunjung akan melihat emoji "
+"dengan font di perangkat mereka sendiri."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"WordPress mengganti emoji dengan gambar dari WordPress.org di browser yang "
+"tidak memiliki font emoji. Hal ini mengirim alamat IP pengunjung ke "
+"WordPress.org sebelum mereka memberikan persetujuan. Aktif secara default; "
+"admin dan editor tidak terpengaruh."

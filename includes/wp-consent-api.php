@@ -27,6 +27,10 @@ defined( 'ABSPATH' ) || exit;
  * @return bool
  */
 function lynbro_cookie_consent_wpca_active() {
+	// With another consent plugin active, that plugin answers WP Consent API.
+	if ( function_exists( 'lynbro_cookie_consent_active_competitor' ) && '' !== lynbro_cookie_consent_active_competitor() ) {
+		return false;
+	}
 	return ! empty( lynbro_cookie_consent_get_option( 'wp_consent_api', 1 ) );
 }
 

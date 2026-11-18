@@ -53,7 +53,7 @@ function lynbro_cookie_consent_import_settings() {
 
 	$redirect = add_query_arg(
 		array( 'page' => 'lynbro-cookie-consent' ),
-		admin_url( 'options-general.php' )
+		admin_url( 'admin.php' )
 	);
 
 	if ( empty( $_FILES['lynbro_cc_import_file']['tmp_name'] ) || ! is_uploaded_file( sanitize_text_field( wp_unslash( $_FILES['lynbro_cc_import_file']['tmp_name'] ) ) ) ) {
@@ -87,7 +87,7 @@ function lynbro_cookie_consent_import_settings() {
 add_action( 'admin_post_lynbro_cookie_consent_import_settings', 'lynbro_cookie_consent_import_settings' );
 
 /**
- * Show an admin notice after an import attempt.
+ * Show a message on our settings page after an import attempt.
  *
  * @return void
  */
@@ -111,4 +111,4 @@ function lynbro_cookie_consent_import_notice() {
 		esc_html( $messages[ $status ][1] )
 	);
 }
-add_action( 'admin_notices', 'lynbro_cookie_consent_import_notice' );
+add_action( 'lynbro_cookie_consent_page_notices', 'lynbro_cookie_consent_import_notice' );

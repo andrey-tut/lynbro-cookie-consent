@@ -1197,3 +1197,550 @@ msgstr "Nežna lebdeča kartica v spodnjem desnem kotu."
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "Nekatere barve imajo nizek kontrast (%s) — glejte podrobnosti."
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "Značka »Vedno omogočeno« pri nujnih piškotkih"
+
+msgid "Our plugins"
+msgstr "Naši vtičniki"
+
+msgid "Insufficient permissions."
+msgstr "Nimate zadostnih dovoljenj."
+
+msgid "Lynbro plugins"
+msgstr "Lynbro vtičniki"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr ""
+"Velikodušni WordPress vtičniki s poudarkom na zasebnosti — razviti na "
+"Danskem. Brezplačna jedra, brez omemb, vaši podatki ostanejo na vaši strani."
+
+msgid "More from Lynbro"
+msgstr "Več od Lynbro"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+"Preostali paket. Kar je že na tej strani, je označeno; nič se ne namesti "
+"brez vaše potrditve."
+
+msgid "Active"
+msgstr "Aktivno"
+
+msgid "Installed"
+msgstr "Nameščeno"
+
+msgid "On WordPress.org"
+msgstr "Na WordPress.org"
+
+msgid "Coming soon"
+msgstr "Kmalu na voljo"
+
+msgid "Activate"
+msgstr "Aktiviraj"
+
+msgid "Install now"
+msgstr "Namesti zdaj"
+
+msgid "View on WordPress.org"
+msgstr "Poglej na WordPress.org"
+
+msgid "Learn more"
+msgstr "Več o tem"
+
+msgid "About Lynbro"
+msgstr "O Lynbro"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbro razvija resnično brezplačne WordPress vtičnike s poudarkom na "
+"zasebnosti in velikodušnimi brezplačnimi jedri — brez omemb, brez plačljivih"
+" osnovnih funkcij, vaši podatki ostanejo na vaši strani. Izdelano na "
+"Danskem."
+
+msgid "Suggest a feature or report a bug"
+msgstr "Predlagajte funkcijo ali prijavite napako"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+"Povratne informacije odprejo našo javno časovnico na plugins.lynbro.dk v "
+"novem zavihku — nič se ne pošlje z vaše strani."
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr ""
+"Skupne Lynbro komponente v%1$s, zagotavlja %2$s (najnovejša od %3$d različic"
+" na tej strani)."
+
+msgid "Is %s doing its job?"
+msgstr "Ali %s opravlja svoje delo?"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"Uporabljate ga že nekaj tednov. Če vam ustreza, kratka ocena na "
+"WordPress.org pomaga drugim lastnikom strani — tudi iskrene in kritične."
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"Uporabljate ga že nekaj tednov. Če vam ustreza — ali če kaj manjka — nam "
+"sporočite na naši javni časovnici. Tako odločamo, kaj razvijamo naslednje."
+
+msgid "(opens in a new tab)"
+msgstr "(odpre se v novem zavihku)"
+
+msgid "Share feedback"
+msgstr "Pošlji povratne informacije"
+
+msgid "Maybe later"
+msgstr "Morda kasneje"
+
+msgid "Don't ask again"
+msgstr "Ne sprašuj več"
+
+msgid "Something not working? Ask for help"
+msgstr "Nekaj ne deluje? Prosite za pomoč"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerce je aktiven"
+
+msgid "a form plugin is active"
+msgstr "vtičnik za obrazce je aktiven"
+
+msgid "the site is set up for Denmark"
+msgstr "spletna stran je nastavljena za Dansko"
+
+msgid "comments are open"
+msgstr "komentarji so odprti"
+
+msgid "tracking tags are active"
+msgstr "sledilne oznake so aktivne"
+
+msgid "visitors can create accounts"
+msgstr "obiskovalci lahko ustvarijo račune"
+
+msgid "Suggested because %l."
+msgstr "Predlagano, ker %l."
+
+msgid "Suggested for this site"
+msgstr "Predlagano za to stran"
+
+msgid "Hide suggestions"
+msgstr "Skrij predloge"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+"Drugi Lynbro vtičniki, ki ustrezajo uporabi te strani. Nič se ne namesti, "
+"razen če kliknete."
+
+msgid "All Lynbro plugins"
+msgstr "Vsi Lynbro vtičniki"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr ""
+"Izbrano glede na to, kar ta stran že uporablja — prebrano na tej strani, nič"
+" se ne pošlje drugam."
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"Izvozite nastavitve tega vtičnika kot varnostno kopijo v obliki JSON ali jih"
+" ponastavite na privzete vrednosti. 100 % lokalno — nič ne zapusti vaše "
+"strani."
+
+msgid "Reset all settings to defaults?"
+msgstr "Ponastavim vse nastavitve na privzete vrednosti?"
+
+msgid "Reset to defaults"
+msgstr "Ponastavi na privzete vrednosti"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"Brezplačen, večjezičen in popolnoma prilagodljiv pasica za soglasje s "
+"piškotki — pripravljen za GDPR/ePrivacy in Google Consent Mode v2, brez "
+"omejitev ogledov strani."
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "Optimizator slik"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+"Pretvorite slike v WebP in AVIF, prilagodite prevelike slike in omogočite "
+"leno nalaganje — vse na lastnem strežniku."
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr ""
+"Pišite in ilustrirajte objave z AI preko lastnega OpenAI ključa — brez "
+"posrednikov in dodatnih stroškov."
+
+msgid "Analytics"
+msgstr "Analitika"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+"Samogostovana analitika brez piškotkov in s prodajnimi lijaki. Podatki "
+"obiskovalcev nikoli ne zapustijo vaše baze."
+
+msgid "Tags"
+msgstr "Oznake"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+"GA4, Tag Manager, Google Ads, Meta Pixel in več brez kode — vsaka oznaka "
+"počaka na soglasje."
+
+msgid "Forms"
+msgstr "Obrazci"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+"Obrazci z brezplačnim shranjevanjem vnosov brez omejitev, pogojna logika na "
+"strežniku in podpisani spletni klici."
+
+msgid "Verify"
+msgstr "Preveri"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr ""
+"Zaznajte napačne e-poštne domene in slabe telefonske številke ter jih "
+"potrdite z enkratno kodo po e-pošti ali SMS-u."
+
+msgid "Cache"
+msgstr "Predpomnilnik"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+"Zanesljivo čiščenje FastCGI predpomnilnika nginx in Redis objektnega "
+"predpomnilnika, vsako čiščenje preverjeno."
+
+msgid "Translate"
+msgstr "Prevedi"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+"Vaša stran v več jezikih, strojni prevod prek lastnega OpenAI ključa — brez "
+"omejitev in prodaje po besedah."
+
+msgid "Shield"
+msgstr "Zaščita"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr ""
+"Varnostne glave, HTTPS s HSTS, majhen požarni zid proti vdorom in nujna "
+"utrjevalna stikala."
+
+msgid "Anti-Spam"
+msgstr "Protispam"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+"Protispam preverjanja na vašem strežniku. Brez računa, brez naročnine, vsak "
+"blokiran primer ima razlog — zadržana sporočila niso izgubljena."
+
+msgid "Login Guard"
+msgstr "Varnostna prijava"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr ""
+"Premaknite wp-login.php, omejite neuspešne prijave in dodajte dvostopenjsko "
+"preverjanje — s tremi možnostmi za povratek."
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr ""
+"GDPR in ePrivacy pasica z načinom soglasja v2, enako vidnim gumbom za "
+"zavrnitev in v 35 jezikih."
+
+msgid "Activity Log"
+msgstr "Dnevnik aktivnosti"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+"Kdo je kaj, kdaj in od kod naredil — zapisano na vašem strežniku, iskalno, "
+"izvozljivo in izbrisano po vašem urniku."
+
+msgid "Data Retention"
+msgstr "Hramba podatkov"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr ""
+"Poiščite, kje so osebni podatki v vaši bazi, nato jih izbrišite po urniku — "
+"s preizkusom pred vsakim brisanjem."
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+"Preverite vsako stran glede na WCAG 2.2 AA in popravite, kar je varno "
+"mogoče. Brez prekrivanja, brez omejitve strani."
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+"Učinkovit SEO z brezplačno LocalBusiness shemo, zemljevidi strani in "
+"družbenimi karticami. Nič se ne pošilja na zunanje strežnike."
+
+msgid "SMTP Mailer"
+msgstr "SMTP pošiljatelj"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+"WordPress e-pošta prek lastnega SMTP strežnika — z dnevnikom e-pošte, "
+"ponovnim pošiljanjem, rezervno povezavo in opozorili o napakah."
+
+msgid "Social Feed"
+msgstr "Družbeni vir"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "Instagram vir na vaši strani brez Meta žetona v WordPressu."
+
+msgid "Reviews Cache"
+msgstr "Predpomnilnik mnenj"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "Prikažite Google mnenja brez API ključa v WordPressu."
+
+msgid "Links"
+msgstr "Povezave"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+"Poiščite pokvarjene povezave in upravljajte preusmeritve na svojem "
+"strežniku, z razlogom za vsako odločitev."
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse samodejno izpolnjevanje"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"Dansko samodokončanje in preverjanje naslovov za WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable in EDD."
+
+msgid "Soge Lookup"
+msgstr "Soge iskanje"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+"Poiščite danska vozila (DMR) in podjetja (CVR) po registrski tablici, VIN "
+"ali številki CVR."
+
+msgid "CVR Checkout"
+msgstr "CVR blagajna"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"Danska B2B blagajna za WooCommerce: samodejno izpolnjevanje podjetja CVR, "
+"preverjanje CVR/EU-DDV (VIES) in polje EAN/GLN."
+
+msgid "Danish Shipping"
+msgstr "Danska dostava"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+"Brezplačna izbira prevzemne točke za PostNord in GLS Danska ob zaključku "
+"nakupa v WooCommerce ter čiste dostavne metode."
+
+msgid "API Auth"
+msgstr "API overjanje"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+"JSON spletni žetoni za REST API, ki jih lahko dejansko prekličete, z obsegom"
+" in dnevnikom zavrnitev."
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebot hrani besedila pasice v vašem računu Cookiebot, zato je mogoče "
+"prenesti samo kategorije. Besedila pasice tukaj temeljijo na privzetih "
+"besedilih Lynbro, ki so že prevedena."
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs Cookie hrani nastavitve v svojem formatu, ki ga ne beremo. Njegove "
+"kategorije ustrezajo kategorijam Nastavitve, Statistika in Trženje; besedila"
+" nastavite na zavihku Jeziki."
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s je aktiven, zato Lynbro Cookie Consent ne prikazuje ničesar."
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"Obiskovalci vidijo eno pasico, ne dveh: naša se ne prikaže, ne blokira "
+"skriptov in ne shranjuje zapisov o privolitvah, dokler je aktiven drug "
+"vtičnik."
+
+msgid "See what can be brought over"
+msgstr "Oglejte si, kaj je mogoče prenesti"
+
+msgid "Banner texts in: %s"
+msgstr "Besedila pasice v: %s"
+
+msgid "Categories: %s"
+msgstr "Kategorije: %s"
+
+msgid "Policy link: %s"
+msgstr "Povezava do pravilnika: %s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "Prenesite besedila in kategorije iz %s"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"Nastavitve drugega vtičnika se ne spremenijo. Po prenosu preverite rezultat "
+"tukaj, nato deaktivirajte drugi vtičnik: od takrat naprej bo prikazoval našo"
+" pasico."
+
+msgid "Booking"
+msgstr "Rezervacije"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"Rezervacije terminov za eno podjetje na vašem strežniku: storitve, osebje, "
+"urniki, opomniki in prenos z enim klikom iz Amelie."
+
+msgid "Contact Buttons"
+msgstr "Gumbi za stik"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp, Messenger, telefon in klepet v živo v enem hitrem gumbu — skripti "
+"za klepet se naložijo šele, ko jih obiskovalec zahteva."
+
+msgid "Site Check"
+msgstr "Preverjanje spletnega mesta"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"Brezplačno preverjanje spletnega mesta za vaše obiskovalce: HTTPS, glave, "
+"piškotki pred privolitvijo, dostopnost, SPF/DKIM/DMARC — poročilo na "
+"zaslonu."
+
+msgid "Newsletter"
+msgstr "E-novice"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr ""
+"E-novice, ki jih gostite sami, z varnim pošiljanjem: zapisi o privolitvah, "
+"preizkus po zadnjem urejanju in odobritev z vnosom točnega števila "
+"prejemnikov."
+
+msgid "Emoji images from WordPress.org"
+msgstr "Slike emodžijev s spletnega mesta WordPress.org"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr ""
+"Ne nalagajte slik emodžijev s spletnega mesta WordPress.org; obiskovalci "
+"bodo emodžije videli v pisavi svoje naprave."
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"WordPress v brskalnikih brez pisave za emodžije te zamenja s slikami s "
+"spletnega mesta WordPress.org, kar pomeni, da se naslov IP obiskovalca "
+"pošlje spletnemu mestu WordPress.org še pred pridobitvijo privolitve. "
+"Privzeto vklopljeno; na skrbnika in urejevalnik ne vpliva."

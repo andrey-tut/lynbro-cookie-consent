@@ -221,7 +221,7 @@ function lynbro_cookie_consent_render_request_language_form( $available ) {
 						printf(
 							/* translators: %s: link to the portal privacy/terms page. */
 							esc_html__( 'Sends only the plugin name, version and language code to the Lynbro portal. See our %s.', 'lynbro-cookie-consent' ),
-							'<a href="https://plugins.lynbro.dk" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Privacy Policy & Terms', 'lynbro-cookie-consent' ) . '</a>'
+							'<a href="https://plugins.lynbro.dk/privacy" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Privacy Policy & Terms', 'lynbro-cookie-consent' ) . '</a>'
 						);
 						?>
 					</p>

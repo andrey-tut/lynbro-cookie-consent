@@ -69,8 +69,12 @@ function lynbro_cookie_consent_sanitize_locale( $locale ) {
 function lynbro_cookie_consent_available_locales() {
 	$locales = array( 'en_US' => lynbro_cookie_consent_locale_label( 'en_US' ) );
 
-	$dir = LYNBRO_COOKIE_CONSENT_DIR . 'languages/';
-	$mo  = glob( $dir . 'lynbro-cookie-consent-*.mo' );
+	// Bundled files plus WordPress.org language packs (the release ZIP has none).
+	$mo = glob( LYNBRO_COOKIE_CONSENT_DIR . 'languages/lynbro-cookie-consent-*.mo' );
+	if ( defined( 'WP_LANG_DIR' ) ) {
+		$packs = glob( trailingslashit( WP_LANG_DIR ) . 'plugins/lynbro-cookie-consent-*.mo' );
+		$mo    = array_merge( is_array( $mo ) ? $mo : array(), is_array( $packs ) ? $packs : array() );
+	}
 	if ( is_array( $mo ) ) {
 		foreach ( $mo as $path ) {
 			$file   = basename( $path, '.mo' );
@@ -186,34 +190,41 @@ function lynbro_cookie_consent_offered_locales() {
 }
 
 /**
+ * The page's language when a multilingual plugin decides it from the URL.
+ *
+ * One small wrapper so the switch to lynbro_core_current_language() (multilingual
+ * standard §4, not in lynbro-core yet) is a single line. Empty on a site with one
+ * language: there the banner may follow the browser.
+ *
+ * @return string Locale code, or '' when no multilingual plugin is active.
+ */
+function lynbro_cookie_consent_page_locale() {
+	$locale = '';
+	if ( function_exists( 'lynbro_core_current_language' ) ) {
+		$locale = (string) lynbro_core_current_language();
+	} elseif ( function_exists( 'lynbro_translate_current_language' ) ) {
+		// lynbro-translate switches the request locale itself.
+		$locale = function_exists( 'determine_locale' ) ? determine_locale() : get_locale();
+	} elseif ( function_exists( 'pll_current_language' ) ) {
+		$locale = (string) pll_current_language( 'locale' );
+	} elseif ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+		$code = (string) apply_filters( 'wpml_current_language', null ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WPML's own public filter; the name is defined by WPML, not by this plugin.
+		$all  = (array) apply_filters( 'wpml_active_languages', null, array( 'skip_missing' => 0 ) ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WPML's own public filter; the name is defined by WPML, not by this plugin.
+		$locale = isset( $all[ $code ]['default_locale'] ) ? (string) $all[ $code ]['default_locale'] : $code;
+	} elseif ( function_exists( 'trp_get_current_language' ) ) {
+		$locale = (string) trp_get_current_language();
+	}
+	return lynbro_cookie_consent_sanitize_locale( $locale );
+}
+
+/**
  * Resolve the initial banner locale (cache-safe cascade).
  *
  * @return string A locale code (always valid).
  */
 function lynbro_cookie_consent_current_locale() {
-	$locale = '';
-
 	// 1. Active multilingual plugin's current page language.
-	if ( function_exists( 'pll_current_language' ) ) {
-		$pll = pll_current_language( 'locale' );
-		if ( $pll ) {
-			$locale = (string) $pll;
-		}
-	}
-	if ( '' === $locale && defined( 'ICL_LANGUAGE_CODE' ) ) {
-		$wpml = apply_filters( 'wpml_current_language', null ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WPML's own public filter; the name is defined by WPML, not by this plugin.
-		if ( $wpml ) {
-			// WPML returns a language code; map to a locale via its API when possible.
-			$wpml_locale = apply_filters( 'wpml_default_language', null ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WPML's own public filter; the name is defined by WPML, not by this plugin.
-			$locale      = (string) ( $wpml_locale ? $wpml_locale : $wpml );
-		}
-	}
-	if ( '' === $locale && function_exists( 'trp_get_current_language' ) ) {
-		$trp = trp_get_current_language();
-		if ( $trp ) {
-			$locale = (string) $trp;
-		}
-	}
+	$locale = lynbro_cookie_consent_page_locale();
 
 	// 2. Site locale.
 	if ( '' === $locale ) {
@@ -295,6 +306,10 @@ function lynbro_cookie_consent_string_catalog() {
 			'default' => __( 'Read more', 'lynbro-cookie-consent' ),
 			'label'   => __( '"Read more" link', 'lynbro-cookie-consent' ),
 		),
+		'alwaysOn'     => array(
+			'default' => __( 'Always on', 'lynbro-cookie-consent' ),
+			'label'   => __( '"Always on" badge on necessary cookies', 'lynbro-cookie-consent' ),
+		),
 	);
 
 	// Category names + descriptions, so they can be overridden per language too.
@@ -352,16 +367,33 @@ function lynbro_cookie_consent_strings_for_locale( $locale ) {
 	// applies the .mo files bundled inside this plugin (neither for a switched
 	// locale nor before the plugin is published). Reading the file ourselves is
 	// deterministic and cache-proof.
+	// The release ZIP ships no .mo files (WordPress.org serves them as language
+	// packs into wp-content/languages/plugins/), so look there and in the
+	// on-demand uploads directory too, not only inside the plugin folder.
 	$mo = null;
 	if ( '' !== $locale && $locale !== 'en_US' ) {
-		$mofile = LYNBRO_COOKIE_CONSENT_DIR . 'languages/lynbro-cookie-consent-' . $locale . '.mo';
-		if ( is_readable( $mofile ) ) {
+		$basename   = 'lynbro-cookie-consent-' . $locale . '.mo';
+		$candidates = array( LYNBRO_COOKIE_CONSENT_DIR . 'languages/' . $basename );
+		if ( defined( 'WP_LANG_DIR' ) ) {
+			$candidates[] = trailingslashit( WP_LANG_DIR ) . 'plugins/' . $basename;
+		}
+		if ( function_exists( 'lynbro_cookie_consent_i18n_uploads_dir' ) ) {
+			$uploads_dir = lynbro_cookie_consent_i18n_uploads_dir();
+			if ( '' !== $uploads_dir ) {
+				$candidates[] = $uploads_dir . $basename;
+			}
+		}
+		foreach ( $candidates as $mofile ) {
+			if ( ! is_readable( $mofile ) ) {
+				continue;
+			}
 			if ( ! class_exists( 'MO' ) ) {
 				require_once ABSPATH . WPINC . '/pomo/mo.php';
 			}
 			$reader = new MO();
 			if ( $reader->import_from_file( $mofile ) ) {
 				$mo = $reader;
+				break;
 			}
 		}
 	}
@@ -490,7 +522,7 @@ function lynbro_cookie_consent_save_languages() {
 
 	$redirect = add_query_arg(
 		array( 'page' => 'lynbro-cookie-consent' ),
-		admin_url( 'options-general.php' )
+		admin_url( 'admin.php' )
 	);
 
 	// Offered locales (multi-select).
@@ -530,7 +562,7 @@ function lynbro_cookie_consent_save_languages() {
 add_action( 'admin_post_lynbro_cookie_consent_save_languages', 'lynbro_cookie_consent_save_languages' );
 
 /**
- * Admin notice after saving languages.
+ * Message on our settings page after saving languages.
  *
  * @return void
  */
@@ -543,4 +575,4 @@ function lynbro_cookie_consent_languages_notice() {
 		esc_html__( 'Language settings saved.', 'lynbro-cookie-consent' )
 	);
 }
-add_action( 'admin_notices', 'lynbro_cookie_consent_languages_notice' );
+add_action( 'lynbro_cookie_consent_page_notices', 'lynbro_cookie_consent_languages_notice' );

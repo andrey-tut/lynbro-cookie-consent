@@ -1084,3 +1084,468 @@ msgstr "右下に表示する、やわらかなフローティングカード。
 
 msgid "Some colours have low contrast (%s) — see details."
 msgstr "一部の色はコントラストが低くなっています（%s）— 詳細をご覧ください。"
+
+msgid "\"Always on\" badge on necessary cookies"
+msgstr "必須Cookieに「常に有効」バッジ"
+
+msgid "Our plugins"
+msgstr "当社のプラグイン"
+
+msgid "Insufficient permissions."
+msgstr "権限が不足しています。"
+
+msgid "Lynbro plugins"
+msgstr "Lynbroプラグイン"
+
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no"
+" credits, your data stays on your site."
+msgstr "デンマーク製、プライバシー重視のWordPressプラグイン。コアは無料、クレジット不要、データはサイト内にのみ保存。"
+
+msgid "More from Lynbro"
+msgstr "Lynbroの他のプラグイン"
+
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr "他のスイート。既にこのサイトにあるものはマークされています。あなたが選択しない限り、何もインストールされません。"
+
+msgid "Active"
+msgstr "有効"
+
+msgid "Installed"
+msgstr "インストール済み"
+
+msgid "On WordPress.org"
+msgstr "WordPress.orgで見る"
+
+msgid "Coming soon"
+msgstr "近日公開"
+
+msgid "Activate"
+msgstr "有効化"
+
+msgid "Install now"
+msgstr "今すぐインストール"
+
+msgid "View on WordPress.org"
+msgstr "WordPress.orgで表示"
+
+msgid "Learn more"
+msgstr "詳細を見る"
+
+msgid "About Lynbro"
+msgstr "Lynbroについて"
+
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+"Lynbroは、クレジット不要・必須機能に課金なし・データは自サイト内のみの、本当に無料でプライバシー重視のWordPressプラグインをデンマークで開発しています。"
+
+msgid "Suggest a feature or report a bug"
+msgstr "機能提案・不具合報告"
+
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr "フィードバックは新しいタブでplugins.lynbro.dkの公開ロードマップが開きます。サイトから情報は送信されません。"
+
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on"
+" this site)."
+msgstr "共有Lynbroコンポーネント v%1$s（%2$s提供、このサイトの%3$dバージョン中最新）。"
+
+msgid "Is %s doing its job?"
+msgstr "%sは正常に動作していますか？"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+"数週間ご利用いただきありがとうございます。もし役立っていれば、WordPress.orgで短いレビューをお願いします。正直なご意見、批判も歓迎です。"
+
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+"数週間ご利用いただきありがとうございます。もし問題や不足があれば、公開ロードマップでご意見をお聞かせください。それが今後の開発の参考になります。"
+
+msgid "(opens in a new tab)"
+msgstr "（新しいタブで開きます）"
+
+msgid "Share feedback"
+msgstr "フィードバックを送信"
+
+msgid "Maybe later"
+msgstr "あとで"
+
+msgid "Don't ask again"
+msgstr "今後表示しない"
+
+msgid "Something not working? Ask for help"
+msgstr "不具合ですか？サポートを依頼"
+
+msgid "WooCommerce is active"
+msgstr "WooCommerceが有効です"
+
+msgid "a form plugin is active"
+msgstr "フォームプラグインが有効です"
+
+msgid "the site is set up for Denmark"
+msgstr "サイトがデンマーク向けに設定されています"
+
+msgid "comments are open"
+msgstr "コメントが有効です"
+
+msgid "tracking tags are active"
+msgstr "トラッキングタグが有効です"
+
+msgid "visitors can create accounts"
+msgstr "訪問者がアカウントを作成できます"
+
+msgid "Suggested because %l."
+msgstr "%lのため提案されています。"
+
+msgid "Suggested for this site"
+msgstr "このサイト向けの提案"
+
+msgid "Hide suggestions"
+msgstr "提案を非表示"
+
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr "このサイトの利用状況に合う他のLynbroプラグイン。クリックしない限りインストールされません。"
+
+msgid "All Lynbro plugins"
+msgstr "すべてのLynbroプラグイン"
+
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent"
+" anywhere."
+msgstr "このサイトの利用状況から選択 — サイト内でのみ読み取り、外部送信なし。"
+
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+"このプラグインの設定をJSONバックアップとしてエクスポート、または初期設定にリセットできます。100％ローカル — サイト外への送信はありません。"
+
+msgid "Reset all settings to defaults?"
+msgstr "すべての設定を初期状態にリセットしますか？"
+
+msgid "Reset to defaults"
+msgstr "初期設定にリセット"
+
+msgid "Lynbro Cookie Consent"
+msgstr "Lynbro Cookie Consent"
+
+msgid "https://plugins.lynbro.dk/lynbro-cookie-consent"
+msgstr "https://plugins.lynbro.dk/lynbro-cookie-consent"
+
+msgid ""
+"Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy"
+" and Google Consent Mode v2 ready, with no pageview limits."
+msgstr ""
+"無料・多言語対応・完全カスタマイズ可能なCookie同意バナー — GDPR/ePrivacyおよびGoogle Consent Mode "
+"v2対応、ページビュー制限なし。"
+
+msgid "Lynbro"
+msgstr "Lynbro"
+
+msgid "https://lynbro.dk"
+msgstr "https://lynbro.dk"
+
+msgid "Image Optimizer"
+msgstr "画像最適化"
+
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr "WebP・AVIFへの変換、画像サイズの自動調整、遅延読み込みをすべて自サーバーで実行します。"
+
+msgid "AI Studio"
+msgstr "AIスタジオ"
+
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no"
+" credits in between."
+msgstr "OpenAIキーでAIによる記事作成とイラスト生成を直接利用。中間クレジットなし、実費のみ。"
+
+msgid "Analytics"
+msgstr "アナリティクス"
+
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr "自己ホスト型、クッキー不要の分析機能。訪問者データはデータベースから外部送信されません。"
+
+msgid "Tags"
+msgstr "タグ"
+
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr "GA4、タグマネージャー、Google広告、Metaピクセル等をコード不要で設置。各タグは同意後に動作します。"
+
+msgid "Forms"
+msgstr "フォーム"
+
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr "エントリー保存無制限・無料。条件分岐はサーバー側で判定、署名付きWebhook対応。"
+
+msgid "Verify"
+msgstr "認証"
+
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a"
+" one-time code by e-mail or SMS."
+msgstr "メールドメインや電話番号の入力ミスを検出し、ワンタイムコードで確認します（メールまたはSMS）。"
+
+msgid "Cache"
+msgstr "キャッシュ"
+
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr "nginx FastCGIキャッシュやRedisオブジェクトキャッシュの確実なパージ。各パージはキャッシュ自体で検証。"
+
+msgid "Translate"
+msgstr "翻訳"
+
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr "複数言語対応。OpenAIキーで機械翻訳を直接利用。従量課金や単語売りなし。"
+
+msgid "Shield"
+msgstr "シールド"
+
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes"
+" and the hardening switches every site needs."
+msgstr "セキュリティヘッダー、HSTS付きHTTPS、インジェクション対策ファイアウォール、必須の強化設定。"
+
+msgid "Anti-Spam"
+msgstr "アンチスパム"
+
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr "スパム判定は自サーバーで実行。アカウント不要・サブスク不要。ブロック理由を明示し、保留メッセージも消失しません。"
+
+msgid "Login Guard"
+msgstr "ログインガード"
+
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with"
+" three ways back in."
+msgstr "wp-login.phpの移動、ログイン失敗回数制限、アプリ型2要素認証。復旧方法も3通り。"
+
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject"
+" button and 35 languages."
+msgstr "GDPR・ePrivacy対応バナー。Consent Mode v2、同等の拒否ボタン、35言語対応。"
+
+msgid "Activity Log"
+msgstr "アクティビティログ"
+
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr "誰が・何を・いつ・どこから実行したかを自サーバーに記録。検索・エクスポート・スケジュール削除可能。"
+
+msgid "Data Retention"
+msgstr "データ保持"
+
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a"
+" schedule — with a dry run before every deletion."
+msgstr "個人データの保存場所を特定し、スケジュールで削除。削除前にドライラン実行。"
+
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr "全ページをWCAG 2.2 AA基準でスキャンし、安全に修正可能な箇所を自動修正。オーバーレイやページ数制限なし。"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr "シンプルなSEO。無料のLocalBusinessスキーマ、サイトマップ、ソーシャルカード対応。外部送信なし。"
+
+msgid "SMTP Mailer"
+msgstr "SMTPメーラー"
+
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr "WordPressメールを自分のSMTPサーバー経由で送信。メールログ、再送、バックアップ接続、障害通知付き。"
+
+msgid "Social Feed"
+msgstr "ソーシャルフィード"
+
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr "MetaトークンをWordPressに保存せず、Instagramフィードをサイトに表示。"
+
+msgid "Reviews Cache"
+msgstr "レビューキャッシュ"
+
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr "APIキーをWordPressに保存せず、Googleレビューを表示。"
+
+msgid "Links"
+msgstr "リンク"
+
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr "自サーバーでリンク切れ検出とリダイレクト管理。判定理由も表示。"
+
+msgid "Danadresse Autofill"
+msgstr "Danadresse自動入力"
+
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+"WooCommerce、WPForms、Gravity、Fluent、Formidable、EDD対応のデンマーク住所自動補完・バリデーション。"
+
+msgid "Soge Lookup"
+msgstr "Soge検索"
+
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr "ナンバープレート、VIN、CVR番号でデンマークの車両（DMR）や企業（CVR）を検索します。"
+
+msgid "CVR Checkout"
+msgstr "CVRチェックアウト"
+
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES)"
+" validation and an EAN/GLN field."
+msgstr ""
+"WooCommerce用デンマークB2Bチェックアウト：CVR企業自動入力、CVR/EU-VAT（VIES）検証、EAN/GLNフィールド付き。"
+
+msgid "Danish Shipping"
+msgstr "デンマーク配送"
+
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr "WooCommerceチェックアウトでPostNordおよびGLS Denmarkの無料受取ポイント選択、さらにシンプルな配送方法。"
+
+msgid "API Auth"
+msgstr "API認証"
+
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr "実際に取り消し可能なREST API用JSON Webトークン、スコープと拒否履歴付き。"
+
+msgid ""
+"Cookiebot keeps its banner texts in your Cookiebot account, so only its "
+"categories can be brought over. The banner texts here start from Lynbro's "
+"own, translated defaults."
+msgstr ""
+"Cookiebotはバナーの文言をCookiebotアカウントに保存するため、引き継げるのはカテゴリーのみです。ここで使用するバナーの文言は、Lynbro独自の翻訳済み初期設定をもとにしています。"
+
+msgid ""
+"Borlabs Cookie keeps its settings in its own format, which is not read. Its "
+"categories map to Preferences, Statistics and Marketing; set your texts on "
+"the Languages tab."
+msgstr ""
+"Borlabs "
+"Cookieは独自の形式で設定を保存しており、読み込むことはできません。カテゴリーは「設定」「統計」「マーケティング」に対応します。文言は「言語」タブで設定してください。"
+
+msgid "%s is active, so Lynbro Cookie Consent stays silent."
+msgstr "%s が有効なため、Lynbro Cookie Consentは動作しません。"
+
+msgid ""
+"Visitors see one banner, not two: ours is not shown, blocks no scripts and "
+"keeps no consent records while the other plugin is active."
+msgstr ""
+"訪問者に表示されるバナーは1つだけです。もう一方のプラグインが有効な間、当プラグインのバナーは表示されず、スクリプトのブロックや同意記録の保存も行いません。"
+
+msgid "See what can be brought over"
+msgstr "引き継げる内容を確認"
+
+msgid "Banner texts in: %s"
+msgstr "バナーの文言：%s"
+
+msgid "Categories: %s"
+msgstr "カテゴリー：%s"
+
+msgid "Policy link: %s"
+msgstr "ポリシーへのリンク：%s"
+
+msgid "Bring over the texts and categories from %s"
+msgstr "%s から文言とカテゴリーを引き継ぐ"
+
+msgid ""
+"Nothing of the other plugin is changed. After bringing them over, check the "
+"result here, then deactivate the other plugin: our banner takes over from "
+"that moment."
+msgstr ""
+"もう一方のプラグインの設定は変更されません。引き継ぎ後、ここで結果を確認してから、もう一方のプラグインを無効化してください。その時点で当プラグインのバナーが表示されます。"
+
+msgid "Booking"
+msgstr "予約"
+
+msgid ""
+"Appointment booking for one business on your own server: services, staff, "
+"schedules, reminders and a one-click move from Amelia."
+msgstr ""
+"自社サーバーで運用できる、1事業者向けの予約管理。サービス、スタッフ、スケジュール、リマインダーに対応し、Ameliaからワンクリックで移行できます。"
+
+msgid "Contact Buttons"
+msgstr "お問い合わせボタン"
+
+msgid ""
+"WhatsApp, Messenger, phone and live chat in one fast button — chat scripts "
+"load only when a visitor asks."
+msgstr ""
+"WhatsApp、Messenger、電話、ライブチャットを1つの軽量なボタンにまとめます。チャット用スクリプトは訪問者がリクエストしたときのみ読み込まれます。"
+
+msgid "Site Check"
+msgstr "サイトチェック"
+
+msgid ""
+"A free website check for your visitors: HTTPS, headers, cookies before "
+"consent, accessibility, SPF/DKIM/DMARC — report on screen."
+msgstr ""
+"訪問者向けの無料サイトチェック。HTTPS、ヘッダー、同意前のCookie、アクセシビリティ、SPF/DKIM/DMARCを確認し、画面上にレポートを表示します。"
+
+msgid "Newsletter"
+msgstr "ニュースレター"
+
+msgid ""
+"Self-hosted newsletters with safe sending: consent records, a test after the"
+" last edit and approval by typing the exact recipient count."
+msgstr "安全に配信できるセルフホスト型ニュースレター。同意記録、最後の編集後のテスト、正確な宛先数を入力して行う配信承認に対応します。"
+
+msgid "Emoji images from WordPress.org"
+msgstr "WordPress.org の絵文字画像"
+
+msgid ""
+"Do not load emoji images from WordPress.org; visitors see emoji in their own"
+" device font."
+msgstr "WordPress.orgから絵文字画像を読み込まない（訪問者には各自のデバイスのフォントで絵文字が表示されます）。"
+
+msgid ""
+"WordPress swaps emoji for images hosted on WordPress.org in browsers without"
+" an emoji font, which sends the visitor's IP address to WordPress.org before"
+" any consent. On by default; the admin and the editor are not affected."
+msgstr ""
+"絵文字フォントがないブラウザーでは、WordPress は絵文字を WordPress.org の画像に置き換えます。そのため、同意を得る前に訪問者の "
+"IP アドレスが WordPress.org に送信されます。デフォルトで有効です。管理者とエディターには影響しません。"

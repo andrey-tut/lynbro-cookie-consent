@@ -2,13 +2,15 @@
 /**
  * Onboarding & engagement (Wave D, deliberately gentle — no admin spam).
  *
- * Three small, polite touches:
+ * Two small, polite touches:
  *  1. A "Settings" link in the plugin row on the Plugins screen.
- *  2. A one-time redirect to the settings page right after a single activation
- *     (never on bulk or network activation).
- *  3. ONE dismissible, neutral notice ("Enjoying it? A review helps") shown only
- *     after ~7 days of use. No "5 stars" pressure, no repeated nags, dismissed
- *     forever per-user. There are no notices about settings or statistics.
+ *  2. ONE neutral review request ("Enjoying it? A review helps") drawn inside
+ *     our own settings page, only after ~7 days of use. No "5 stars" pressure,
+ *     no repeated nags, dismissed forever per-user.
+ *
+ * Nothing is printed through admin notices and activation does not navigate
+ * anywhere: the dashboard belongs to the site owner, so everything this plugin
+ * has to say is said on its own page.
  *
  * @package LynbroCookieConsent
  */
@@ -24,7 +26,7 @@ defined( 'ABSPATH' ) || exit;
 function lynbro_cookie_consent_action_links( $links ) {
 	$settings = sprintf(
 		'<a href="%s">%s</a>',
-		esc_url( admin_url( 'options-general.php?page=lynbro-cookie-consent' ) ),
+		esc_url( admin_url( 'admin.php?page=lynbro-cookie-consent' ) ),
 		esc_html__( 'Settings', 'lynbro-cookie-consent' )
 	);
 	array_unshift( $links, $settings );
@@ -33,76 +35,57 @@ function lynbro_cookie_consent_action_links( $links ) {
 add_filter( 'plugin_action_links_' . plugin_basename( LYNBRO_COOKIE_CONSENT_FILE ), 'lynbro_cookie_consent_action_links' );
 
 /**
- * Set the one-time "redirect after activation" flag, unless this is a bulk or
- * network activation. Called from the activation hook in the main plugin file.
+ * Record when the plugin was first activated (used to delay the review panel).
+ * Called from the activation hook in the main plugin file.
  *
- * @param bool $network_wide Whether activation is network-wide.
+ * @param bool $network_wide Whether activation is network-wide (unused).
  * @return void
  */
-function lynbro_cookie_consent_onboarding_activate( $network_wide = false ) {
-	// Record when the plugin was first activated (for the delayed review notice).
+function lynbro_cookie_consent_onboarding_activate( $network_wide = false ) { // phpcs:ignore Generic.CodeAnalysis.UnusedFunctionParameter.Found -- kept for the activation hook signature.
 	if ( ! get_option( 'lynbro_cookie_consent_activated_at' ) ) {
 		add_option( 'lynbro_cookie_consent_activated_at', time(), '', false );
 	}
-
-	// Do not redirect on network activation or when activating several plugins at once.
-	if ( $network_wide ) {
-		return;
-	}
-	// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- core sets this on the bulk-activate screen; read-only check.
-	if ( isset( $_REQUEST['action'] ) && 'activate-selected' === sanitize_key( wp_unslash( $_REQUEST['action'] ) ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- core sets this on the bulk-activate screen; read-only check.
-		return;
-	}
-	// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- core posts an array of plugins on bulk activation; read-only check.
-	if ( isset( $_REQUEST['checked'] ) && is_array( $_REQUEST['checked'] ) && count( $_REQUEST['checked'] ) > 1 ) {
-		return;
-	}
-
-	set_transient( 'lynbro_cookie_consent_activation_redirect', 1, 30 );
 }
 
 /**
- * Perform the one-time post-activation redirect to the settings page.
+ * Send the old Settings → Cookie Consent address to the new one.
+ *
+ * The page moved into the shared "Lynbro" menu. Bookmarks, support answers and
+ * the screenshots in our own readme all still point at options-general.php,
+ * where WordPress would answer with "you are not allowed to access this page" —
+ * which is both untrue and unhelpful.
  *
  * @return void
  */
-function lynbro_cookie_consent_maybe_activation_redirect() {
-	if ( ! get_transient( 'lynbro_cookie_consent_activation_redirect' ) ) {
-		return;
-	}
-	delete_transient( 'lynbro_cookie_consent_activation_redirect' );
+function lynbro_cookie_consent_redirect_legacy_settings_url() {
+	global $pagenow;
 
-	if ( wp_doing_ajax() || ! is_admin() || ! current_user_can( 'manage_options' ) ) {
+	if ( 'options-general.php' !== $pagenow ) {
 		return;
 	}
-	// Don't hijack multi-plugin activation flows.
-	// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- read-only guard against bulk activation.
-	if ( isset( $_GET['activate-multi'] ) ) {
+	// Read-only navigation check on a GET address; nothing is changed here.
+	$page = isset( $_GET['page'] ) ? sanitize_key( wp_unslash( $_GET['page'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+	if ( 'lynbro-cookie-consent' !== $page ) {
 		return;
 	}
 
-	wp_safe_redirect( admin_url( 'options-general.php?page=lynbro-cookie-consent' ) );
+	wp_safe_redirect( admin_url( 'admin.php?page=lynbro-cookie-consent' ), 301 );
 	exit;
 }
-add_action( 'admin_init', 'lynbro_cookie_consent_maybe_activation_redirect' );
+add_action( 'admin_init', 'lynbro_cookie_consent_redirect_legacy_settings_url' );
 
 /**
- * Show the single, delayed, dismissible review notice.
+ * Draw the single, delayed, dismissible review request.
  *
- * Conditions: admin with manage_options, on our settings page only (so it never
- * follows the user around), at least 7 days since activation, and not previously
- * dismissed by this user. No rating widget, no "5 stars", no countdown.
+ * Runs on the lynbro_cookie_consent_page_notices action, which only our own
+ * settings page fires, so it never follows the user around the dashboard.
+ * Conditions: admin with manage_options, at least 7 days since activation, and
+ * not previously dismissed by this user. No rating widget, no "5 stars".
  *
  * @return void
  */
 function lynbro_cookie_consent_review_notice() {
 	if ( ! current_user_can( 'manage_options' ) ) {
-		return;
-	}
-
-	// Only on our own settings page.
-	$screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
-	if ( ! $screen || 'settings_page_lynbro-cookie-consent' !== $screen->id ) {
 		return;
 	}
 
@@ -122,7 +105,7 @@ function lynbro_cookie_consent_review_notice() {
 	);
 	$support_url = 'https://wordpress.org/support/plugin/lynbro-cookie-consent/reviews/';
 	?>
-	<div class="notice notice-info is-dismissible lynbro-cc-review-notice">
+	<div class="notice notice-info inline lynbro-cc-review-notice">
 		<p>
 			<?php echo esc_html__( 'Enjoying Lynbro Cookie Consent? A short, honest review helps other site owners find it. No pressure — only if you have a minute.', 'lynbro-cookie-consent' ); ?>
 		</p>
@@ -137,7 +120,7 @@ function lynbro_cookie_consent_review_notice() {
 	</div>
 	<?php
 }
-add_action( 'admin_notices', 'lynbro_cookie_consent_review_notice' );
+add_action( 'lynbro_cookie_consent_page_notices', 'lynbro_cookie_consent_review_notice' );
 
 /**
  * Persist the "dismiss forever" choice (per user) when the link is clicked.

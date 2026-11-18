@@ -48,6 +48,25 @@
 		return map;
 	}
 
+	// An offered locale for one code: exact (da_DK) or by language (da -> da_DK).
+	function matchOffered( code ) {
+		if ( ! code ) {
+			return null;
+		}
+		var offered = offeredLookup();
+		var want = normLocale( code );
+		if ( offered[ want ] ) {
+			return offered[ want ];
+		}
+		var base = want.split( '_' )[ 0 ];
+		for ( var key in offered ) {
+			if ( offered.hasOwnProperty( key ) && key.split( '_' )[ 0 ] === base ) {
+				return offered[ key ];
+			}
+		}
+		return null;
+	}
+
 	// Choose the best offered locale for the visitor from navigator.languages.
 	function detectLocale() {
 		var offered = offeredLookup();
@@ -165,11 +184,15 @@
 		} );
 	}
 
-	// Decide the banner language: saved choice -> browser detection -> server default.
+	// Decide the banner language: page language on a multilingual site (it is in
+	// the URL) -> saved choice -> browser detection -> server default.
 	function initLanguage() {
 		var saved  = readCookie( LANG_COOKIE );
 		var target = null;
-		if ( saved && TRANSLATIONS[ saved ] ) {
+		var page = cfg.langFromUrl ? matchOffered( cfg.lang ) : null;
+		if ( page ) {
+			target = page;                        // the page is in this language
+		} else if ( saved && TRANSLATIONS[ saved ] ) {
 			target = saved;                       // visitor's remembered choice
 		} else if ( cfg.autoDetectLang ) {
 			target = detectLocale();              // browser language (may be null)
@@ -406,13 +429,16 @@
 		if ( ! cfg.log || ! cfg.restUrl || ! window.fetch ) {
 			return;
 		}
+		// Only logged-in users get a nonce; sending an empty or stale one from an
+		// anonymous visitor makes WordPress reject the request itself.
+		var headers = { 'Content-Type': 'application/json' };
+		if ( cfg.restNonce ) {
+			headers[ 'X-WP-Nonce' ] = cfg.restNonce;
+		}
 		try {
 			window.fetch( cfg.restUrl, {
 				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json',
-					'X-WP-Nonce': cfg.restNonce || ''
-				},
+				headers: headers,
 				body: JSON.stringify( {
 					consent_id: ( window.crypto && window.crypto.randomUUID ) ? window.crypto.randomUUID() : '',
 					method: method,
@@ -440,11 +466,14 @@
 			lang: ( navigator && navigator.language ) ? navigator.language : '',
 			tta: ( typeof tta === 'number' && tta > 0 ) ? Math.round( tta ) : 0
 		};
-		// A light nonce (wp_rest) protects the endpoint; it travels as a query arg
-		// because sendBeacon cannot set custom headers.
-		var url = cfg.statUrl +
-			( cfg.statUrl.indexOf( '?' ) === -1 ? '?' : '&' ) +
-			'_wpnonce=' + encodeURIComponent( cfg.restNonce || '' );
+		// Logged-in users send their nonce as a query arg (sendBeacon cannot set
+		// custom headers); anonymous visitors send none.
+		var url = cfg.statUrl;
+		var headers = { 'Content-Type': 'application/json' };
+		if ( cfg.restNonce ) {
+			url += ( url.indexOf( '?' ) === -1 ? '?' : '&' ) + '_wpnonce=' + encodeURIComponent( cfg.restNonce );
+			headers[ 'X-WP-Nonce' ] = cfg.restNonce;
+		}
 
 		try {
 			if ( navigator && typeof navigator.sendBeacon === 'function' ) {
@@ -460,7 +489,7 @@
 			try {
 				window.fetch( cfg.statUrl, {
 					method: 'POST',
-					headers: { 'Content-Type': 'application/json', 'X-WP-Nonce': cfg.restNonce || '' },
+					headers: headers,
 					body: JSON.stringify( payload ),
 					credentials: 'same-origin',
 					keepalive: true
@@ -560,6 +589,52 @@
 		}
 	}
 
+	/* ---------- Bottom inset (suite contract: lynbro-floating-buttons/PLUGIN.md) ---------- */
+
+	// Everything fixed to the bottom of the screen stacks instead of overlapping:
+	// the cookie banner announces its height at rank 30, so the floating launcher
+	// (40) sits above it, and 0 when it goes away.
+	var lastInset = -1;
+	var insetObserver = null;
+
+	function bottomAnchored() {
+		var c = ' ' + root.className + ' ';
+		if ( c.indexOf( ' lynbro-cc--top ' ) > -1 || c.indexOf( ' lynbro-cc--center-modal ' ) > -1 ) {
+			return false;
+		}
+		return ! ( c.indexOf( ' lynbro-cc--box ' ) > -1 && c.indexOf( ' lynbro-cc--corner-top' ) > -1 );
+	}
+
+	function announceInset() {
+		var h = 0;
+		if ( root && ! root.hidden && bottomAnchored() ) {
+			var rect = root.getBoundingClientRect();
+			if ( rect.height > 0 && rect.top > 0 ) {
+				h = Math.max( 0, Math.round( window.innerHeight - rect.top ) );
+			}
+		}
+		if ( h === lastInset ) {
+			return;
+		}
+		lastInset = h;
+		if ( window.lynbroBottom && 'function' === typeof window.lynbroBottom.set ) {
+			window.lynbroBottom.set( 'cookie', h, 30 );
+			return;
+		}
+		try {
+			document.dispatchEvent( new CustomEvent( 'lynbro:bottom-inset', { detail: { id: 'cookie', height: h, rank: 30 } } ) );
+		} catch ( e ) {}
+	}
+
+	function watchInset() {
+		if ( ! insetObserver && root && 'function' === typeof window.ResizeObserver ) {
+			insetObserver = new window.ResizeObserver( announceInset );
+			insetObserver.observe( root );
+		}
+		window.addEventListener( 'resize', announceInset );
+		announceInset();
+	}
+
 	function showBanner() {
 		if ( ! root ) {
 			return;
@@ -579,6 +654,7 @@
 		if ( first ) {
 			first.focus();
 		}
+		watchInset();
 	}
 
 	function hideBanner() {
@@ -586,6 +662,7 @@
 			return;
 		}
 		root.hidden = true;
+		announceInset(); // Height 0: the bars above may move down again.
 		document.body.classList.remove( 'lynbro-cc-modal-open' );
 		revealFloat();
 		if ( lastFocus && typeof lastFocus.focus === 'function' ) {
@@ -616,6 +693,7 @@
 		if ( prefsBtn ) {
 			prefsBtn.setAttribute( 'aria-expanded', open ? 'true' : 'false' );
 		}
+		announceInset();
 	}
 
 	function readToggles() {

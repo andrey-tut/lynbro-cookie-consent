@@ -1771,3 +1771,25 @@ msgid ""
 msgstr ""
 "Az elfogadási és elutasítási döntést is ennyi ideig jegyzi meg; ezután a "
 "hozzájárulási banner ismét rákérdez. 1–365 nap, alapértelmezés szerint 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"A banner az oldal nyelvét használja. Ha az oldal nyelve nem szerepel a "
+"választható nyelvek között, a banner helyette a látogató böngészőjének "
+"nyelvén jelenik meg."
+
+msgid "Show more"
+msgstr "Továbbiak megjelenítése"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr ""
+"„Továbbiak megjelenítése” kapcsoló a rövidített szöveg alatt telefonon"
+
+msgid "Show less"
+msgstr "Kevesebb megjelenítése"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "„Kevesebb megjelenítése” kapcsoló telefonon"

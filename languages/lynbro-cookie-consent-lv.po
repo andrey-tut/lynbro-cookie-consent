@@ -1762,3 +1762,23 @@ msgid ""
 msgstr ""
 "Gan piekrišana, gan noraidīšana tiek saglabāta tik ilgi; pēc tam baneris "
 "jautās vēlreiz. No 1 līdz 365 dienām, pēc noklusējuma — 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Reklāmkarogs izmanto lapas valodu. Ja lapas valoda nav viena no piedāvātajām"
+" valodām, reklāmkarogs tiek rādīts apmeklētāja pārlūkprogrammas valodā."
+
+msgid "Show more"
+msgstr "Rādīt vairāk"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "“Rādīt vairāk” pārslēgs zem saīsinātā teksta tālruņos"
+
+msgid "Show less"
+msgstr "Rādīt mazāk"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "“Rādīt mazāk” pārslēgs tālruņos"

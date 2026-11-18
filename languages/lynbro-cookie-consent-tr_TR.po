@@ -1755,3 +1755,23 @@ msgid ""
 msgstr ""
 "Kabul ve ret tercihleri bu süre boyunca hatırlanır; süre dolduktan sonra "
 "banner yeniden sorar. 1 ila 365 gün, varsayılan 365 gün."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Banner, sayfanın dilini kullanır. Sayfa dili sunulan dillerden biri değilse,"
+" banner'ı bunun yerine ziyaretçinin tarayıcı dilinde gösterin."
+
+msgid "Show more"
+msgstr "Daha fazla göster"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Telefonlarda kısaltılmış metnin altında \"Daha fazla göster\" aç/kapatı"
+
+msgid "Show less"
+msgstr "Daha az göster"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Telefonlarda \"Daha az göster\" aç/kapatı"

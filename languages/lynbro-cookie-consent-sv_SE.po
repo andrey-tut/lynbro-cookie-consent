@@ -1746,3 +1746,23 @@ msgid ""
 msgstr ""
 "Både godkännande och avvisande sparas så länge; därefter visas bannern igen."
 " 1–365 dagar, 365 som standard."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Bannern följer sidans språk. När sidans språk inte är ett av de erbjudna "
+"språken visas bannern i stället på besökarens webbläsarspråk."
+
+msgid "Show more"
+msgstr "Visa mer"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "\"Visa mer\"-växlare under den förkortade texten på mobiler"
+
+msgid "Show less"
+msgstr "Visa mindre"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "\"Visa mindre\"-växlare på mobiler"

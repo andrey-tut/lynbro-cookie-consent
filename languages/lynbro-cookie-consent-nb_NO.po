@@ -1753,3 +1753,23 @@ msgid ""
 msgstr ""
 "Både godkjenning og avvisning huskes så lenge; deretter spør banneret på "
 "nytt. 1 til 365 dager, 365 som standard."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Banneret bruker sidens språk. Når sidens språk ikke er ett av de "
+"tilgjengelige språkene, vises banneret i besøkendes nettleserspråk i stedet."
+
+msgid "Show more"
+msgstr "Vis mer"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "«Vis mer»-bryter under den forkortede teksten på telefoner"
+
+msgid "Show less"
+msgstr "Vis mindre"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "«Vis mindre»-bryter på telefoner"

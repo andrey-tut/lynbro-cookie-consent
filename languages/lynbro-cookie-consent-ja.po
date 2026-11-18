@@ -1557,3 +1557,22 @@ msgid ""
 "Accepting and rejecting are both remembered this long; after that the banner"
 " asks again. 1 to 365 days, 365 by default."
 msgstr "同意・拒否のどちらもこの期間記憶されます。期間終了後、バナーが再度表示されます。1～365日（初期設定は365日）。"
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"バナーはページの言語に合わせて表示されます。ページの言語が提供されている言語のいずれでもない場合は、代わりに訪問者のブラウザ言語でバナーを表示します。"
+
+msgid "Show more"
+msgstr "もっと表示"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "スマホで省略されたテキストの下に表示される「もっと表示」切り替え"
+
+msgid "Show less"
+msgstr "表示を減らす"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "スマホでの「表示を減らす」切り替え"

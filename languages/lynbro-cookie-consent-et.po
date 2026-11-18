@@ -1748,3 +1748,23 @@ msgid ""
 msgstr ""
 "Nõustumist ja keeldumist säilitatakse sama kaua; pärast seda küsib bänner "
 "uuesti. 1–365 päeva, vaikimisi 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Bänner kuvab lehekülje keelt. Kui lehe keel ei ole üks pakutavatest "
+"keeltest, kuvatakse bänner külastaja brauseri keeles."
+
+msgid "Show more"
+msgstr "Kuva rohkem"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "„Kuva rohkem“ lüliti lühendatud teksti all telefonides"
+
+msgid "Show less"
+msgstr "Kuva vähem"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "„Kuva vähem“ lüliti telefonides"

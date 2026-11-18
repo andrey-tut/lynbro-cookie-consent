@@ -1763,3 +1763,23 @@ msgid ""
 msgstr ""
 "Hyväksyminen ja hylkääminen muistetaan tämän ajan; sen jälkeen banneri kysyy"
 " uudelleen. 1–365 päivää, oletusarvo 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Banneri käyttää sivun kieltä. Kun sivun kieli ei ole mikään tarjotuista "
+"kielistä, näytä banneri sen sijaan kävijän selaimen kielellä."
+
+msgid "Show more"
+msgstr "Näytä lisää"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "\"Näytä lisää\" -kytkin lyhennetyn tekstin alla puhelimissa"
+
+msgid "Show less"
+msgstr "Näytä vähemmän"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "\"Näytä vähemmän\" -kytkin puhelimissa"

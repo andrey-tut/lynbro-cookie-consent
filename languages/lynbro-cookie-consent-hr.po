@@ -1757,3 +1757,23 @@ msgid ""
 msgstr ""
 "Prihvaćanje i odbijanje pamte se jednako dugo; nakon toga banner ponovno "
 "traži odabir. Od 1 do 365 dana, zadano 365 dana."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Zastavica koristi jezik stranice. Kad jezik stranice nije jedan od ponuđenih"
+" jezika, umjesto toga prikaži zastavicu na jeziku preglednika posjetitelja."
+
+msgid "Show more"
+msgstr "Prikaži više"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Preklopnik „Prikaži više” ispod skraćenog teksta na telefonima"
+
+msgid "Show less"
+msgstr "Prikaži manje"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Preklopnik „Prikaži manje” na telefonima"

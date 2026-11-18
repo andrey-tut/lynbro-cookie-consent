@@ -1768,3 +1768,24 @@ msgid ""
 msgstr ""
 "Выбор о принятии или отклонении запоминается на этот срок, после чего баннер"
 " появится снова. От 1 до 365 дней, по умолчанию — 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Баннер отображается на языке страницы. Если язык страницы не входит в число "
+"предлагаемых языков, вместо этого показывать баннер на языке браузера "
+"посетителя."
+
+msgid "Show more"
+msgstr "Показать ещё"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Переключатель «Показать ещё» под сокращённым текстом на телефонах"
+
+msgid "Show less"
+msgstr "Показать меньше"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Переключатель «Показать меньше» на телефонах"

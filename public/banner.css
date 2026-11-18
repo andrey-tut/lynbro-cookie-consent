@@ -399,6 +399,139 @@ body.lynbro-cc-modal-open {
 	}
 }
 
+/* "Show more" toggle: only used in the phone layout below. */
+.lynbro-cc__more[hidden] {
+	display: none;
+}
+
+/* Phones (ops 2026-11-18): the bar took ~45 % of a 375x812 screen. Compact
+   layout: two-line text with a "Show more" toggle, Reject and Accept side by
+   side with the same size and style (rejection equality), "Manage preferences"
+   as a quieter text button below, and a small language selector beside the
+   title. Target: at most ~30 % of the screen height. */
+@media ( max-width: 480px ) {
+	.lynbro-cc__dialog {
+		gap: 10px;
+		padding: 12px 14px;
+	}
+
+	.lynbro-cc__body {
+		position: relative;
+	}
+
+	.lynbro-cc__lang {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 0;
+	}
+
+	.lynbro-cc--rtl .lynbro-cc__lang {
+		right: auto;
+		left: 0;
+	}
+
+	/* The label stays for screen readers; the select itself is the visible cue. */
+	.lynbro-cc__lang-label {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect( 0, 0, 0, 0 );
+		white-space: nowrap;
+		border: 0;
+	}
+
+	.lynbro-cc__lang-select {
+		font-size: 12px;
+		min-height: 28px;
+		padding: 2px 4px;
+		max-width: 108px;
+	}
+
+	.lynbro-cc__lang:not( [hidden] ) ~ .lynbro-cc__title {
+		padding-right: 116px;
+	}
+
+	.lynbro-cc--rtl .lynbro-cc__lang:not( [hidden] ) ~ .lynbro-cc__title {
+		padding-right: 0;
+		padding-left: 116px;
+	}
+
+	.lynbro-cc__title {
+		font-size: 15px;
+		margin-bottom: 4px;
+		min-height: 28px;
+		display: flex;
+		align-items: center;
+	}
+
+	.lynbro-cc__desc-text {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+		overflow: hidden;
+	}
+
+	.lynbro-cc--desc-open .lynbro-cc__desc-text {
+		display: block;
+		-webkit-line-clamp: unset;
+		line-clamp: none;
+		overflow: visible;
+	}
+
+	.lynbro-cc__more,
+	.lynbro-cc__policy {
+		display: inline-block;
+		margin-top: 2px;
+		margin-right: 12px;
+		font-size: 13px;
+		line-height: 24px;
+		min-height: 24px;
+	}
+
+	/* Two equal columns for Reject | Accept; the rest takes full rows below. */
+	.lynbro-cc__actions {
+		gap: 8px;
+	}
+
+	.lynbro-cc__btn {
+		padding: 10px 8px;
+	}
+
+	.lynbro-cc__btn--reject,
+	.lynbro-cc__btn--accept {
+		flex: 1 1 0;
+		min-width: 0;
+	}
+
+	.lynbro-cc__btn--reject {
+		order: 1;
+	}
+
+	.lynbro-cc__btn--accept {
+		order: 2;
+	}
+
+	.lynbro-cc__btn--save {
+		order: 3;
+		flex: 1 1 100%;
+	}
+
+	.lynbro-cc__btn--prefs {
+		order: 4;
+		flex: 1 1 100%;
+		min-height: 32px;
+		padding: 4px 8px;
+		border-color: transparent;
+		text-decoration: underline;
+		font-weight: 500;
+	}
+}
+
 /* RTL. */
 .lynbro-cc--rtl {
 	direction: rtl;

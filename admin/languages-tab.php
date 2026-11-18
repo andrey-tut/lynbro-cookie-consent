@@ -41,7 +41,7 @@ function lynbro_cookie_consent_render_languages_tab() {
 					<td>
 						<label>
 							<input type="checkbox" name="lynbro_cc_lang_auto" value="1" <?php checked( $auto ); ?> />
-							<?php echo esc_html__( 'Automatically show the banner in the visitor’s browser language when it is one of the offered languages.', 'lynbro-cookie-consent' ); ?>
+							<?php echo esc_html__( 'The banner speaks the language of the page. When the page language is not one of the offered languages, show the banner in the visitor’s browser language instead.', 'lynbro-cookie-consent' ); ?>
 						</label>
 					</td>
 				</tr>

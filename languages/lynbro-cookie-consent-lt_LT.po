@@ -1761,3 +1761,23 @@ msgid ""
 msgstr ""
 "Tiek laiko įsimenamas ir sutikimas, ir atsisakymas; jam pasibaigus, sutikimo"
 " juosta paklaus dar kartą. Nuo 1 iki 365 dienų, numatytoji reikšmė – 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Baneris rodomas ta pačia kalba kaip puslapis. Kai puslapio kalba nėra viena "
+"iš siūlomų kalbų, vietoje to rodant banerį pagal lankytojo naršyklės kalbą."
+
+msgid "Show more"
+msgstr "Rodyti daugiau"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "„Rodyti daugiau“ jungiklis po sutrumpintu tekstu telefonuose"
+
+msgid "Show less"
+msgstr "Rodyti mažiau"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "„Rodyti mažiau“ jungiklis telefonuose"

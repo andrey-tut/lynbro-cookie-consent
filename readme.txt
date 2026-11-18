@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.20
+Stable tag: 0.4.21
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -281,6 +281,10 @@ screen makes.
 
 == Changelog ==
 
+= 0.4.21 =
+* Improvement: on phones (480 px and narrower) the banner is compact — the text is shortened to two lines with a "Show more" toggle, "Reject all" and "Accept all" sit side by side with the same size and style, and "Manage preferences" is a quieter text button below. On a 375 px screen the banner now takes well under a third of the height instead of almost half. Desktop is unchanged.
+* Fix: the banner follows the language of the page (`<html lang>`), not the visitor's browser: an English browser on a Danish page now sees the Danish banner. The browser language is only used when the page language is not one of the offered languages. A language picked in the switcher is remembered for pages in the same language.
+
 = 0.4.20 =
 * Fix: importing a settings file always failed with "Please upload a .json settings file" — WordPress does not list .json as an upload type, so every exported file was refused. The file is now checked by its .json name and its content, as before.
 * Fix: on the Languages tab, the "Read more" link and the "Always on" badge could not be translated — the text was dropped on save in every language, so the banner kept the English words.
@@ -438,6 +442,9 @@ screen makes.
   Mode v2, geo-aware consent modes, shortcode, accessibility, English + Danish.
 
 == Upgrade Notice ==
+
+= 0.4.21 =
+Compact banner on phones and the banner now follows the page language instead of the browser language.
 
 = 0.4.19 =
 Google Consent Mode defaults now come before every other tag in <head>.

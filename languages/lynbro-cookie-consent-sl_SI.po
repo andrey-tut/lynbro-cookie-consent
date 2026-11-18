@@ -1754,3 +1754,24 @@ msgid ""
 msgstr ""
 "Toliko časa se shranjujeta tako sprejem kot zavrnitev; po tem pasica znova "
 "vpraša. Od 1 do 365 dni, privzeto 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Pasica uporablja jezik strani. Ko je jezik strani eden od ponujenih jezikov,"
+" se pasica prikaže v jeziku strani. Če ni, se pasica prikaže v jeziku "
+"brskalnika obiskovalca."
+
+msgid "Show more"
+msgstr "Pokaži več"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Preklop »Pokaži več« pod skrajšanim besedilom na telefonih"
+
+msgid "Show less"
+msgstr "Pokaži manj"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Preklop »Pokaži manj« na telefonih"

@@ -306,6 +306,14 @@ function lynbro_cookie_consent_string_catalog() {
 			'default' => __( 'Read more', 'lynbro-cookie-consent' ),
 			'label'   => __( '"Read more" link', 'lynbro-cookie-consent' ),
 		),
+		'more'         => array(
+			'default' => __( 'Show more', 'lynbro-cookie-consent' ),
+			'label'   => __( '"Show more" toggle under the shortened text on phones', 'lynbro-cookie-consent' ),
+		),
+		'less'         => array(
+			'default' => __( 'Show less', 'lynbro-cookie-consent' ),
+			'label'   => __( '"Show less" toggle on phones', 'lynbro-cookie-consent' ),
+		),
 		'alwaysOn'     => array(
 			'default' => __( 'Always on', 'lynbro-cookie-consent' ),
 			'label'   => __( '"Always on" badge on necessary cookies', 'lynbro-cookie-consent' ),

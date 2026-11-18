@@ -1754,3 +1754,23 @@ msgid ""
 msgstr ""
 "Přijetí i odmítnutí se zapamatují na tuto dobu; poté se banner zeptá znovu. "
 "1 až 365 dní, výchozí hodnota je 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Banner používá jazyk stránky. Pokud jazyk stránky není jedním z nabízených "
+"jazyků, zobrazí se banner místo toho v jazyce prohlížeče návštěvníka."
+
+msgid "Show more"
+msgstr "Zobrazit více"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Přepínač „Zobrazit více“ pod zkráceným textem na telefonech"
+
+msgid "Show less"
+msgstr "Zobrazit méně"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Přepínač „Zobrazit méně“ na telefonech"

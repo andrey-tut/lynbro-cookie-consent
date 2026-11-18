@@ -1762,3 +1762,24 @@ msgid ""
 msgstr ""
 "Accepteren en weigeren worden beide zo lang onthouden; daarna vraagt de "
 "banner het opnieuw. 1 tot 365 dagen, standaard 365 dagen."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"De banner gebruikt de taal van de pagina. Als de paginataal niet een van de "
+"aangeboden talen is, toon de banner dan in plaats daarvan in de browsertaal "
+"van de bezoeker."
+
+msgid "Show more"
+msgstr "Meer weergeven"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "De schakelaar \"Meer weergeven\" onder de ingekorte tekst op telefoons"
+
+msgid "Show less"
+msgstr "Minder weergeven"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "De schakelaar \"Minder weergeven\" op telefoons"

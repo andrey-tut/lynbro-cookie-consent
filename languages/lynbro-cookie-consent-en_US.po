@@ -1727,3 +1727,24 @@ msgid ""
 msgstr ""
 "Accepting and rejecting are both remembered this long; after that the banner"
 " asks again. 1 to 365 days, 365 by default."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+
+msgid "Show more"
+msgstr "Show more"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "\"Show more\" toggle under the shortened text on phones"
+
+msgid "Show less"
+msgstr "Show less"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "\"Show less\" toggle on phones"

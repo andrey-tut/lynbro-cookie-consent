@@ -1758,3 +1758,24 @@ msgid ""
 msgstr ""
 "Приемането и отказът се запомнят за този период; след това банерът пита "
 "отново. От 1 до 365 дни, по подразбиране 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Банерът използва езика на страницата. Когато езикът на страницата не е сред "
+"предлаганите езици, вместо това покажете банера на езика на браузъра на "
+"посетителя."
+
+msgid "Show more"
+msgstr "Покажи повече"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Превключвател „Покажи повече“ под съкратения текст на телефоните"
+
+msgid "Show less"
+msgstr "Покажи по-малко"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Превключвател „Покажи по-малко“ на телефоните"

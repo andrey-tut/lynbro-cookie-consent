@@ -469,7 +469,12 @@ function lynbro_cookie_consent_render_banner() {
 				<?php endif; ?>
 				<h2 id="lynbro-cc-title" class="lynbro-cc__title" data-lynbro-cc-text="title"><?php echo esc_html( $args['title'] ); ?></h2>
 				<div id="lynbro-cc-desc" class="lynbro-cc__desc">
-					<span class="lynbro-cc__desc-text" data-lynbro-cc-html="description"><?php echo wp_kses( $args['description'], lynbro_cookie_consent_allowed_text_html() ); ?></span>
+					<span id="lynbro-cc-desc-text" class="lynbro-cc__desc-text" data-lynbro-cc-html="description"><?php echo wp_kses( $args['description'], lynbro_cookie_consent_allowed_text_html() ); ?></span>
+					<?php
+					// Phones: the text is clamped to two lines; banner.js reveals this
+					// toggle only when the text is actually cut off.
+					?>
+					<button type="button" class="lynbro-cc__link lynbro-cc__more" data-lynbro-cc-action="more" aria-expanded="false" aria-controls="lynbro-cc-desc-text" data-lynbro-cc-text="more" hidden><?php echo esc_html__( 'Show more', 'lynbro-cookie-consent' ); ?></button>
 					<?php if ( ! empty( $args['policy_url'] ) ) : ?>
 						<a class="lynbro-cc__policy" href="<?php echo esc_url( $args['policy_url'] ); ?>" rel="nofollow" data-lynbro-cc-text="readMore">
 							<?php echo esc_html__( 'Read more', 'lynbro-cookie-consent' ); ?>

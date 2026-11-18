@@ -1782,3 +1782,24 @@ msgid ""
 msgstr ""
 "Cuimhnítear ar ghlacadh agus ar dhiúltú ar feadh an tréimhse seo; ina "
 "dhiaidh sin, fiafróidh an meirge arís. 1 go 365 lá; 365 mar réamhshocrú."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Labhraíonn an bhratach teanga an leathanaigh. Mura bhfuil teanga an "
+"leathanaigh ar cheann de na teangacha a thairgtear, taispeáin an bhratach i "
+"dteanga an bhrabhsálaí atá ag an gcuairteoir ina háit."
+
+msgid "Show more"
+msgstr "Taispeáin níos mó"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Téamh “Taispeáin níos mó” faoin téacs giorraithe ar fhóin"
+
+msgid "Show less"
+msgstr "Taispeáin níos lú"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Téamh “Taispeáin níos lú” ar fhóin"

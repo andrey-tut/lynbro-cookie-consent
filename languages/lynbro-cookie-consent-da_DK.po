@@ -2174,6 +2174,26 @@ msgstr ""
 "Både accept og afvisning huskes i denne periode. Derefter spørger banneret "
 "igen. 1 til 365 dage, 365 som standard."
 
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Banneret bruger sidens sprog. Når sidens sprog ikke er et af de tilbudte "
+"sprog, vises banneret i den besøgendes browsersprog i stedet."
+
+msgid "Show more"
+msgstr "Vis mere"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "\"Vis mere\"-knap under den forkortede tekst på telefoner"
+
+msgid "Show less"
+msgstr "Vis mindre"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "\"Vis mindre\"-knap på telefoner"
+
 #~ msgid "Additional CSS"
 #~ msgstr "Yderligere CSS"
 
@@ -2181,11 +2201,11 @@ msgstr ""
 #~ msgstr "Knapikon"
 
 #~ msgid "Custom CSS"
-#~ msgstr "Brugerdefineret CSS"
+#~ msgstr "Tilpasset CSS"
 
 #~ msgid ""
 #~ "Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
 #~ "selectors."
 #~ msgstr ""
-#~ "Valgfri CSS, der tilføjes til bannerets stylesheet. Målret .lynbro-cc-"
-#~ "selektorerne."
+#~ "Valgfri CSS, der tilføjes til bannerets stylesheet. Ret mod .lynbro-cc-"
+#~ "selectorerne."

@@ -1765,3 +1765,24 @@ msgid ""
 msgstr ""
 "A aceitação e a rejeição são ambas memorizadas durante este período; depois "
 "disso, o banner pergunta novamente. De 1 a 365 dias, 365 por predefinição."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"O banner fala a língua da página. Quando o idioma da página não é um dos "
+"idiomas disponibilizados, mostrar o banner no idioma do navegador do "
+"visitante."
+
+msgid "Show more"
+msgstr "Mostrar mais"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Alternador \"Mostrar mais\" abaixo do texto abreviado nos telemóveis"
+
+msgid "Show less"
+msgstr "Mostrar menos"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Alternador \"Mostrar menos\" nos telemóveis"

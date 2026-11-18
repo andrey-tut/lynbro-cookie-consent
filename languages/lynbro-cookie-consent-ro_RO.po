@@ -1769,3 +1769,23 @@ msgid ""
 msgstr ""
 "Atât acceptarea, cât și respingerea sunt reținute pentru această perioadă; "
 "după aceea, bannerul întreabă din nou. Între 1 și 365 de zile, implicit 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Bannerul vorbește limba paginii. Când limba paginii nu este una dintre "
+"limbile oferite, afișați bannerul în limba browserului vizitatorului."
+
+msgid "Show more"
+msgstr "Afișați mai mult"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Comutatorul „Afișați mai mult” sub textul scurtat pe telefoane"
+
+msgid "Show less"
+msgstr "Afișați mai puțin"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Comutatorul „Afișați mai puțin” pe telefoane"

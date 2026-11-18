@@ -1720,3 +1720,23 @@ msgid ""
 msgstr ""
 "يُحتفَظ بكلٍّ من القبول والرفض لهذه المدة؛ وبعدها يظهر الشريط مجددًا لطلب "
 "الاختيار. من يوم إلى 365 يومًا، والمدة الافتراضية 365 يومًا."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"تتحدث الشريطة لغة الصفحة. عندما لا تكون لغة الصفحة إحدى اللغات المتاحة، اعرض"
+" الشريطة بلغة متصفح الزائر بدلًا من ذلك."
+
+msgid "Show more"
+msgstr "عرض المزيد"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "زر \"عرض المزيد\" أسفل النص المختصر على الهواتف"
+
+msgid "Show less"
+msgstr "عرض أقل"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "زر \"عرض أقل\" على الهواتف"

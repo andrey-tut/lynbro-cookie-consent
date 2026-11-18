@@ -1574,3 +1574,22 @@ msgid ""
 " asks again. 1 to 365 days, 365 by default."
 msgstr ""
 "수락 및 거부 선택은 모두 이 기간 동안 기억되며, 기간이 지나면 배너가 다시 표시됩니다. 1~365일, 기본값은 365일입니다."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"배너는 페이지의 언어를 따릅니다. 페이지 언어가 제공된 언어 중 하나가 아닌 경우, 대신 방문자의 브라우저 언어로 배너를 표시합니다."
+
+msgid "Show more"
+msgstr "더 보기"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "휴대폰에서 축약된 텍스트 아래의 \"더 보기\" 토글"
+
+msgid "Show less"
+msgstr "간단히 보기"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "휴대폰에서의 \"간단히 보기\" 토글"

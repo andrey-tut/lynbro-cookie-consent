@@ -1792,3 +1792,24 @@ msgid ""
 msgstr ""
 "Les choix d’acceptation et de refus sont mémorisés pendant cette durée ; "
 "ensuite, la bannière s’affiche à nouveau. De 1 à 365 jours, 365 par défaut."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"La bannière s’affiche dans la langue de la page. Si la langue de la page ne "
+"fait pas partie des langues proposées, afficher la bannière dans la langue "
+"du navigateur du visiteur à la place."
+
+msgid "Show more"
+msgstr "Afficher plus"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Bascule « Afficher plus » sous le texte raccourci sur les téléphones"
+
+msgid "Show less"
+msgstr "Afficher moins"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Bascule « Afficher moins » sur les téléphones"

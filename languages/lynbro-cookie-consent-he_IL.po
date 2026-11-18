@@ -1696,3 +1696,23 @@ msgid ""
 msgstr ""
 "הבחירה לקבל או לדחות נשמרת למשך זמן זה; לאחר מכן הבאנר שואל שוב. 1 עד 365 "
 "ימים, ברירת המחדל היא 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"הבאנר מוצג בשפת העמוד. כאשר שפת העמוד אינה אחת מהשפות המוצעות, הצג את הבאנר "
+"במקום זאת בשפת הדפדפן של המבקר."
+
+msgid "Show more"
+msgstr "הצג עוד"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "מתג \"הצג עוד\" מתחת לטקסט המקוצר בטלפונים"
+
+msgid "Show less"
+msgstr "הצג פחות"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "מתג \"הצג פחות\" בטלפונים"

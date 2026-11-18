@@ -1784,3 +1784,24 @@ msgid ""
 msgstr ""
 "Zustimmungen und Ablehnungen werden für diesen Zeitraum gespeichert; danach "
 "wird das Banner erneut angezeigt. 1 bis 365 Tage, Standardwert: 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Das Banner verwendet die Sprache der Seite. Wenn die Seitensprache nicht zu "
+"den angebotenen Sprachen gehört, wird das Banner stattdessen in der Sprache "
+"des Browsers des Besuchers angezeigt."
+
+msgid "Show more"
+msgstr "Mehr anzeigen"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "„Mehr anzeigen“-Schalter unter dem gekürzten Text auf Mobiltelefonen"
+
+msgid "Show less"
+msgstr "Weniger anzeigen"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "„Weniger anzeigen“-Schalter auf Mobiltelefonen"

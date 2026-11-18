@@ -1512,3 +1512,21 @@ msgid ""
 "Accepting and rejecting are both remembered this long; after that the banner"
 " asks again. 1 to 365 days, 365 by default."
 msgstr "接受和拒绝的选择都会在此期限内保存；期限结束后，横幅会再次询问。可设置为 1 至 365 天，默认值为 365 天。"
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr "横幅使用页面语言显示。如果页面语言不在所提供的语言中，则改为使用访客浏览器语言显示横幅。"
+
+msgid "Show more"
+msgstr "显示更多"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "手机上简短文本下方的“显示更多”切换"
+
+msgid "Show less"
+msgstr "显示更少"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "手机上的“显示更少”切换"

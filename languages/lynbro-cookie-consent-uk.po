@@ -2191,6 +2191,26 @@ msgstr ""
 "Вибір прийняти або відхилити зберігається на цей строк; після його "
 "завершення банер з’явиться знову. Від 1 до 365 днів, за замовчуванням — 365."
 
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Банер відображається мовою сторінки. Якщо мова сторінки не входить до списку"
+" доступних мов, натомість показуйте банер мовою браузера відвідувача."
+
+msgid "Show more"
+msgstr "Показати більше"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Перемикач «Показати більше» під скороченим текстом на телефонах"
+
+msgid "Show less"
+msgstr "Показати менше"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Перемикач «Показати менше» на телефонах"
+
 #~ msgid "Additional CSS"
 #~ msgstr "Додатковий CSS"
 

@@ -1769,3 +1769,24 @@ msgstr ""
 "La scelta di accettare o rifiutare viene ricordata per questo periodo; allo "
 "scadere, il banner lo chiederà di nuovo. Da 1 a 365 giorni, 365 per "
 "impostazione predefinita."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Il banner usa la lingua della pagina. Quando la lingua della pagina non è "
+"una delle lingue offerte, mostra il banner nella lingua del browser del "
+"visitatore."
+
+msgid "Show more"
+msgstr "Mostra di più"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Interruttore \"Mostra di più\" sotto il testo abbreviato sui telefoni"
+
+msgid "Show less"
+msgstr "Mostra meno"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Interruttore \"Mostra meno\" sui telefoni"

@@ -1791,3 +1791,25 @@ msgid ""
 msgstr ""
 "Η αποδοχή και η απόρριψη απομνημονεύονται για αυτό το διάστημα· μετά, το "
 "banner θα εμφανιστεί ξανά. Από 1 έως 365 ημέρες, προεπιλογή: 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Το banner εμφανίζεται στη γλώσσα της σελίδας. Όταν η γλώσσα της σελίδας δεν "
+"είναι μία από τις διαθέσιμες γλώσσες, εμφανίστε το banner στη γλώσσα του "
+"προγράμματος περιήγησης του επισκέπτη."
+
+msgid "Show more"
+msgstr "Εμφάνιση περισσότερων"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr ""
+"Εναλλαγή «Εμφάνιση περισσότερων» κάτω από το συντομευμένο κείμενο στα κινητά"
+
+msgid "Show less"
+msgstr "Εμφάνιση λιγότερων"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Εναλλαγή «Εμφάνιση λιγότερων» στα κινητά"

@@ -1765,3 +1765,24 @@ msgstr ""
 "Kemm l-aċċettazzjoni kif ukoll ir-rifjut jinżammu mfakkra għal dan it-tul; "
 "wara, il-banner jerġa’ jistaqsi. Minn jum sa 365 jum, 365 jum b’mod "
 "awtomatiku."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Il-banner juża l-lingwa tal-paġna. Meta l-lingwa tal-paġna ma tkunx waħda "
+"mil-lingwi offruti, uri l-banner fil-lingwa tal-browser tal-viżitatur "
+"minflok."
+
+msgid "Show more"
+msgstr "Uri aktar"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Iswiċċ “Uri aktar” taħt it-test imqassar fuq it-telefowns"
+
+msgid "Show less"
+msgstr "Uri inqas"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Iswiċċ “Uri inqas” fuq it-telefowns"

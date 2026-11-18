@@ -102,7 +102,8 @@
 		var textNodes = document.querySelectorAll( '[data-lynbro-cc-text]' );
 		Array.prototype.forEach.call( textNodes, function ( node ) {
 			var key = node.getAttribute( 'data-lynbro-cc-text' );
-			if ( strings.hasOwnProperty( key ) ) {
+			// An empty string would wipe a label the server already rendered.
+			if ( strings.hasOwnProperty( key ) && '' !== strings[ key ] ) {
 				node.textContent = strings[ key ];
 			}
 		} );
@@ -111,7 +112,7 @@
 		var htmlNodes = document.querySelectorAll( '[data-lynbro-cc-html]' );
 		Array.prototype.forEach.call( htmlNodes, function ( node ) {
 			var key = node.getAttribute( 'data-lynbro-cc-html' );
-			if ( strings.hasOwnProperty( key ) ) {
+			if ( strings.hasOwnProperty( key ) && '' !== strings[ key ] ) {
 				node.innerHTML = sanitizeInline( strings[ key ] );
 			}
 		} );
@@ -119,6 +120,37 @@
 		if ( root ) {
 			root.setAttribute( 'lang', locale.split( '_' )[ 0 ] );
 		}
+		// The new text may be longer or shorter: re-check the phone clamp.
+		syncMore();
+	}
+
+	// The language the page itself declares in <html lang> (da-DK -> da_DK), as an
+	// offered locale, or null. On a multisite with one language per site (/da/,
+	// /en/) this is the only reliable page language in the browser.
+	function htmlLocale() {
+		var el = document.documentElement;
+		var code = el ? ( el.getAttribute( 'lang' ) || '' ) : '';
+		return code ? matchOffered( code ) : null;
+	}
+
+	// The remembered switcher choice is stored as "locale|page-locale": it only
+	// applies on pages in the same language it was made on, so a choice made on
+	// the English site of a multisite does not follow the visitor to /da/.
+	function readSavedLocale( pageLoc ) {
+		var raw = readCookie( LANG_COOKIE );
+		if ( ! raw ) {
+			return null;
+		}
+		var parts = ( '' + raw ).split( '|' );
+		var loc = parts[ 0 ];
+		var madeOn = parts.length > 1 ? parts[ 1 ] : '';
+		if ( ! TRANSLATIONS[ loc ] ) {
+			return null;
+		}
+		if ( pageLoc && madeOn !== pageLoc ) {
+			return null; // Made on a page in another language (or by an older version).
+		}
+		return loc;
 	}
 
 	// Allow only the same limited inline tags the server permits in the description.
@@ -179,30 +211,36 @@
 		wrap.hidden = false;
 		select.addEventListener( 'change', function () {
 			applyLocale( select.value );
-			writeCookie( LANG_COOKIE, select.value, DAYS );
+			writeCookie( LANG_COOKIE, select.value + '|' + ( htmlLocale() || '' ), DAYS );
 			sendStat( 'lang_switch', shownAt ? ( Date.now() - shownAt ) : 0 );
 		} );
 	}
 
-	// Decide the banner language: page language on a multilingual site (it is in
-	// the URL) -> saved choice -> browser detection -> server default.
+	// Decide the banner language. The page language wins, the browser is only a
+	// fallback (ops 2026-11-18: an English browser on a Danish page saw English):
+	//  1. multilingual plugin language (it is in the URL);
+	//  2. a switcher choice made on a page in this same language;
+	//  3. the page's <html lang>;
+	//  4. the server's page/site locale;
+	//  5. the browser language (only when the page language has no translation).
+	// The server renders the English source (plugin-bundled .mo files are not
+	// loaded server-side), so applying the locale here is what makes the banner
+	// Danish on a Danish site.
 	function initLanguage() {
-		var saved  = readCookie( LANG_COOKIE );
 		var target = null;
-		var page = cfg.langFromUrl ? matchOffered( cfg.lang ) : null;
-		if ( page ) {
-			target = page;                        // the page is in this language
-		} else if ( saved && TRANSLATIONS[ saved ] ) {
-			target = saved;                       // visitor's remembered choice
+		var pageLoc = htmlLocale();
+		var urlLoc = cfg.langFromUrl ? matchOffered( cfg.lang ) : null;
+		var saved = readSavedLocale( urlLoc || pageLoc );
+		if ( urlLoc ) {
+			target = urlLoc;
+		} else if ( saved ) {
+			target = saved;
+		} else if ( pageLoc ) {
+			target = pageLoc;
+		} else if ( cfg.lang && matchOffered( cfg.lang ) ) {
+			target = matchOffered( cfg.lang );
 		} else if ( cfg.autoDetectLang ) {
-			target = detectLocale();              // browser language (may be null)
-		}
-		// Fall back to the configured site/page locale. The server always renders
-		// the English source (plugin-bundled .mo files are not loaded server-side),
-		// so applying it here makes the banner match the site language even when
-		// auto-detect is off and on non-English sites.
-		if ( ! target && cfg.lang && TRANSLATIONS[ cfg.lang ] ) {
-			target = cfg.lang;
+			target = detectLocale();
 		}
 		if ( target && TRANSLATIONS[ target ] ) {
 			applyLocale( target );
@@ -591,6 +629,47 @@
 		}
 	}
 
+	/* ---------- Phones: two-line description with a "Show more" toggle ---------- */
+
+	var COMPACT_QUERY = '(max-width: 480px)';
+	var descOpen = false;
+
+	function isCompact() {
+		return !! ( window.matchMedia && window.matchMedia( COMPACT_QUERY ).matches );
+	}
+
+	function moreLabel( key, fallback ) {
+		var strings = TRANSLATIONS[ currentLocale ] || {};
+		return strings[ key ] ? strings[ key ] : fallback;
+	}
+
+	// Show the toggle only on phones and only when the clamp really cuts the text.
+	function syncMore() {
+		if ( ! root ) {
+			return;
+		}
+		var btn = root.querySelector( '.lynbro-cc__more' );
+		var text = root.querySelector( '.lynbro-cc__desc-text' );
+		if ( ! btn || ! text ) {
+			return;
+		}
+		var cut = false;
+		if ( isCompact() ) {
+			cut = descOpen || ( text.scrollHeight - text.clientHeight > 2 );
+		}
+		btn.hidden = ! cut;
+		btn.setAttribute( 'aria-expanded', descOpen ? 'true' : 'false' );
+		btn.textContent = descOpen ? moreLabel( 'less', 'Show less' ) : moreLabel( 'more', 'Show more' );
+		btn.setAttribute( 'data-lynbro-cc-text', descOpen ? 'less' : 'more' );
+	}
+
+	function toggleMore() {
+		descOpen = ! descOpen;
+		root.classList.toggle( 'lynbro-cc--desc-open', descOpen );
+		syncMore();
+		announceInset();
+	}
+
 	/* ---------- Bottom inset (suite contract: lynbro-floating-buttons/PLUGIN.md) ---------- */
 
 	// Everything fixed to the bottom of the screen stacks instead of overlapping:
@@ -633,7 +712,10 @@
 			insetObserver = new window.ResizeObserver( announceInset );
 			insetObserver.observe( root );
 		}
-		window.addEventListener( 'resize', announceInset );
+		window.addEventListener( 'resize', function () {
+			syncMore();
+			announceInset();
+		} );
 		announceInset();
 	}
 
@@ -646,6 +728,7 @@
 			shownAt = Date.now();
 		}
 		root.hidden = false;
+		syncMore(); // Measurable only once the banner is visible.
 		// Hide the floating button while the banner/modal is open so they never
 		// overlap or compete for clicks with other overlays.
 		hideFloat();
@@ -749,6 +832,8 @@
 				// "Do Not Sell or Share" is a full opt-out of non-essential cookies.
 				applyConsent( allDenied(), 'reject', true );
 				hideBanner();
+			} else if ( 'more' === action ) {
+				toggleMore();
 			} else if ( 'prefs' === action ) {
 				var willOpen = prefsPanel.hidden;
 				togglePrefs( willOpen );

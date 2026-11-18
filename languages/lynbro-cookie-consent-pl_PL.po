@@ -1764,3 +1764,23 @@ msgid ""
 msgstr ""
 "Zarówno akceptacja, jak i odrzucenie są zapamiętywane na ten czas; po jego "
 "upływie baner ponownie zapyta o wybór. Od 1 do 365 dni, domyślnie 365."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Baner wyświetla się w języku strony. Gdy język strony nie jest jednym z "
+"dostępnych języków, pokaż baner w języku przeglądarki odwiedzającego."
+
+msgid "Show more"
+msgstr "Pokaż więcej"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr "Przełącznik „Pokaż więcej” pod skróconym tekstem na telefonach"
+
+msgid "Show less"
+msgstr "Pokaż mniej"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Przełącznik „Pokaż mniej” na telefonach"

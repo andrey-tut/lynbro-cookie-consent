@@ -1760,3 +1760,25 @@ msgid ""
 msgstr ""
 "Persetujuan dan penolakan sama-sama diingat selama jangka waktu ini; setelah"
 " itu, banner akan menanyakan kembali. 1 hingga 365 hari, default 365 hari."
+
+msgid ""
+"The banner speaks the language of the page. When the page language is not "
+"one of the offered languages, show the banner in the visitor’s browser "
+"language instead."
+msgstr ""
+"Banner mengikuti bahasa halaman. Jika bahasa halaman bukan salah satu bahasa"
+" yang tersedia, tampilkan banner dalam bahasa peramban pengunjung."
+
+msgid "Show more"
+msgstr "Tampilkan lebih banyak"
+
+msgid "\"Show more\" toggle under the shortened text on phones"
+msgstr ""
+"Tombol alih \"Tampilkan lebih banyak\" di bawah teks yang dipersingkat di "
+"ponsel"
+
+msgid "Show less"
+msgstr "Tampilkan lebih sedikit"
+
+msgid "\"Show less\" toggle on phones"
+msgstr "Tombol alih \"Tampilkan lebih sedikit\" di ponsel"

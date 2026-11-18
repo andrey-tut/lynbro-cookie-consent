@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.18
+Stable tag: 0.4.19
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -281,6 +281,9 @@ screen makes.
 
 == Changelog ==
 
+= 0.4.19 =
+* The Google Consent Mode defaults really are the first thing in <head> now. 0.4.18 moved them up, but they still came out after tags another plugin or a header snippet prints early, so Google tags could start before the "denied" defaults were set.
+
 = 0.4.18 =
 * Important: pasted tracking snippets now wait for consent. Automatic blocking only caught scripts a plugin added with wp_enqueue_script(); the usual Google Analytics (gtag) and Meta Pixel snippets — pasted in the theme, a header/footer code plugin or a page builder — ran before the visitor chose, sent a page view and set the _ga cookie. A small script at the very top of <head> now holds every tag from the tracker catalog (including those a snippet injects, like the Pixel loader and GTM) until its category is granted, and the banner starts them after "Accept". Rejecting keeps them out. The browser may still fetch the gtag file, but it does not run.
 * The Google Consent Mode defaults are printed at the very top of <head>, before tags other plugins print early.
@@ -430,6 +433,9 @@ screen makes.
   Mode v2, geo-aware consent modes, shortcode, accessibility, English + Danish.
 
 == Upgrade Notice ==
+
+= 0.4.19 =
+Google Consent Mode defaults now come before every other tag in <head>.
 
 = 0.4.18 =
 Google Analytics and Meta Pixel snippets pasted into the page no longer run before consent. Update now.

@@ -165,6 +165,9 @@ function lynbro_cookie_consent_gcm_stub_js() {
  * @return void
  */
 function lynbro_cookie_consent_enqueue_gcm_stub() {
+	if ( ! empty( $GLOBALS['lynbro_cookie_consent_gcm_printed'] ) ) {
+		return; // Already printed at the top of <head>.
+	}
 	$js = lynbro_cookie_consent_gcm_stub_js();
 	if ( '' === $js ) {
 		return;
@@ -184,10 +187,16 @@ add_action( 'wp_enqueue_scripts', 'lynbro_cookie_consent_enqueue_gcm_stub', 0 );
  * @return void
  */
 function lynbro_cookie_consent_print_gcm_stub() {
-	if ( ! wp_script_is( 'lynbro-cookie-consent-gcm', 'enqueued' ) && ! wp_script_is( 'lynbro-cookie-consent-gcm', 'registered' ) ) {
+	// Printed directly: wp_enqueue_scripts itself only runs inside wp_head at
+	// priority 1, so at -9999 the enqueued handle does not exist yet and the
+	// defaults came out after any tag printed at 0 or 1 (audit 2026-11-18,
+	// consent probe on test-plugins.lynbro.dk).
+	$js = lynbro_cookie_consent_gcm_stub_js();
+	if ( '' === $js ) {
 		return;
 	}
-	wp_print_scripts( 'lynbro-cookie-consent-gcm' );
+	wp_print_inline_script_tag( $js, lynbro_cookie_consent_inline_attrs( 'lynbro-cookie-consent-gcm-js-before' ) );
+	$GLOBALS['lynbro_cookie_consent_gcm_printed'] = true;
 }
 // -9999: right after the gatekeeper (-10000) and before any tag another plugin or a
 // header-code snippet prints at 0 or 1, so Google tags start with the denied defaults.
@@ -297,6 +306,25 @@ function lynbro_cookie_consent_build_inline_css() {
 	}
 
 	return $css;
+}
+
+/**
+ * Attributes for the inline scripts at the top of <head> (gatekeeper, Consent
+ * Mode defaults): the same optimizer opt-outs the core script carries, so
+ * Cloudflare Rocket Loader or a "delay JS" setting cannot move them after the
+ * tags they must come before.
+ *
+ * @param string $id Element id.
+ * @return array<string,string>
+ */
+function lynbro_cookie_consent_inline_attrs( $id ) {
+	return array(
+		'id'               => $id,
+		'data-no-optimize' => '1',
+		'data-no-defer'    => '1',
+		'data-no-minify'   => '1',
+		'data-cfasync'     => 'false',
+	);
 }
 
 /**

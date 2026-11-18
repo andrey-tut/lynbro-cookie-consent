@@ -165,7 +165,7 @@ function lynbro_cookie_consent_gatekeeper_js() {
 function lynbro_cookie_consent_print_gatekeeper() {
 	$js = lynbro_cookie_consent_gatekeeper_js();
 	if ( '' !== $js ) {
-		wp_print_inline_script_tag( $js, array( 'id' => 'lynbro-cookie-consent-gatekeeper' ) );
+		wp_print_inline_script_tag( $js, lynbro_cookie_consent_inline_attrs( 'lynbro-cookie-consent-gatekeeper' ) );
 	}
 }
 add_action( 'wp_head', 'lynbro_cookie_consent_print_gatekeeper', -10000 );

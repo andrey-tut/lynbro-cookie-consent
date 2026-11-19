@@ -1790,3 +1790,10 @@ msgstr "Mostra meno"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Interruttore \"Mostra meno\" sui telefoni"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Come il sito (colori del tema, carattere e angoli; modalità chiara e scura "
+"in base al tema)"

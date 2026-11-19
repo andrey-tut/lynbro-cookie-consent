@@ -79,7 +79,8 @@ function lynbro_cookie_consent_log_maybe_upgrade() {
 		lynbro_cookie_consent_log_install();
 	}
 }
-add_action( 'admin_init', 'lynbro_cookie_consent_log_maybe_upgrade' );
+// init, not admin_init — see lynbro_cookie_consent_stats_maybe_upgrade().
+add_action( 'init', 'lynbro_cookie_consent_log_maybe_upgrade' );
 
 /**
  * Compute the anonymisation salt (stored once, random).

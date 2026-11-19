@@ -1793,3 +1793,10 @@ msgstr "Kevesebb megjelenítése"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "„Kevesebb megjelenítése” kapcsoló telefonon"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Az oldalhoz illően (a téma színei, betűtípusa és sarokkialakítása; a téma "
+"világos és sötét változata)"

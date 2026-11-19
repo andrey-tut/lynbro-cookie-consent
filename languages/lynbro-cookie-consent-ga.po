@@ -1803,3 +1803,10 @@ msgstr "Taispeáin níos lú"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Téamh “Taispeáin níos lú” ar fhóin"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Meaitseáil leis an suíomh (dathanna an téama, cló agus coirnéil; éadrom agus"
+" dorcha ón téama)"

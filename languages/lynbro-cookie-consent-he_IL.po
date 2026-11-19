@@ -1716,3 +1716,8 @@ msgstr "הצג פחות"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "מתג \"הצג פחות\" בטלפונים"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr "בדומה לאתר (צבעי ערכת הנושא, הגופן והפינות; בהיר וכהה לפי ערכת הנושא)"

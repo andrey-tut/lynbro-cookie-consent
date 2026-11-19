@@ -1782,3 +1782,10 @@ msgstr "Rādīt mazāk"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "“Rādīt mazāk” pārslēgs tālruņos"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Kā vietnē (motīva krāsas, fonts un stūru noapaļojums; gaišais un tumšais "
+"režīms atbilstoši motīvam)"

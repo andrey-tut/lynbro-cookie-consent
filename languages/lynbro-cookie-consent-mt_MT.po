@@ -1786,3 +1786,8 @@ msgstr "Uri inqas"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Iswiċċ “Uri inqas” fuq it-telefowns"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr "Bħas-sit (kuluri tat-tema, tipa u kantunieri; ċar u skur mit-tema)"

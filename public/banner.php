@@ -99,7 +99,7 @@ function lynbro_cookie_consent_frontend_config() {
 		// Browser language auto-detection (client-side only — cache-safe).
 		'autoDetectLang'  => ! empty( $options['lang_auto_detect'] ),
 		// In-banner manual language switcher.
-		'langSwitcher'    => ! empty( $options['lang_switcher'] ),
+		'langSwitcher'    => ( ! empty( $options['lang_switcher'] ) && ! lynbro_cookie_consent_site_has_language_switcher() ),
 		// Cookie remembering the visitor's chosen banner language.
 		'langCookie'      => 'lynbro_cc_lang',
 		// Per-locale translations of every core string { locale: { key: text } }.
@@ -292,8 +292,28 @@ function lynbro_cookie_consent_build_inline_css() {
 	$geometry .= sprintf( '--lynbro-cc-float-bg:%s;', esc_attr( lynbro_cookie_consent_get_float_bg() ) );
 	$geometry .= sprintf( '--lynbro-cc-float-icon:%s;', esc_attr( lynbro_cookie_consent_get_float_icon_color() ) );
 
-	$theme = $options['theme'];
+	$theme = lynbro_cookie_consent_effective_theme( $options );
 	$css   = '';
+
+	if ( 'site' === $theme ) {
+		// Follow the site's design tokens (theme.json presets: plugins CLAUDE.md
+		// §9). The theme already switches its presets for dark mode, so there is
+		// no second palette here; the saved colours are the fallback for a theme
+		// without these presets. Reject and Accept are the same button, colour
+		// included (rejection equality).
+		$site  = sprintf(
+			'--lynbro-cc-bg:var(--wp--preset--color--surface,%1$s);--lynbro-cc-text:var(--wp--preset--color--contrast,%2$s);--lynbro-cc-accept:var(--wp--preset--color--accent,%3$s);--lynbro-cc-reject:var(--wp--preset--color--accent,%3$s);--lynbro-cc-btn-text:var(--wp--preset--color--accent-contrast,%4$s);--lynbro-cc-focus:var(--wp--custom--color--focus,var(--wp--preset--color--accent,%3$s));--lynbro-cc-border:var(--wp--preset--color--border,transparent);--lynbro-cc-muted:var(--wp--preset--color--muted,%2$s);--lynbro-cc-font:var(--wp--preset--font-family--body,inherit);--lynbro-cc-font-display:var(--wp--preset--font-family--display,inherit);--lynbro-cc-btn-radius:var(--wp--custom--button--radius,var(--wp--custom--radius--md,8px));',
+			esc_attr( $options['color_bg'] ),
+			esc_attr( $options['color_text'] ),
+			esc_attr( $options['color_accept'] ),
+			esc_attr( $options['color_btn_text'] )
+		);
+		if ( (int) $options['banner_radius'] <= 0 ) {
+			$site .= '--lynbro-cc-radius:var(--wp--custom--radius--lg,14px);';
+		}
+		$css .= ':root{' . $site . $geometry . '}';
+		return $css;
+	}
 
 	if ( 'dark' === $theme ) {
 		$css .= ':root{' . $dark . $geometry . '}';
@@ -436,7 +456,7 @@ function lynbro_cookie_consent_render_banner() {
 			'enabled'     => $enabled,
 			'theme'       => $options['theme'],
 			'ccpa_link'   => ! empty( $options['ccpa_link'] ),
-			'lang_switcher' => ! empty( $options['lang_switcher'] ),
+			'lang_switcher' => ( ! empty( $options['lang_switcher'] ) && ! lynbro_cookie_consent_site_has_language_switcher() ),
 		)
 	);
 
@@ -593,3 +613,58 @@ function lynbro_cookie_consent_render_float_button() {
 	<?php
 }
 add_action( 'wp_footer', 'lynbro_cookie_consent_render_float_button', 20 );
+
+/**
+ * The colour scheme the banner really uses.
+ *
+ * "site" follows the theme's design tokens. A Lynbro theme exposes the suite's
+ * token contract, so a site running one gets "site" automatically as long as
+ * nobody has chosen colours by hand (the stored scheme is still the factory
+ * "light" with the factory colours) — ~80 direction sites of best-choice.dk
+ * look like their own design without a setting per site.
+ *
+ * @param array<string,mixed> $options Banner options.
+ * @return string light|dark|auto|site
+ */
+function lynbro_cookie_consent_effective_theme( $options ) {
+	$theme = (string) $options['theme'];
+	if ( 'light' === $theme && 0 === strpos( (string) get_stylesheet(), 'lynbro-' ) ) {
+		$defaults = lynbro_cookie_consent_default_options();
+		$factory  = true;
+		foreach ( array( 'color_bg', 'color_text', 'color_accept', 'color_btn_text' ) as $key ) {
+			if ( strtolower( (string) $options[ $key ] ) !== strtolower( (string) $defaults[ $key ] ) ) {
+				$factory = false;
+				break;
+			}
+		}
+		// Reject set to the Accept colour is the fleet's rejection-equality fix
+		// (2026-09 rollout), not a palette someone chose: still "factory".
+		$reject = strtolower( (string) $options['color_reject'] );
+		if ( $reject !== strtolower( (string) $defaults['color_reject'] ) && $reject !== strtolower( (string) $options['color_accept'] ) ) {
+			$factory = false;
+		}
+		if ( $factory ) {
+			$theme = 'site';
+		}
+	}
+	/**
+	 * Filter the banner's colour scheme.
+	 *
+	 * @param string $theme   light|dark|auto|site.
+	 * @param array  $options Banner options.
+	 */
+	return (string) apply_filters( 'lynbro_cookie_consent_effective_theme', $theme, $options );
+}
+
+/**
+ * Does the site switch languages itself (Lynbro Translate with more than one
+ * language)? Then the page is already in the visitor's language, the banner
+ * follows it, and a second language dropdown in the banner is noise — and on a
+ * phone it is one more control in the first screen.
+ *
+ * @return bool
+ */
+function lynbro_cookie_consent_site_has_language_switcher() {
+	return function_exists( 'lynbro_translate_is_multilingual' ) && lynbro_translate_is_multilingual();
+}
+

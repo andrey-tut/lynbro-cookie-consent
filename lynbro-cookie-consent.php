@@ -3,7 +3,7 @@
  * Plugin Name:       Lynbro Cookie Consent
  * Plugin URI:        https://plugins.lynbro.dk/lynbro-cookie-consent
  * Description:       Free, multilingual, fully configurable cookie consent banner — GDPR/ePrivacy and Google Consent Mode v2 ready, with no pageview limits.
- * Version:           0.4.21
+ * Version:           0.4.25
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Lynbro
@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'LYNBRO_COOKIE_CONSENT_VERSION', '0.4.21' );
+define( 'LYNBRO_COOKIE_CONSENT_VERSION', '0.4.25' );
 define( 'LYNBRO_COOKIE_CONSENT_FILE', __FILE__ );
 define( 'LYNBRO_COOKIE_CONSENT_DIR', plugin_dir_path( __FILE__ ) );
 define( 'LYNBRO_COOKIE_CONSENT_URL', plugin_dir_url( __FILE__ ) );
@@ -67,19 +67,64 @@ function lynbro_cookie_consent_activate( $network_wide = false ) {
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/stats.php';
 	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/onboarding.php';
 
-	add_option( 'lynbro_cookie_consent_version', LYNBRO_COOKIE_CONSENT_VERSION );
+	// Network activation: every site gets its settings and its two tables.
+	if ( $network_wide && is_multisite() ) {
+		foreach ( get_sites(
+			array(
+				'fields' => 'ids',
+				'number' => 0,
+			)
+		) as $blog_id ) {
+			switch_to_blog( $blog_id );
+			lynbro_cookie_consent_activate_site( $network_wide );
+			restore_current_blog();
+		}
+		return;
+	}
+	lynbro_cookie_consent_activate_site( $network_wide );
+}
+register_activation_hook( __FILE__, 'lynbro_cookie_consent_activate' );
 
+/**
+ * Per-site activation: settings and tables.
+ *
+ * @param bool $network_wide Part of a network activation.
+ * @return void
+ */
+function lynbro_cookie_consent_activate_site( $network_wide = false ) {
+	add_option( 'lynbro_cookie_consent_version', LYNBRO_COOKIE_CONSENT_VERSION );
 	if ( false === get_option( LYNBRO_COOKIE_CONSENT_OPTION, false ) ) {
 		add_option( LYNBRO_COOKIE_CONSENT_OPTION, lynbro_cookie_consent_default_options() );
 	}
-
 	lynbro_cookie_consent_log_install();
 	lynbro_cookie_consent_stats_install();
 
 	// Remember the first activation time (delays the review request).
 	lynbro_cookie_consent_onboarding_activate( $network_wide );
 }
-register_activation_hook( __FILE__, 'lynbro_cookie_consent_activate' );
+
+/**
+ * A new site on a network where the plugin is network-active gets the same setup.
+ *
+ * @param WP_Site|int $site New site.
+ * @return void
+ */
+function lynbro_cookie_consent_on_new_site( $site ) {
+	if ( ! function_exists( 'is_plugin_active_for_network' ) ) {
+		require_once ABSPATH . 'wp-admin/includes/plugin.php';
+	}
+	if ( ! is_plugin_active_for_network( plugin_basename( __FILE__ ) ) ) {
+		return;
+	}
+	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/options.php';
+	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/consent-log.php';
+	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/stats.php';
+	require_once LYNBRO_COOKIE_CONSENT_DIR . 'includes/onboarding.php';
+	switch_to_blog( is_object( $site ) ? (int) $site->blog_id : (int) $site );
+	lynbro_cookie_consent_activate_site( true );
+	restore_current_blog();
+}
+add_action( 'wp_initialize_site', 'lynbro_cookie_consent_on_new_site', 20 );
 
 /**
  * Deactivation: clear our scheduled cron events; keep user data intact.

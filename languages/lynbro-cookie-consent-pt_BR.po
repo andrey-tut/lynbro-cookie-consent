@@ -1782,3 +1782,9 @@ msgstr "Mostrar menos"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Alternância \"Mostrar menos\" em celulares"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Como o site (cores do tema, fonte e cantos; modo claro e escuro do tema)"

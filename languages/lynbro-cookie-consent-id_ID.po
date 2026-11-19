@@ -1782,3 +1782,10 @@ msgstr "Tampilkan lebih sedikit"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Tombol alih \"Tampilkan lebih sedikit\" di ponsel"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Ikuti tampilan situs (warna tema, font, dan sudut; mode terang dan gelap "
+"mengikuti tema)"

@@ -94,7 +94,12 @@ function lynbro_cookie_consent_stats_maybe_upgrade() {
 		lynbro_cookie_consent_stats_install();
 	}
 }
-add_action( 'admin_init', 'lynbro_cookie_consent_stats_maybe_upgrade' );
+// On init, not admin_init: a network subsite created after the plugin was
+// network-activated has no table until someone opens its admin, and every
+// visitor's statistics write failed there meanwhile (best-choice.dk, 19.11:
+// "Table wp_bc_69_lynbro_cookie_consent_stats doesn't exist"). One autoloaded
+// option read per request; the install runs once per site.
+add_action( 'init', 'lynbro_cookie_consent_stats_maybe_upgrade' );
 
 /**
  * Are anonymous statistics enabled? (Default on — aggregated, not personal data.)

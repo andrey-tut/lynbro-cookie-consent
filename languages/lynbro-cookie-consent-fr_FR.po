@@ -1813,3 +1813,10 @@ msgstr "Afficher moins"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Bascule « Afficher moins » sur les téléphones"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Comme sur le site (couleurs du thème, police et arrondis ; modes clair et "
+"sombre du thème)"

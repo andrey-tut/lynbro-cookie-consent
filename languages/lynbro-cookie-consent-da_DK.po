@@ -2194,6 +2194,13 @@ msgstr "Vis mindre"
 msgid "\"Show less\" toggle on phones"
 msgstr "\"Vis mindre\"-knap på telefoner"
 
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Som på webstedet (temafarver, skrifttype og hjørner; lyst og mørkt fra "
+"temaet)"
+
 #~ msgid "Additional CSS"
 #~ msgstr "Yderligere CSS"
 
@@ -2201,11 +2208,11 @@ msgstr "\"Vis mindre\"-knap på telefoner"
 #~ msgstr "Knapikon"
 
 #~ msgid "Custom CSS"
-#~ msgstr "Tilpasset CSS"
+#~ msgstr "Brugerdefineret CSS"
 
 #~ msgid ""
 #~ "Optional CSS appended to the banner stylesheet. Target the .lynbro-cc "
 #~ "selectors."
 #~ msgstr ""
-#~ "Valgfri CSS, der tilføjes til bannerets stylesheet. Ret mod .lynbro-cc-"
-#~ "selectorerne."
+#~ "Valgfri CSS, der føjes til bannerets typografiark. Målret .lynbro-cc-"
+#~ "selektorerne."

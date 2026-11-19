@@ -1779,3 +1779,10 @@ msgstr "Покажи по-малко"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Превключвател „Покажи по-малко“ на телефоните"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Като в сайта (цветове на темата, шрифт и заобляне на ъглите; светъл и тъмен "
+"режим според темата)"

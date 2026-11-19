@@ -1805,3 +1805,10 @@ msgstr "Weniger anzeigen"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "„Weniger anzeigen“-Schalter auf Mobiltelefonen"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Wie die Website (Designfarben, Schriftart und Ecken; hell und dunkel gemäß "
+"dem Theme)"

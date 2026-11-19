@@ -1593,3 +1593,8 @@ msgstr "간단히 보기"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "휴대폰에서의 \"간단히 보기\" 토글"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr "사이트처럼 (테마 색상, 글꼴 및 모서리; 테마의 밝은 모드와 어두운 모드)"

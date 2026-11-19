@@ -904,6 +904,15 @@
 		root = document.getElementById( 'lynbro-cc-root' );
 		floatBtn = document.getElementById( 'lynbro-cc-float' );
 
+		// The page already has its own way back to the settings (a footer link
+		// with data-lynbro-cc-open, as Lynbro themes print): the floating icon
+		// would only cover content in a corner — on a phone, the edge of cards
+		// and calculators (best-choice.dk, 19.11).
+		if ( floatBtn && document.querySelector( '[data-lynbro-cc-open]:not(#lynbro-cc-float)' ) ) {
+			floatBtn.parentNode.removeChild( floatBtn );
+			floatBtn = null;
+		}
+
 		// Embeds and gated scripts work even without the banner root.
 		bindEmbedButtons();
 

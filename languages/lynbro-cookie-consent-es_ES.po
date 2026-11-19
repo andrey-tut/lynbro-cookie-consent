@@ -1798,3 +1798,10 @@ msgstr "Mostrar menos"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Conmutador \"Mostrar menos\" en teléfonos"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Como el sitio (colores del tema, fuente y esquinas; modo claro y oscuro "
+"según el tema)"

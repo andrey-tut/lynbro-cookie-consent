@@ -277,6 +277,14 @@
       "tagline": "JSON Web Tokens for the REST API that you can actually revoke, with scopes and a journal of refusals.",
       "menu_position": 70,
       "wporg": false
+    },
+    {
+      "slug": "lynbro-blocks",
+      "name": "Blocks",
+      "icon": "🧱",
+      "tagline": "Comparison tables, price calculators and server-coloured code, in your theme's colours.",
+      "menu_position": 71,
+      "wporg": false
     }
   ]
 }

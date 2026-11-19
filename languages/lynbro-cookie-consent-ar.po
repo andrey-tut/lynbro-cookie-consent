@@ -1740,3 +1740,9 @@ msgstr "عرض أقل"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "زر \"عرض أقل\" على الهواتف"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"مطابقة الموقع (ألوان القالب والخط والزوايا؛ الفاتح والداكن حسب القالب)"

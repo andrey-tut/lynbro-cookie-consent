@@ -1774,3 +1774,10 @@ msgstr "Zobrazit méně"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Přepínač „Zobrazit méně“ na telefonech"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Podle vzhledu webu (barvy motivu, písmo a zaoblení rohů; světlý a tmavý "
+"režim podle motivu)"

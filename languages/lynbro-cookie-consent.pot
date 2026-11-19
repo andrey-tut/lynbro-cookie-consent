@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the lynbro-cookie-consent 0.4.21 package.
+# This file is distributed under the same license as the lynbro-cookie-consent 0.4.23 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: lynbro-cookie-consent 0.4.21\n"
+"Project-Id-Version: lynbro-cookie-consent 0.4.23\n"
 "Report-Msgid-Bugs-To: https://soge.dk\n"
-"POT-Creation-Date: 2026-11-18 16:17+0100\n"
+"POT-Creation-Date: 2026-11-19 21:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,7 +205,7 @@ msgstr ""
 msgid "Already downloaded on demand:"
 msgstr ""
 
-#: admin/languages-tab.php:212 admin/settings.php:1040
+#: admin/languages-tab.php:212 admin/settings.php:1041
 msgid "Language"
 msgstr ""
 
@@ -226,16 +226,16 @@ msgid "Cookie Consent"
 msgstr ""
 
 #: admin/settings.php:104 admin/statistics-tab.php:119
-#: includes/languages.php:290 public/banner.php:534
+#: includes/languages.php:290 public/banner.php:554
 msgid "Accept all"
 msgstr ""
 
 #: admin/settings.php:105 admin/statistics-tab.php:120
-#: includes/languages.php:294 public/banner.php:525
+#: includes/languages.php:294 public/banner.php:545
 msgid "Reject all"
 msgstr ""
 
-#: admin/settings.php:106 includes/languages.php:298 public/banner.php:528
+#: admin/settings.php:106 includes/languages.php:298 public/banner.php:548
 msgid "Manage preferences"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgid "Calm, low-contrast palette in a rounded corner box."
 msgstr ""
 
 #: admin/settings.php:242 includes/competitors.php:203
-#: includes/consent-log.php:405 includes/feedback.php:35
+#: includes/consent-log.php:406 includes/feedback.php:35
 #: includes/i18n-ondemand.php:90 includes/import-export.php:22
 #: includes/import-export.php:50 includes/languages.php:529
 msgid "You do not have sufficient permissions to access this page."
@@ -323,7 +323,7 @@ msgstr ""
 msgid "Design"
 msgstr ""
 
-#: admin/settings.php:251 admin/settings.php:1039
+#: admin/settings.php:251 admin/settings.php:1040
 msgid "Categories"
 msgstr ""
 
@@ -405,7 +405,7 @@ msgstr ""
 msgid "Opt-out everywhere (CCPA style)"
 msgstr ""
 
-#: admin/settings.php:352 admin/settings.php:967
+#: admin/settings.php:352 admin/settings.php:968
 msgid "Notice only"
 msgstr ""
 
@@ -437,7 +437,7 @@ msgid ""
 "translated default."
 msgstr ""
 
-#: admin/settings.php:391 admin/settings.php:1038
+#: admin/settings.php:391 admin/settings.php:1039
 msgid "Policy version"
 msgstr ""
 
@@ -490,7 +490,7 @@ msgid ""
 "and updates the live preview — review it, then Save Changes to keep it."
 msgstr ""
 
-#: admin/settings.php:455 admin/settings.php:611
+#: admin/settings.php:455 admin/settings.php:612
 msgid "Position"
 msgstr ""
 
@@ -514,19 +514,19 @@ msgstr ""
 msgid "Box corner"
 msgstr ""
 
-#: admin/settings.php:478 admin/settings.php:616
+#: admin/settings.php:478 admin/settings.php:617
 msgid "Bottom right"
 msgstr ""
 
-#: admin/settings.php:479 admin/settings.php:617
+#: admin/settings.php:479 admin/settings.php:618
 msgid "Bottom left"
 msgstr ""
 
-#: admin/settings.php:480 admin/settings.php:618
+#: admin/settings.php:480 admin/settings.php:619
 msgid "Top right"
 msgstr ""
 
-#: admin/settings.php:481 admin/settings.php:619
+#: admin/settings.php:481 admin/settings.php:620
 msgid "Top left"
 msgstr ""
 
@@ -550,266 +550,272 @@ msgstr ""
 msgid "Auto (follow visitor’s system)"
 msgstr ""
 
-#: admin/settings.php:506
+#: admin/settings.php:500
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+
+#: admin/settings.php:507
 msgid ""
 "Auto uses the light colors by default and the dark colors when the visitor’s "
 "device prefers a dark color scheme."
 msgstr ""
 
-#: admin/settings.php:510
+#: admin/settings.php:511
 msgid "Banner max width (px)"
 msgstr ""
 
-#: admin/settings.php:515
+#: admin/settings.php:516
 msgid ""
 "Maximum width of the floating box and center modal. Set 0 to use the default."
 msgstr ""
 
-#: admin/settings.php:519
+#: admin/settings.php:520
 msgid "Corner radius (px)"
 msgstr ""
 
-#: admin/settings.php:524
+#: admin/settings.php:525
 msgid ""
 "Rounding of the banner, box and modal corners. Set 0 to use the default."
 msgstr ""
 
-#: admin/settings.php:528
+#: admin/settings.php:529
 msgid "Edge offset (px)"
 msgstr ""
 
-#: admin/settings.php:533
+#: admin/settings.php:534
 msgid "Gap from the screen edges for the floating box layout."
 msgstr ""
 
-#: admin/settings.php:537
+#: admin/settings.php:538
 msgid "Stacking (z-index base)"
 msgstr ""
 
-#: admin/settings.php:542
+#: admin/settings.php:543
 msgid ""
 "Base z-index for the banner, overlay, modal and floating button. Increase it "
 "if another element covers the banner; lower it if the banner covers "
 "something it should not."
 msgstr ""
 
-#: admin/settings.php:547
+#: admin/settings.php:548
 msgid "Light colors"
 msgstr ""
 
-#: admin/settings.php:551 admin/settings.php:576
+#: admin/settings.php:552 admin/settings.php:577
 msgid "Banner background"
 msgstr ""
 
-#: admin/settings.php:552 admin/settings.php:577
+#: admin/settings.php:553 admin/settings.php:578
 msgid "Text color"
 msgstr ""
 
-#: admin/settings.php:553 admin/settings.php:578 includes/languages.php:291
+#: admin/settings.php:554 admin/settings.php:579 includes/languages.php:291
 msgid "Accept button"
 msgstr ""
 
-#: admin/settings.php:554 admin/settings.php:579 includes/languages.php:295
+#: admin/settings.php:555 admin/settings.php:580 includes/languages.php:295
 msgid "Reject button"
 msgstr ""
 
-#: admin/settings.php:555 admin/settings.php:580
+#: admin/settings.php:556 admin/settings.php:581
 msgid "Button text"
 msgstr ""
 
-#: admin/settings.php:572
+#: admin/settings.php:573
 msgid "Dark colors"
 msgstr ""
 
-#: admin/settings.php:597
+#: admin/settings.php:598
 msgid "Floating settings button"
 msgstr ""
 
-#: admin/settings.php:598
+#: admin/settings.php:599
 msgid ""
 "A small icon-only button that lets visitors reopen the cookie settings after "
 "they have made a choice. It is automatically hidden while the banner or "
 "preferences dialog is open."
 msgstr ""
 
-#: admin/settings.php:601
+#: admin/settings.php:602
 msgid "Visibility"
 msgstr ""
 
-#: admin/settings.php:605
+#: admin/settings.php:606
 msgid "Show floating settings button on the site"
 msgstr ""
 
-#: admin/settings.php:607
+#: admin/settings.php:608
 msgid ""
 "Unchecking this hides the floating button completely — visitors will not see "
 "a way to reopen their cookie settings (unless you add the "
 "[lynbro_cookie_settings] shortcode somewhere)."
 msgstr ""
 
-#: admin/settings.php:629
+#: admin/settings.php:630
 msgid "Shape"
 msgstr ""
 
-#: admin/settings.php:634
+#: admin/settings.php:635
 msgid "Round"
 msgstr ""
 
-#: admin/settings.php:635
+#: admin/settings.php:636
 msgid "Rounded"
 msgstr ""
 
-#: admin/settings.php:636
+#: admin/settings.php:637
 msgid "Square"
 msgstr ""
 
-#: admin/settings.php:646
+#: admin/settings.php:647
 msgid "Size (px)"
 msgstr ""
 
-#: admin/settings.php:651
+#: admin/settings.php:652
 msgid "Width and height of the button (24–96). Default is 40."
 msgstr ""
 
-#: admin/settings.php:655
+#: admin/settings.php:656
 msgid "Offset from corner (px)"
 msgstr ""
 
-#: admin/settings.php:657
+#: admin/settings.php:658
 msgid "Horizontal"
 msgstr ""
 
-#: admin/settings.php:661
+#: admin/settings.php:662
 msgid "Vertical"
 msgstr ""
 
-#: admin/settings.php:668
+#: admin/settings.php:669
 msgid "Background color"
 msgstr ""
 
-#: admin/settings.php:675
+#: admin/settings.php:676
 msgid "Leave empty to use the Accept button color."
 msgstr ""
 
-#: admin/settings.php:679
+#: admin/settings.php:680
 msgid "Icon color"
 msgstr ""
 
-#: admin/settings.php:686
+#: admin/settings.php:687
 msgid "Leave empty to use the Button text color."
 msgstr ""
 
-#: admin/settings.php:690
+#: admin/settings.php:691
 msgid "Opacity"
 msgstr ""
 
-#: admin/settings.php:695
+#: admin/settings.php:696
 msgid ""
 "Resting transparency (0.2–1.0). The button becomes fully opaque on hover or "
 "focus. Default is 0.55."
 msgstr ""
 
-#: admin/settings.php:699
+#: admin/settings.php:700
 msgid "Accessible label"
 msgstr ""
 
-#: admin/settings.php:705
+#: admin/settings.php:706
 msgid ""
 "Used as the tooltip and screen-reader label. Leave empty for the translated "
 "default."
 msgstr ""
 
-#: admin/settings.php:709
+#: admin/settings.php:710
 msgid "Icon"
 msgstr ""
 
-#: admin/settings.php:713
+#: admin/settings.php:714
 msgid ""
 "Show the cookie icon (recommended). When off, the accessible label is shown "
 "as a small text button instead."
 msgstr ""
 
-#: admin/settings.php:722
+#: admin/settings.php:723
 msgid ""
 "Necessary cookies are always active and cannot be disabled. Choose which "
 "optional categories visitors can control."
 msgstr ""
 
-#: admin/settings.php:731 includes/languages.php:318 public/banner.php:514
+#: admin/settings.php:732 includes/languages.php:318 public/banner.php:534
 msgid "Always on"
 msgstr ""
 
-#: admin/settings.php:739
+#: admin/settings.php:740
 msgid "Enable this category"
 msgstr ""
 
-#: admin/settings.php:753
+#: admin/settings.php:754
 msgid "Automatic tracker blocking"
 msgstr ""
 
-#: admin/settings.php:757
+#: admin/settings.php:758
 msgid ""
 "Automatically block known third-party trackers (Google Analytics, GTM, Meta "
 "Pixel, Hotjar, Clarity, and more) until the matching category is granted."
 msgstr ""
 
-#: admin/settings.php:759
+#: admin/settings.php:760
 msgid ""
 "This complements manual script marking. All detection is local; no external "
 "request is made."
 msgstr ""
 
-#: admin/settings.php:763
+#: admin/settings.php:764
 msgid "Emoji images from WordPress.org"
 msgstr ""
 
-#: admin/settings.php:767
+#: admin/settings.php:768
 msgid ""
 "Do not load emoji images from WordPress.org; visitors see emoji in their own "
 "device font."
 msgstr ""
 
-#: admin/settings.php:769
+#: admin/settings.php:770
 msgid ""
 "WordPress swaps emoji for images hosted on WordPress.org in browsers without "
 "an emoji font, which sends the visitor's IP address to WordPress.org before "
 "any consent. On by default; the admin and the editor are not affected."
 msgstr ""
 
-#: admin/settings.php:773
+#: admin/settings.php:774
 msgid "Embed placeholders"
 msgstr ""
 
-#: admin/settings.php:777
+#: admin/settings.php:778
 msgid ""
 "Block embedded content (YouTube, Vimeo, Google Maps, social embeds, "
 "reCAPTCHA, and more) until consent, showing a tidy placeholder with an "
 "\"allow\" button."
 msgstr ""
 
-#: admin/settings.php:782
+#: admin/settings.php:783
 msgid "Embed consent category"
 msgstr ""
 
-#: admin/settings.php:794
+#: admin/settings.php:795
 msgid ""
 "Embeds are unblocked when the visitor grants this category (or clicks "
 "\"allow\" on the placeholder)."
 msgstr ""
 
-#: admin/settings.php:799
+#: admin/settings.php:800
 msgid "You can still block your own scripts manually:"
 msgstr ""
 
-#: admin/settings.php:808
+#: admin/settings.php:809
 msgid "Google Consent Mode v2"
 msgstr ""
 
-#: admin/settings.php:812
+#: admin/settings.php:813
 msgid "Enable Google Consent Mode v2 signals"
 msgstr ""
 
-#: admin/settings.php:815
+#: admin/settings.php:816
 msgid ""
 "Sets all consent signals to \"denied\" by default before consent, then "
 "updates them based on the visitor’s choice (ad_storage, analytics_storage, "
@@ -817,167 +823,167 @@ msgid ""
 "personalization_storage, security_storage)."
 msgstr ""
 
-#: admin/settings.php:820
+#: admin/settings.php:821
 msgid "Remember the choice for (days)"
 msgstr ""
 
-#: admin/settings.php:825
+#: admin/settings.php:826
 msgid ""
 "Accepting and rejecting are both remembered this long; after that the banner "
 "asks again. 1 to 365 days, 365 by default."
 msgstr ""
 
-#: admin/settings.php:829
+#: admin/settings.php:830
 msgid "Global Privacy Control (GPC)"
 msgstr ""
 
-#: admin/settings.php:833
+#: admin/settings.php:834
 msgid ""
 "Honor the browser Global Privacy Control signal. In opt-out (US/CCPA) mode, "
 "visitors with GPC are automatically opted out and shown a visible "
 "confirmation (required by California from 2026)."
 msgstr ""
 
-#: admin/settings.php:838
+#: admin/settings.php:839
 msgid "CCPA / CPRA opt-out link"
 msgstr ""
 
-#: admin/settings.php:842
+#: admin/settings.php:843
 msgid ""
 "Show a \"Do Not Sell or Share My Personal Information\" link in opt-out mode."
 msgstr ""
 
-#: admin/settings.php:847
+#: admin/settings.php:848
 msgid "WP Consent API"
 msgstr ""
 
-#: admin/settings.php:851
+#: admin/settings.php:852
 msgid ""
 "Register as the consent provider for the WP Consent API plugin and notify "
 "other plugins of the visitor’s choice (functional, preferences, statistics, "
 "marketing)."
 msgstr ""
 
-#: admin/settings.php:868
+#: admin/settings.php:869
 msgid "Local consent log"
 msgstr ""
 
-#: admin/settings.php:872
+#: admin/settings.php:873
 msgid ""
 "Store a privacy-respecting proof of consent in your own database. No raw IP "
 "address is stored — only a salted, anonymised hash for de-duplication."
 msgstr ""
 
-#: admin/settings.php:877
+#: admin/settings.php:878
 msgid "Retention (days)"
 msgstr ""
 
-#: admin/settings.php:882
+#: admin/settings.php:883
 msgid ""
 "Records older than this are deleted automatically. Set to 0 to keep records "
 "indefinitely."
 msgstr ""
 
-#: admin/settings.php:898
+#: admin/settings.php:899
 msgid "Export settings"
 msgstr ""
 
-#: admin/settings.php:899
+#: admin/settings.php:900
 msgid "Download all settings as a JSON file to reuse on another site."
 msgstr ""
 
-#: admin/settings.php:902 includes/lynbro-core/lynbro-core.php:1649
+#: admin/settings.php:903 includes/lynbro-core/lynbro-core.php:1649
 msgid "Export settings (JSON)"
 msgstr ""
 
-#: admin/settings.php:926 admin/settings.php:934
+#: admin/settings.php:927 admin/settings.php:935
 msgid "Import settings"
 msgstr ""
 
-#: admin/settings.php:933
+#: admin/settings.php:934
 msgid "Importing overwrites your current settings."
 msgstr ""
 
-#: admin/settings.php:964
+#: admin/settings.php:965
 msgid "Auto by region"
 msgstr ""
 
-#: admin/settings.php:965
+#: admin/settings.php:966
 msgid "Opt-in everywhere"
 msgstr ""
 
-#: admin/settings.php:966
+#: admin/settings.php:967
 msgid "Opt-out everywhere"
 msgstr ""
 
-#: admin/settings.php:979
+#: admin/settings.php:980
 msgid "Your consent banner is live"
 msgstr ""
 
-#: admin/settings.php:980
+#: admin/settings.php:981
 msgid ""
 "It works out of the box with GDPR-ready defaults — an equal Reject button "
 "and non-essential cookies blocked until consent."
 msgstr ""
 
-#: admin/settings.php:984
+#: admin/settings.php:985
 msgid "Legal mode"
 msgstr ""
 
-#: admin/settings.php:988
+#: admin/settings.php:989
 msgid "Consent Mode v2"
 msgstr ""
 
-#: admin/settings.php:989 admin/settings.php:993
+#: admin/settings.php:990 admin/settings.php:994
 msgid "On"
 msgstr ""
 
-#: admin/settings.php:989 admin/settings.php:993
+#: admin/settings.php:990 admin/settings.php:994
 msgid "Off"
 msgstr ""
 
-#: admin/settings.php:992
+#: admin/settings.php:993
 msgid "Auto-block trackers"
 msgstr ""
 
-#: admin/settings.php:996
+#: admin/settings.php:997
 msgid "Policy URL"
 msgstr ""
 
-#: admin/settings.php:998
+#: admin/settings.php:999
 msgid "Set"
 msgstr ""
 
-#: admin/settings.php:1000
+#: admin/settings.php:1001
 msgid "Add your privacy policy link"
 msgstr ""
 
-#: admin/settings.php:1020
+#: admin/settings.php:1021
 msgid "Recent consent records"
 msgstr ""
 
-#: admin/settings.php:1025
+#: admin/settings.php:1026
 #, php-format
 msgid "Total records: %d (showing the 50 most recent)."
 msgstr ""
 
-#: admin/settings.php:1030
+#: admin/settings.php:1031
 msgid "Export CSV"
 msgstr ""
 
-#: admin/settings.php:1036
+#: admin/settings.php:1037
 msgid "Date (UTC)"
 msgstr ""
 
-#: admin/settings.php:1037
+#: admin/settings.php:1038
 msgid "Method"
 msgstr ""
 
-#: admin/settings.php:1041
+#: admin/settings.php:1042
 msgid "Region"
 msgstr ""
 
-#: admin/settings.php:1046
+#: admin/settings.php:1047
 msgid "No consent records yet."
 msgstr ""
 
@@ -1172,15 +1178,15 @@ msgid ""
 "that moment."
 msgstr ""
 
-#: includes/consent-log.php:204
+#: includes/consent-log.php:205
 msgid "Consent logging is disabled."
 msgstr ""
 
-#: includes/consent-log.php:208 includes/stats.php:161
+#: includes/consent-log.php:209 includes/stats.php:166
 msgid "Invalid security token."
 msgstr ""
 
-#: includes/consent-log.php:211
+#: includes/consent-log.php:212
 msgid "Too many requests."
 msgstr ""
 
@@ -1279,7 +1285,7 @@ msgstr ""
 msgid "Manage-preferences button"
 msgstr ""
 
-#: includes/languages.php:302 public/banner.php:531
+#: includes/languages.php:302 public/banner.php:551
 msgid "Save preferences"
 msgstr ""
 
@@ -1287,7 +1293,7 @@ msgstr ""
 msgid "Save-preferences button"
 msgstr ""
 
-#: includes/languages.php:306 public/banner.php:480
+#: includes/languages.php:306 public/banner.php:500
 msgid "Read more"
 msgstr ""
 
@@ -1295,7 +1301,7 @@ msgstr ""
 msgid "\"Read more\" link"
 msgstr ""
 
-#: includes/languages.php:310 public/banner.php:477
+#: includes/languages.php:310 public/banner.php:497
 msgid "Show more"
 msgstr ""
 
@@ -1868,22 +1874,22 @@ msgid ""
 "measure campaign effectiveness."
 msgstr ""
 
-#: includes/options.php:253
+#: includes/options.php:254
 msgid "We value your privacy"
 msgstr ""
 
-#: includes/options.php:266
+#: includes/options.php:267
 msgid ""
 "We use cookies to enhance your browsing experience, serve personalized "
 "content and analyze our traffic. You can accept all cookies, reject non-"
 "essential ones, or manage your preferences."
 msgstr ""
 
-#: includes/options.php:502 includes/shortcode.php:32
+#: includes/options.php:503 includes/shortcode.php:32
 msgid "Cookie settings"
 msgstr ""
 
-#: includes/stats.php:151
+#: includes/stats.php:156
 msgid "Statistics are disabled."
 msgstr ""
 
@@ -1897,11 +1903,11 @@ msgid ""
 "of non-essential cookies."
 msgstr ""
 
-#: public/banner.php:112 public/banner.php:465
+#: public/banner.php:112 public/banner.php:485
 msgid "Choose language"
 msgstr ""
 
-#: public/banner.php:491
+#: public/banner.php:511
 msgid "Do Not Sell or Share My Personal Information"
 msgstr ""
 

@@ -128,7 +128,8 @@ function lynbro_cookie_consent_default_options() {
 		'title'          => '',
 		'description'    => '',
 
-		// Theme: light|dark|auto (auto follows prefers-color-scheme).
+		// Theme: light|dark|auto|site (auto follows prefers-color-scheme; site follows
+		// the theme's design tokens — chosen automatically on a Lynbro theme).
 		'theme'          => 'light',
 
 		// Banner geometry. All in pixels; 0 = stylesheet default.
@@ -311,7 +312,7 @@ function lynbro_cookie_consent_sanitize_options( $input ) {
 	$clean['description'] = isset( $input['description'] ) ? wp_kses( (string) $input['description'], lynbro_cookie_consent_allowed_text_html() ) : '';
 
 	// Theme (whitelist).
-	$allowed_themes = array( 'light', 'dark', 'auto' );
+	$allowed_themes = array( 'light', 'dark', 'auto', 'site' );
 	$theme          = isset( $input['theme'] ) ? sanitize_key( $input['theme'] ) : $defaults['theme'];
 	$clean['theme'] = in_array( $theme, $allowed_themes, true ) ? $theme : $defaults['theme'];
 

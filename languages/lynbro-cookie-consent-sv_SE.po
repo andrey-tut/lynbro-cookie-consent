@@ -1766,3 +1766,10 @@ msgstr "Visa mindre"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "\"Visa mindre\"-växlare på mobiler"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Matcha webbplatsen (temafärger, typsnitt och hörn; ljust och mörkt från "
+"temat)"

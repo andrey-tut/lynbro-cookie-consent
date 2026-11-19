@@ -1781,3 +1781,10 @@ msgstr "Rodyti mažiau"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "„Rodyti mažiau“ jungiklis telefonuose"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Kaip svetainėje (temos spalvos, šriftas ir kampai; pagal temą – šviesusis ir"
+" tamsusis režimai)"

@@ -1813,3 +1813,10 @@ msgstr "Εμφάνιση λιγότερων"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Εναλλαγή «Εμφάνιση λιγότερων» στα κινητά"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Όπως στον ιστότοπο (χρώματα θέματος, γραμματοσειρά και γωνίες· φωτεινή και "
+"σκοτεινή εμφάνιση από το θέμα)"

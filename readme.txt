@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.21
+Stable tag: 0.4.25
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -280,6 +280,19 @@ screen makes.
   [Privacy Policy](https://wordpress.org/about/privacy/)
 
 == Changelog ==
+
+= 0.4.25 =
+* "Like the site" is also chosen automatically on a Lynbro theme when the Reject button was given the Accept colour (the usual rejection-equality setting); before, that one change kept the banner in the generic green.
+
+= 0.4.24 =
+* The floating cookie-settings icon is not shown when the page already links to the settings itself (an element with data-lynbro-cc-open, such as the footer link Lynbro themes print), so it no longer covers content in the corner on phones.
+
+= 0.4.23 =
+* New colour scheme "Like the site": the banner takes the theme's colours (surface, text, accent, border), body and heading fonts and button corners from its design tokens, light and dark as the theme switches them, with the saved colours as fallback. Reject and Accept are the same button in the same colour. On a Lynbro theme it is used automatically while the colours are still the factory ones.
+* The in-banner language dropdown is not shown on a site that switches languages itself (Lynbro Translate): the banner already follows the page language.
+
+= 0.4.22 =
+* Multisite: a site created after the plugin was network-activated got no consent-log and statistics tables until someone opened its admin, so every statistics write on it failed. Network activation now sets up every site, a new site is set up when it is created, and a site missing its tables creates them on its first request.
 
 = 0.4.21 =
 * Improvement: on phones (480 px and narrower) the banner is compact — the text is shortened to two lines with a "Show more" toggle, "Reject all" and "Accept all" sit side by side with the same size and style, and "Manage preferences" is a quieter text button below. On a 375 px screen the banner now takes well under a third of the height instead of almost half. Desktop is unchanged.

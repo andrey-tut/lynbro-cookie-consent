@@ -1775,3 +1775,8 @@ msgstr "Daha az göster"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Telefonlarda \"Daha az göster\" aç/kapatı"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr "Site gibi (tema renkleri, yazı tipi ve köşeler; temadan açık ve koyu)"

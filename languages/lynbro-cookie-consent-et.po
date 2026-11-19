@@ -1768,3 +1768,9 @@ msgstr "Kuva vähem"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "„Kuva vähem“ lüliti telefonides"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Saidi järgi (teema värvid, font ja nurgad; teema hele ja tume kujundus)"

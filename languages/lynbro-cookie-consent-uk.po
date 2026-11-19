@@ -2211,6 +2211,13 @@ msgstr "Показати менше"
 msgid "\"Show less\" toggle on phones"
 msgstr "Перемикач «Показати менше» на телефонах"
 
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Як на сайті (кольори теми, шрифт і заокруглення; світлий і темний режими "
+"відповідно до теми)"
+
 #~ msgid "Additional CSS"
 #~ msgstr "Додатковий CSS"
 

@@ -1789,3 +1789,10 @@ msgstr "Afișați mai puțin"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "Comutatorul „Afișați mai puțin” pe telefoane"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr ""
+"Ca pe site (culorile temei, fontul și colțurile; variante deschisă și "
+"închisă din temă)"

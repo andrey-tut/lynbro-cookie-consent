@@ -1530,3 +1530,8 @@ msgstr "显示更少"
 
 msgid "\"Show less\" toggle on phones"
 msgstr "手机上的“显示更少”切换"
+
+msgid ""
+"Like the site (theme colours, font and corners; light and dark from the "
+"theme)"
+msgstr "与网站风格一致（主题颜色、字体和圆角；沿用主题的浅色和深色模式）"

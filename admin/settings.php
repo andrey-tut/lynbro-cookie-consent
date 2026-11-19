@@ -497,6 +497,7 @@ function lynbro_cookie_consent_render_settings_page() {
 									'light' => __( 'Light', 'lynbro-cookie-consent' ),
 									'dark'  => __( 'Dark', 'lynbro-cookie-consent' ),
 									'auto'  => __( 'Auto (follow visitor’s system)', 'lynbro-cookie-consent' ),
+									'site'  => __( 'Like the site (theme colours, font and corners; light and dark from the theme)', 'lynbro-cookie-consent' ),
 								);
 								foreach ( $themes as $tkey => $tlabel ) :
 									?>

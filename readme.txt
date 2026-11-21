@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.25
+Stable tag: 0.4.27
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -280,6 +280,12 @@ screen makes.
   [Privacy Policy](https://wordpress.org/about/privacy/)
 
 == Changelog ==
+
+= 0.4.27 =
+* Nothing of the banner holds up the page any more: banner.js loads deferred (the gatekeeper and the Consent Mode defaults that block tags stay inline and synchronous at the top of <head>), and banner.css is fetched without blocking and switched on just before the banner shows. Pages with a blocked-embed placeholder get the stylesheet at once.
+
+= 0.4.26 =
+* Faster pages: the banner stylesheet is printed at the end of the page instead of in <head>, so it no longer holds up the first paint. The banner stays hidden until its styles have loaded (at most 2.5 seconds), so it never flashes unstyled; consent and script blocking work exactly as before.
 
 = 0.4.25 =
 * "Like the site" is also chosen automatically on a Lynbro theme when the Reject button was given the Accept colour (the usual rejection-equality setting); before, that one change kept the banner in the generic green.

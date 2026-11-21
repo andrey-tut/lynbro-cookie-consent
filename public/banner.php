@@ -212,22 +212,24 @@ function lynbro_cookie_consent_enqueue_assets() {
 		return;
 	}
 
-	wp_enqueue_style(
-		'lynbro-cookie-consent',
-		LYNBRO_COOKIE_CONSENT_URL . 'public/banner.css',
-		array(),
-		lynbro_cookie_consent_asset_ver( 'public/banner.css' )
-	);
+	// The stylesheet is printed in the footer (lynbro_cookie_consent_enqueue_style):
+	// the banner is hidden until banner.js shows it, and banner.js waits for the
+	// stylesheet first, so it never has to block the first paint of the page.
+	add_action( 'wp_footer', 'lynbro_cookie_consent_enqueue_style', 5 );
 
-	// Inline CSS custom properties from the saved colours (theme-aware).
-	wp_add_inline_style( 'lynbro-cookie-consent', lynbro_cookie_consent_build_inline_css() );
-
+	// Deferred: the gatekeeper and the Consent Mode defaults that block tags are
+	// inline at the top of <head> and stay synchronous; this script only shows the
+	// banner and applies a choice, which may wait until the page is parsed. The
+	// data-no-defer attributes below keep optimizers from delaying it further.
 	wp_enqueue_script(
 		'lynbro-cookie-consent',
 		LYNBRO_COOKIE_CONSENT_URL . 'public/banner.js',
 		array(),
 		lynbro_cookie_consent_asset_ver( 'public/banner.js' ),
-		true
+		array(
+			'in_footer' => true,
+			'strategy'  => 'defer',
+		)
 	);
 
 	wp_localize_script(
@@ -237,6 +239,28 @@ function lynbro_cookie_consent_enqueue_assets() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'lynbro_cookie_consent_enqueue_assets' );
+
+/**
+ * The banner stylesheet, enqueued late so WordPress prints it in the footer
+ * (print_late_styles), with the colour variables after it.
+ *
+ * @return void
+ */
+function lynbro_cookie_consent_enqueue_style() {
+	// media="print" = fetched without blocking anything; banner.js switches it to
+	// "all" before it shows the banner (the banner needs JavaScript anyway). A page
+	// with an embed placeholder in its content gets "all" right away, so the
+	// placeholder is styled without waiting for the script.
+	wp_enqueue_style(
+		'lynbro-cookie-consent',
+		LYNBRO_COOKIE_CONSENT_URL . 'public/banner.css',
+		array(),
+		lynbro_cookie_consent_asset_ver( 'public/banner.css' ),
+		empty( $GLOBALS['lynbro_cookie_consent_has_embed'] ) ? 'print' : 'all'
+	);
+	// Inline CSS custom properties from the saved colours (theme-aware).
+	wp_add_inline_style( 'lynbro-cookie-consent', lynbro_cookie_consent_build_inline_css() );
+}
 
 /**
  * Build the inline CSS (custom properties for light/dark themes).

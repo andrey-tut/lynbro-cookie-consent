@@ -719,10 +719,50 @@
 		announceInset();
 	}
 
+	/* The stylesheet comes in the footer (no render-blocking request in <head>).
+	   Show nothing before it has loaded, so the banner never flashes unstyled;
+	   after 2.5 s it is shown anyway. Consent itself is never waited for. */
+	var wantBanner = false;
+	function whenStyled( cb ) {
+		var link = document.getElementById( 'lynbro-cookie-consent-css' );
+		if ( link && link.media !== 'all' ) {
+			link.media = 'all'; // Loaded as "print" so it never blocked the page.
+		}
+		var sheet = null;
+		try {
+			sheet = link ? link.sheet : null;
+		} catch ( e ) {
+			sheet = true; // Cross-origin sheet (CDN): it is there.
+		}
+		if ( ! link || sheet ) {
+			cb();
+			return;
+		}
+		var done = false;
+		var go = function () {
+			if ( ! done ) {
+				done = true;
+				cb();
+			}
+		};
+		link.addEventListener( 'load', go );
+		link.addEventListener( 'error', go );
+		window.setTimeout( go, 2500 );
+	}
+
 	function showBanner() {
 		if ( ! root ) {
 			return;
 		}
+		wantBanner = true;
+		whenStyled( function () {
+			if ( wantBanner ) {
+				reallyShowBanner();
+			}
+		} );
+	}
+
+	function reallyShowBanner() {
 		lastFocus = document.activeElement;
 		if ( ! shownAt ) {
 			shownAt = Date.now();
@@ -746,6 +786,7 @@
 		if ( ! root ) {
 			return;
 		}
+		wantBanner = false;
 		root.hidden = true;
 		announceInset(); // Height 0: the bars above may move down again.
 		document.body.classList.remove( 'lynbro-cc-modal-open' );
@@ -757,7 +798,11 @@
 
 	function revealFloat() {
 		if ( floatBtn ) {
-			floatBtn.hidden = false;
+			whenStyled( function () {
+				if ( floatBtn && ! wantBanner ) {
+					floatBtn.hidden = false;
+				}
+			} );
 		}
 	}
 
@@ -901,6 +946,12 @@
 	/* ---------- Init ---------- */
 
 	function init() {
+		// Embed placeholders and the float button need the styles even when no
+		// banner is shown; switching media here costs nothing (already fetched).
+		var cssLink = document.getElementById( 'lynbro-cookie-consent-css' );
+		if ( cssLink && cssLink.media !== 'all' && document.querySelector( '.lynbro-cc-embed' ) ) {
+			cssLink.media = 'all';
+		}
 		root = document.getElementById( 'lynbro-cc-root' );
 		floatBtn = document.getElementById( 'lynbro-cc-float' );
 

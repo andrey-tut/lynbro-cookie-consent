@@ -190,6 +190,9 @@ function lynbro_cookie_consent_embed_box_style( $iframe ) {
  * @return string
  */
 function lynbro_cookie_consent_embed_placeholder_html( $iframe, $slug, $service_name, $category, $box_style ) {
+	// The page shows a placeholder in its content: the stylesheet must apply at
+	// once, not wait for banner.js (see lynbro_cookie_consent_enqueue_style()).
+	$GLOBALS['lynbro_cookie_consent_has_embed'] = true;
 	/* translators: %s: name of the embedded service, e.g. YouTube. */
 	$heading = sprintf( __( 'Content from %s is blocked', 'lynbro-cookie-consent' ), $service_name );
 	/* translators: %s: name of the embedded service, e.g. YouTube. */

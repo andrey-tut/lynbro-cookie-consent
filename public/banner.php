@@ -247,16 +247,16 @@ add_action( 'wp_enqueue_scripts', 'lynbro_cookie_consent_enqueue_assets' );
  * @return void
  */
 function lynbro_cookie_consent_enqueue_style() {
-	// media="print" = fetched without blocking anything; banner.js switches it to
-	// "all" before it shows the banner (the banner needs JavaScript anyway). A page
-	// with an embed placeholder in its content gets "all" right away, so the
-	// placeholder is styled without waiting for the script.
+	// Printed at the end of <body>, so it never holds up the first paint. Plain
+	// media="all": the old media="print" trick (switched by banner.js through the
+	// link id) failed on sites where Autoptimize, WP Rocket, LiteSpeed and the like
+	// merge stylesheets into one file without that id — the banner stayed unstyled.
 	wp_enqueue_style(
 		'lynbro-cookie-consent',
 		LYNBRO_COOKIE_CONSENT_URL . 'public/banner.css',
 		array(),
 		lynbro_cookie_consent_asset_ver( 'public/banner.css' ),
-		empty( $GLOBALS['lynbro_cookie_consent_has_embed'] ) ? 'print' : 'all'
+		'all'
 	);
 	// Inline CSS custom properties from the saved colours (theme-aware).
 	wp_add_inline_style( 'lynbro-cookie-consent', lynbro_cookie_consent_build_inline_css() );

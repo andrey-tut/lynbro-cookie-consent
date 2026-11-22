@@ -725,9 +725,6 @@
 	var wantBanner = false;
 	function whenStyled( cb ) {
 		var link = document.getElementById( 'lynbro-cookie-consent-css' );
-		if ( link && link.media !== 'all' ) {
-			link.media = 'all'; // Loaded as "print" so it never blocked the page.
-		}
 		var sheet = null;
 		try {
 			sheet = link ? link.sheet : null;
@@ -946,12 +943,6 @@
 	/* ---------- Init ---------- */
 
 	function init() {
-		// Embed placeholders and the float button need the styles even when no
-		// banner is shown; switching media here costs nothing (already fetched).
-		var cssLink = document.getElementById( 'lynbro-cookie-consent-css' );
-		if ( cssLink && cssLink.media !== 'all' && document.querySelector( '.lynbro-cc-embed' ) ) {
-			cssLink.media = 'all';
-		}
 		root = document.getElementById( 'lynbro-cc-root' );
 		floatBtn = document.getElementById( 'lynbro-cc-float' );
 

@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.27
+Stable tag: 0.4.28
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -281,6 +281,9 @@ screen makes.
 
 == Changelog ==
 
+= 0.4.28 =
+* Fix: on sites that merge stylesheets (Autoptimize, WP Rocket, LiteSpeed Cache and similar) the banner showed without its styles since 0.4.27. The stylesheet is now a normal one at the end of the page: it still does not hold up the first paint, and merged files work again.
+
 = 0.4.27 =
 * Nothing of the banner holds up the page any more: banner.js loads deferred (the gatekeeper and the Consent Mode defaults that block tags stay inline and synchronous at the top of <head>), and banner.css is fetched without blocking and switched on just before the banner shows. Pages with a blocked-embed placeholder get the stylesheet at once.
 
@@ -461,6 +464,9 @@ screen makes.
   Mode v2, geo-aware consent modes, shortcode, accessibility, English + Danish.
 
 == Upgrade Notice ==
+
+= 0.4.28 =
+Fixes an unstyled banner on sites that merge CSS files (Autoptimize, WP Rocket, LiteSpeed Cache).
 
 = 0.4.21 =
 Compact banner on phones and the banner now follows the page language instead of the browser language.

@@ -13,7 +13,48 @@ defined( 'ABSPATH' ) || exit;
  * Cookie name that stores the visitor's consent choice on the front end (JS).
  */
 if ( ! defined( 'LYNBRO_COOKIE_CONSENT_COOKIE' ) ) {
-	define( 'LYNBRO_COOKIE_CONSENT_COOKIE', 'lynbro_cc_consent' );
+	define( 'LYNBRO_COOKIE_CONSENT_COOKIE', lynbro_cookie_consent_cookie_scope()['name'] );
+}
+
+/**
+ * Name and path of the consent cookie for this site.
+ *
+ * On a multisite network with sites in sub-folders (example.com/news/) every
+ * site shares one host, so a cookie at path "/" made a choice on one site count
+ * on all of them — each site is its own banner, with its own categories and
+ * policy. Such a site gets its own cookie name and path. Sites on their own
+ * (sub)domain and single sites keep "lynbro_cc_consent" at "/", so nobody is
+ * asked again.
+ *
+ * @return array{name:string,path:string}
+ */
+function lynbro_cookie_consent_cookie_scope() {
+	$scope = array(
+		'name' => 'lynbro_cc_consent',
+		'path' => '/',
+	);
+	if ( is_multisite() && ! is_main_site() ) {
+		$home = wp_parse_url( home_url( '/' ) );
+		$main = wp_parse_url( get_home_url( get_main_site_id(), '/' ) );
+		$path = isset( $home['path'] ) ? trailingslashit( $home['path'] ) : '/';
+		if ( '/' !== $path && isset( $home['host'], $main['host'] ) && strtolower( $home['host'] ) === strtolower( $main['host'] ) ) {
+			$scope = array(
+				'name' => 'lynbro_cc_consent_' . get_current_blog_id(),
+				'path' => $path,
+			);
+		}
+	}
+	/**
+	 * Filter the consent cookie name and path (e.g. to share one choice across a
+	 * network run by one controller).
+	 *
+	 * @param array{name:string,path:string} $scope Cookie name and path.
+	 */
+	$scope = (array) apply_filters( 'lynbro_cookie_consent_cookie_scope', $scope );
+	return array(
+		'name' => preg_replace( '/[^A-Za-z0-9_\-]/', '', (string) ( $scope['name'] ?? 'lynbro_cc_consent' ) ),
+		'path' => '/' . ltrim( (string) ( $scope['path'] ?? '/' ), '/' ),
+	);
 }
 
 /**
@@ -67,6 +108,11 @@ function lynbro_cookie_consent_frontend_config() {
 
 	$config = array(
 		'cookieName'      => LYNBRO_COOKIE_CONSENT_COOKIE,
+		'cookiePath'      => lynbro_cookie_consent_cookie_scope()['path'],
+		// Geo mode: banner.js keeps opt-in for European time zones (cache safety).
+		'geo'             => 'geo' === ( $options['consent_mode'] ?? 'geo' ),
+		'msConsent'       => ! empty( $options['ms_consent'] ),
+		'matomo'          => apply_filters( 'lynbro_cookie_consent_matomo_cookieless', true ) && lynbro_cookie_consent_category_is_active( 'statistics' ),
 		'consentVersion'  => (int) lynbro_cookie_consent_effective_consent_version(),
 		'mode'            => $mode, // opt-in|opt-out|notice.
 		'enableGcm'       => ! empty( $options['enable_gcm'] ),
@@ -122,12 +168,17 @@ function lynbro_cookie_consent_frontend_config() {
 }
 
 /**
- * Build the Google Consent Mode v2 default stub JavaScript.
+ * Build the consent-signal stub printed at the top of <head>.
  *
- * Sets all signals to denied (security_storage granted) before any tag loads,
- * so consent-aware Google tags behave correctly until the visitor chooses.
+ * - Google Consent Mode v2: every signal denied (security_storage granted)
+ *   before any tag loads; in advanced mode also ads_data_redaction.
+ * - Microsoft: UET Consent Mode default ad_storage denied, and a Clarity
+ *   command queue so the consentv2 call reaches Clarity however it is loaded.
+ * - Matomo: requireCookieConsent, so Matomo counts without cookies until the
+ *   Statistics category is granted (it is not held back, see
+ *   lynbro_cookie_consent_blocking_catalog()).
  *
- * @return string Inline JavaScript, or empty string when GCM is disabled.
+ * @return string Inline JavaScript, or empty string when nothing is needed.
  */
 function lynbro_cookie_consent_gcm_stub_js() {
 	if ( ! lynbro_cookie_consent_should_show() ) {
@@ -135,24 +186,38 @@ function lynbro_cookie_consent_gcm_stub_js() {
 	}
 
 	$options = lynbro_cookie_consent_get_options();
-	if ( empty( $options['enable_gcm'] ) ) {
-		return '';
+	$js      = '';
+
+	if ( ! empty( $options['enable_gcm'] ) ) {
+		$default_obj = lynbro_cookie_consent_gcm_default_signals();
+		// wait_for_update gives the consent JS a brief window to apply a stored choice.
+		$default_obj['wait_for_update'] = 500;
+
+		$json = wp_json_encode( $default_obj );
+		if ( false !== $json ) {
+			$js .= "window.dataLayer = window.dataLayer || [];\n"
+				. "function gtag(){dataLayer.push(arguments);}\n"
+				. 'gtag(\'consent\', \'default\', ' . $json . ");\n";
+			if ( 'advanced' === ( $options['gcm_mode'] ?? 'basic' ) ) {
+				// Tags load before consent: redact ad click IDs while ad_storage is denied.
+				$js .= "gtag('set', 'ads_data_redaction', true);\n";
+			}
+		}
 	}
 
-	$defaults = lynbro_cookie_consent_gcm_default_signals();
-
-	// wait_for_update gives the consent JS a brief window to apply a stored choice.
-	$default_obj                    = $defaults;
-	$default_obj['wait_for_update'] = 500;
-
-	$json = wp_json_encode( $default_obj );
-	if ( false === $json ) {
-		return '';
+	if ( ! empty( $options['ms_consent'] ) ) {
+		$js .= "window.uetq = window.uetq || [];\n"
+			. "window.uetq.push('consent', 'default', {'ad_storage': 'denied'});\n"
+			. "window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};\n";
 	}
 
-	return "window.dataLayer = window.dataLayer || [];\n"
-		. "function gtag(){dataLayer.push(arguments);}\n"
-		. 'gtag(\'consent\', \'default\', ' . $json . ');';
+	/** This filter is documented in includes/tracker-catalog.php */
+	if ( apply_filters( 'lynbro_cookie_consent_matomo_cookieless', true ) && lynbro_cookie_consent_category_is_active( 'statistics' ) ) {
+		$js .= "window._paq = window._paq || [];\n"
+			. "window._paq.push(['requireCookieConsent']);\n";
+	}
+
+	return rtrim( $js, "\n" );
 }
 
 /**
@@ -197,6 +262,14 @@ function lynbro_cookie_consent_print_gcm_stub() {
 	}
 	wp_print_inline_script_tag( $js, lynbro_cookie_consent_inline_attrs( 'lynbro-cookie-consent-gcm-js-before' ) );
 	$GLOBALS['lynbro_cookie_consent_gcm_printed'] = true;
+
+	// Lynbro Tags (and any plugin that checks wp_script_is( …, 'done' )) must see
+	// that the Consent Mode default is out, or it prints a second one: printing it
+	// directly since 0.4.19 left the handle unknown to WP_Scripts.
+	if ( ! empty( lynbro_cookie_consent_get_option( 'enable_gcm', 1 ) ) ) {
+		wp_register_script( 'lynbro-cookie-consent-gcm', false, array(), LYNBRO_COOKIE_CONSENT_VERSION, false );
+		wp_scripts()->done[] = 'lynbro-cookie-consent-gcm';
+	}
 }
 // -9999: right after the gatekeeper (-10000) and before any tag another plugin or a
 // header-code snippet prints at 0 or 1, so Google tags start with the denied defaults.
@@ -664,7 +737,8 @@ function lynbro_cookie_consent_effective_theme( $options ) {
 		// Reject set to the Accept colour is the fleet's rejection-equality fix
 		// (2026-09 rollout), not a palette someone chose: still "factory".
 		$reject = strtolower( (string) $options['color_reject'] );
-		if ( $reject !== strtolower( (string) $defaults['color_reject'] ) && $reject !== strtolower( (string) $options['color_accept'] ) ) {
+		// '#6b6b6b' was the factory grey until 0.4.28.
+		if ( ! in_array( $reject, array( strtolower( (string) $defaults['color_reject'] ), '#6b6b6b', strtolower( (string) $options['color_accept'] ) ), true ) ) {
 			$factory = false;
 		}
 		if ( $factory ) {

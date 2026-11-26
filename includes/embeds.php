@@ -26,7 +26,9 @@ defined( 'ABSPATH' ) || exit;
  * @return bool
  */
 function lynbro_cookie_consent_embeds_active() {
-	if ( is_admin() ) {
+	// Not in wp-admin, the block editor's REST previews or feeds: only pages a
+	// visitor opens in a browser, where banner.js can bring the iframe back.
+	if ( is_admin() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) || ( function_exists( 'is_feed' ) && did_action( 'wp' ) && is_feed() ) ) {
 		return false;
 	}
 	if ( ! lynbro_cookie_consent_should_show() ) {
@@ -49,33 +51,75 @@ function lynbro_cookie_consent_embed_category() {
 }
 
 /**
+ * Wrap every known-provider iframe in an HTML fragment in a consent placeholder.
+ *
+ * Safe to run more than once on the same markup (a block inside post content is
+ * seen by render_block and again by the_content): an iframe that already sits in
+ * a placeholder carries data-lynbro-cc-wrapped and is left alone.
+ *
+ * @param string $html HTML fragment.
+ * @return string
+ */
+function lynbro_cookie_consent_wrap_embeds( $html ) {
+	if ( ! is_string( $html ) || '' === trim( $html ) || false === stripos( $html, '<iframe' ) ) {
+		return $html;
+	}
+	if ( ! lynbro_cookie_consent_embeds_active() ) {
+		return $html;
+	}
+
+	$catalog  = lynbro_cookie_consent_embed_catalog();
+	$filtered = preg_replace_callback(
+		'#<iframe\b[^>]*>.*?</iframe>#is',
+		function ( $m ) use ( $catalog ) {
+			if ( preg_match( '#^<iframe\b[^>]*\sdata-lynbro-cc-wrapped\b#i', $m[0] ) ) {
+				return $m[0];
+			}
+			return lynbro_cookie_consent_maybe_wrap_iframe( $m[0], $catalog );
+		},
+		$html
+	);
+
+	return ( null === $filtered ) ? $html : $filtered;
+}
+
+/**
  * Filter content to wrap matched iframes in consent placeholders.
  *
  * @param string $content Post/widget content HTML.
  * @return string
  */
 function lynbro_cookie_consent_filter_embeds_content( $content ) {
-	if ( ! lynbro_cookie_consent_embeds_active() || '' === trim( (string) $content ) ) {
-		return $content;
-	}
-	if ( false === stripos( $content, '<iframe' ) ) {
-		return $content;
-	}
-
-	$catalog = lynbro_cookie_consent_embed_catalog();
-
-	$filtered = preg_replace_callback(
-		'#<iframe\b[^>]*>.*?</iframe>#is',
-		function ( $m ) use ( $catalog ) {
-			return lynbro_cookie_consent_maybe_wrap_iframe( $m[0], $catalog );
-		},
-		$content
-	);
-
-	return ( null === $filtered ) ? $content : $filtered;
+	return lynbro_cookie_consent_wrap_embeds( $content );
 }
 add_filter( 'the_content', 'lynbro_cookie_consent_filter_embeds_content', 99 );
 add_filter( 'widget_text_content', 'lynbro_cookie_consent_filter_embeds_content', 99 );
+// Block widgets (WordPress 5.8+) do not pass through widget_text_content.
+add_filter( 'widget_block_content', 'lynbro_cookie_consent_filter_embeds_content', 99 );
+
+/**
+ * Blocks rendered outside post content: block-theme templates and template
+ * parts (a map in the footer), synced patterns, query loops.
+ *
+ * @param string $block_content Rendered block HTML.
+ * @return string
+ */
+function lynbro_cookie_consent_filter_embeds_block( $block_content ) {
+	return lynbro_cookie_consent_wrap_embeds( $block_content );
+}
+add_filter( 'render_block', 'lynbro_cookie_consent_filter_embeds_block', 99 );
+
+/**
+ * Elementor widgets, including Theme Builder headers and footers, which never
+ * pass through the_content.
+ *
+ * @param string $widget_content Widget HTML.
+ * @return string
+ */
+function lynbro_cookie_consent_filter_embeds_elementor( $widget_content ) {
+	return lynbro_cookie_consent_wrap_embeds( $widget_content );
+}
+add_filter( 'elementor/widget/render_content', 'lynbro_cookie_consent_filter_embeds_elementor', 99 );
 
 /**
  * Filter oEmbed HTML (e.g. auto-embedded YouTube/Vimeo URLs).
@@ -84,23 +128,7 @@ add_filter( 'widget_text_content', 'lynbro_cookie_consent_filter_embeds_content'
  * @return string
  */
 function lynbro_cookie_consent_filter_oembed_html( $html ) {
-	if ( ! lynbro_cookie_consent_embeds_active() || '' === trim( (string) $html ) ) {
-		return $html;
-	}
-	if ( false === stripos( $html, '<iframe' ) ) {
-		return $html;
-	}
-
-	$catalog  = lynbro_cookie_consent_embed_catalog();
-	$filtered = preg_replace_callback(
-		'#<iframe\b[^>]*>.*?</iframe>#is',
-		function ( $m ) use ( $catalog ) {
-			return lynbro_cookie_consent_maybe_wrap_iframe( $m[0], $catalog );
-		},
-		$html
-	);
-
-	return ( null === $filtered ) ? $html : $filtered;
+	return lynbro_cookie_consent_wrap_embeds( $html );
 }
 add_filter( 'embed_oembed_html', 'lynbro_cookie_consent_filter_oembed_html', 99 );
 add_filter( 'video_embed_html', 'lynbro_cookie_consent_filter_oembed_html', 99 );
@@ -128,7 +156,9 @@ function lynbro_cookie_consent_maybe_wrap_iframe( $iframe, $catalog ) {
 
 	$box_style = lynbro_cookie_consent_embed_box_style( $iframe );
 
-	return lynbro_cookie_consent_embed_placeholder_html( $iframe, $slug, $service_name, $category, $box_style );
+	// Mark the stored iframe, so a second pass over the same markup skips it.
+	$marked = preg_replace( '#^<iframe\b#i', '<iframe data-lynbro-cc-wrapped="1"', $iframe, 1 );
+	return lynbro_cookie_consent_embed_placeholder_html( null === $marked ? $iframe : $marked, $slug, $service_name, $category, $box_style );
 }
 
 /**
@@ -215,6 +245,7 @@ function lynbro_cookie_consent_embed_placeholder_html( $iframe, $slug, $service_
 			'style'           => true,
 			'name'            => true,
 			'scrolling'       => true,
+			'data-lynbro-cc-wrapped' => true,
 		),
 	);
 

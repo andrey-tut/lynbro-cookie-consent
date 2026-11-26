@@ -13,7 +13,7 @@
 	--lynbro-cc-bg: #ffffff;
 	--lynbro-cc-text: #1e1e1e;
 	--lynbro-cc-accept: #1a7f5a;
-	--lynbro-cc-reject: #6b6b6b;
+	--lynbro-cc-reject: #1a7f5a; /* Same as Accept (rejection equality). */
 	--lynbro-cc-btn-text: #ffffff;
 
 	/* Stacking — overridden inline from the saved z-index base. */

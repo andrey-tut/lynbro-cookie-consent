@@ -32,16 +32,22 @@ function lynbro_cookie_consent_tracker_catalog() {
 			'name'     => 'Google Analytics (GA4 / Universal)',
 			'category' => 'statistics',
 			'patterns' => array( 'googletagmanager.com/gtag/js', 'google-analytics.com/analytics.js', 'google-analytics.com/ga.js', 'googletagmanager.com/gtm.js' ),
+			// Reads Google Consent Mode: may load before consent in advanced mode.
+			'signals'  => 'google',
 		),
 		'google-tag-manager' => array(
 			'name'     => 'Google Tag Manager',
 			'category' => 'statistics',
 			'patterns' => array( 'googletagmanager.com/gtm.js', 'googletagmanager.com/ns.html' ),
+			// Reads Google Consent Mode: may load before consent in advanced mode.
+			'signals'  => 'google',
 		),
 		'google-ads' => array(
 			'name'     => 'Google Ads / Conversion',
 			'category' => 'marketing',
 			'patterns' => array( 'googleadservices.com', 'googlesyndication.com', 'doubleclick.net' ),
+			// Reads Google Consent Mode: may load before consent in advanced mode.
+			'signals'  => 'google',
 		),
 		'meta-pixel' => array(
 			'name'     => 'Meta (Facebook) Pixel',
@@ -87,6 +93,9 @@ function lynbro_cookie_consent_tracker_catalog() {
 			'name'     => 'Matomo',
 			'category' => 'statistics',
 			'patterns' => array( 'matomo.js', 'piwik.js' ),
+			// Matomo has its own consent API: it counts visits without cookies and
+			// only sets them after consent (see lynbro_cookie_consent_blocking_catalog()).
+			'signals'  => 'matomo',
 		),
 	);
 
@@ -96,6 +105,44 @@ function lynbro_cookie_consent_tracker_catalog() {
 	 * @param array $catalog Tracker definitions keyed by slug.
 	 */
 	return apply_filters( 'lynbro_cookie_consent_tracker_catalog', $catalog );
+}
+
+/**
+ * The tracker catalog minus the entries that are not blocked on this site.
+ *
+ * - Matomo is never held back by default: its consent API (set up in the head
+ *   stub) lets it count visits without cookies before consent and add its
+ *   cookies only after the Statistics category is granted. First-party,
+ *   cookieless statistics are not something the banner switches off.
+ *   Filter `lynbro_cookie_consent_matomo_cookieless` (false = block it as before).
+ * - In advanced Google Consent Mode, the Google tag, Tag Manager and Google Ads
+ *   load before consent with every signal denied.
+ *
+ * @return array<string,array<string,mixed>>
+ */
+function lynbro_cookie_consent_blocking_catalog() {
+	$advanced = 'advanced' === lynbro_cookie_consent_get_option( 'gcm_mode', 'basic' )
+		&& ! empty( lynbro_cookie_consent_get_option( 'enable_gcm', 1 ) );
+	/**
+	 * Filter whether Matomo runs cookieless before consent (true) or is held back
+	 * until the Statistics category is granted (false).
+	 *
+	 * @param bool $cookieless Default true.
+	 */
+	$matomo_cookieless = (bool) apply_filters( 'lynbro_cookie_consent_matomo_cookieless', true );
+
+	$out = array();
+	foreach ( lynbro_cookie_consent_tracker_catalog() as $slug => $entry ) {
+		$signals = isset( $entry['signals'] ) ? $entry['signals'] : '';
+		if ( 'google' === $signals && $advanced ) {
+			continue;
+		}
+		if ( 'matomo' === $signals && $matomo_cookieless ) {
+			continue;
+		}
+		$out[ $slug ] = $entry;
+	}
+	return $out;
 }
 
 /**

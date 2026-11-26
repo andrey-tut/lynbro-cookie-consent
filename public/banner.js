@@ -21,6 +21,22 @@
 	var COOKIE = cfg.cookieName || 'lynbro_cc_consent';
 	var VERSION = parseInt( cfg.consentVersion, 10 ) || 1;
 	var MODE = cfg.mode || 'opt-in';
+
+	// Geo mode: the server picked the model from the visitor's country, but a page
+	// cache can hand a page made for a US visitor (opt-out) to someone in Europe.
+	// A European time zone always gets opt-in, whatever the page says.
+	function inEuropeanTimeZone() {
+		try {
+			var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+			return 0 === tz.indexOf( 'Europe/' ) ||
+				/^(Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)|Arctic\/Longyearbyen|Asia\/(Nicosia|Famagusta)|America\/(Cayenne|Guadeloupe|Martinique)|Indian\/(Reunion|Mayotte))$/.test( tz );
+		} catch ( e ) {
+			return false;
+		}
+	}
+	if ( cfg.geo && 'opt-in' !== MODE && inEuropeanTimeZone() ) {
+		MODE = 'opt-in';
+	}
 	var DAYS = parseInt( cfg.cookieDays, 10 ) || 365;
 	var CAT_SIGNALS = cfg.categorySignals || {};
 	var ALLOW_KEY = 'lynbro_cc_embed_allow'; // localStorage key: per-service "always allow".
@@ -264,7 +280,7 @@
 		document.cookie =
 			name + '=' + encodeURIComponent( value ) +
 			'; expires=' + date.toUTCString() +
-			'; path=/; SameSite=Lax' + secure;
+			'; path=' + ( cfg.cookiePath || '/' ) + '; SameSite=Lax' + secure;
 	}
 
 	function getStoredConsent() {
@@ -343,6 +359,36 @@
 			} );
 		}
 		window.gtag( 'consent', 'update', update );
+	}
+
+	/* ---------- Microsoft (UET Consent Mode, Clarity) and Matomo ---------- */
+
+	function signalGranted( categories, signal ) {
+		for ( var cat in CAT_SIGNALS ) {
+			if ( CAT_SIGNALS.hasOwnProperty( cat ) && CAT_SIGNALS[ cat ].indexOf( signal ) !== -1 && categories[ cat ] ) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	function updateVendorSignals( categories ) {
+		var ad = signalGranted( categories, 'ad_storage' ) ? 'granted' : 'denied';
+		var analytics = signalGranted( categories, 'analytics_storage' ) ? 'granted' : 'denied';
+		if ( cfg.msConsent ) {
+			try {
+				window.uetq = window.uetq || [];
+				window.uetq.push( 'consent', 'update', { ad_storage: ad } );
+				if ( typeof window.clarity === 'function' ) {
+					window.clarity( 'consentv2', { ad_Storage: ad, analytics_Storage: analytics } );
+				}
+			} catch ( e ) {}
+		}
+		if ( cfg.matomo && window._paq && typeof window._paq.push === 'function' ) {
+			try {
+				window._paq.push( [ categories.statistics ? 'setCookieConsentGiven' : 'forgetCookieConsentGiven' ] );
+			} catch ( e2 ) {}
+		}
 	}
 
 	/* ---------- WP Consent API bridge ---------- */
@@ -565,6 +611,7 @@
 		}
 
 		updateGcm( categories );
+		updateVendorSignals( categories );
 		updateWpConsentApi( categories );
 		activateScripts( categories );
 		processEmbeds( categories );

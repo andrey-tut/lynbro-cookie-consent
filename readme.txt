@@ -4,7 +4,7 @@ Tags: cookie consent, cookie banner, cookie notice, gdpr, consent mode
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.4.28
+Stable tag: 0.5.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,11 +32,13 @@ https://github.com/andrey-tut/lynbro-cookie-consent
 * Script blocking before consent: mark scripts as
   `type="text/plain" data-lynbro-cc="statistics|marketing"` and they only run
   after the matching category is granted. Helper function included.
-* Google Consent Mode v2 — free: all signals default to "denied" before consent
+* Microsoft consent signals — free: UET Consent Mode and Microsoft Clarity
+  consentv2 follow the visitor's choice (required by Microsoft in the EEA/UK/CH).
+* Google Consent Mode v2 — free, basic or advanced: all signals default to "denied" before consent
   (ad_storage, analytics_storage, ad_user_data, ad_personalization,
   functionality_storage, personalization_storage, security_storage), updated
   after the visitor chooses.
-* Geo-aware consent model: EU/EEA/UK → opt-in, US → opt-out (CCPA/CPRA), rest of
+* Geo-aware consent model: EU/EEA/UK/Switzerland → opt-in, US → opt-out (CCPA/CPRA), rest of
   world → notice. Region detected from CDN/edge headers (e.g. Cloudflare); safe
   opt-in fallback when unknown. No external geolocation API.
 * Embed/iframe consent placeholders: YouTube, Vimeo, Google Maps, social embeds,
@@ -173,8 +175,38 @@ Output them as `<script type="text/plain" data-lynbro-cc="statistics">...</scrip
 category. A helper function `lynbro_cookie_consent_blocked_script()` is provided.
 
 = Does it support Google Consent Mode v2? =
-Yes, for free. Signals default to "denied" before consent and are updated to
-match the visitor's choice.
+Yes, for free, in both flavours. Signals default to "denied" before consent and
+are updated to match the visitor's choice. Basic (the default): Google Analytics,
+Tag Manager and Google Ads wait until the visitor consents. Advanced (Consent Mode
+tab): Google tags load at once with every signal denied and send cookieless pings,
+which Google uses for conversion modelling; no Google cookie is set before consent,
+but the browser does contact Google.
+
+= Does it send Microsoft's consent signals (UET, Clarity)? =
+Yes. Microsoft Advertising (UET Consent Mode) starts with ad_storage denied, and
+Microsoft Clarity receives its consentv2 signal; both follow the visitor's choice.
+Microsoft requires these signals for visitors from the EEA, the UK and Switzerland.
+
+= What about Matomo? =
+Matomo is not held back. The plugin turns on Matomo's own consent setting
+(requireCookieConsent): Matomo counts visits without cookies before consent and
+only sets its cookies once the Statistics category is granted. A site that wants
+Matomo blocked entirely can return false from the
+`lynbro_cookie_consent_matomo_cookieless` filter.
+
+= Is it an IAB TCF / Google-certified CMP? Can I run AdSense with it? =
+No. It is not an IAB TCF CMP and not on Google's list of certified CMPs. Google
+Analytics 4 and Google Ads work with it through Consent Mode. If your site shows
+ads through Google AdSense, Ad Manager or AdMob to visitors in the EEA, the UK or
+Switzerland, Google requires a certified CMP that uses the IAB TCF — use one of
+those for that site.
+
+= Will it block my payment or checkout? =
+No. Payment and checkout providers (Stripe, PayPal, Klarna, QuickPay, MobilePay,
+Vipps, Adyen, Braintree, Apple Pay, Google Pay) and anti-spam challenges such as
+Cloudflare Turnstile are not in the blocking catalogs, so they work before consent.
+WooCommerce order attribution reads the visitor's choice through the WP Consent API
+when that plugin is installed.
 
 = How does the banner choose its language? =
 It uses a cache-safe cascade: the current page language (when Polylang, WPML or
@@ -188,8 +220,12 @@ Consent → Languages, including adding your own locale.
 = Does it block embedded videos and maps? =
 Yes. With "Embed placeholders" enabled, iframes from YouTube, Vimeo, Google Maps,
 social networks, reCAPTCHA and similar providers are blocked until the visitor
-consents (or clicks "allow" on the placeholder). The detection is local; no
-external request is made to identify or block an embed.
+consents (or clicks "allow" on the placeholder) — in post content, in block-theme
+templates and template parts (a map in the footer), in block and text widgets and
+in Elementor widgets, including Theme Builder headers and footers. The detection
+is local; no external request is made to identify or block an embed. An iframe
+that a script creates later (for example a video player built by the YouTube
+JavaScript API) is not covered yet.
 
 = Does it honor Global Privacy Control (GPC)? =
 Yes. In opt-out (US/CCPA) mode, visitors whose browser sends a GPC signal are
@@ -206,7 +242,24 @@ Consent Log.
 Yes. Consent state lives client-side (first-party cookie + JS), so it is never
 baked into cached HTML, and the consent core is automatically excluded from
 delay/defer/minify/combine of WP Rocket, LiteSpeed, SiteGround Optimizer,
-Autoptimize and Cloudflare Rocket Loader.
+Autoptimize and Cloudflare Rocket Loader. In the automatic (geo) mode, a page made
+for a visitor outside Europe (opt-out or notice) is marked as not cacheable for
+page caches and CDNs, so a cached copy can never reach a European visitor; opt-in
+pages stay cacheable. As a second safeguard the banner always uses opt-in for a
+visitor whose time zone is in Europe.
+
+= Does consent carry over between sites of a multisite network? =
+Sites on their own domain or sub-domain each have their own choice. Sites in
+sub-folders of one domain (example.com/news/) get their own consent cookie,
+limited to their path, so a choice on one site is not taken as a choice on
+another. To share one choice across a network run by one company, use the
+`lynbro_cookie_consent_cookie_scope` filter.
+
+= Can a pasted Google tag still contact Google before consent? =
+A tag pasted into the page (gtag.js, GTM) is held back and does not run, but a
+browser may fetch the file early while it reads the page. To avoid even that
+request, add Google tags through Lynbro Tags or as a blocked script
+(`type="text/plain" data-lynbro-cc="statistics"`).
 
 == Screenshots ==
 
@@ -280,6 +333,18 @@ screen makes.
   [Privacy Policy](https://wordpress.org/about/privacy/)
 
 == Changelog ==
+
+= 0.5.0 =
+* Important — geo mode behind a page cache: the consent model is chosen from the visitor's country, and a cached page made for a visitor from the US (opt-out: trackers run until they object) could be served to visitors in Europe. Such pages are now marked as not cacheable for WP Rocket, LiteSpeed, W3TC, WP Super Cache, nginx fastcgi_cache, Cloudflare and Lynbro Cache, and the banner always uses opt-in for a visitor whose time zone is in Europe. Opt-in pages stay cacheable.
+* New: Microsoft consent signals — UET Consent Mode (ad_storage, default denied) and Microsoft Clarity consentv2, following the Marketing and Statistics categories. Microsoft requires them for the EEA, the UK and Switzerland. Setting on the Consent Mode tab, on by default.
+* New: Google Consent Mode "advanced" option — Google tags load with every signal denied and send cookieless pings (with ads_data_redaction). "Basic" stays the default.
+* Matomo is no longer held back: Matomo's own consent setting lets it count visits without cookies before consent and set its cookies only after Statistics is granted. Filter `lynbro_cookie_consent_matomo_cookieless`.
+* Embeds outside post content are blocked too: block-theme templates and template parts, block widgets and Elementor widgets (Theme Builder headers and footers). Before, a map in the footer loaded before consent.
+* Multisite with sites in sub-folders: each site has its own consent cookie at its own path; a choice on one site no longer counts on the others. Sites on their own (sub)domain keep their cookie. Filter `lynbro_cookie_consent_cookie_scope`.
+* Fix: Lynbro Tags printed a second Google Consent Mode default since 0.4.19, because it could not see this plugin's default.
+* Geo mode: visitors from Switzerland get opt-in like the EU/EEA and the UK (Google and Microsoft require consent signals there). Before, they got the notice-only banner, where trackers run straight away.
+* Equal Reject button by default: the factory Reject colour is now the Accept colour, also in the design presets. A site that still has the old factory grey gets the Accept colour once on update; a colour you chose is kept.
+* Readme: FAQ on TCF / AdSense (a certified CMP is needed for Google ads in the EEA), payment providers, Matomo, Microsoft signals and pasted Google tags.
 
 = 0.4.28 =
 * Fix: on sites that merge stylesheets (Autoptimize, WP Rocket, LiteSpeed Cache and similar) the banner showed without its styles since 0.4.27. The stylesheet is now a normal one at the end of the page: it still does not hold up the first paint, and merged files work again.

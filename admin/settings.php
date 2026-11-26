@@ -152,7 +152,7 @@ function lynbro_cookie_consent_design_presets() {
 				'color_bg'         => '#ffffff',
 				'color_text'       => '#1e1e1e',
 				'color_accept'     => '#1a7f5a',
-				'color_reject'     => '#6b6b6b',
+				'color_reject'     => '#1a7f5a',
 				'color_btn_text'   => '#ffffff',
 			),
 		),
@@ -169,7 +169,7 @@ function lynbro_cookie_consent_design_presets() {
 				'color_bg'         => '#ffffff',
 				'color_text'       => '#1f2937',
 				'color_accept'     => '#2563eb',
-				'color_reject'     => '#64748b',
+				'color_reject'     => '#2563eb',
 				'color_btn_text'   => '#ffffff',
 			),
 		),
@@ -185,7 +185,7 @@ function lynbro_cookie_consent_design_presets() {
 				'color_bg_dark'       => '#15181d',
 				'color_text_dark'     => '#f3f4f6',
 				'color_accept_dark'   => '#3b82f6',
-				'color_reject_dark'   => '#4b5563',
+				'color_reject_dark'   => '#3b82f6',
 				'color_btn_text_dark' => '#ffffff',
 			),
 		),
@@ -201,7 +201,7 @@ function lynbro_cookie_consent_design_presets() {
 				'color_bg'         => '#111827',
 				'color_text'       => '#f9fafb',
 				'color_accept'     => '#10b981',
-				'color_reject'     => '#374151',
+				'color_reject'     => '#10b981',
 				'color_btn_text'   => '#ffffff',
 			),
 		),
@@ -218,7 +218,7 @@ function lynbro_cookie_consent_design_presets() {
 				'color_bg'         => '#f4f6f8',
 				'color_text'       => '#2e3a45',
 				'color_accept'     => '#3a7d8c',
-				'color_reject'     => '#8a9aa6',
+				'color_reject'     => '#3a7d8c',
 				'color_btn_text'   => '#ffffff',
 			),
 		),
@@ -815,6 +815,32 @@ function lynbro_cookie_consent_render_settings_page() {
 							<p class="description">
 								<?php echo esc_html__( 'Sets all consent signals to "denied" by default before consent, then updates them based on the visitor’s choice (ad_storage, analytics_storage, ad_user_data, ad_personalization, functionality_storage, personalization_storage, security_storage).', 'lynbro-cookie-consent' ); ?>
 							</p>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><?php echo esc_html__( 'Google tags before consent', 'lynbro-cookie-consent' ); ?></th>
+						<td>
+							<fieldset>
+								<label>
+									<input type="radio" name="<?php echo esc_attr( $opt ); ?>[gcm_mode]" value="basic" <?php checked( 'advanced' !== ( $options['gcm_mode'] ?? 'basic' ) ); ?> />
+									<?php echo esc_html__( 'Basic: Google Analytics, Tag Manager and Google Ads wait until the visitor consents (recommended)', 'lynbro-cookie-consent' ); ?>
+								</label><br />
+								<label>
+									<input type="radio" name="<?php echo esc_attr( $opt ); ?>[gcm_mode]" value="advanced" <?php checked( 'advanced' === ( $options['gcm_mode'] ?? 'basic' ) ); ?> />
+									<?php echo esc_html__( 'Advanced: Google tags load at once with every signal "denied" and send cookieless pings, which Google uses for conversion modelling', 'lynbro-cookie-consent' ); ?>
+								</label>
+							</fieldset>
+							<p class="description"><?php echo esc_html__( 'Advanced mode sets no Google cookies before consent, but the visitor’s browser does contact Google. Other trackers wait for consent in both modes.', 'lynbro-cookie-consent' ); ?></p>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><?php echo esc_html__( 'Microsoft consent signals', 'lynbro-cookie-consent' ); ?></th>
+						<td>
+							<label>
+								<input type="checkbox" name="<?php echo esc_attr( $opt ); ?>[ms_consent]" value="1" <?php checked( ! empty( $options['ms_consent'] ) ); ?> />
+								<?php echo esc_html__( 'Send the choice to Microsoft Advertising (UET Consent Mode) and Microsoft Clarity', 'lynbro-cookie-consent' ); ?>
+							</label>
+							<p class="description"><?php echo esc_html__( 'Microsoft requires these signals for visitors from the EEA, the UK and Switzerland. Both start as "denied" and follow the Marketing and Statistics categories.', 'lynbro-cookie-consent' ); ?></p>
 						</td>
 					</tr>
 					<tr>

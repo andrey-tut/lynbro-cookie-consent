@@ -41,7 +41,7 @@ function lynbro_cookie_consent_auto_block_tag( $tag, $handle, $src ) {
 		return $tag;
 	}
 
-	$catalog = lynbro_cookie_consent_tracker_catalog();
+	$catalog = lynbro_cookie_consent_blocking_catalog();
 	$match   = lynbro_cookie_consent_catalog_match( $src, $catalog );
 	if ( false === $match ) {
 		// Also try matching by handle name (some snippets register descriptive handles).
@@ -87,7 +87,7 @@ add_filter( 'script_loader_tag', 'lynbro_cookie_consent_auto_block_tag', 20, 3 )
  */
 function lynbro_cookie_consent_gatekeeper_patterns() {
 	$out = array();
-	foreach ( lynbro_cookie_consent_tracker_catalog() as $entry ) {
+	foreach ( lynbro_cookie_consent_blocking_catalog() as $entry ) {
 		$category = isset( $entry['category'] ) ? sanitize_key( $entry['category'] ) : 'marketing';
 		if ( 'necessary' === $category || ! lynbro_cookie_consent_category_is_active( $category ) ) {
 			continue;

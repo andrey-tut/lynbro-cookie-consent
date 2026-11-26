@@ -154,7 +154,7 @@
       "icon": "♿",
       "tagline": "Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No overlay, no page limit.",
       "menu_position": 40,
-      "wporg": false,
+      "wporg": true,
       "fits": [
         "woocommerce"
       ]

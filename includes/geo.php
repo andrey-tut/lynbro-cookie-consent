@@ -17,7 +17,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * EU/EEA + UK ISO-3166 alpha-2 country codes (opt-in / prior consent).
+ * EU/EEA + UK + Switzerland ISO-3166 alpha-2 country codes (opt-in / prior consent).
  *
  * @return string[]
  */
@@ -28,6 +28,7 @@ function lynbro_cookie_consent_eu_countries() {
 		'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', // EU.
 		'IS', 'LI', 'NO', // EEA.
 		'GB', // UK.
+		'CH', // Switzerland: Google (Consent Mode, ads) and Microsoft (UET, Clarity) require consent signals there too.
 	);
 }
 
@@ -96,3 +97,39 @@ function lynbro_cookie_consent_resolve_mode() {
 	 */
 	return apply_filters( 'lynbro_cookie_consent_geo_region', $mode, $configured );
 }
+
+/**
+ * Keep a page cache from serving one visitor's region to another.
+ *
+ * In geo mode the consent model comes from the visitor's country (edge header).
+ * The model is printed into the page, so a full-page cache (WP Rocket, LiteSpeed,
+ * nginx fastcgi_cache, Cloudflare APO, Lynbro Cache …) that stored the page for
+ * a visitor from the US (opt-out: trackers run until they object) — Googlebot,
+ * say — would serve that opt-out page to visitors from the EU. Opt-in pages are
+ * safe for everyone, so they stay cacheable; any other model marks the response
+ * as not cacheable with every signal the common caches read. banner.js also
+ * falls back to opt-in when the visitor's time zone is in Europe.
+ *
+ * @return void
+ */
+function lynbro_cookie_consent_geo_cache_guard() {
+	if ( is_admin() || 'geo' !== lynbro_cookie_consent_get_option( 'consent_mode', 'geo' ) ) {
+		return;
+	}
+	if ( ! lynbro_cookie_consent_should_show() || 'opt-in' === lynbro_cookie_consent_resolve_mode() ) {
+		return;
+	}
+	if ( ! defined( 'DONOTCACHEPAGE' ) ) {
+		define( 'DONOTCACHEPAGE', true ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedConstantFound -- the shared page-cache constant. WP Rocket, W3TC, WP Super Cache, Cache Enabler, Lynbro Cache.
+	}
+	do_action( 'litespeed_control_set_nocache', // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- LiteSpeed Cache's own hook.
+		'lynbro-cookie-consent: region-specific consent model'
+	);
+	if ( ! headers_sent() ) {
+		nocache_headers();
+		header( 'X-Accel-Expires: 0' );            // nginx fastcgi/proxy cache.
+		header( 'CDN-Cache-Control: no-store' );    // Cloudflare and other CDNs.
+		header( 'Vary: CF-IPCountry', false );
+	}
+}
+add_action( 'template_redirect', 'lynbro_cookie_consent_geo_cache_guard', 0 );

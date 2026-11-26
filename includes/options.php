@@ -123,6 +123,11 @@ function lynbro_cookie_consent_default_options() {
 		'policy_url'     => '',
 		'policy_version' => 1, // Owner-controlled policy version; bump to re-ask consent.
 		'enable_gcm'     => 1,
+		// Google Consent Mode flavour: basic = Google tags wait for consent (default);
+		// advanced = Google tags load with every signal denied and send cookieless pings.
+		'gcm_mode'       => 'basic',
+		// Microsoft consent signals: UET Consent Mode (ad_storage) and Clarity consentv2.
+		'ms_consent'     => 1,
 
 		// Texts (translatable defaults resolved at render time, see helpers below).
 		'title'          => '',
@@ -141,14 +146,14 @@ function lynbro_cookie_consent_default_options() {
 		'color_bg'       => '#ffffff',
 		'color_text'     => '#1e1e1e',
 		'color_accept'   => '#1a7f5a',
-		'color_reject'   => '#6b6b6b',
+		'color_reject'   => '#1a7f5a', // Same as Accept: rejecting must be as easy and as visible (EDPB, Datatilsynet).
 		'color_btn_text' => '#ffffff',
 
 		// Design colours (dark theme — used when theme=dark, or auto in dark mode).
 		'color_bg_dark'       => '#1e1e1e',
 		'color_text_dark'     => '#f3f3f3',
 		'color_accept_dark'   => '#2f9e6f',
-		'color_reject_dark'   => '#5a5a5a',
+		'color_reject_dark'   => '#2f9e6f',
 		'color_btn_text_dark' => '#ffffff',
 
 		// Categories enabled by the site owner (necessary always on).
@@ -306,6 +311,9 @@ function lynbro_cookie_consent_sanitize_options( $input ) {
 
 	// Google Consent Mode toggle.
 	$clean['enable_gcm'] = empty( $input['enable_gcm'] ) ? 0 : 1;
+	$gcm_mode            = isset( $input['gcm_mode'] ) ? sanitize_key( $input['gcm_mode'] ) : $defaults['gcm_mode'];
+	$clean['gcm_mode']   = in_array( $gcm_mode, array( 'basic', 'advanced' ), true ) ? $gcm_mode : $defaults['gcm_mode'];
+	$clean['ms_consent'] = empty( $input['ms_consent'] ) ? 0 : 1;
 
 	// Texts — allow basic inline markup in description, plain text for title.
 	$clean['title']       = isset( $input['title'] ) ? sanitize_text_field( $input['title'] ) : '';
@@ -556,3 +564,40 @@ function lynbro_cookie_consent_allowed_text_html() {
 		'br'     => array(),
 	);
 }
+
+/**
+ * One-time upgrade to 0.5.0: equal Reject button.
+ *
+ * Until 0.4.28 the factory Reject colour was grey next to a green Accept, which
+ * makes rejecting less visible than accepting (EDPB 03/2022, Datatilsynet). A site
+ * that still has exactly that factory grey gets the Accept colour; a colour the
+ * owner chose is left alone. Runs once per site (option
+ * lynbro_cookie_consent_version), on the first request after the update.
+ *
+ * @return void
+ */
+function lynbro_cookie_consent_maybe_upgrade() {
+	$stored = (string) get_option( 'lynbro_cookie_consent_version', '' );
+	if ( '' !== $stored && version_compare( $stored, '0.5.0', '>=' ) ) {
+		return;
+	}
+	$options = get_option( LYNBRO_COOKIE_CONSENT_OPTION, false );
+	if ( is_array( $options ) ) {
+		$changed = false;
+		$pairs   = array(
+			'color_reject'      => array( '#6b6b6b', 'color_accept' ),
+			'color_reject_dark' => array( '#5a5a5a', 'color_accept_dark' ),
+		);
+		foreach ( $pairs as $key => $rule ) {
+			if ( isset( $options[ $key ], $options[ $rule[1] ] ) && strtolower( (string) $options[ $key ] ) === $rule[0] ) {
+				$options[ $key ] = $options[ $rule[1] ];
+				$changed         = true;
+			}
+		}
+		if ( $changed ) {
+			update_option( LYNBRO_COOKIE_CONSENT_OPTION, $options );
+		}
+	}
+	update_option( 'lynbro_cookie_consent_version', LYNBRO_COOKIE_CONSENT_VERSION );
+}
+add_action( 'init', 'lynbro_cookie_consent_maybe_upgrade', 5 );
